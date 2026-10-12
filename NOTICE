@@ -1,0 +1,17 @@
+Smart Site (SS) — 工业组态与数据可视化平台
+Copyright 2026 stuhu
+
+本项目由 stuhu 开发并维护：
+    https://gitee.com/stuhu/smart-site-o
+
+本软件基于 Apache License, Version 2.0（以下简称“许可证”）发布；
+除另有说明外，您不得在本许可证条款之外使用本文件。
+您可以访问以下地址获取许可证副本：
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+除非适用法律要求或书面同意，按许可证分发的软件均按
+“原样（AS IS）”提供，不附带任何明示或暗示的担保或条件。
+详见许可证中关于特定权限与限制的说明。
+
+第三方组件及其各自许可证请参见对应子目录中的 LICENSE / NOTICE 文件。

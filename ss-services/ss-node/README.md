@@ -290,7 +290,7 @@ pnpm test:cov
 
 ##  许可
 
-MIT Licens
+本项目基于 [Apache License 2.0](../../LICENSE) 开源，详见仓库根目录 `LICENSE` 文件。
 
 ##  联系方
 
