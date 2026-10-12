@@ -2,7 +2,7 @@
 
 > SCADA Editor 组件图标生成工具包 — 自动发现插件、提取 SVG、渲染 PNG
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ---
 
@@ -672,7 +672,7 @@ plugins/
 
 ## License
 
-MIT © SCADA Editor Team
+Apache License 2.0 © SCADA Editor Team
 
 ## 文档更新记录
 
