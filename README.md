@@ -22,42 +22,146 @@ Smart Site 是一套面向工业场景的**组态编辑器 + 数据中台 + 后�
 
 ## 界面预览
 
-以下为系统运行界面截图（图片位于仓库 `docs/screenshots/` 目录，对应线上演示站点 <https://smartsite.top/> 的实际界面，在 Gitee 上可直接查看）：
+以下为系统运行界面截图（图片位于仓库 `docs/screenshots/` 目录，对应线上演示站点 <https://smartsite.top/> 的实际界面，在 Gitee 上可直接查看），每张截图前附对应功能说明。
+
+**01 · 组态编辑器：污水处理预沉池系统（画面编辑）** —— 顶部工具栏 / 左侧图元库 / 中央画布 / 右侧属性面板，拖拽式组态与数据标签绑定。
 
 ![界面截图 1](docs/screenshots/screenshot-01.png)
+
+**02 · 画布属性与背景设置** —— 画布尺寸、背景图片 / 背景色、渲染模式（Canvas 原生渲染 / DOM 渲染）、视口选择与窗口联动；深色沉淀池工艺画面与实时数值。
+
 ![界面截图 2](docs/screenshots/screenshot-02.png)
+
+**03 · 多语言界面（英文）** —— 编辑器支持中 / 英文切换；浅色主题下的预沉池工艺监控画面与背景应用色设置。
+
 ![界面截图 3](docs/screenshots/screenshot-03.png)
+
+**04 · 自来水厂 SCADA 系统** —— 加氯系统工艺流程画面编辑：构筑物、管路、仪表等图元组合与实时参数标注。
+
 ![界面截图 4](docs/screenshots/screenshot-04.png)
+
+**05 · 火电厂风烟系统画面** —— 风机、烟道、电机等工业图元，绑定电流 / 温度 / 压力等实时数据。
+
 ![界面截图 5](docs/screenshots/screenshot-05.png)
+
+**06 · 变电站配电一次图** —— 母线与配电间隔图元，电压 / 功率等遥测数据实时监测。
+
 ![界面截图 6](docs/screenshots/screenshot-06.png)
+
+**07 · 定时器与脚本引擎** —— 定时器触发器与间隔配置，Monaco 脚本编辑器（API 代码补全）与脚本调试面板。
+
 ![界面截图 7](docs/screenshots/screenshot-07.png)
+
+**08 · 运行预览：压缩机 K101A** —— 发布后画面运行态，底部多页面轮播切换（6/24）。
+
 ![界面截图 8](docs/screenshots/screenshot-08.png)
+
+**09 · 污水处理站监控工程（运行态）** —— 全厂工艺流程运行画面，多页面轮播浏览（5/24）。
+
 ![界面截图 9](docs/screenshots/screenshot-09.png)
+
+**10 · 污水处理预沉池系统（运行态）** —— 预沉池 / 调节池 / 提升泵运行状态与 PH 等实时值（11/24）。
+
 ![界面截图 10](docs/screenshots/screenshot-10.png)
+
+**11 · 1号机组发风烟系统（运行态）** —— 风机运行状态与电流 / 温度实时监测（17/24）。
+
 ![界面截图 11](docs/screenshots/screenshot-11.png)
+
+**12 · 数据中台 · 系统概览** —— 设备统计（在线 / 离线 / 告警）、设备状态分布、最近报警活动与快捷入口。
+
 ![界面截图 12](docs/screenshots/screenshot-12.png)
+
+**13 · 数据中台 · 项目管理** —— 项目卡片（状态 / 页面数 / 占用 / 版本），管理、设为默认、一键打开编辑器。
+
 ![界面截图 13](docs/screenshots/screenshot-13.png)
+
+**14 · 数据中台 · 页面管理** —— 项目下页面缩略图列表，支持编辑 / 预览（24 个页面）。
+
 ![界面截图 14](docs/screenshots/screenshot-14.png)
+
+**15 · 数据中台 · 设备管理** —— 设备树分组 + 设备卡片（协议 / 地址 / 采集周期 / 点表数 / 最新上传时间），在线状态与启停。
+
 ![界面截图 15](docs/screenshots/screenshot-15.png)
+
+**16 · 设备详情 · 实时数据** —— 数据标签列表（地址 / 数据类型 / 读写 / 扫描周期 / 当前值 / 质量），WebSocket 实时推送、采集暂停 / 恢复、历史数据查看。
+
 ![界面截图 16](docs/screenshots/screenshot-16.png)
+
+**17 · 设备详情 · 历史数据** —— 多变量历史曲线查询：时间范围、聚合间隔、自动刷新与查询方案保存。
+
 ![界面截图 17](docs/screenshots/screenshot-17.png)
+
+**18 · 采集管理** —— 采集器插件卡片（计算量 / Modbus TCP·RTU / S7 PLC / Virtual / MQTT / OPC UA）：运行状态、消息与错误统计、停用 / 重启 / 监控、全局 Pipeline 监控。
+
 ![界面截图 18](docs/screenshots/screenshot-18.png)
+
+**19 · 事件中心 · 历史事件** —— 报警记录列表（级别 / 告警类型 / 状态 / 处理方式），支持确认 / 清除 / 查看数据。
+
 ![界面截图 19](docs/screenshots/screenshot-19.png)
+
+**20 · 告警变量数据分析** —— 告警前后时段曲线、上限线与告警点 / 恢复点标注。
+
 ![界面截图 20](docs/screenshots/screenshot-20.png)
+
+**21 · 脚本管理** —— Monaco 在线脚本编辑与运行监控（状态 / 触发类型 / 定时执行：每分钟 · 每5分钟 · 每15分钟 · 每小时）。
+
 ![界面截图 21](docs/screenshots/screenshot-21.png)
+
+**22 · 报表管理 · 报表汇总** —— 报表方案与聚合周期（按天），指标汇总卡片 + 行列透视，一键导出 Excel。
+
 ![界面截图 22](docs/screenshots/screenshot-22.png)
+
+**23 · 报表管理 · 报表明细** —— 指标 × 日期矩阵明细，支持行列切换与导出。
+
 ![界面截图 23](docs/screenshots/screenshot-23.png)
+
+**24 · 设备模板管理** —— 行业模板点表库（如中控 ECS-700 DCS）：点位 / 地址 / 数据类型 / 读写 / 扫描周期，按行业分类复用。
+
 ![界面截图 24](docs/screenshots/screenshot-24.png)
+
+**25 · 组态管理 · 画布模板** —— 内置画布模板（报警中心 / 仪表盘 / 数据大屏 / 能源管理 BMS / 暖通机房 / 工业监控 / 登录页 / 移动端 H5 / OEE 看板等），一键套用。
+
 ![界面截图 25](docs/screenshots/screenshot-25.png)
+
+**26 · 组态管理 · 布局模板** —— 系统布局模板（标准监控 / 大屏可视化 / 顶部导航 / 浅色看板 / 左侧导航），预览 / 编辑 / 属性配置。
+
 ![界面截图 26](docs/screenshots/screenshot-26.png)
+
+**27 · 组态管理 · 图库（动图 GIF）** —— 风机、火焰等动图素材，支持分类管理与上传。
+
 ![界面截图 27](docs/screenshots/screenshot-27.png)
+
+**28 · 组态管理 · 图库（工业 PNG 素材）** —— 泵、电机、罐体、管道等行业分类素材库。
+
 ![界面截图 28](docs/screenshots/screenshot-28.png)
+
+**29 · 组态管理 · 图库（指示灯 / 信号灯素材）** —— 指示灯、报警灯等状态图元素材。
+
 ![界面截图 29](docs/screenshots/screenshot-29.png)
+
+**30 · 组态管理 · 图库（开关 / 按钮素材）** —— 旋钮、ON/OFF 开关、按钮等交互素材。
+
 ![界面截图 30](docs/screenshots/screenshot-30.png)
+
+**31 · 组态管理 · 图元插件管理** —— 按分类（基础 / 图表 / 工业 / SVG / 3D / 电力 / 矿产…）启停图元插件。
+
 ![界面截图 31](docs/screenshots/screenshot-31.png)
+
+**32 · 系统管理 · 数据库运行** —— 系统库与各项目 SQLite（大小 / 表数量 / 备份时间），支持清空事件表 / 日志表、收缩数据库。
+
 ![界面截图 32](docs/screenshots/screenshot-32.png)
+
+**33 · 系统管理 · 基础服务管理** —— Redis / InfluxDB / NanoMQ / Nginx 等基础服务的启停、重启、配置、日志与健康检查。
+
 ![界面截图 33](docs/screenshots/screenshot-33.png)
+
+**34 · 系统管理 · 系统健康** —— 队列检查（数据库 / InfluxDB / 内存 / 磁盘）、CPU / 内存指标、磁盘分区与运行环境信息。
+
 ![界面截图 34](docs/screenshots/screenshot-34.png)
+
+**35 · 采集管理 · Pipeline 指标监控** —— 采集总量 / 错误数 / 活跃连接 / 平均处理时间 / 运行时长，变量指标实时值与追踪查看。
+
 ![界面截图 35](docs/screenshots/screenshot-35.png)
 
 ---
