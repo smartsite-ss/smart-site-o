@@ -321,9 +321,15 @@ cd ss-services/ss-node && pnpm test
 
   ![微信公众号](docs/contact/official-account.jpg)
 
+- **视频号**：扫码关注视频号，观看产品演示与使用教程
+
+  ![视频号](docs/contact/video-account.jpg)
+
 - **开发者微信**：扫码添加开发者微信，进行技术交流与问题咨询
 
   ![开发者微信](docs/contact/developer-wechat.png)
+
+> 如果本项目对您有帮助，欢迎 **关注公众号与视频号**，并帮忙 **点赞、转发** 给更多有需要的朋友；您的关注与支持是我们持续更新与完善的动力。也欢迎添加开发者微信交流反馈问题或建议。
 
 ## 许可证
 
