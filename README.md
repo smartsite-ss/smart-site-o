@@ -315,6 +315,16 @@ cd ss-services/ss-node && pnpm test
 
 ---
 
+## 联系与关注
+
+- **微信公众号**：扫码关注，获取产品动态与更新通知
+
+  ![微信公众号](docs/contact/official-account.jpg)
+
+- **开发者微信**：扫码添加开发者微信，进行技术交流与问题咨询
+
+  ![开发者微信](docs/contact/developer-wechat.png)
+
 ## 许可证
 
 [Apache-2.0](./LICENSE)
