@@ -1,0 +1,42 @@
+{
+  "name": "scada-editor-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "// 开发脚本": "使用 --mode development 加载 .env.development（含 VITE_DEBUG_SKIP_AUTH=true）",
+    "dev": "vite --mode development",
+    "dev:full": "vite --mode development",
+    "dev:scada": "vite --mode scada",
+    "dev:data": "vite --mode data",
+    "// 构建脚本": "生产构建必须使用 --mode production，禁止使用 --mode full（.env.full 含调试开关会导致正式环境跳过认证但后端不识别 mock token）",
+    "build": "vite build --mode production",
+    "build:full": "vite build --mode production",
+    "build:scada": "vite build --mode scada",
+    "build:data": "vite build --mode data",
+    "preview": "vite preview",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "vue-tsc"
+  },
+  "dependencies": {
+    "@monaco-editor/loader": "^1.7.0",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/editor": "workspace:*",
+    "@scada-editor/system": "workspace:*",
+    "axios": "^1.7.2",
+    "echarts": "^6.0.0",
+    "naive-ui": "^2.34.4",
+    "pinia": "^2.1.7",
+    "socket.io-client": "^4.8.3",
+    "vue": "^3.3.4",
+    "vue-echarts": "^8.0.1",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vitest": "^1.2.0",
+    "vue-tsc": "^1.8.11"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "types": ["node", "multer"],
+    "paths": {
+      "@ss-node/ss-sdk": ["../ss-sdk/dist"],
+      "@ss-node/ss-core": ["../ss-core/dist"],
+      "@ss-node/ss-i18n": ["../ss-i18n/dist"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.spec.ts", "src/**/__tests__/**"]
+}

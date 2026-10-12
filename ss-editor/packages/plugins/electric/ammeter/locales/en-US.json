@@ -1,0 +1,15 @@
+{
+  "ammeter": {
+    "label": "Ammeter",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "dataset": "Static Value",
+      "showDigital": "Show Digital Reading",
+      "decimalPlaces": "Decimal Places",
+      "unit": "Unit"
+    },
+    "description": "Ammeter graphic element"
+  }
+}

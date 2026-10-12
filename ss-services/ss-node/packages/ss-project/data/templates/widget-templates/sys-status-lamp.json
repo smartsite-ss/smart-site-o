@@ -1,0 +1,66 @@
+{
+  "id": "sys-status-lamp",
+  "name": "状态指示灯",
+  "description": "带标签的状态指示灯，支持 {{label}} 与 {{color}} 变量",
+  "category": "common",
+  "author": "system",
+  "source": "builtin",
+  "schemaVersion": 2,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "graphics": [
+    {
+      "type": "group",
+      "id": "g",
+      "name": "状态灯组",
+      "x": 0,
+      "y": 0,
+      "width": 100,
+      "height": 40,
+      "children": [
+        {
+          "type": "circle",
+          "id": "lamp",
+          "x": 8,
+          "y": 8,
+          "width": 24,
+          "height": 24,
+          "props": {
+            "fill": "{{color}}",
+            "stroke": "#333"
+          }
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "x": 40,
+          "y": 12,
+          "width": 56,
+          "height": 16,
+          "props": {
+            "text": "{{label}}",
+            "fontSize": 13
+          }
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "key": "label",
+      "label": "标签",
+      "type": "text",
+      "defaultValue": "运行"
+    },
+    {
+      "key": "color",
+      "label": "指示灯颜色",
+      "type": "color",
+      "defaultValue": "#22c55e"
+    }
+  ],
+  "tags": [
+    "指示灯",
+    "状态"
+  ]
+}

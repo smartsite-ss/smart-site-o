@@ -1,0 +1,15 @@
+{
+  "levelgauge": {
+    "label": "液位计",
+    "properties": {
+      "color": "颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "dataset": "数据值(0-100)",
+      "showNumeric": "显示数值",
+      "decimalPlaces": "小数位数",
+      "unit": "单位"
+    },
+    "description": "液位计 - 垂直玻璃管刻度液柱数值显示"
+  }
+}

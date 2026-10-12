@@ -1,0 +1,229 @@
+.plugin-config-panel {
+  --pc-bg: var(--ss-bg-surface, #1a1a2e);
+  --pc-text: var(--ss-text-primary, #e0e0e0);
+  --pc-label: var(--ss-text-secondary, #8892b0);
+  --pc-border: var(--ss-border-default, #2a3a5c);
+  --pc-input-bg: var(--ss-bg-canvas, #16213e);
+  --pc-accent: var(--ss-color-primary, #4a9ef8);
+  --pc-section-title: var(--ss-text-primary, #ccd6f6);
+  --pc-radius: 4px;
+  --pc-padding: 8px;
+  --pc-gap: 8px;
+  --pc-label-width: 90px;
+  --pc-font-size: 12px;
+  --pc-transition: 0.2s ease;
+
+  padding: var(--pc-padding);
+  font-size: var(--pc-font-size);
+  color: var(--pc-text);
+}
+
+.plugin-config-panel .config-section {
+  margin-bottom: 16px;
+}
+
+.plugin-config-panel .config-section-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--pc-section-title);
+  margin: 0 0 10px 0;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--pc-border);
+}
+
+.plugin-config-panel .config-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--pc-gap);
+  gap: var(--pc-gap);
+}
+
+.plugin-config-panel .config-label {
+  width: var(--pc-label-width);
+  font-size: var(--pc-font-size);
+  color: var(--pc-label);
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.plugin-config-panel .config-control {
+  flex: 1;
+  min-width: 0;
+}
+
+.plugin-config-panel .config-input,
+.plugin-config-panel .config-select {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 6px;
+  background: var(--pc-input-bg);
+  border: 1px solid var(--pc-border);
+  color: var(--pc-text);
+  border-radius: var(--pc-radius);
+  font-size: var(--pc-font-size);
+  transition: border-color var(--pc-transition);
+}
+
+.plugin-config-panel .config-input:focus,
+.plugin-config-panel .config-select:focus {
+  outline: none;
+  border-color: var(--pc-accent);
+}
+
+.plugin-config-panel .config-input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  flex: none;
+  cursor: pointer;
+}
+
+.plugin-config-panel .config-input[type="range"] {
+  padding: 0;
+  cursor: pointer;
+}
+
+.plugin-config-panel .config-textarea {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 6px;
+  background: var(--pc-input-bg);
+  border: 1px solid var(--pc-border);
+  color: var(--pc-text);
+  border-radius: var(--pc-radius);
+  font-size: var(--pc-font-size);
+  resize: vertical;
+  min-height: 48px;
+}
+
+.plugin-config-panel .config-textarea:focus {
+  outline: none;
+  border-color: var(--pc-accent);
+}
+
+.plugin-config-panel .config-range-value {
+  font-size: 11px;
+  color: var(--pc-accent);
+  min-width: 32px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.plugin-config-panel .config-color-picker-wrapper {
+  flex: 1;
+  min-width: 0;
+}
+
+.plugin-config-panel .config-color-array {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.plugin-config-panel .config-color-array .config-color-picker-wrapper {
+  flex: 1;
+  min-width: 60px;
+}
+
+/* Image Picker - Compact Inline Mode */
+.plugin-config-panel .config-image-picker-inline {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.plugin-config-panel .image-thumb {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  border: 1px solid var(--pc-border);
+  border-radius: var(--pc-radius);
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--pc-input-bg);
+  transition: border-color var(--pc-transition);
+  position: relative;
+}
+
+.plugin-config-panel .image-thumb:hover {
+  border-color: var(--pc-accent);
+}
+
+.plugin-config-panel .image-thumb--has-image {
+  padding: 0;
+}
+
+.plugin-config-panel .image-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.plugin-config-panel .image-thumb-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.plugin-config-panel .image-hidden-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.plugin-config-panel .image-select-btn {
+  height: 28px;
+  min-width: 0;
+  padding: 0 10px;
+  font-size: 11px;
+  white-space: nowrap;
+  border: 1px solid var(--pc-accent);
+  border-radius: var(--pc-radius);
+  background: transparent;
+  color: var(--pc-accent);
+  cursor: pointer;
+  transition: all var(--pc-transition);
+  flex-shrink: 0;
+}
+
+.plugin-config-panel .image-select-btn:hover {
+  background: var(--pc-accent);
+  color: var(--pc-bg);
+}
+
+.plugin-config-panel .image-url-inline-input {
+  min-width: 60px;
+}
+
+.plugin-config-panel .image-clear-btn-inline {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--pc-border);
+  border-radius: var(--pc-radius);
+  background: var(--pc-input-bg);
+  color: var(--pc-label);
+  font-size: 11px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all var(--pc-transition);
+}
+
+.plugin-config-panel .image-clear-btn-inline:hover {
+  border-color: #e74c3c;
+  color: #e74c3c;
+  background: rgba(231, 76, 60, 0.1);
+}

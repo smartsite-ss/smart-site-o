@@ -1,0 +1,28 @@
+{
+  "three-gauge": {
+    "label": "3D Gauge",
+    "panelTitle": "3D Gauge Configuration",
+    "properties": {
+      "value": "Current Value",
+      "min": "Minimum Value",
+      "max": "Maximum Value",
+      "gaugeColor": "Normal Color",
+      "warningColor": "Warning Color",
+      "dangerColor": "Danger Color",
+      "warningThreshold": "Warning Threshold",
+      "dangerThreshold": "Danger Threshold",
+      "showTicks": "Show Ticks",
+      "showLabels": "Show Labels",
+      "needleColor": "Needle Color",
+      "backgroundColor": "Background Color",
+      "rimColor": "Rim Color"
+    },
+    "groups": {
+      "数据": "Data",
+      "颜色": "Color",
+      "阈值": "Threshold",
+      "显示": "Display"
+    },
+    "description": "Three-gauge graphic element"
+  }
+}

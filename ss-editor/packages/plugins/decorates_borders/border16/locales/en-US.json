@@ -1,0 +1,15 @@
+{
+  "border16": {
+    "label": "Border 16 (Scandinavian Minimal)",
+    "description": "Border 16 decorative component (Scandinavian Minimal)",
+    "properties": {
+      "color1": "Primary Color",
+      "color2": "Accent Color",
+      "color3": "Base Color",
+      "backgroundColor": "Background Color",
+      "showLeaves": "Leaf Decor",
+      "showDots": "Dot Texture",
+      "animationSpeed": "Animation Speed"
+    }
+  }
+}

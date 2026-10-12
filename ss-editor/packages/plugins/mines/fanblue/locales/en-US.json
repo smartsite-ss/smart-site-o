@@ -1,0 +1,33 @@
+{
+  "fanblue": {
+    "label": "Fan Blue",
+    "properties": {
+      "dataset": "Dataset",
+      "dur": "Animation Cycle (s)",
+      "colors": "Colors",
+      "flowColor": "Flow Color",
+      "pipeColor": "Pipe Color",
+      "bgWidth": "Bg Width",
+      "boardWidth": "Board Width",
+      "roate": "Rotation Angle",
+      "cls": "Direction",
+      "clsLeft": "Clockwise",
+      "clsRight": "Counterclockwise",
+      "clsStop": "Stop",
+      "backgroundColor": "Background Color",
+      "forwardValue": "Forward Value",
+      "backwardValue": "Backward Value",
+      "stopValue": "Stop Value",
+      "defaultCls": "Default Direction",
+      "decimalPlaces": "Decimal Places"
+    },
+    "options": {
+      "cls": {
+        "left": "Forward",
+        "right": "Reverse",
+        "stop": "Stop"
+      }
+    },
+    "description": "Fanblue graphic element"
+  }
+}

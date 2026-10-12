@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-23fdb84d-983",
+  "name": "测试模板_20260715_155000",
+  "description": "",
+  "deviceType": "modbus_tcp",
+  "deviceModel": "modbus_tcp",
+  "version": "1.0.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "debug-user",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "modbus_tcp",
+    "config": {}
+  },
+  "variables": [],
+  "metadata": {
+    "createdAt": "2026-07-14T23:58:42.390Z",
+    "updatedAt": "2026-07-14T23:58:42.391Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

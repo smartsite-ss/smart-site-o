@@ -1,0 +1,18 @@
+{
+  "name": "@scada-editor/plugins-decorates_head-head06",
+  "version": "0.1.0",
+  "description": "Head06 decorative head plugin with polygon frame for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@scada-editor/plugins-event-panel",
+  "version": "0.1.0",
+  "description": "Event panel graphic plugin for SCADA editor (system event log list)",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./EventPanelConfig": {
+      "import": "./EventPanelConfig.vue",
+      "types": "./EventPanelConfig.vue"
+    },
+    "./EventPanelIcon": {
+      "import": "./EventPanelIcon.vue",
+      "types": "./EventPanelIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  }
+}

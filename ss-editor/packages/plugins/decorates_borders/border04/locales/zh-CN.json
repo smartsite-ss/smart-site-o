@@ -1,0 +1,16 @@
+{
+  "border04": {
+    "label": "边框-04",
+    "description": "边框-04装饰组件",
+    "properties": {
+      "colors": "颜色一",
+      "colors2": "颜色二",
+      "backgroundColor": "背景色",
+      "borderTitle": "标题文字",
+      "borderTitleColor": "标题颜色",
+      "borderTitleSize": "标题字号",
+      "borderTitleWidth": "标题区域宽度",
+      "borderTitleHeight": "标题高度"
+    }
+  }
+}

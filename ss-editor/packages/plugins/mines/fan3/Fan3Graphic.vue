@@ -1,0 +1,327 @@
+<template>
+  <svg
+    class="fan3-graphic"
+    :width="w"
+    :height="h"
+    :title="bindTitle"
+    :viewBox="`0 0 88.2 106.5`"
+    fill="none"
+  >
+    <desc>风机</desc>
+    <g :transform="'rotate(' + (roate) + ')'">
+      <path
+        id="path"
+        d="M22.3 54L72.5 54L72.5 104.2L22.3 104.2L22.3 54Z"
+        fill-rule="nonzero"
+        :fill="colors[0]"
+      />
+      <path
+        id="path"
+        d="M72.5 54L72.5 104.2L22.3 104.2L22.3 54L72.5 54Z"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <path
+        id="path"
+        d="M24.3 56L70.2 56L70.2 100L24.3 100L24.3 56Z"
+        fill-rule="nonzero"
+        :fill="colors[1]"
+      />
+      <path
+        id="path"
+        d="M70.2 56L70.2 100L24.3 100L24.3 56L70.2 56Z"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <path
+        id="path"
+        d="M18.5 45L8.39999 45L8.39999 10.6L32.3 10.6L52.7 10.6L56.2 10.7L59.6 11.2L62.9 12.1L66 13.3L69.1 14.8L71.9 16.5L74.6 18.5L77.1 20.6L79.3 23.1L81.2 25.8L82.9 28.6L84.3 31.6L85.5 34.8L86.4 38L86.9 41.5L87 43.2L87.1 44.9L87 46.7L86.7 50.1L86.1 53.4L84.9 56.7L83.6 59.7L82 62.7L80.1 65.4L78.1 68L75.8 70.3L73.2 72.4L70.4 74.2L67.5 75.8L64.4 77.1L61.2 78.2L57.9 78.7L54.5 79L52.7 79.1L51.8 79.1L48.4 78.8L45 78.2L41.8 77.3L38.7 76L35.7 74.5L32.9 72.8L30.3 70.8L28.1 68.6L25.9 66L24.1 63.3L22.4 60.4L21 57.4L19.9 54.2L19.2 50.9L18.8 47.5L18.5 45Z"
+        fill-rule="nonzero"
+        :fill="colors[0]"
+      />
+      <path
+        id="path"
+        d="M8.39999 45L8.39999 10.6L32.3 10.6L52.7 10.6L56.2 10.7L59.6 11.2L62.9 12.1L66 13.3L69.1 14.8L71.9 16.5L74.6 18.5L77.1 20.6L79.3 23.1L81.2 25.8L82.9 28.6L84.3 31.6L85.5 34.8L86.4 38L86.9 41.5L87 43.2L87.1 44.9L87 46.7L86.7 50.1L86.1 53.4L84.9 56.7L83.6 59.7L82 62.7L80.1 65.4L78.1 68L75.8 70.3L73.2 72.4L70.4 74.2L67.5 75.8L64.4 77.1L61.2 78.2L57.9 78.7L54.5 79L52.7 79.1L51.8 79.1L48.4 78.8L45 78.2L41.8 77.3L38.7 76L35.7 74.5L32.9 72.8L30.3 70.8L28.1 68.6L25.9 66L24.1 63.3L22.4 60.4L21 57.4L19.9 54.2L19.2 50.9L18.8 47.5L18.5 45L8.39999 45Z"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <path
+        id="path"
+        d="M18.5 45L8.39999 45L8.39999 24.3L28.7 20.9L27.5 22.1L26.4 23.4L25.3 24.6L24.3 25.9L23.3 27.3L22.6 28.8L21.9 30.3L21.2 31.8L20.7 33.4L20.2 35L19.6 36.6L19.2 38.2L18.9 39.9L18.8 41.5L18.7 43.2L18.7 45C18.7 45 18.5 45 18.5 45Z"
+        fill-rule="nonzero"
+        :fill="colors[1]"
+      />
+      <path
+        id="path"
+        d="M4.89999 51.8L4.89999 3.8L8.29999 3.8L8.29999 51.8L4.89999 51.8Z"
+        fill-rule="nonzero"
+        :fill="pipeColor[0]"
+      />
+      <path
+        id="path"
+        d="M4.89999 51.8L4.89999 36.3L8.29999 36.3L8.29999 51.8L4.89999 51.8Z"
+        fill-rule="nonzero"
+        :fill="colors[1]"
+      />
+      <path
+        id="path"
+        d="M4.89999 14L4.89999 3.8L8.29999 3.8L8.29999 14L4.89999 14Z"
+        fill-rule="nonzero"
+        :fill="flowColor[0]"
+      />
+      <path
+        id="path"
+        d="M4.89999 3.8L8.29999 3.8L8.29999 51.8L4.89999 51.8L4.89999 3.8Z"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <path
+        id="path"
+        d="M20 100.1L74.5 100.1L74.5 104.3L20 104.3L20 100.1Z"
+        fill-rule="nonzero"
+        fill="#329932"
+      />
+      <path
+        id="path"
+        d="M74.5 100.1L74.5 104.3L20 104.3L20 100.1L74.5 100.1Z"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <circle
+        id="circle"
+        cx="52.899994"
+        cy="44.800003"
+        r="27.500000"
+        fill="#007F00"
+      />
+      <circle
+        id="circle"
+        cx="52.899994"
+        cy="44.800003"
+        r="27.500000"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <circle
+        id="circle"
+        cx="52.899994"
+        cy="44.800003"
+        r="20.000000"
+        :fill="colors[1]"
+      />
+      <circle
+        id="circle"
+        cx="53.000000"
+        cy="44.800003"
+        r="18.000000"
+        fill="#4CA64C"
+      />
+      <circle
+        id="circle"
+        cx="53.000000"
+        cy="44.700005"
+        r="15.900001"
+        fill="#329932"
+      />
+      <ellipse
+        id="circle"
+        cx="53.200012"
+        cy="44.799995"
+        rx="13.899999"
+        ry="13.900002"
+        fill="#188C18"
+      />
+      <circle
+        id="circle"
+        cx="53.400024"
+        cy="44.800003"
+        r="11.700001"
+        fill="#007F00"
+      />
+      <circle
+        id="circle"
+        cx="52.700012"
+        cy="44.800003"
+        r="10.200001"
+        fill="#006600"
+      />
+      <circle
+        id="circle"
+        cx="52.700012"
+        cy="44.800003"
+        r="10.200001"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <g
+        :class="effectiveCls"
+        style="transform-box:fill-box; transform-origin:center;"
+      >
+        <path
+          id="path-roate"
+          d="M55.4 43.4L60.6 40.6L60 39.5L59 38.6L58.1 37.7L57.1 37.1L56.2 36.6L55 36.3L53.9 36L52.7 35.9L52.7 42L53.9 42.2L54.9 42.8L55.4 43.4Z"
+          fill-rule="nonzero"
+          fill="#004000"
+        />
+        <path
+          id="path-roate"
+          d="M51.4 42.2L48.4 37.2L47.4 37.8L46.5 38.6L45.8 39.6L45.2 40.6L44.7 41.7L44.2 42.6L43.9 43.8L43.8 45L49.7 45L49.9 43.7L50.6 42.7L51.4 42.2Z"
+          fill-rule="nonzero"
+          fill="#004000"
+        />
+        <path
+          id="path-roate"
+          d="M50.2 46.3L45.2 49.2L45.8 50.2L46.5 51.2L47.5 51.9L48.5 52.5L49.5 53L50.6 53.4L51.7 53.6L52.8 53.7L52.8 47.8L51.7 47.6L50.7 47L50.2 46.3Z"
+          fill-rule="nonzero"
+          fill="#004000"
+        />
+        <path
+          id="path-roate"
+          d="M54.2 47.6L57.1 52.6L58.1 52L59.1 51.1L59.8 50.2L60.4 49.2L60.9 48.1L61.2 46.9L61.4 45.8L61.4 45.2L61.4 44.6L55.7 44.6L55.4 45.9L55 47.1L54.2 47.6Z"
+          fill-rule="nonzero"
+          fill="#004000"
+        />
+      </g>
+      <path
+        id="path"
+        d="M52 69.7L52 68.1L53.7 68.1L53.7 69.7L52 69.7Z"
+        fill-rule="nonzero"
+        fill="#004C00"
+      />
+      <path
+        id="path"
+        d="M75 45L76.8 45L76.8 46.6L75 46.6L75 45Z"
+        fill-rule="nonzero"
+        fill="#004C00"
+      />
+      <path
+        id="path"
+        d="M52 23.4L52 21.7L53.7 21.7L53.7 23.4L52 23.4Z"
+        fill-rule="nonzero"
+        fill="#004C00"
+      />
+      <path
+        id="path"
+        d="M28.7 45L30.5 45L30.5 46.6L28.7 46.6L28.7 45Z"
+        fill-rule="nonzero"
+        fill="#004C00"
+      />
+      <path
+        id="path"
+        d="M62.4 87.6L61.5 87.2L61.3 86.3L61.5 85.8L62.4 85.4L63.1 85.8L63.3 86.3L63.1 87.2L62.4 87.6Z"
+        fill-rule="nonzero"
+        fill="#004C00"
+      />
+      <path
+        id="path"
+        d="M62.4 95.8L61.5 95.6L61.3 94.9L61.5 94L62.4 93.8L63.1 94L63.3 94.9L63.2 95.6L62.4 95.8Z"
+        fill-rule="nonzero"
+        fill="#004C00"
+      />
+      <defs>
+        <clipPath id="clip48_845">
+          <rect
+            id="183"
+            width="88.199997"
+            height="106.500000"
+            fill="white"
+          />
+        </clipPath>
+      </defs>
+    </g>
+  </svg>
+</template>
+
+<script setup lang="ts">
+import { computed } from 'vue';
+import { useTagValue } from '@scada-editor/system';
+
+const props = defineProps<{
+  w: number;
+  h: number;
+  dur: number;
+  roate: number;
+  cls: string;
+  backgroundColor: string;
+  colors: string[];
+  flowColor: string[];
+  pipeColor: string[];
+  bgWidth: number;
+  boardWidth: number;
+  dataset: number;
+  status: number;
+  forwardValue: string;
+  backwardValue: string;
+  stopValue: string;
+  defaultCls: string;
+  deviceId: string;
+  deviceCode: string;
+  deviceName: string;
+  tagId: string;
+  tagName: string;
+  dataType: string;
+}>();
+
+const { currentValue, bindTitle } = useTagValue(props);
+
+/** 动画方向：绑定实时值 → cls 映射，未绑定沿用静态 cls */
+const effectiveCls = computed(() => {
+  if (!props.tagId) return props.cls;
+  const raw = currentValue.value;
+  const rawStr = raw === null || raw === undefined ? '' : String(raw);
+  if (props.forwardValue !== '' && rawStr === props.forwardValue) return 'svg_an_left';
+  if (props.backwardValue !== '' && rawStr === props.backwardValue) return 'svg_an_right';
+  if (props.stopValue !== '' && rawStr === props.stopValue) return 'svg_an_stop';
+  return props.defaultCls;
+});
+</script>
+
+<style scoped>
+.fan3-graphic {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.svg_an_left {
+  animation: ani_fill_left var(--ani-dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_left var(--ani-dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.svg_an_right {
+  animation: ani_fill_right var(--ani-dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_right var(--ani-dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.svg_an_stop {
+  animation: ani_fill_stop var(--ani-dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_stop var(--ani-dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes ani_fill_right {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes ani_fill_left {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes ani_fill_stop {
+}
+</style>

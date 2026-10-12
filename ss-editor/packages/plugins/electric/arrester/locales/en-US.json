@@ -1,0 +1,11 @@
+{
+  "arrester": {
+    "label": "Lightning Arrester",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Arrester graphic element"
+  }
+}

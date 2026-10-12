@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "2.0",
+  "lastUpdated": "2026-09-20T11:21:04.391Z",
+  "totalTemplates": 8,
+  "totalIndustries": 5,
+  "totalCategories": 8,
+  "description": "Smart SCADA 设备模板库树形索引 - 按行业/设备类型双级目录组织",
+  "rootPath": "F:\\work\\smartdata\\202603_trace\\trunk\\code\\ss-v7\\ss-run\\ss\\data\\templates\\en-US",
+  "industries": [
+    {
+      "type": "industry",
+      "name": "Energy & Power",
+      "path": "Energy & Power",
+      "templateCount": 2,
+      "categories": [
+        {
+          "type": "category",
+          "name": "Energy Metering",
+          "path": "Energy & Power/Energy Metering",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-three-phase-meter",
+              "name": "3-Phase Smart Meter Collection Template",
+              "fileName": "three-phase-meter.json",
+              "relativePath": "Energy & Power/Energy Metering/three-phase-meter.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "THREE_PHASE_METER",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 12,
+              "tags": [
+                "Meter",
+                "3-Phase",
+                "Energy",
+                "Power",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "PV Inverters",
+          "path": "Energy & Power/PV Inverters",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-sungrow-inverter",
+              "name": "Sungrow PV Inverter Collection Template",
+              "fileName": "sungrow-inverter.json",
+              "relativePath": "Energy & Power/PV Inverters/sungrow-inverter.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "SUNGROW_INVERTER",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 14,
+              "tags": [
+                "PV",
+                "Inverter",
+                "Sungrow",
+                "OPC UA",
+                "Renewable Energy"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "Environmental Monitoring",
+      "path": "Environmental Monitoring",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "Environmental Sensors",
+          "path": "Environmental Monitoring/Environmental Sensors",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-th-sensor-modbus",
+              "name": "Modbus Temperature & Humidity Sensor Template",
+              "fileName": "温湿度传感器.json",
+              "relativePath": "Environmental Monitoring/Environmental Sensors/温湿度传感器.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "TH_SENSOR_MODBUS",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "Temperature",
+                "Humidity",
+                "Sensor",
+                "Environmental",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "Industrial Automation",
+      "path": "Industrial Automation",
+      "templateCount": 3,
+      "categories": [
+        {
+          "type": "category",
+          "name": "DCS Distributed Control Systems",
+          "path": "Industrial Automation/DCS Distributed Control Systems",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-dcs-ecs700",
+              "name": "SUPCON ECS-700 DCS Collection Template",
+              "fileName": "supcon-ecs700.json",
+              "relativePath": "Industrial Automation/DCS Distributed Control Systems/supcon-ecs700.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "SUPCON_ECS700",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 5,
+              "tags": [
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "Distributed Control"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "PLC Controllers",
+          "path": "Industrial Automation/PLC Controllers",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-s7-1200-standard",
+              "name": "S7-1200 PLC Universal Collection Template",
+              "fileName": "siemens-s7-1200.json",
+              "relativePath": "Industrial Automation/PLC Controllers/siemens-s7-1200.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "SIEMENS_S7_1200",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 10,
+              "tags": [
+                "S7-1200",
+                "PLC",
+                "Industrial Automation"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "RTU Remote Terminals",
+          "path": "Industrial Automation/RTU Remote Terminals",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-generic-rtu-modbus",
+              "name": "Generic RTU Remote Terminal Template",
+              "fileName": "generic-rtu-modbus.json",
+              "relativePath": "Industrial Automation/RTU Remote Terminals/generic-rtu-modbus.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "GENERIC_RTU_MODBUS",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "RTU",
+                "Remote Terminal",
+                "Modbus",
+                "Data Acquisition",
+                "SCADA"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "IoT & Edge Computing",
+      "path": "IoT & Edge Computing",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "Industrial Gateways",
+          "path": "IoT & Edge Computing/Industrial Gateways",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-iot-edge-gateway",
+              "name": "Industrial IoT Edge Gateway Template",
+              "fileName": "iot-edge-gateway.json",
+              "relativePath": "IoT & Edge Computing/Industrial Gateways/iot-edge-gateway.json",
+              "deviceType": "mqtt",
+              "deviceModel": "IOT_EDGE_GATEWAY",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "IoT",
+                "Edge Computing",
+                "Gateway",
+                "MQTT",
+                "Modbus",
+                "OPC UA"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "Smart Water",
+      "path": "Smart Water",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "Water Supply Monitoring",
+          "path": "Smart Water/Water Supply Monitoring",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-water-supply-pipeline",
+              "name": "Water Supply Pipeline Monitoring Template",
+              "fileName": "water-supply-pipeline.json",
+              "relativePath": "Smart Water/Water Supply Monitoring/water-supply-pipeline.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "WATER_SUPPLY_PIPELINE",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 7,
+              "tags": [
+                "Water Supply",
+                "Pipeline",
+                "SCADA",
+                "Water",
+                "Modbus",
+                "Flow"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

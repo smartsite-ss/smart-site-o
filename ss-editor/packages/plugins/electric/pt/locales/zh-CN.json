@@ -1,0 +1,11 @@
+{
+  "pt": {
+    "label": "电压互感器",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "description": "电压互感器 PT - 测量用电压变换装置"
+  }
+}

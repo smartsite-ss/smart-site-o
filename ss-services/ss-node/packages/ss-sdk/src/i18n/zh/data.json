@@ -1,0 +1,23 @@
+{
+  "data": {
+    "acquisition": {
+      "started": "数据采集启动成功",
+      "stopped": "数据采集已停止",
+      "error": "数据采集异常"
+    },
+    "transform": {
+      "success": "数据转换成功",
+      "failed_invalid_value": "无效的数据值: {{value}}",
+      "failed_scale_error": "缩放因子配置错误"
+    },
+    "persistence": {
+      "save_success": "数据保存成功",
+      "save_failed": "数据保存失败 ({{detail}})"
+    },
+    "history": {
+      "query_success": "历史数据查询成功",
+      "query_empty": "指定时间范围内无历史数据",
+      "time_range_error": "时间范围参数错误"
+    }
+  }
+}

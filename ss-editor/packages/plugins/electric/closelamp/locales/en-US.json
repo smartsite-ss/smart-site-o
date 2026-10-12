@@ -1,0 +1,21 @@
+{
+  "closelamp": {
+    "label": "Close Indicator",
+    "properties": {
+      "lampColor": "Lamp Color",
+      "backgroundColor": "Background Color",
+      "radius": "Radius",
+      "closed": "Closed State",
+      "closedValue": "Closed Value",
+      "openValue": "Open Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "closed": {
+        "yes": "Closed",
+        "no": "Open"
+      }
+    },
+    "description": "Closelamp graphic element"
+  }
+}

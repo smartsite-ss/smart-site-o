@@ -1,0 +1,15 @@
+﻿{
+  "dictId": "qualityStatus",
+  "dictName": "Quality Status",
+  "category": "system-enums",
+  "description": "Tag quality check result statuses",
+  "version": "1.0",
+  "sortOrder": 3,
+  "items": [
+    { "value": "passed", "label": "Passed", "sortOrder": 1, "description": "Quality check passed" },
+    { "value": "out_of_range", "label": "Out of Range", "sortOrder": 2, "description": "Value exceeds range limits" },
+    { "value": "communication_error", "label": "Communication Error", "sortOrder": 3, "description": "Communication with device failed" },
+    { "value": "timeout", "label": "Timeout", "sortOrder": 4, "description": "Collection response timeout" },
+    { "value": "config_error", "label": "Configuration Error", "sortOrder": 5, "description": "Invalid tag configuration parameters" }
+  ]
+}

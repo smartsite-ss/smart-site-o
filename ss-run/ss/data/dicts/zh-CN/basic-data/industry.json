@@ -1,0 +1,19 @@
+{
+  "dictId": "industry",
+  "dictName": "行业分类",
+  "category": "basic-data",
+  "description": "设备模板所属的行业领域分类",
+  "version": "1.0",
+  "sortOrder": 6,
+  "items": [
+    { "value": "industrial-automation", "label": "工业自动化", "sortOrder": 1, "description": "涵盖制造业、离散控制和过程自动化领域" },
+    { "value": "energy-power", "label": "能源电力", "sortOrder": 2, "description": "发电、输配电、新能源等电力行业" },
+    { "value": "environmental-monitoring", "label": "环境监测", "sortOrder": 3, "description": "水质、空气质量、噪声等环境参数监测" },
+    { "value": "smart-building", "label": "智慧楼宇", "sortOrder": 4, "description": "楼宇自动化控制系统，包括暖通、照明、安防" },
+    { "value": "transportation", "label": "交通运输", "sortOrder": 5, "description": "轨道交通、智能交通系统、车联网" },
+    { "value": "petrochemical", "label": "石油化工", "sortOrder": 6, "description": "石油、天然气、化工生产过程自动化" },
+    { "value": "water-treatment", "label": "水务处理", "sortOrder": 7, "description": "供水、排水、污水处理自动化监控" },
+    { "value": "agriculture", "label": "智慧农业", "sortOrder": 8, "description": "精准农业、温室大棚、养殖自动化" },
+    { "value": "data-center", "label": "数据中心", "sortOrder": 9, "description": "数据中心基础设施监控和管理" }
+  ]
+}

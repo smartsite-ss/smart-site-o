@@ -1,0 +1,23 @@
+{
+  "runlamp": {
+    "label": "Running Indicator Lamp",
+    "properties": {
+      "lampColor": "Lamp Color",
+      "glowing": "Glow Effect",
+      "blinkSpeed": "Blink Speed",
+      "backgroundColor": "Background Color",
+      "runningValue": "Running Value",
+      "stoppedValue": "Stopped Value",
+      "faultValue": "Fault Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "lampColor": {
+        "green": "Green",
+        "red": "Red",
+        "yellow": "Yellow"
+      }
+    },
+    "description": "Runlamp graphic element"
+  }
+}

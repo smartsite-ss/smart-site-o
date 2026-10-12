@@ -1,0 +1,35 @@
+{
+  "fan5": {
+    "label": "风扇5",
+    "properties": {
+      "colors": "颜色组",
+      "flowColor": "风管颜色",
+      "pipeColor": "管道颜色",
+      "bgWidth": "底座宽度",
+      "boardWidth": "板厚",
+      "roate": "旋转角度",
+      "cls": "旋转方向",
+      "dur": "动画周期(秒)",
+      "backgroundColor": "背景色",
+      "dataset": "数据集",
+      "forwardValue": "正转对应值",
+      "backwardValue": "反转对应值",
+      "stopValue": "停止对应值",
+      "defaultCls": "默认动画方向",
+      "decimalPlaces": "小数位数",
+      "clsOptions": {
+        "right": "右转",
+        "left": "左转",
+        "stop": "停止"
+      }
+    },
+    "options": {
+      "cls": {
+        "left": "正转",
+        "right": "反转",
+        "stop": "停止"
+      }
+    },
+    "description": "矿产风扇5 - 轴流管道风机，支持旋转方向和速度控制"
+  }
+}

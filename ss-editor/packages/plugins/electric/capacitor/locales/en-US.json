@@ -1,0 +1,11 @@
+{
+  "capacitor": {
+    "label": "Capacitor Bank",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Capacitor graphic element"
+  }
+}

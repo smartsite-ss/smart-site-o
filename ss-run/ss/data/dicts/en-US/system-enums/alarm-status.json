@@ -1,0 +1,14 @@
+﻿{
+  "dictId": "alarmStatus",
+  "dictName": "Alarm Status",
+  "category": "system-enums",
+  "description": "Lifecycle states for alarm records",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    { "value": "active", "label": "Active", "sortOrder": 1, "description": "Alarm condition is satisfied, alarm is active" },
+    { "value": "acknowledged", "label": "Acknowledged", "sortOrder": 2, "description": "Operator has acknowledged the alarm" },
+    { "value": "cleared", "label": "Cleared", "sortOrder": 3, "description": "Alarm condition has returned to normal" },
+    { "value": "shelved", "label": "Shelved", "sortOrder": 4, "description": "Temporarily suppressed, no notification triggered" }
+  ]
+}

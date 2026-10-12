@@ -1,0 +1,32 @@
+{
+  "phmeter": {
+    "label": "pH计",
+    "properties": {
+      "colors": "颜色1",
+      "colors2": "颜色2",
+      "flowColor": "流动颜色",
+      "pipeColor": "管道颜色",
+      "backgroundColor": "背景色",
+      "bgWidth": "背景宽度",
+      "boardWidth": "边框宽度",
+      "roate": "旋转角度",
+      "cls": "动画方向",
+      "dur": "动画周期(秒)",
+      "dataset": "数据值",
+      "decimalPlaces": "小数位数",
+      "unit": "单位",
+      "forwardValue": "正转对应值",
+      "backwardValue": "反转对应值",
+      "stopValue": "停止对应值",
+      "defaultCls": "默认动画方向"
+    },
+    "options": {
+      "cls": {
+        "left": "正转",
+        "right": "反转",
+        "stop": "停止"
+      }
+    },
+    "description": "矿产pH计 - pH探头带显示面板，颜色渐变指示酸碱"
+  }
+}

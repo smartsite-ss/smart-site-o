@@ -1,0 +1,44 @@
+{
+  "name": "@scada-editor/plugins-industrial-indicator",
+  "version": "0.1.0",
+  "description": "Indicator graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./IndicatorConfig": {
+      "import": "./IndicatorConfig.vue",
+      "types": "./IndicatorConfig.vue"
+    },
+    "./IndicatorIcon": {
+      "import": "./IndicatorIcon.vue",
+      "types": "./IndicatorIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "indicator",
+    "category": "industrial",
+    "label": "indicator.label",
+    "labelEn": "indicator",
+    "deployMode": "directory",
+    "renderBackend": "vue",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

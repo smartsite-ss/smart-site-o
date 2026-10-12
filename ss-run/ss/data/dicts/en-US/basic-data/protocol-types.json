@@ -1,0 +1,118 @@
+{
+  "dictId": "protocolType",
+  "dictName": "Protocol Types",
+  "category": "basic-data",
+  "description": "Communication protocol categories (transport/application)",
+  "version": "2.0",
+  "sortOrder": 3,
+  "items": [
+    {
+      "value": "modbus_tcp",
+      "label": "Modbus TCP",
+      "sortOrder": 1,
+      "description": "Modbus over TCP/IP"
+    },
+    {
+      "value": "modbus_rtu",
+      "label": "Modbus RTU",
+      "sortOrder": 2,
+      "description": "RS-232/485 serial Modbus"
+    },
+    {
+      "value": "opc_ua",
+      "label": "OPC UA",
+      "sortOrder": 3,
+      "description": "OPC Unified Architecture, secure cross-platform"
+    },
+    {
+      "value": "s7comm",
+      "label": "S7 Communication",
+      "sortOrder": 4,
+      "description": "Siemens S7 proprietary protocol"
+    },
+    {
+      "value": "mqtt",
+      "label": "MQTT",
+      "sortOrder": 5,
+      "description": "Publish/subscribe IoT protocol"
+    },
+    {
+      "value": "bacnet_ip",
+      "label": "BACnet/IP",
+      "sortOrder": 6,
+      "description": "Building automation over UDP/IP"
+    },
+    {
+      "value": "iec104",
+      "label": "IEC 60870-5-104",
+      "sortOrder": 7,
+      "description": "Power telecontrol over TCP/IP"
+    },
+    {
+      "value": "dlt645",
+      "label": "DL/T 645",
+      "sortOrder": 8,
+      "description": "Chinese meter protocol over serial"
+    },
+    {
+      "value": "profinet",
+      "label": "PROFINET",
+      "sortOrder": 9,
+      "description": "Siemens industrial Ethernet for real-time automation"
+    },
+    {
+      "value": "ethernet_ip",
+      "label": "EtherNet/IP",
+      "sortOrder": 10,
+      "description": "Rockwell industrial Ethernet, CIP-based"
+    },
+    {
+      "value": "ethercat",
+      "label": "EtherCAT",
+      "sortOrder": 11,
+      "description": "Beckhoff high-speed Ethernet for motion control"
+    },
+    {
+      "value": "melsec",
+      "label": "MELSEC",
+      "sortOrder": 12,
+      "description": "Mitsubishi PLC communication protocol"
+    },
+    {
+      "value": "omron_fins",
+      "label": "Omron FINS",
+      "sortOrder": 13,
+      "description": "Omron PLC factory automation control"
+    },
+    {
+      "value": "profibus_dp",
+      "label": "PROFIBUS DP",
+      "sortOrder": 14,
+      "description": "Decentralized periphery fieldbus for factory automation"
+    },
+    {
+      "value": "canopen",
+      "label": "CANopen",
+      "sortOrder": 15,
+      "description": "CAN-based fieldbus for machine control"
+    },
+    {
+      "value": "dnp3",
+      "label": "DNP3",
+      "sortOrder": 16,
+      "description": "Distributed Network Protocol for power SCADA"
+    },
+    {
+      "value": "iec61850",
+      "label": "IEC 61850",
+      "sortOrder": 17,
+      "description": "Substation automation and communication standard"
+    },
+    {
+      "value": "hart",
+      "label": "HART",
+      "sortOrder": 18,
+      "description": "Highway Addressable Remote Transducer for process automation"
+    }
+  ]
+}

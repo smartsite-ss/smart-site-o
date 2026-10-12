@@ -1,0 +1,11 @@
+{
+  "border06": {
+    "label": "边框-06",
+    "description": "边框-06装饰组件",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "backgroundColor": "背景色"
+    }
+  }
+}

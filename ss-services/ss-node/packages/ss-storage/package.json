@@ -1,0 +1,25 @@
+{
+  "name": "@ss-node/ss-storage",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA Storage Management Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/swagger": "^7.2.0",
+    "@ss-node/ss-core": "workspace:*",
+    "sqlite3": "^6.0.1",
+    "reflect-metadata": "^0.1.14"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

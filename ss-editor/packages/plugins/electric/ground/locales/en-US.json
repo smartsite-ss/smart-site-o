@@ -1,0 +1,11 @@
+{
+  "ground": {
+    "label": "Ground Symbol",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Ground graphic element"
+  }
+}

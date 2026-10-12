@@ -1,0 +1,19 @@
+{
+  "common": {
+    "success": "Operation successful",
+    "failed": "Operation failed",
+    "created": "{{resource}} created successfully",
+    "updated": "{{resource}} updated successfully",
+    "deleted": "{{resource}} deleted successfully",
+    "not_found": "{{resource}} not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Insufficient permissions",
+    "bad_request": "Bad request parameters",
+    "internal_error": "Internal server error",
+    "pagination": {
+      "page": "Page number must be greater than 0",
+      "limit": "Limit must be between 1 and 100",
+      "invalid_sort_field": "Invalid sort field: {{field}}"
+    }
+  }
+}

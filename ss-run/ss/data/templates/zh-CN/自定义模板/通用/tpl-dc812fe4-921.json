@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-dc812fe4-921",
+  "name": "ZZ计算变量验证模板",
+  "description": "计算变量端到端验证（含定时档 cron 计算点），验证后可删除",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "system",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "guid": "908da1af-8d26-420c-811e-b7005ed56311",
+      "order": 0,
+      "name": "inlet",
+      "address": "",
+      "dataType": "float32",
+      "enabled": true,
+      "unit": "℃"
+    },
+    {
+      "guid": "e9784ade-c93a-47dd-9864-e275f35b17cb",
+      "order": 1,
+      "name": "outlet",
+      "address": "",
+      "dataType": "float32",
+      "enabled": true,
+      "unit": "℃"
+    },
+    {
+      "name": "deltaTemp",
+      "label": "进回水温差",
+      "address": "",
+      "dataType": "float32",
+      "category": "CALC",
+      "displayFormat": "%.2f",
+      "description": "计算变量：入口-出口（定时档每分钟）",
+      "calc": {
+        "evaluator": "expression",
+        "expression": "#{a}-#{b}",
+        "binding": {
+          "mode": "relative",
+          "slots": [
+            {
+              "key": "a",
+              "ref": "inlet"
+            },
+            {
+              "key": "b",
+              "ref": "outlet"
+            }
+          ]
+        },
+        "onMissing": "ignore",
+        "schedule": {
+          "mode": "cron",
+          "cron": "* * * * *",
+          "timestampAt": "period-start"
+        }
+      },
+      "guid": "c13b64a9-45c5-484e-b252-d79817d6cf2e"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-16T10:01:45.426Z",
+    "updatedAt": "2026-09-16T10:01:52.359Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

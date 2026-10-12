@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "vue": "/shared/vue.esm-browser.prod.js",
+    "vue-i18n": "/shared/vue-i18n.esm-browser.prod.js",
+    "pinia": "/shared/pinia.esm-browser.prod.js",
+    "@scada-editor/core": "/shared/@scada-editor/core/index.mjs",
+    "@scada-editor/plugin-sdk": "/shared/@scada-editor/plugin-sdk/index.mjs",
+    "three": "/shared/three.module.js"
+  }
+}

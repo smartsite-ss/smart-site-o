@@ -1,0 +1,118 @@
+{
+  "menuId": "system-menu",
+  "menuName": "System Menu",
+  "category": "system",
+  "description": "English display names for the system main menu",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    {
+      "labelKey": "system.nav.overview",
+      "label": "Overview",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.projects",
+      "label": "Projects",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.devices",
+      "label": "Devices",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.plugins",
+      "label": "Plugins",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.alarms",
+      "label": "Alarms",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.scripts",
+      "label": "Scripts",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.reports",
+      "label": "Reports",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.templates",
+      "label": "Templates",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.settings",
+      "label": "Settings",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.users",
+      "label": "Users",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.roles",
+      "label": "Roles",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.positions",
+      "label": "Positions",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.menus",
+      "label": "Menus",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.dict",
+      "label": "Dictionary",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.settings.title",
+      "label": "System Settings",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.settings.systemInfo",
+      "label": "System Info",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.routes.deviceDetail",
+      "label": "Device Detail",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.routes.pluginDetail",
+      "label": "Plugin Detail",
+      "sortOrder": 0,
+      "description": ""
+    }
+  ]
+}

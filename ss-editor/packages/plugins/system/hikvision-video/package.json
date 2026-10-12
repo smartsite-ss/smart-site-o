@@ -1,0 +1,27 @@
+{
+  "name": "@scada-editor/plugins-hikvision-video",
+  "version": "0.1.0",
+  "description": "Hikvision video wall graphic plugin for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./HikvisionVideoConfig": {
+      "import": "./HikvisionVideoConfig.vue",
+      "types": "./HikvisionVideoConfig.vue"
+    },
+    "./HikvisionVideoIcon": {
+      "import": "./HikvisionVideoIcon.vue",
+      "types": "./HikvisionVideoIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*"
+  }
+}

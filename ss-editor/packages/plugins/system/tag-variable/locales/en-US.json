@@ -1,0 +1,21 @@
+{
+  "tagVariable": {
+    "label": "Tag Variable",
+    "description": "Display a device variable value",
+    "config": {
+      "bindVariable": "Bind Variable",
+      "selectVariable": "Select Variable",
+      "clear": "Clear",
+      "unbound": "Unbound"
+    },
+    "selector": {
+      "title": "Select Device Variable",
+      "searchPlaceholder": "Search device or variable",
+      "deviceLabel": "Device",
+      "tagCount": "{count} tags",
+      "loading": "Loading...",
+      "empty": "No device variables",
+      "selectHint": "Click a variable to bind"
+    }
+  }
+}

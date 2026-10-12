@@ -1,0 +1,11 @@
+{
+  "head05": {
+    "label": "头部装饰-05",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "dur": "动画周期(秒)"
+    },
+    "description": "分段动画装饰"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "multiChart": {
+    "label": "Multi Chart",
+    "description": "Multi-chart component supporting bar, pie, and heatmap visualizations",
+    "panelTitle": "Multi Chart Configuration",
+    "properties": {
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "chartType": "Chart Type",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderRadius": "Border Radius",
+      "barColor": "Bar Color",
+      "barGap": "Bar Gap",
+      "pieColors": "Pie Color Sequence",
+      "pieInnerRadius": "Inner Radius Ratio",
+      "pieShowLabels": "Show Labels",
+      "heatmapColorLow": "Heatmap Low Value Color",
+      "heatmapColorHigh": "Heatmap High Value Color",
+      "heatmapRows": "Rows",
+      "heatmapCols": "Columns",
+      "showLegend": "Show Legend",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "chartType": {
+        "bar": "Bar Chart",
+        "pie": "Pie Chart",
+        "heatmap": "Heatmap"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "bar": "Bar Chart",
+      "pie": "Pie Chart",
+      "heatmap": "Heatmap",
+      "display": "Display",
+      "shadow": "Shadow"
+    },
+    "hints": {}
+  }
+}

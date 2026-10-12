@@ -1,0 +1,48 @@
+{
+  "multiChart": {
+    "label": "多图表",
+    "description": "多图表组件，支持柱状图、饼图、热力图",
+    "panelTitle": "多图表配置",
+    "properties": {
+      "title": "标题",
+      "titleColor": "标题颜色",
+      "titleFontSize": "标题字号",
+      "chartType": "图表类型",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderRadius": "圆角",
+      "barColor": "柱状图颜色",
+      "barGap": "柱间距",
+      "pieColors": "饼图颜色序列",
+      "pieInnerRadius": "内半径比例",
+      "pieShowLabels": "显示标签",
+      "heatmapColorLow": "热力图低值颜色",
+      "heatmapColorHigh": "热力图高值颜色",
+      "heatmapRows": "行数",
+      "heatmapCols": "列数",
+      "showLegend": "显示图例",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "chartType": {
+        "bar": "柱状图",
+        "pie": "饼图",
+        "heatmap": "热力图"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "style": "样式",
+      "bar": "柱状图",
+      "pie": "饼图",
+      "heatmap": "热力图",
+      "display": "显示",
+      "shadow": "阴影"
+    },
+    "hints": {}
+  }
+}

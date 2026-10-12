@@ -1,0 +1,330 @@
+<template>
+  <svg
+    class="fan2-graphic"
+    :width="w"
+    :height="h"
+    :title="bindTitle"
+    :viewBox="`5 1.2 118.6 106.5`"
+    fill="none"
+  >
+    <desc>风机</desc>
+    <g :transform=" 'rotate(' + (roate) + ')'">
+      <path
+        id="path"
+        d="M103.4 5.39999L3 5.39999L3 105.8L103.4 105.8L103.4 5.39999Z"
+        fill-rule="nonzero"
+        fill="url(#paint_linear_48_875_0)"
+      />
+      <path
+        id="path"
+        d="M3 5.39999L3 105.8L103.4 105.8L103.4 5.39999L3 5.39999Z"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <circle
+        id="circle"
+        cx="53.000000"
+        cy="55.800003"
+        r="46.800003"
+        fill="#007F00"
+      />
+      <circle
+        id="circle"
+        cx="53.000000"
+        cy="55.800003"
+        r="46.800003"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <circle
+        id="circle"
+        cx="53.000000"
+        cy="55.800003"
+        r="44.199997"
+        fill="#001900"
+      />
+      <g
+        :class="effectiveCls"
+        :style="{ '--dur': dur + 's' }"
+        style="transform-box:fill-box; transform-origin:center;"
+      >
+        <path
+          id="path-roate"
+          d="M46.2 97.4L46.2 62.7L60.3 62.7L60.3 97.5L46.2 97.4Z"
+          fill-rule="nonzero"
+          fill="#64B264"
+        />
+        <path
+          id="path-roate"
+          d="M46.2 97.4L48 94.4L49.4 91.2L50.5 87.9L51.1 84.6L51.4 81.2L51.4 77.8L51 74.4L50.1 71.1L48.9 67.8L47.3 64.7L46.8 63.6L46.2 62.6L47 62.6L60.2 62.6L62 65.7L63.3 68.8L64.4 72.1L65 75.5L65.2 77.7L65.3 78.8L65.3 80L65.1 83.4L64.6 86.8L63.8 90.2L62.5 93.4L60.9 96.5L60.3 97.5L59.4 97.5L46.2 97.4Z"
+          fill-rule="nonzero"
+          fill="#98CB98"
+        />
+        <path
+          id="path-roate"
+          d="M46.2 62.7L60.3 62.7L62.1 65.8L63.4 68.9L64.5 72.2L65.1 75.6L65.4 78.9L65.3 82.3L64.9 85.7L64.2 89.1L63 92.3L61.5 95.4L60.3 97.4L46.2 97.4L46.2 62.7Z"
+          stroke="#000000"
+          stroke-width="0.500000"
+        />
+        <path
+          id="path-roate"
+          d="M13.4 70.5L43.8 52.9L50.5 64.9L20.5 82.6L13.4 70.5Z"
+          fill-rule="nonzero"
+          fill="#64B264"
+        />
+        <path
+          id="path-roate"
+          d="M13.4 70.5L17 70.5L20.5 70.1L23.8 69.4L27.1 68.3L30.2 66.8L33.2 65L36 63L38.5 60.7L40.7 58L42.7 55.1L43.2 54L43.8 52.9L44.1 53.6L45.8 56.7L47.5 59.7L49.3 62.7L50.2 64.2L50.5 64.9L50.1 66L48.3 69.2L46.1 71.9L43.8 74.5L41 76.5L38.1 78.4L35 79.9L31.9 81.2L28.5 82.1L25.1 82.5L24 82.6L22.7 82.6L21.6 82.6L20.4 82.6L18.6 79.5L16.9 76.5L15.1 73.5L13.8 71.3L13.4 70.5Z"
+          fill-rule="nonzero"
+          fill="#98CB98"
+        />
+        <path
+          id="path-roate"
+          d="M43.8 52.9L50.5 64.9L48.8 68.2L46.8 71L44.6 73.6L42 75.9L39.1 77.8L36.1 79.5L32.9 80.8L29.6 81.9L26.2 82.4L22.7 82.6L20.5 82.6L13.4 70.5L43.8 52.9Z"
+          stroke="#000000"
+          stroke-width="0.500000"
+        />
+        <path
+          id="path-roate"
+          d="M20.5 28.6L50.5 46.2L43.8 58.2L13.4 40.7L20.5 28.6Z"
+          fill-rule="nonzero"
+          fill="#64B264"
+        />
+        <path
+          id="path-roate"
+          d="M20.5 28.6L22.2 31.7L24.3 34.5L26.5 37.1L29.1 39.4L32 41.3L35 43L38.1 44.4L41.4 45.4L44.8 46L48.3 46.2L49.4 46.2L50.6 46.2L50.3 46.9L48.6 49.9L46.9 52.9L45.2 55.9L43.9 58.2L42.6 58.2L41.4 58.2L37.9 58L34.5 57.4L31.2 56.4L28 55L25 53.3L22.2 51.4L19.5 49.1L17.3 46.5L15.2 43.7L14 41.7L13.5 40.6L13.9 39.9L15.6 36.9L17.4 33.9L19.1 30.8L20.1 29.3L20.5 28.6Z"
+          fill-rule="nonzero"
+          fill="#98CB98"
+        />
+        <path
+          id="path-roate"
+          d="M60.2 13.8L60.2 48.6L46.2 48.6L46.2 13.8L60.2 13.8Z"
+          fill-rule="nonzero"
+          fill="#64B264"
+        />
+        <path
+          id="path-roate"
+          d="M60.2 13.8L58.4 16.8L57 20L56 23.3L55.4 26.6L55 30L55.1 33.4L55.5 36.8L56.2 40.1L57.4 43.4L59 46.5L59.5 47.6L60.1 48.6L59.2 48.6L46.2 48.6L44.4 45.5L43.1 42.4L42 39.1L41.4 35.7L41.2 33.5L41 32.4L41 31.2L41.2 27.8L41.7 24.4L42.6 21.1L43.9 17.9L45.5 14.8L46.1 13.8L47 13.8C47 13.8 60.2 13.8 60.2 13.8Z"
+          fill-rule="nonzero"
+          fill="#98CB98"
+        />
+        <path
+          id="path-roate"
+          d="M60.2 48.6L46.2 48.6L44.4 45.5L43.1 42.4L42 39.1L41.4 35.7L41 32.4L41.1 29L41.5 25.6L42.2 22.2L43.4 19L44.9 15.9L46.1 13.9L60.2 13.8L60.2 48.6Z"
+          stroke="#000000"
+          stroke-width="0.500000"
+        />
+        <path
+          id="path-roate"
+          d="M93 40.7L62.6 58.3L55.9 46.3L86 28.7L93 40.7Z"
+          fill-rule="nonzero"
+          fill="#64B264"
+        />
+        <path
+          id="path-roate"
+          d="M93 40.7L89.5 40.7L86 41.1L82.7 41.8L79.4 42.9L76.3 44.4L73.3 46.2L70.5 48.2L68 50.6L65.8 53.3L63.8 56.2L63.2 57.2L62.6 58.3L62.3 57.6L60.6 54.5L58.9 51.5L57.1 48.5L56.2 47L55.9 46.2L56.3 45.1L58.1 42L60.3 39.3L62.6 36.7L65.3 34.6L68.2 32.7L71.3 31.2L74.5 29.9L77.9 29L81.3 28.6L82.4 28.5L83.7 28.5L84.8 28.5L86 28.5L87.8 31.6L89.5 34.6L91.3 37.6L92.6 39.8L93 40.7Z"
+          fill-rule="nonzero"
+          fill="#98CB98"
+        />
+        <path
+          id="path-roate"
+          d="M62.6 58.3L55.9 46.3L57.6 43.1L59.6 40.3L61.8 37.7L64.4 35.4L67.3 33.5L70.3 31.8L73.5 30.5L76.8 29.4L80.2 28.9L83.7 28.7L85.9 28.7L93 40.7L62.6 58.3Z"
+          stroke="#000000"
+          stroke-width="0.500000"
+        />
+        <path
+          id="path-roate"
+          d="M85.9 82.6L55.9 65L62.6 53L93 70.5L85.9 82.6Z"
+          fill-rule="nonzero"
+          fill="#64B264"
+        />
+        <path
+          id="path-roate"
+          d="M85.9 82.6L84.2 79.5L82.1 76.7L79.9 74.2L77.3 71.9L74.4 70L71.4 68.3L68.3 66.9L65 65.9L61.6 65.2L58.1 65L57 65L55.8 65L56.1 64.3L57.8 61.3L59.5 58.3L61.2 55.3L62.5 53L63.8 53L65 53L68.5 53.2L71.9 53.8L75.2 54.8L78.4 56.2L81.4 57.9L84.2 59.8L86.9 62.1L89.1 64.7L91.2 67.5L92.4 69.5L92.9 70.6L92.5 71.3L90.8 74.3L89 77.3L87.3 80.4L86.3 81.9L85.9 82.6Z"
+          fill-rule="nonzero"
+          fill="#98CB98"
+        />
+        <path
+          id="path-roate"
+          d="M55.9 65L62.6 53L63.9 53L67.4 53.1L70.8 53.6L74.2 54.5L77.4 55.8L80.5 57.3L83.4 59.2L86.1 61.3L88.4 63.8L90.6 66.6L92.4 69.6L92.9 70.7L85.9 82.6L55.9 65Z"
+          stroke="#000000"
+          stroke-width="0.500000"
+        />
+      </g>
+      <circle
+        id="circle"
+        cx="53.199982"
+        cy="55.600006"
+        r="12.299999"
+        fill="#006600"
+      />
+      <circle
+        id="circle"
+        cx="53.199982"
+        cy="55.600006"
+        r="12.299999"
+        stroke="#000000"
+        stroke-width="0.500000"
+      />
+      <circle
+        id="circle"
+        cx="53.199982"
+        cy="55.599991"
+        r="10.399998"
+        fill="#CAE4CA"
+      />
+      <circle
+        id="circle"
+        cx="53.199982"
+        cy="55.600006"
+        r="3.400002"
+        fill="#007F00"
+      />
+      <path
+        id="path"
+        d="M97.2 103.3L90.9 103.3L90.9 105.3L97.2 105.3L97.2 103.3Z"
+        fill-rule="nonzero"
+        fill="#000000"
+      />
+      <path
+        id="path"
+        d="M88.8 103.3L82.5 103.3L82.5 105.3L88.8 105.3L88.8 103.3Z"
+        fill-rule="nonzero"
+        fill="#000000"
+      />
+      <path
+        id="path"
+        d="M74.1 103.3L67.9 103.3L67.9 105.3L74.1 105.3L74.1 103.3Z"
+        fill-rule="nonzero"
+        fill="#000000"
+      />
+      <path
+        id="path"
+        d="M9.20001 105.3L15.5 105.3L15.5 103.3L9.20001 103.3L9.20001 105.3Z"
+        fill-rule="nonzero"
+        fill="#000000"
+      />
+      <path
+        id="path"
+        d="M17.6 105.3L23.9 105.3L23.9 103.3L17.6 103.3C17.6 103.3 17.6 105.3 17.6 105.3Z"
+        fill-rule="nonzero"
+        fill="#000000"
+      />
+      <path
+        id="path"
+        d="M32.3 105.3L38.5 105.3L38.5 103.3L32.3 103.3L32.3 105.3Z"
+        fill-rule="nonzero"
+        fill="#000000"
+      />
+      <defs>
+        <linearGradient
+          id="paint_linear_48_875_0"
+          x1="87.487213"
+          y1="-2.567230"
+          x2="18.912819"
+          y2="116.207176"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop :stop-color="colors[0]" />
+          <stop
+            offset="1.000000"
+            :stop-color="colors[1]"
+          />
+        </linearGradient>
+      </defs>
+    </g>
+  </svg>
+</template>
+
+<script setup lang="ts">
+import { computed } from 'vue';
+import { useTagValue } from '@scada-editor/system';
+
+const props = defineProps<{
+  w: number;
+  h: number;
+  colors: string[];
+  flowColor: string[];
+  pipeColor: string[];
+  backgroundColor: string;
+  bgWidth: number;
+  boardWidth: number;
+  roate: number;
+  cls: string;
+  dur: number;
+  dataset: number;
+  forwardValue: string;
+  backwardValue: string;
+  stopValue: string;
+  defaultCls: string;
+  deviceId: string;
+  deviceCode: string;
+  deviceName: string;
+  tagId: string;
+  tagName: string;
+  dataType: string;
+}>();
+
+const { currentValue, bindTitle } = useTagValue(props);
+
+/** 动画方向：绑定实时值 → cls 映射，未绑定沿用静态 cls */
+const effectiveCls = computed(() => {
+  if (!props.tagId) return props.cls;
+  const raw = currentValue.value;
+  const rawStr = raw === null || raw === undefined ? '' : String(raw);
+  if (props.forwardValue !== '' && rawStr === props.forwardValue) return 'svg_an_left';
+  if (props.backwardValue !== '' && rawStr === props.backwardValue) return 'svg_an_right';
+  if (props.stopValue !== '' && rawStr === props.stopValue) return 'svg_an_stop';
+  return props.defaultCls;
+});
+</script>
+
+<style scoped>
+.fan2-graphic {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.svg_an_left {
+  animation: ani_fill_left var(--dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_left var(--dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.svg_an_right {
+  animation: ani_fill_right var(--dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_right var(--dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.svg_an_stop {
+  animation: ani_fill_stop var(--dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_stop var(--dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes ani_fill_right {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes ani_fill_left {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes ani_fill_stop {
+}
+</style>

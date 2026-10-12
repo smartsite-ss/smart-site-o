@@ -1,0 +1,20 @@
+{
+  "name": "@scada-editor/plugins-tag-waterpolo",
+  "version": "0.1.0",
+  "description": "Tag variable water polo graphic plugin for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  }
+}

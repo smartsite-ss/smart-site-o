@@ -1,0 +1,14 @@
+{
+  "dictId": "dataQuality",
+  "dictName": "数据质量",
+  "category": "system-enums",
+  "description": "采集数据质量状态标识",
+  "version": "1.0",
+  "sortOrder": 2,
+  "items": [
+    { "value": "good", "label": "良好", "sortOrder": 1, "description": "数据采集正常，质量可靠" },
+    { "value": "bad", "label": "无效", "sortOrder": 2, "description": "数据采集失败，值不可用" },
+    { "value": "uncertain", "label": "不确定", "sortOrder": 3, "description": "数据采集完成但质量不可靠" },
+    { "value": "stale", "label": "过期", "sortOrder": 4, "description": "超过最大有效期未更新" }
+  ]
+}

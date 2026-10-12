@@ -1,0 +1,31 @@
+{
+  "tag": {
+    "create": {
+      "success": "数据标签创建成功",
+      "failed_name_exists": "标签名称在该设备下已存在"
+    },
+    "update": {
+      "success": "数据标签更新成功"
+    },
+    "delete": {
+      "success": "数据标签删除成功"
+    },
+    "read": {
+      "success": "读取标签数据成功",
+      "failed_device_offline": "设备离线，无法读取",
+      "failed_timeout": "读取超时"
+    },
+    "write": {
+      "success": "写入标签数据成功",
+      "failed_readonly": "该标签为只读，无法写入",
+      "failed_device_offline": "设备离线，无法写入"
+    },
+    "quality": {
+      "good": "好",
+      "uncertain": "不确定",
+      "bad": "坏",
+      "config_error": "配置错误",
+      "device_offline": "设备离线"
+    }
+  }
+}

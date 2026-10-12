@@ -1,0 +1,13 @@
+{
+  "busbar": {
+    "label": "Busbar Segment",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "labelText": "Label Text"
+    },
+    "options": {},
+    "description": "Busbar graphic element"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "latest": "2.3",
+  "versions": [
+    {
+      "version": "2.3",
+      "path": "/v2/kb-data.json",
+      "updatedAt": "2026-06-06T09:41:22.359Z",
+      "appVersionRange": ">=1.0.0",
+      "changes": [
+        "新增图元属性 Schema 支持（graphicSchemas）",
+        "共 135 种图元类型，985 个属性字段",
+        "export-kb 脚本增强：自动扫描 plugins/ 目录提取图元属性",
+        "修复 system 包知识库桩实现"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-c2208c2c-a46",
+  "name": "水质分析模板",
+  "description": "水质分析虚拟模板（PH/COD/氨氮/浊度）",
+  "deviceType": "undefined",
+  "deviceModel": "undefined",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "undefined",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "PH值",
+      "label": "PH值",
+      "address": "32",
+      "dataType": "float",
+      "guid": "fa36f01e-9b42-4d7f-b6cf-d90c024f95fd"
+    },
+    {
+      "name": "COD",
+      "label": "COD",
+      "address": "36",
+      "dataType": "float",
+      "guid": "df05b8de-167f-413a-96d7-604fc6a7d4c5"
+    },
+    {
+      "name": "氨氮",
+      "label": "氨氮",
+      "address": "40",
+      "dataType": "float",
+      "guid": "5844e7a5-3450-45ac-ab59-22a4aa8cab13"
+    },
+    {
+      "name": "浊度",
+      "label": "浊度",
+      "address": "44",
+      "dataType": "float",
+      "guid": "a2f0082d-6d8e-4af9-8eae-1d593ed48a40"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T15:06:05.762Z",
+    "updatedAt": "2026-09-06T15:06:05.762Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

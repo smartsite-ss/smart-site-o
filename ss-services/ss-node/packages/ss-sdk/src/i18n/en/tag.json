@@ -1,0 +1,31 @@
+{
+  "tag": {
+    "create": {
+      "success": "Data tag created successfully",
+      "failed_name_exists": "Tag name already exists for this device"
+    },
+    "update": {
+      "success": "Data tag updated successfully"
+    },
+    "delete": {
+      "success": "Data tag deleted successfully"
+    },
+    "read": {
+      "success": "Data tag read successfully",
+      "failed_device_offline": "Device offline, cannot read",
+      "failed_timeout": "Read timeout"
+    },
+    "write": {
+      "success": "Data tag written successfully",
+      "failed_readonly": "This tag is read-only, cannot write",
+      "failed_device_offline": "Device offline, cannot write"
+    },
+    "quality": {
+      "good": "Good",
+      "uncertain": "Uncertain",
+      "bad": "Bad",
+      "config_error": "Configuration error",
+      "device_offline": "Device offline"
+    }
+  }
+}

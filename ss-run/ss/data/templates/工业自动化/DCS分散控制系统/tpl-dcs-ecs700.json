@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-dcs-ecs700",
+  "name": "中控 ECS-700 DCS 采集模板",
+  "description": "适用于中控技术 ECS-700 分布式控制系统的标准数据采集模板，支持 AI/AO/DI/DO 全量通道采集",
+  "deviceType": "opc_ua",
+  "deviceModel": "opc_ua",
+  "version": "1.0.0",
+  "status": "planned",
+  "isDefault": true,
+  "authorId": "system",
+  "tags": [
+    "中控",
+    "SUPCON",
+    "ECS-700",
+    "DCS",
+    "OPC UA",
+    "分散控制系统"
+  ],
+  "industry": "工业自动化",
+  "category": "DCS分散控制系统",
+  "protocol": {
+    "type": "opc_ua",
+    "config": {}
+  },
+  "variables": [
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "metadata": {
+    "createdAt": "2026-06-09T00:00:00.000Z",
+    "updatedAt": "2026-07-28T05:11:52.444Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

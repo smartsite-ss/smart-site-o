@@ -1,0 +1,16 @@
+{
+  "flowmeter": {
+    "label": "Flow Meter",
+    "properties": {
+      "color": "Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "dataset": "Data Value (0-100)",
+      "showDigital": "Show Digital Readout",
+      "rangeMax": "Range Max Value",
+      "decimalPlaces": "Decimal Places",
+      "unit": "Unit"
+    },
+    "description": "Flowmeter graphic element"
+  }
+}

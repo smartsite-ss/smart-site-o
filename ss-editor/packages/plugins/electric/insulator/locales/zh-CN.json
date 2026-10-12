@@ -1,0 +1,11 @@
+{
+  "insulator": {
+    "label": "绝缘子",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "description": "绝缘子 - 电气绝缘支撑件"
+  }
+}

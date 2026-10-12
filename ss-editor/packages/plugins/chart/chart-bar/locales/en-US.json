@@ -1,0 +1,11 @@
+{
+  "chartBar": {
+    "label": "Bar Chart",
+    "description": "Bar chart with static/API data source",
+    "config": {
+      "dataSource": "Data Source",
+      "noData": "No Data",
+      "loadError": "Load Failed"
+    }
+  }
+}

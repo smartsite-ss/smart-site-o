@@ -1,0 +1,21 @@
+{
+  "id": "builtin-blank",
+  "name": "空白页面",
+  "description": "全空白页面，1920×1080，适合从零开始设计",
+  "category": "blank",
+  "icon": "📄",
+  "thumbnail": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'><rect width='1920' height='1080' fill='%23808080'/></svg>",
+  "source": "builtin",
+  "author": "SS-SCADA",
+  "version": "1.0.0",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#808080",
+    "layout": "free"
+  },
+  "graphics": [],
+  "tags": ["空白", "基础"],
+  "createdAt": 1750000000000,
+  "updatedAt": 1750000000000
+}

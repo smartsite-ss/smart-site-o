@@ -1,0 +1,32 @@
+{
+  "checkbox": {
+    "label": "Checkbox",
+    "description": "Checkbox component for multiple selection",
+    "panelTitle": "Checkbox Configuration",
+    "properties": {
+      "checked": "Checked State",
+      "label": "Label Text",
+      "disabled": "Disabled",
+      "indeterminate": "Indeterminate",
+      "color": "Checked Color",
+      "labelPosition": "Label Position",
+      "size": "Size"
+    },
+    "options": {
+      "labelPosition": {
+        "right": "Right",
+        "left": "Left"
+      },
+      "size": {
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style"
+    },
+    "hints": {}
+  }
+}

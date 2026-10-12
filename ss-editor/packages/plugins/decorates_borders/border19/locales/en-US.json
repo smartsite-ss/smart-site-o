@@ -1,0 +1,15 @@
+{
+  "border19": {
+    "label": "Border 19 (Swiss Typographic)",
+    "description": "Border 19 decorative component (Swiss Typographic)",
+    "properties": {
+      "color1": "Deep Black",
+      "color2": "Bright Red",
+      "color3": "White",
+      "backgroundColor": "Background Color",
+      "showBlocks": "Geometric Blocks",
+      "showAccents": "Accent Dots",
+      "animationSpeed": "Animation Speed"
+    }
+  }
+}

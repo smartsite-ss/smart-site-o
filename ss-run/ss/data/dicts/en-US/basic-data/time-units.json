@@ -1,0 +1,15 @@
+﻿{
+  "dictId": "timeUnit",
+  "dictName": "Time Units",
+  "category": "basic-data",
+  "description": "Unit definitions for time-related configuration",
+  "version": "1.0",
+  "sortOrder": 5,
+  "items": [
+    { "value": "ms", "label": "ms", "sortOrder": 1, "description": "Millisecond (1/1000 second)" },
+    { "value": "s", "label": "s", "sortOrder": 2, "description": "Second" },
+    { "value": "min", "label": "min", "sortOrder": 3, "description": "Minute (60 seconds)" },
+    { "value": "h", "label": "h", "sortOrder": 4, "description": "Hour (60 minutes)" },
+    { "value": "d", "label": "d", "sortOrder": 5, "description": "Day (24 hours)" }
+  ]
+}

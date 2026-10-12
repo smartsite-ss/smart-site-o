@@ -1,0 +1,199 @@
+{
+  "id": "builtin-login",
+  "name": "登录页",
+  "description": "SCADA 系统登录页，居中表单布局，深色主题",
+  "category": "login",
+  "icon": "🔑",
+  "thumbnail": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 900'><rect width='1440' height='900' fill='%231E2A38'/><rect x='500' y='250' width='440' height='400' rx='12' fill='%2316202C'/><rect x='560' y='476' width='320' height='40' rx='4' fill='%23243444'/><rect x='560' y='560' width='320' height='40' rx='4' fill='%23243444'/><rect x='560' y='624' width='320' height='44' rx='6' fill='%231890FF'/></svg>",
+  "source": "builtin",
+  "author": "SS-SCADA",
+  "version": "1.0.0",
+  "pageConfig": {
+    "width": 1440,
+    "height": 900,
+    "backgroundColor": "#1E2A38",
+    "layout": "free",
+    "themeName": "tech-dark-blue"
+  },
+  "graphics": [
+    {
+      "id": "login-panel",
+      "type": "shape",
+      "version": "1.0",
+      "config": {
+        "id": "login-panel",
+        "type": "shape",
+        "name": "登录面板",
+        "geometry": { "x": 500, "y": 250, "width": 440, "height": 400, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "shapeType": "rounded-rectangle", "fillColor": "@token:surface", "fillOpacity": 0.6, "borderColor": "@token:border", "borderWidth": 1, "borderRadius": 12 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 0,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-logo",
+      "type": "image",
+      "version": "1.0",
+      "config": {
+        "id": "login-logo",
+        "type": "image",
+        "name": "Logo",
+        "geometry": { "x": 640, "y": 300, "width": 160, "height": 60, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "src": "", "alt": "SS-SCADA", "imageFit": "contain" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 1,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-title",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "login-title",
+        "type": "label",
+        "name": "标题",
+        "geometry": { "x": 540, "y": 380, "width": 360, "height": 40, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "智能监控平台", "textColor": "@token:text", "fontSize": 26, "fontWeight": "bold", "textAlign": "center", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 2,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-label-username",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "login-label-username",
+        "type": "label",
+        "name": "账号标签",
+        "geometry": { "x": 560, "y": 448, "width": 320, "height": 24, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "账号", "textColor": "@token:textSecondary", "fontSize": 14, "textAlign": "left", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 3,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-input-username",
+      "type": "input",
+      "version": "1.0",
+      "config": {
+        "id": "login-input-username",
+        "type": "input",
+        "name": "账号输入",
+        "geometry": { "x": 560, "y": 476, "width": 320, "height": 40, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "placeholder": "请输入账号", "fontSize": 14 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 4,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-label-password",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "login-label-password",
+        "type": "label",
+        "name": "密码标签",
+        "geometry": { "x": 560, "y": 532, "width": 320, "height": 24, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "密码", "textColor": "@token:textSecondary", "fontSize": 14, "textAlign": "left", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 5,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-input-password",
+      "type": "input",
+      "version": "1.0",
+      "config": {
+        "id": "login-input-password",
+        "type": "input",
+        "name": "密码输入",
+        "geometry": { "x": 560, "y": 560, "width": 320, "height": 40, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "placeholder": "请输入密码", "fontSize": 14 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 6,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "login-btn",
+      "type": "button",
+      "version": "1.0",
+      "config": {
+        "id": "login-btn",
+        "type": "button",
+        "name": "登录按钮",
+        "geometry": { "x": 560, "y": 624, "width": 320, "height": 44, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "登 录", "backgroundColor": "@token:primary", "fontColor": "#FFFFFFFF", "fontSize": 16, "fontWeight": "bold", "borderRadius": 6 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 7,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    }
+  ],
+  "tags": ["登录", "认证", "深色"],
+  "createdAt": 1750000000000,
+  "updatedAt": 1750000000000
+}

@@ -1,0 +1,64 @@
+{
+  "name": "@scada-editor/editor",
+  "version": "0.2.0",
+  "description": "SCADA 编辑器 UI 库 - 优化版本",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "lint": "eslint src --ext .vue,.ts,.tsx",
+    "export-kb": "node ../../scripts/export-kb.js"
+  },
+  "dependencies": {
+    "@monaco-editor/loader": "^1.4.0",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*",
+    "@vicons/ionicons5": "^0.13.0",
+    "dompurify": "^3.4.13",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "marked": "^18.0.9",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "^7.0.0",
+    "@types/file-saver": "^2.0.7",
+    "@types/node": "^20.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.0",
+    "jsdom": "^22.0.0",
+    "sass": "^1.99.0",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.0",
+    "vitest": "^1.2.0"
+  },
+  "keywords": [
+    "scada",
+    "editor",
+    "vue3",
+    "ui",
+    "canvas"
+  ],
+  "author": "",
+  "license": "MIT"
+}

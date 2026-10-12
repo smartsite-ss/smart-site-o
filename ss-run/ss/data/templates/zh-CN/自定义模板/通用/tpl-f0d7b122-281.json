@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-f0d7b122-281",
+  "name": "风烟辅机虚拟模板",
+  "description": "电厂风烟系统辅机虚拟模板（运行状态/入口温度/出口温度/压差）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "运行状态",
+      "label": "运行状态",
+      "address": "0",
+      "dataType": "int",
+      "guid": "43242a60-6a83-4977-95df-a6a4101a2ea7"
+    },
+    {
+      "name": "入口温度",
+      "label": "入口温度",
+      "address": "4",
+      "dataType": "float",
+      "guid": "d1775a71-ef98-4c3c-95fe-39252a1ba90a"
+    },
+    {
+      "name": "出口温度",
+      "label": "出口温度",
+      "address": "8",
+      "dataType": "float",
+      "guid": "8d59733b-9f65-4f91-a731-b9fb9614b17b"
+    },
+    {
+      "name": "压差",
+      "label": "压差",
+      "address": "12",
+      "dataType": "float",
+      "guid": "961ebbf5-7dc6-4ee4-9bda-95eae5fbada5"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-10T15:43:53.186Z",
+    "updatedAt": "2026-09-10T15:43:53.186Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

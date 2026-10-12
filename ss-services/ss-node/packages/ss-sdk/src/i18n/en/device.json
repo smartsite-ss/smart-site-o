@@ -1,0 +1,27 @@
+{
+  "device": {
+    "create": {
+      "success": "Device created successfully",
+      "failed_name_exists": "Device name already exists in this project"
+    },
+    "update": {
+      "success": "Device updated successfully"
+    },
+    "delete": {
+      "success": "Device deleted successfully",
+      "failed_has_tags": "Cannot delete device with existing tags"
+    },
+    "connect": {
+      "success": "Device connected successfully",
+      "failed_timeout": "Device connection timeout",
+      "failed_refused": "Device connection refused"
+    },
+    "disconnect": {
+      "success": "Device disconnected"
+    },
+    "offline": "Device {{name}} (ID: {{id}}) is offline",
+    "online": "Device {{name}} (ID: {{id}}) is online",
+    "read_error": "Failed to read device {{name}} address {{address}}: {{error}}",
+    "write_error": "Failed to write device {{name}} address {{address}}: {{error}}"
+  }
+}

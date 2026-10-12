@@ -1,0 +1,15 @@
+{
+  "countdown": {
+    "label": "Countdown",
+    "properties": {
+      "dataset": "Countdown (s)",
+      "showDay": "Show Days",
+      "color1": "Background Color",
+      "color2": "Text Color",
+      "flipperWidth": "Digit Width",
+      "flipperHeight": "Digit Height",
+      "flipperGap": "Gap"
+    },
+    "description": "Countdown graphic element"
+  }
+}

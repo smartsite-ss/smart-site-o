@@ -1,0 +1,383 @@
+<template>
+  <svg
+    class="pump-graphic"
+    :width="w"
+    :height="h"
+    :title="bindTitle"
+    :viewBox="`0 0 57.9508 37.2872`"
+    fill="none"
+  >
+    <desc>水泵</desc>
+    <g :transform=" 'rotate(' + (roate) + ')'">
+      <path
+        id="shape665"
+        d="M55.5854 16.7822L55.5854 0.964729L31.3359 0.964729L31.3359 16.7822L55.5854 16.7822Z"
+        fill-rule="evenodd"
+        fill="url(#paint_linear_46_821_0)"
+      />
+      <path
+        id="shape665"
+        d="M55.5854 0.964729L31.3359 0.964729L31.3359 16.7822L55.5854 16.7822L55.5854 0.964729Z"
+        stroke="#666666"
+      />
+      <path
+        id="shape667"
+        d="M57.4508 17.1414L57.4508 0.605583C57.4508 0.2882 57.0362 0.0342865 56.5181 0.0342865C55.9999 0.0342865 55.5854 0.2882 55.5854 0.605583L55.5854 17.1414C55.5854 17.4588 55.9999 17.7127 56.5181 17.7127C57.0362 17.7127 57.4508 17.4588 57.4508 17.1414L57.4508 17.1414Z"
+        fill-rule="evenodd"
+        fill="url(#paint_linear_46_822_0)"
+      />
+      <path
+        id="shape668"
+        d="M55.829 0.499512C55.5536 0.528168 55.3418 0.728752 55.3418 1.0153L55.3418 15.8012C55.3418 16.0878 55.5748 16.2884 55.829 16.317L55.829 0.499512Z"
+        fill-rule="evenodd"
+        fill="url(#paint_linear_46_823_0)"
+      />
+      <path
+        id="shape669"
+        d="M57.66 16.0524L57.66 0.734718C57.66 0.617111 57.5704 0.499512 57.4508 0.499512C57.3312 0.499512 57.2415 0.617111 57.2415 0.734718L57.2415 16.0524C57.2415 16.1994 57.3312 16.317 57.4508 16.317C57.5704 16.317 57.66 16.1994 57.66 16.0524L57.66 16.0524Z"
+        fill-rule="evenodd"
+        fill="#FFFFFF"
+      />
+      <path
+        id="shape665"
+        d="M2.36575 35.6025L2.36575 19.785L26.6152 19.785L26.6152 35.6025L2.36575 35.6025Z"
+        fill-rule="evenodd"
+        fill="url(#paint_linear_46_826_0)"
+      />
+      <path
+        id="shape665"
+        d="M2.36575 19.785L26.6152 19.785L26.6152 35.6025L2.36575 35.6025L2.36575 19.785Z"
+        stroke="#666666"
+      />
+      <path
+        id="shape667"
+        d="M0.500412 35.9617L0.500412 19.4259C0.500412 19.1085 0.914932 18.8546 1.43309 18.8546C1.95123 18.8546 2.36575 19.1085 2.36575 19.4259L2.36575 35.9617C2.36575 36.2791 1.95123 36.533 1.43309 36.533C0.914932 36.533 0.500412 36.2791 0.500412 35.9617L0.500412 35.9617Z"
+        fill-rule="evenodd"
+        fill="url(#paint_linear_46_827_0)"
+      />
+      <path
+        id="shape668"
+        d="M2.12213 19.3198C2.39752 19.3485 2.60938 19.5491 2.60938 19.8356L2.60938 34.6215C2.60938 34.9081 2.37634 35.1087 2.12213 35.1373L2.12213 19.3198Z"
+        fill-rule="evenodd"
+        fill="url(#paint_linear_46_828_0)"
+      />
+      <path
+        id="shape669"
+        d="M0.291122 34.8727L0.291122 19.555C0.291122 19.4374 0.380814 19.3198 0.500412 19.3198C0.62001 19.3198 0.709702 19.4374 0.709702 19.555L0.709702 34.8727C0.709702 35.0197 0.62001 35.1373 0.500412 35.1373C0.380814 35.1373 0.291122 35.0197 0.291122 34.8727L0.291122 34.8727Z"
+        fill-rule="evenodd"
+        fill="#FFFFFF"
+      />
+      <path
+        id="shape666"
+        d="M32.268 36.7872C42.3022 36.7872 50.4551 28.6767 50.4551 18.6436C50.4551 8.61055 42.3022 0.5 32.268 0.5C22.2038 0.5 14.0809 8.61055 14.0809 18.6436C14.0809 28.6767 22.2038 36.7872 32.268 36.7872L32.268 36.7872Z"
+        fill-rule="evenodd"
+        fill="url(#paint_radial_46_831_0)"
+      />
+      <path
+        id="shape666"
+        d="M50.4551 18.6436C50.4551 8.61055 42.3022 0.5 32.268 0.5C22.2038 0.5 14.0809 8.61055 14.0809 18.6436C14.0809 28.6767 22.2038 36.7872 32.268 36.7872C42.3022 36.7872 50.4551 28.6767 50.4551 18.6436L50.4551 18.6436Z"
+        stroke="#666666"
+      />
+      <path
+        id="shape670"
+        d="M31.7866 30.2735C37.9786 30.2735 42.9941 25.2593 42.9941 19.0927C42.9941 12.9261 37.9786 7.94295 31.7866 7.94295C25.6255 7.94295 20.61 12.9261 20.61 19.0927C20.61 25.2593 25.6255 30.2735 31.7866 30.2735L31.7866 30.2735Z"
+        fill-rule="evenodd"
+        fill="#CDCECE"
+      />
+      <path
+        id="shape671"
+        d="M31.3504 28.4132C36.7505 28.4132 41.1289 24.0418 41.1289 18.6436C41.1289 13.2453 36.7505 8.87392 31.3504 8.87392C25.9504 8.87392 21.5428 13.2453 21.5428 18.6436C21.5428 24.0418 25.9504 28.4132 31.3504 28.4132L31.3504 28.4132Z"
+        fill-rule="evenodd"
+        fill="#3E3938"
+      />
+      <g
+        :class="effectiveCls"
+        :style="{ '--dur': dur + 's' }"
+      >
+        <path
+          id="shape672"
+          d="M30.4637 15.3862C30.4637 15.3862 30.9503 15.3605 31.2747 15.3862L31.8019 8.90743C31.8019 8.90743 30.6259 8.83031 29.9365 8.90743L30.4637 15.3862Z"
+          fill-rule="evenodd"
+          fill="#ABB0B7"
+        />
+        <path
+          id="shape673"
+          d="M30.4637 20.9694C30.4637 20.9694 30.9503 20.9951 31.2747 20.9694L31.8019 27.4482C31.8019 27.4482 30.6259 27.5254 29.9365 27.4482L30.4637 20.9694Z"
+          fill-rule="evenodd"
+          fill="#ABB0B7"
+        />
+        <path
+          id="shape674"
+          d="M33.6676 19.6786C33.6676 19.6786 33.6932 19.5523 33.6676 19.4681L40.1622 19.3313C40.1622 19.3313 40.2389 19.6365 40.1622 19.8154L33.6676 19.6786Z"
+          fill-rule="evenodd"
+          fill="#ABB0B7"
+        />
+        <path
+          id="shape675"
+          d="M29.0043 19.6786C29.0043 19.6786 28.9787 19.5523 29.0043 19.4681L22.5097 19.3313C22.5097 19.3313 22.433 19.6365 22.5097 19.8154L29.0043 19.6786Z"
+          fill-rule="evenodd"
+          fill="#ABB0B7"
+        />
+      </g>
+      <path
+        id="shape676"
+        d="M31.3555 21.8995C33.1398 21.8995 34.5996 20.4341 34.5996 18.643C34.5996 16.8519 33.1398 15.3864 31.3555 15.3864C29.5307 15.3864 28.0709 16.8519 28.0709 18.643C28.0709 20.4341 29.5307 21.8995 31.3555 21.8995L31.3555 21.8995Z"
+        fill-rule="evenodd"
+        fill="#ABB0B7"
+      />
+      <path
+        id="shape677"
+        d="M32.2834 21.4347C33.2981 21.4347 34.1338 20.3842 34.1338 19.1086C34.1338 17.833 33.2981 16.7825 32.2834 16.7825C31.2388 16.7825 30.4031 17.833 30.4031 19.1086C30.4031 20.3842 31.2388 21.4347 32.2834 21.4347L32.2834 21.4347Z"
+        fill-rule="evenodd"
+        fill="#838A93"
+      />
+      <defs>
+        <linearGradient
+          id="paint_linear_46_821_0"
+          x1="55.585411"
+          y1="16.782234"
+          x2="55.585411"
+          y2="0.964727"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#111213" />
+          <stop
+            offset="0.347498"
+            stop-color="#9BA3AD"
+          />
+          <stop
+            offset="0.599425"
+            stop-color="#E6E8EC"
+          />
+          <stop
+            offset="1.000000"
+            stop-color="#121416"
+          />
+        </linearGradient>
+        <linearGradient
+          id="paint_linear_46_822_0"
+          x1="57.450752"
+          y1="17.712677"
+          x2="57.450752"
+          y2="0.034288"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#8F969D" />
+          <stop
+            offset="0.640000"
+            stop-color="#D3D8DE"
+          />
+          <stop
+            offset="1.000000"
+            stop-color="#9AA0A8"
+          />
+        </linearGradient>
+        <linearGradient
+          id="paint_linear_46_823_0"
+          x1="56.085419"
+          y1="16.317017"
+          x2="56.085419"
+          y2="0.499512"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#626974" />
+          <stop
+            offset="0.660000"
+            stop-color="#CCD0D5"
+          />
+          <stop
+            offset="1.000000"
+            stop-color="#5E6670"
+          />
+        </linearGradient>
+        <linearGradient
+          id="paint_linear_46_826_0"
+          x1="2.365753"
+          y1="35.602547"
+          x2="2.365753"
+          y2="19.785040"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#111213" />
+          <stop
+            offset="0.347498"
+            stop-color="#9BA3AD"
+          />
+          <stop
+            offset="0.599425"
+            stop-color="#E6E8EC"
+          />
+          <stop
+            offset="1.000000"
+            stop-color="#121416"
+          />
+        </linearGradient>
+        <linearGradient
+          id="paint_linear_46_827_0"
+          x1="0.500412"
+          y1="36.532990"
+          x2="0.500412"
+          y2="18.854601"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#8F969D" />
+          <stop
+            offset="0.640000"
+            stop-color="#D3D8DE"
+          />
+          <stop
+            offset="1.000000"
+            stop-color="#9AA0A8"
+          />
+        </linearGradient>
+        <linearGradient
+          id="paint_linear_46_828_0"
+          x1="1.865746"
+          y1="35.137329"
+          x2="1.865746"
+          y2="19.319824"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#626974" />
+          <stop
+            offset="0.660000"
+            stop-color="#CCD0D5"
+          />
+          <stop
+            offset="1.000000"
+            stop-color="#5E6670"
+          />
+        </linearGradient>
+        <radialGradient
+          id="paint_radial_46_831_0"
+          cx="0.000000"
+          cy="0.000000"
+          r="1.000000"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(32.2381 18.7638) rotate(-90) scale(25.7735 25.7735)"
+        >
+          <stop stop-color="#ABB0B7" />
+          <stop
+            offset="0.540000"
+            stop-color="#B6BCC4"
+          />
+          <stop
+            offset="0.740000"
+            stop-color="#D4D8DD"
+          />
+          <stop
+            offset="0.910000"
+            stop-color="#ABB0B7"
+          />
+        </radialGradient>
+      </defs>
+    </g>
+  </svg>
+</template>
+
+<script setup lang="ts">
+import { computed } from 'vue';
+import { useTagValue } from '@scada-editor/system';
+
+const props = defineProps<{
+  w: number;
+  h: number;
+  colors: string[];
+  flowColor: string[];
+  pipeColor: string[];
+  backgroundColor: string;
+  bgWidth: number;
+  boardWidth: number;
+  roate: number;
+  cls: string;
+  dur: number;
+  dataset: number;
+  forwardValue: string;
+  backwardValue: string;
+  stopValue: string;
+  defaultCls: string;
+  deviceId: string;
+  deviceCode: string;
+  deviceName: string;
+  tagId: string;
+  tagName: string;
+  dataType: string;
+}>();
+
+const { currentValue, bindTitle } = useTagValue(props);
+
+/** 数据值：绑定实时值，未绑定用静态 dataset */
+const effectiveValue = computed(() => {
+  if (!props.tagId) return props.dataset;
+  const v = currentValue.value;
+  return v === null || v === undefined ? props.dataset : Number(v);
+});
+
+/** 动画方向：绑定实时值 → cls 映射，未绑定沿用静态 cls */
+const effectiveCls = computed(() => {
+  if (!props.tagId) return props.cls;
+  const raw = currentValue.value;
+  const rawStr = raw === null || raw === undefined ? '' : String(raw);
+  if (props.forwardValue !== '' && rawStr === props.forwardValue) return 'svg_pool_fill_left';
+  if (props.backwardValue !== '' && rawStr === props.backwardValue) return 'svg_pool_fill_right';
+  if (props.stopValue !== '' && rawStr === props.stopValue) return 'svg_pool_fill_stop';
+  return props.defaultCls;
+});
+</script>
+
+<style scoped>
+.pump-graphic {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.svg_pool_fill_stop {
+  margin-top: 10%;
+  margin-left: 20%;
+  transform-box: fill-box;
+  transform-origin: center 50%;
+}
+
+.svg_pool_fill_left {
+  margin-top: 10%;
+  margin-left: 20%;
+  scale: 0.3;
+  animation: ani_fill_h40_left var(--dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_h40_left var(--dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+  transform-box: fill-box;
+  transform-origin: center 50%;
+}
+
+.svg_pool_fill_right {
+  margin-top: 10%;
+  margin-left: 20%;
+  scale: 0.3;
+  animation: ani_fill_h40_right var(--dur, 5s) linear infinite;
+  animation-fill-mode: forwards;
+  -webkit-animation: ani_fill_h40_right var(--dur, 5s) linear infinite;
+  -webkit-animation-fill-mode: forwards;
+  transform-box: fill-box;
+  transform-origin: center 50%;
+}
+
+@keyframes ani_fill_h40_right {
+  from {
+    transform: rotateZ(360deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes ani_fill_h40_left {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+</style>

@@ -1,0 +1,16 @@
+{
+  "id": "wt-3b0ed429",
+  "name": "测试组件",
+  "description": "单元测试",
+  "category": "common",
+  "author": "test-user",
+  "source": "user",
+  "createdAt": "2026-08-29T02:20:42.221Z",
+  "updatedAt": "2026-08-29T02:20:42.221Z",
+  "schemaVersion": 2,
+  "hasVariables": true,
+  "variableCount": 2,
+  "tags": [
+    "test"
+  ]
+}

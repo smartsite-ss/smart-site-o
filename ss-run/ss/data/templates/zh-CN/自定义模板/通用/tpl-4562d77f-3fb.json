@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-4562d77f-3fb",
+  "name": "能源管理水表模板",
+  "description": "水表虚拟模板（瞬时流量/累计用量）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "flow",
+      "label": "瞬时水流量",
+      "address": "V_FLOW",
+      "dataType": "float32",
+      "unit": "m3/h",
+      "minValue": 5,
+      "maxValue": 60,
+      "simulationMode": 1,
+      "guid": "0217a5af-77c4-493d-a40e-9debdd50046b"
+    },
+    {
+      "name": "usage",
+      "label": "累计用水量",
+      "address": "V_USAGE",
+      "dataType": "float32",
+      "unit": "m3",
+      "minValue": 0,
+      "maxValue": 50000,
+      "simulationMode": 1,
+      "guid": "431bb352-7cfb-448f-b773-92ad8ad934fb"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-04T04:11:47.681Z",
+    "updatedAt": "2026-09-04T04:11:47.681Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

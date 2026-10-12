@@ -1,0 +1,62 @@
+{
+  "track-move": {
+    "label": "轨迹动态",
+    "description": "沿自定义轨道移动的动画点，支持折弯路径和图片替代",
+    "panelTitle": "轨迹动态配置",
+    "properties": {
+      "speed": "速度(px/s)",
+      "dotStyle": "点样式",
+      "dotColor": "点颜色",
+      "dotSize": "点大小",
+      "dotImage": "图片URL",
+      "imageWidth": "图片宽度",
+      "imageHeight": "图片高度",
+      "trackColor": "轨道颜色",
+      "trackWidth": "轨道宽度",
+      "trackStyle": "轨道样式",
+      "status": "动画状态",
+      "direction": "移动方向",
+      "loopMode": "循环模式"
+    },
+    "options": {
+      "dotStyle": {
+        "circle": "圆形",
+        "image": "图片"
+      },
+      "trackStyle": {
+        "solid": "实线",
+        "dashed": "虚线"
+      },
+      "direction": {
+        "forward": "正向",
+        "backward": "反向"
+      },
+      "loopMode": {
+        "loop": "循环",
+        "once": "单次",
+        "bounce": "来回弹跳"
+      }
+    },
+    "groups": {
+      "dot": "动画点",
+      "track": "轨道",
+      "motion": "运动"
+    },
+    "hints": {
+      "dotImage": "输入图片URL地址"
+    },
+    "editor": {
+      "pathPoints": "路径点",
+      "index": "#",
+      "coordX": "X",
+      "coordY": "Y",
+      "type": "类型",
+      "action": "操作",
+      "startPoint": "起点",
+      "endPoint": "终点",
+      "bendPoint": "折弯点",
+      "addBendPoint": "+ 添加折弯点",
+      "reversePath": "反转路径"
+    }
+  }
+}

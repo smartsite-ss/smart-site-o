@@ -1,0 +1,29 @@
+{
+  "name": "@ss-node/ss-alarm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA Alarm Management Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/schedule": "^4.0.0",
+    "@nestjs/swagger": "^7.2.0",
+    "@ss-node/ss-core": "workspace:*",
+    "@ss-node/ss-device": "workspace:*",
+    "@ss-node/ss-i18n": "workspace:*",
+    "@ss-node/ss-project": "workspace:*",
+    "@ss-node/ss-sdk": "workspace:*",
+    "@ss-node/ss-system": "workspace:*",
+    "@nestjs/typeorm": "^10.0.0",
+    "reflect-metadata": "^0.1.14",
+    "typeorm": "^0.3.20"
+  }
+}

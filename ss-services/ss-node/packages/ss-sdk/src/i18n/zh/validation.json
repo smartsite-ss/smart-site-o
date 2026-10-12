@@ -1,0 +1,78 @@
+{
+  "validation": {
+    "common": {
+      "is_string": "{{property}} 必须是字符串",
+      "is_number": "{{property}} 必须是数字",
+      "is_boolean": "{{property}} 必须是布尔值",
+      "is_date": "{{property}} 必须是有效的日期",
+      "min_length": "{{property}} 长度不能小于 {{constraints.0}} 个字符",
+      "max_length": "{{property}} 长度不能超过 {{constraints.0}} 个字符",
+      "is_email": "{{property}} 格式不正确的邮箱地址",
+      "matches": "{{property}} 格式不符合要求"
+    },
+    "user": {
+      "username": {
+        "required": "用户名不能为空",
+        "length": "用户名长度必须在 {{min}}-{{max}} 个字符之间",
+        "pattern": "用户名只能包含字母、数字和下划线",
+        "unique": "该用户名已被占用"
+      },
+      "email": {
+        "required": "邮箱不能为空",
+        "is_email": "邮箱格式不正确",
+        "unique": "该邮箱已被注册"
+      },
+      "password": {
+        "required": "密码不能为空",
+        "weak": "密码强度不足（至少8位，包含大小写字母和数字）",
+        "mismatch": "两次输入的密码不一致"
+      }
+    },
+    "project": {
+      "name": {
+        "required": "项目名称不能为空",
+        "length": "项目名称长度必须在 {{min}}-{{max}} 个字符之间"
+      },
+      "description": {
+        "maxlength": "项目描述不能超过 {{max}} 个字符"
+      }
+    },
+    "device": {
+      "name": {
+        "required": "设备名称不能为空"
+      },
+      "config": {
+        "host_required": "设备 IP 地址不能为空",
+        "port_range": "端口号必须在 1-65535 之间",
+        "unitId_range": "Unit ID 必须在 1-247 之间"
+      }
+    },
+    "tag": {
+      "name": {
+        "required": "标签名称不能为空",
+        "unique": "标签名称在该设备下已存在"
+      },
+      "address": {
+        "required": "寄存器地址不能为空",
+        "format": "地址格式无效（应为数字或 Modbus 地址格式）"
+      },
+      "scanRate": {
+        "range": "扫描周期必须在 {{min}}-{{max}} ms 之间"
+      }
+    },
+    "alarm": {
+      "rule": {
+        "name": {
+          "required": "报警规则名称不能为空"
+        },
+        "threshold": {
+          "required": "报警阈值不能为空",
+          "number": "阈值必须是有效的数字"
+        },
+        "debounceTime": {
+          "range": "消抖时间必须在 {{min}}-{{max}} ms 之间"
+        }
+      }
+    }
+  }
+}

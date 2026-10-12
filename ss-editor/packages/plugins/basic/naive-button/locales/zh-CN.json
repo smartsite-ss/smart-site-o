@@ -1,0 +1,35 @@
+{
+  "naiveButton": {
+    "label": "Naive按钮",
+    "panelTitle": "Naive按钮属性",
+    "properties": {
+      "text": "按钮文本",
+      "type": "按钮类型",
+      "size": "尺寸",
+      "round": "圆角按钮",
+      "circle": "圆形按钮",
+      "disabled": "禁用",
+      "loading": "加载状态"
+    },
+    "options": {
+      "type": {
+        "default": "默认",
+        "primary": "主要",
+        "success": "成功",
+        "warning": "警告",
+        "error": "错误",
+        "info": "信息"
+      },
+      "size": {
+        "small": "小",
+        "medium": "中",
+        "large": "大"
+      }
+    },
+    "groups": {
+      "basic": "基本属性"
+    },
+    "hints": {},
+    "description": "Naive按钮图元，支持Canvas降级渲染"
+  }
+}

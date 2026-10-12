@@ -1,0 +1,44 @@
+{
+  "name": "@scada-editor/plugins-industrial-gauge",
+  "version": "0.1.0",
+  "description": "Gauge graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./GaugeConfig": {
+      "import": "./GaugeConfig.vue",
+      "types": "./GaugeConfig.vue"
+    },
+    "./GaugeIcon": {
+      "import": "./GaugeIcon.vue",
+      "types": "./GaugeIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "gauge",
+    "category": "industrial",
+    "label": "gauge.label",
+    "labelEn": "gauge",
+    "deployMode": "directory",
+    "renderBackend": "vue",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

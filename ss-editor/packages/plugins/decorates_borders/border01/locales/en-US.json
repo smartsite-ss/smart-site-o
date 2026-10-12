@@ -1,0 +1,14 @@
+{
+  "border01": {
+    "label": "Border-01",
+    "description": "Border-01 decorative component",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "dur": "Animation Cycle (s)",
+      "showAnimation": "Enable Animation"
+    }
+  }
+}

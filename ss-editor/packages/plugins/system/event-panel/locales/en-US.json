@@ -1,0 +1,61 @@
+{
+  "eventPanel": {
+    "label": "Event Panel",
+    "description": "System event log panel (filter by project/type/status)",
+    "loading": "Loading...",
+    "empty": "No events",
+    "loadFailed": "Load failed",
+    "systemLevel": "System",
+    "config": {
+      "project": "Project",
+      "allProjects": "All Projects",
+      "eventType": "Event Type",
+      "allEventTypes": "All Types",
+      "status": "Status",
+      "allStatus": "All Status"
+    },
+    "columns": {
+      "time": "Time",
+      "eventType": "Event Type",
+      "project": "Project",
+      "operator": "Operator",
+      "status": "Status",
+      "successRatio": "Success Ratio",
+      "duration": "Duration"
+    },
+    "groups": {
+      "device": "Device",
+      "project": "Project",
+      "alarm": "Alarm",
+      "config": "Config & Timer",
+      "plugin": "Plugin"
+    },
+    "status": {
+      "emitted": "Emitted",
+      "processing": "Processing",
+      "processed": "Processed",
+      "partial": "Partial",
+      "failed": "Failed",
+      "no_subscribers": "No Subscribers"
+    },
+    "properties": {
+      "pageSize": "Page Size",
+      "refreshInterval": "Refresh Interval (s)",
+      "showHeader": "Show Header",
+      "showTime": "Time Column",
+      "showEventType": "Event Type Column",
+      "showProject": "Project Column",
+      "showOperator": "Operator Column",
+      "showStatus": "Status Column",
+      "showSuccessRatio": "Success Ratio Column",
+      "showDuration": "Duration Column",
+      "fontSize": "Font Size",
+      "rowHeight": "Row Height",
+      "headerBackgroundColor": "Header Background",
+      "rowBackgroundColor": "Row Background",
+      "alternatingRowColor": "Alternating Row",
+      "textColor": "Text Color",
+      "backgroundColor": "Background"
+    }
+  }
+}

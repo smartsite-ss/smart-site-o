@@ -1,0 +1,37 @@
+<template>
+  <svg
+    viewBox="0 0 24 24"
+    width="32"
+    height="32"
+  >
+    <rect
+      x="5"
+      y="3"
+      width="14"
+      height="18"
+      rx="2"
+      fill="#2C3E50"
+      stroke="#34495E"
+      stroke-width="1"
+    />
+    <rect
+      x="5"
+      y="8"
+      width="14"
+      height="13"
+      rx="2"
+      fill="#3498DB"
+    />
+    <rect
+      x="5"
+      y="8"
+      width="4"
+      height="13"
+      fill="rgba(255,255,255,0.15)"
+    />
+    <path
+      d="M5 8 Q12 6 19 8"
+      fill="rgba(255,255,255,0.25)"
+    />
+  </svg>
+</template>

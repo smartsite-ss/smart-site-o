@@ -1,0 +1,25 @@
+{
+  "name": "@scada-editor/plugin-electric-fuse",
+  "version": "1.0.0",
+  "main": "./dist/index.mjs",
+  "pluginMeta": {
+    "type": "fuse",
+    "category": "electric",
+    "label": "fuse.label",
+    "labelEn": "fuse",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "peerDependencies": {
+    "@scada-editor/plugin-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

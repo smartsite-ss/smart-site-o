@@ -1,0 +1,19 @@
+{
+  "number": {
+    "label": "Number",
+    "properties": {
+      "dataset": "Target Value",
+      "from": "Start Value",
+      "dur": "Animation Duration (s)",
+      "precision": "Decimal Places",
+      "showSeparator": "Thousands Separator",
+      "numberSize": "Font Size",
+      "color1": "Number Color",
+      "prefixText": "Prefix",
+      "color2": "Prefix Color",
+      "suffixText": "Suffix",
+      "color3": "Suffix Color"
+    },
+    "description": "Number graphic element"
+  }
+}

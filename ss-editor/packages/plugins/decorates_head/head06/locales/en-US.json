@@ -1,0 +1,13 @@
+{
+  "head06": {
+    "label": "Head Decoration-06",
+    "properties": {
+      "color1": "Fill Color",
+      "color2": "Border Color",
+      "dataset": "Text",
+      "textColor": "Text Color",
+      "textSize": "Font Size"
+    },
+    "description": "Head06 graphic element"
+  }
+}

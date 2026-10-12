@@ -1,0 +1,47 @@
+{
+  "shape": {
+    "label": "形状",
+    "panelTitle": "形状属性",
+    "properties": {
+      "shapeType": "形状类型",
+      "fillColor": "填充颜色",
+      "fillOpacity": "填充不透明度",
+      "borderColor": "边框颜色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "shapeType": {
+        "rectangle": "矩形",
+        "roundedRectangle": "圆角矩形",
+        "circle": "圆形",
+        "ellipse": "椭圆",
+        "triangle": "三角形",
+        "diamond": "菱形",
+        "polygon": "多边形",
+        "arrowUp": "上箭头",
+        "arrowDown": "下箭头",
+        "arrowLeft": "左箭头",
+        "arrowRight": "右箭头",
+        "line": "直线"
+      },
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式",
+      "shadow": "阴影"
+    },
+    "hints": {},
+    "description": "形状图元"
+  }
+}

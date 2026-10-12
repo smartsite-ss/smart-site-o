@@ -1,0 +1,32 @@
+{
+  "conveyerbelt": {
+    "label": "Conveyor Belt",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "color3": "Color 3",
+      "flowColor": "Flow Color",
+      "pipeColor": "Pipe Color",
+      "backgroundColor": "Background Color",
+      "bgWidth": "Background Width",
+      "boardWidth": "Border Width",
+      "roate": "Rotation Angle",
+      "cls": "Animation Direction",
+      "dur": "Animation Cycle (s)",
+      "dataset": "Data Value",
+      "forwardValue": "Forward Value",
+      "backwardValue": "Backward Value",
+      "stopValue": "Stop Value",
+      "defaultCls": "Default Direction",
+      "decimalPlaces": "Decimal Places"
+    },
+    "options": {
+      "cls": {
+        "left": "Forward",
+        "right": "Reverse",
+        "stop": "Stop"
+      }
+    },
+    "description": "Conveyerbelt graphic element"
+  }
+}

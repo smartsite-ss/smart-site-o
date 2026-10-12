@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-98ad5f09-f2d",
+  "name": "产线设备虚拟模板",
+  "description": "产线虚拟设备模板（状态/产量/节拍/温度/功率/运行时间）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "737532a5-77c3-44ac-8f70-1719e207fba7",
+  "tags": [],
+  "industry": "智慧工厂",
+  "category": "产线设备",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "运行状态",
+      "address": "V_STATUS",
+      "dataType": "bool",
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "0b56c3c8-3cc3-4800-bada-63610bc4688f"
+    },
+    {
+      "name": "累计产量",
+      "address": "V_COUNT",
+      "dataType": "int32",
+      "unit": "件",
+      "minValue": 0,
+      "maxValue": 5000,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "a4e7f60d-5401-48fc-96d7-0c7bd74a2c14"
+    },
+    {
+      "name": "节拍时间",
+      "address": "V_CYCLE",
+      "dataType": "float32",
+      "unit": "s",
+      "minValue": 18,
+      "maxValue": 32,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "b4fcfb86-c5f5-4f80-ad1b-df6c8fc8435b"
+    },
+    {
+      "name": "主轴温度",
+      "address": "V_TEMP",
+      "dataType": "float32",
+      "unit": "℃",
+      "minValue": 55,
+      "maxValue": 85,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "982d9d1e-347b-4fb4-8203-ca91b0f14761"
+    },
+    {
+      "name": "功率",
+      "address": "V_POWER",
+      "dataType": "float32",
+      "unit": "kW",
+      "minValue": 60,
+      "maxValue": 130,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "f86fe185-a24e-4687-82da-add327f2d241"
+    },
+    {
+      "name": "运行时间",
+      "address": "V_RUNTIME",
+      "dataType": "int32",
+      "unit": "s",
+      "minValue": 0,
+      "maxValue": 86400,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "f34459a4-764a-46b5-af5d-974e738d27c6"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-03T13:42:48.324Z",
+    "updatedAt": "2026-09-03T13:42:48.324Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

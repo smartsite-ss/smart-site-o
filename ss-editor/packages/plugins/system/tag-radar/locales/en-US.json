@@ -1,0 +1,51 @@
+{
+  "tagRadar": {
+    "label": "Variable Radar Chart",
+    "description": "Bind multiple tag variables and display multi-dimensional health as a radar chart",
+    "config": {
+      "bindVariables": "Bind Variables",
+      "addVariable": "Add Variable",
+      "removeVariable": "Remove",
+      "unbound": "No variables bound",
+      "loadError": "Load Failed"
+    },
+    "properties": {
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "titleFontWeight": "Title Font Weight",
+      "indicatorMax": "Indicator Max",
+      "gridColor": "Grid Color",
+      "axisColor": "Axis Color",
+      "showLegend": "Show Legend",
+      "legendPosition": "Legend Position",
+      "showTooltip": "Show Tooltip",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "legendPosition": {
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "button": {
+    "label": "Button",
+    "panelTitle": "Button Properties",
+    "properties": {
+      "text": "Text",
+      "backgroundColor": "Background Color",
+      "fontColor": "Font Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "textAlign": "Text Align",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur",
+      "targetType": "Click Action",
+      "targetPage": "Target Page",
+      "targetUrl": "Target URL"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      },
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "textAlign": {
+        "left": "Left",
+        "center": "Center",
+        "right": "Right"
+      },
+      "targetType": {
+        "none": "None",
+        "page": "Open Page",
+        "url": "Open URL"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "text": "Text",
+      "shadow": "Shadow",
+      "action": "Action"
+    },
+    "hints": {},
+    "description": "Button graphic element"
+  }
+}

@@ -1,0 +1,986 @@
+{
+  "schemaVersion": "2.0",
+  "lastUpdated": "2026-09-20T11:21:04.403Z",
+  "totalTemplates": 33,
+  "totalIndustries": 13,
+  "totalCategories": 32,
+  "description": "Smart SCADA 设备模板库树形索引 - 按行业/设备类型双级目录组织",
+  "rootPath": "F:\\work\\smartdata\\202603_trace\\trunk\\code\\ss-v7\\ss-run\\ss\\data\\templates\\zh-CN",
+  "industries": [
+    {
+      "type": "industry",
+      "name": "工业自动化",
+      "path": "工业自动化",
+      "templateCount": 7,
+      "categories": [
+        {
+          "type": "category",
+          "name": "传感器",
+          "path": "工业自动化/传感器",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "工业机器人",
+          "path": "工业自动化/工业机器人",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "数据网关",
+          "path": "工业自动化/数据网关",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "DCS分散控制系统",
+          "path": "工业自动化/DCS分散控制系统",
+          "templateCount": 3,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-dcs-ecs700",
+              "name": "中控 ECS-700 DCS 采集模板",
+              "fileName": "supcon-ecs700.json",
+              "relativePath": "工业自动化/DCS分散控制系统/supcon-ecs700.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "SUPCON_ECS700",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-dcs-ecs700",
+              "name": "中控 ECS-700 DCS 采集模板",
+              "fileName": "tpl-dcs-ecs700.json",
+              "relativePath": "工业自动化/DCS分散控制系统/tpl-dcs-ecs700.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-29T23:47:12.729Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-658f5b0d-b8a",
+              "name": "中控 ECS-700 DCS 采集模板 (v1.1.0)",
+              "fileName": "tpl-658f5b0d-b8a.json",
+              "relativePath": "工业自动化/DCS分散控制系统/tpl-658f5b0d-b8a.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-07-28T09:32:48.265Z",
+              "updatedAt": "2026-07-28T09:32:48.297Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "HMI人机界面",
+          "path": "工业自动化/HMI人机界面",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "PLC控制器",
+          "path": "工业自动化/PLC控制器",
+          "templateCount": 2,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-s7-1200-standard",
+              "name": "S7-1200 PLC 通用采集模板",
+              "fileName": "siemens-s7-1200.json",
+              "relativePath": "工业自动化/PLC控制器/siemens-s7-1200.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "SIEMENS_S7_1200",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 10,
+              "tags": [
+                "S7-1200",
+                "PLC",
+                "工业自动化"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-s7-1200-standard",
+              "name": "S7-1200 PLC 通用采集模板",
+              "fileName": "tpl-s7-1200-standard.json",
+              "relativePath": "工业自动化/PLC控制器/tpl-s7-1200-standard.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 10,
+              "tags": [
+                "S7-1200",
+                "PLC",
+                "工业自动化"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-28T09:23:41.519Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "RTU远程终端",
+          "path": "工业自动化/RTU远程终端",
+          "templateCount": 2,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-generic-rtu-modbus",
+              "name": "通用 RTU 远程终端采集模板",
+              "fileName": "generic-rtu-modbus.json",
+              "relativePath": "工业自动化/RTU远程终端/generic-rtu-modbus.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "GENERIC_RTU_MODBUS",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "RTU",
+                "远程终端",
+                "Modbus",
+                "数据采集",
+                "SCADA"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-generic-rtu-modbus",
+              "name": "通用 RTU 远程终端采集模板",
+              "fileName": "tpl-generic-rtu-modbus.json",
+              "relativePath": "工业自动化/RTU远程终端/tpl-generic-rtu-modbus.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "RTU",
+                "远程终端",
+                "Modbus",
+                "数据采集",
+                "SCADA"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-28T06:29:03.582Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "环境监测",
+      "path": "环境监测",
+      "templateCount": 2,
+      "categories": [
+        {
+          "type": "category",
+          "name": "大气监测",
+          "path": "环境监测/大气监测",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "环境传感器",
+          "path": "环境监测/环境传感器",
+          "templateCount": 2,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-th-sensor-modbus",
+              "name": "Modbus 温湿度传感器采集模板",
+              "fileName": "tpl-th-sensor-modbus.json",
+              "relativePath": "环境监测/环境传感器/tpl-th-sensor-modbus.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "温湿度",
+                "传感器",
+                "环境监测",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-29T23:46:07.553Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-th-sensor-modbus",
+              "name": "Modbus 温湿度传感器采集模板",
+              "fileName": "温湿度传感器.json",
+              "relativePath": "环境监测/环境传感器/温湿度传感器.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "TH_SENSOR_MODBUS",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "温湿度",
+                "传感器",
+                "环境监测",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "交通运输",
+      "path": "交通运输",
+      "templateCount": 0,
+      "categories": [
+        {
+          "type": "category",
+          "name": "车辆监控",
+          "path": "交通运输/车辆监控",
+          "templateCount": 0,
+          "templates": []
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "能源电力",
+      "path": "能源电力",
+      "templateCount": 2,
+      "categories": [
+        {
+          "type": "category",
+          "name": "储能系统",
+          "path": "能源电力/储能系统",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "电能计量",
+          "path": "能源电力/电能计量",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-three-phase-meter",
+              "name": "三相多功能电表采集模板",
+              "fileName": "three-phase-meter.json",
+              "relativePath": "能源电力/电能计量/three-phase-meter.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "THREE_PHASE_METER",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 12,
+              "tags": [
+                "电表",
+                "三相",
+                "电能",
+                "能源电力",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "风力发电",
+          "path": "能源电力/风力发电",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "光伏逆变器",
+          "path": "能源电力/光伏逆变器",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-sungrow-inverter",
+              "name": "阳光电源光伏逆变器采集模板",
+              "fileName": "sungrow-inverter.json",
+              "relativePath": "能源电力/光伏逆变器/sungrow-inverter.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "SUNGROW_INVERTER",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 14,
+              "tags": [
+                "光伏",
+                "逆变器",
+                "阳光电源",
+                "OPC UA",
+                "新能源"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "石油化工",
+      "path": "石油化工",
+      "templateCount": 0,
+      "categories": [
+        {
+          "type": "category",
+          "name": "泵站控制",
+          "path": "石油化工/泵站控制",
+          "templateCount": 0,
+          "templates": []
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "物联网与边缘计算",
+      "path": "物联网与边缘计算",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "边缘控制器",
+          "path": "物联网与边缘计算/边缘控制器",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "工业网关",
+          "path": "物联网与边缘计算/工业网关",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-iot-edge-gateway",
+              "name": "工业 IoT 边缘数据网关采集模板",
+              "fileName": "iot-edge-gateway.json",
+              "relativePath": "物联网与边缘计算/工业网关/iot-edge-gateway.json",
+              "deviceType": "mqtt",
+              "deviceModel": "IOT_EDGE_GATEWAY",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "IoT",
+                "边缘计算",
+                "网关",
+                "MQTT",
+                "Modbus",
+                "OPC UA"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "无线传感器网络",
+          "path": "物联网与边缘计算/无线传感器网络",
+          "templateCount": 0,
+          "templates": []
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "协议类型",
+      "path": "协议类型",
+      "templateCount": 0,
+      "categories": [
+        {
+          "type": "category",
+          "name": "ethernet_ip",
+          "path": "协议类型/ethernet_ip",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "modbus_tcp",
+          "path": "协议类型/modbus_tcp",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "opc_ua",
+          "path": "协议类型/opc_ua",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "siemens_s7",
+          "path": "协议类型/siemens_s7",
+          "templateCount": 0,
+          "templates": []
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "指标计算",
+      "path": "指标计算",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "计算变量",
+          "path": "指标计算/计算变量",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-calc-smart-site",
+              "name": "Smart Site 站点指标计算模板（内置）",
+              "fileName": "tpl-calc-smart-site.json",
+              "relativePath": "指标计算/计算变量/tpl-calc-smart-site.json",
+              "deviceType": "calc",
+              "deviceModel": "calc",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 10,
+              "tags": [
+                "内置",
+                "计算变量",
+                "指标计算",
+                "Smart Site",
+                "CPU",
+                "内存",
+                "磁盘",
+                "系统时间"
+              ],
+              "createdAt": "2026-09-20T00:00:00.000Z",
+              "updatedAt": "2026-09-20T11:21:04.381Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "智慧工厂",
+      "path": "智慧工厂",
+      "templateCount": 3,
+      "categories": [
+        {
+          "type": "category",
+          "name": "产线设备",
+          "path": "智慧工厂/产线设备",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-98ad5f09-f2d",
+              "name": "产线设备虚拟模板",
+              "fileName": "tpl-98ad5f09-f2d.json",
+              "relativePath": "智慧工厂/产线设备/tpl-98ad5f09-f2d.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 6,
+              "tags": [],
+              "createdAt": "2026-09-03T13:42:48.324Z",
+              "updatedAt": "2026-09-03T13:42:48.324Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "对接",
+          "path": "智慧工厂/对接",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-70a21ac0-9e9",
+              "name": "MES对接虚拟模板",
+              "fileName": "tpl-70a21ac0-9e9.json",
+              "relativePath": "智慧工厂/对接/tpl-70a21ac0-9e9.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 2,
+              "tags": [],
+              "createdAt": "2026-09-03T13:42:48.417Z",
+              "updatedAt": "2026-09-03T13:42:48.417Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "能源",
+          "path": "智慧工厂/能源",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-b4fc5766-ef1",
+              "name": "能源计量虚拟模板",
+              "fileName": "tpl-b4fc5766-ef1.json",
+              "relativePath": "智慧工厂/能源/tpl-b4fc5766-ef1.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 4,
+              "tags": [],
+              "createdAt": "2026-09-03T13:42:48.380Z",
+              "updatedAt": "2026-09-03T13:42:48.380Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "智慧楼宇",
+      "path": "智慧楼宇",
+      "templateCount": 0,
+      "categories": [
+        {
+          "type": "category",
+          "name": "楼宇自控",
+          "path": "智慧楼宇/楼宇自控",
+          "templateCount": 0,
+          "templates": []
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "智慧水务",
+      "path": "智慧水务",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "泵站管理",
+          "path": "智慧水务/泵站管理",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "供水监测",
+          "path": "智慧水务/供水监测",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-water-supply-pipeline",
+              "name": "供水管网监测采集模板",
+              "fileName": "water-supply-pipeline.json",
+              "relativePath": "智慧水务/供水监测/water-supply-pipeline.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "WATER_SUPPLY_PIPELINE",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 7,
+              "tags": [
+                "供水",
+                "管网",
+                "SCADA",
+                "水务",
+                "Modbus",
+                "流量"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-06-09T00:00:00.000Z"
+            }
+          ]
+        },
+        {
+          "type": "category",
+          "name": "管网监测",
+          "path": "智慧水务/管网监测",
+          "templateCount": 0,
+          "templates": []
+        },
+        {
+          "type": "category",
+          "name": "污水处理",
+          "path": "智慧水务/污水处理",
+          "templateCount": 0,
+          "templates": []
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "自定义模板",
+      "path": "自定义模板",
+      "templateCount": 16,
+      "categories": [
+        {
+          "type": "category",
+          "name": "通用",
+          "path": "自定义模板/通用",
+          "templateCount": 16,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-c55111a3-bb0",
+              "name": "风烟风机虚拟模板",
+              "fileName": "tpl-c55111a3-bb0.json",
+              "relativePath": "自定义模板/通用/tpl-c55111a3-bb0.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 6,
+              "tags": [],
+              "createdAt": "2026-09-10T15:43:49.019Z",
+              "updatedAt": "2026-09-10T15:43:49.019Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-f0d7b122-281",
+              "name": "风烟辅机虚拟模板",
+              "fileName": "tpl-f0d7b122-281.json",
+              "relativePath": "自定义模板/通用/tpl-f0d7b122-281.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 4,
+              "tags": [],
+              "createdAt": "2026-09-10T15:43:53.186Z",
+              "updatedAt": "2026-09-10T15:43:53.186Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-76ffb9c5-6ff",
+              "name": "能源管理电表模板",
+              "fileName": "tpl-76ffb9c5-6ff.json",
+              "relativePath": "自定义模板/通用/tpl-76ffb9c5-6ff.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 4,
+              "tags": [],
+              "createdAt": "2026-09-04T04:11:47.612Z",
+              "updatedAt": "2026-09-09T08:16:42.683Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-4d2b0ce2-efd",
+              "name": "能源管理气表模板",
+              "fileName": "tpl-4d2b0ce2-efd.json",
+              "relativePath": "自定义模板/通用/tpl-4d2b0ce2-efd.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 2,
+              "tags": [],
+              "createdAt": "2026-09-04T04:11:47.738Z",
+              "updatedAt": "2026-09-09T07:56:47.889Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-4562d77f-3fb",
+              "name": "能源管理水表模板",
+              "fileName": "tpl-4562d77f-3fb.json",
+              "relativePath": "自定义模板/通用/tpl-4562d77f-3fb.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 2,
+              "tags": [],
+              "createdAt": "2026-09-04T04:11:47.681Z",
+              "updatedAt": "2026-09-04T04:11:47.681Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-dfbfa0f3-190",
+              "name": "能源管理网关模板",
+              "fileName": "tpl-dfbfa0f3-190.json",
+              "relativePath": "自定义模板/通用/tpl-dfbfa0f3-190.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 2,
+              "tags": [],
+              "createdAt": "2026-09-04T04:11:47.791Z",
+              "updatedAt": "2026-09-16T06:05:15.927Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-c2208c2c-a46",
+              "name": "水质分析模板",
+              "fileName": "tpl-c2208c2c-a46.json",
+              "relativePath": "自定义模板/通用/tpl-c2208c2c-a46.json",
+              "deviceType": "undefined",
+              "deviceModel": "undefined",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 4,
+              "tags": [],
+              "createdAt": "2026-09-06T15:06:05.762Z",
+              "updatedAt": "2026-09-06T15:06:05.762Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-59601d88-d47",
+              "name": "污水池体模板",
+              "fileName": "tpl-59601d88-d47.json",
+              "relativePath": "自定义模板/通用/tpl-59601d88-d47.json",
+              "deviceType": "undefined",
+              "deviceModel": "undefined",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 5,
+              "tags": [],
+              "createdAt": "2026-09-06T15:06:05.478Z",
+              "updatedAt": "2026-09-06T15:06:05.478Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-4631108c-be4",
+              "name": "污水机组模板",
+              "fileName": "tpl-4631108c-be4.json",
+              "relativePath": "自定义模板/通用/tpl-4631108c-be4.json",
+              "deviceType": "undefined",
+              "deviceModel": "undefined",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 3,
+              "tags": [],
+              "createdAt": "2026-09-06T15:06:05.631Z",
+              "updatedAt": "2026-09-06T15:06:05.631Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-0528fcf1-1d8",
+              "name": "中控 ECS-700 DCS 采集模板 (v1.1.0)",
+              "fileName": "tpl-0528fcf1-1d8.json",
+              "relativePath": "自定义模板/通用/tpl-0528fcf1-1d8.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-07-28T09:24:05.421Z",
+              "updatedAt": "2026-07-28T09:24:05.421Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-28ec2dc2-3d2",
+              "name": "中控 ECS-700 DCS 采集模板 (v1.1.0)",
+              "fileName": "tpl-28ec2dc2-3d2.json",
+              "relativePath": "自定义模板/通用/tpl-28ec2dc2-3d2.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-07-28T07:05:33.345Z",
+              "updatedAt": "2026-07-28T07:05:33.346Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-658f5b0d-b8a",
+              "name": "中控 ECS-700 DCS 采集模板 (v2.1.0)",
+              "fileName": "tpl-658f5b0d-b8a.json",
+              "relativePath": "自定义模板/通用/tpl-658f5b0d-b8a.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 6,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-07-28T09:32:48.265Z",
+              "updatedAt": "2026-07-29T23:46:21.683Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-3e2ebf3e-1c7",
+              "name": "HVAC末端环境模板",
+              "fileName": "tpl-3e2ebf3e-1c7.json",
+              "relativePath": "自定义模板/通用/tpl-3e2ebf3e-1c7.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 6,
+              "tags": [],
+              "createdAt": "2026-09-06T10:40:53.538Z",
+              "updatedAt": "2026-09-06T10:40:53.538Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-66992be7-0ef",
+              "name": "HVAC水泵冷却塔模板",
+              "fileName": "tpl-66992be7-0ef.json",
+              "relativePath": "自定义模板/通用/tpl-66992be7-0ef.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 4,
+              "tags": [],
+              "createdAt": "2026-09-06T10:40:53.444Z",
+              "updatedAt": "2026-09-06T10:40:53.444Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-a20ee558-c4f",
+              "name": "HVAC中央空调机组模板",
+              "fileName": "tpl-a20ee558-c4f.json",
+              "relativePath": "自定义模板/通用/tpl-a20ee558-c4f.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 13,
+              "tags": [],
+              "createdAt": "2026-09-06T10:40:53.333Z",
+              "updatedAt": "2026-09-06T10:40:53.333Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-dc812fe4-921",
+              "name": "ZZ计算变量验证模板",
+              "fileName": "tpl-dc812fe4-921.json",
+              "relativePath": "自定义模板/通用/tpl-dc812fe4-921.json",
+              "deviceType": "virtual",
+              "deviceModel": "virtual",
+              "version": "1.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 3,
+              "tags": [],
+              "createdAt": "2026-09-16T10:01:45.426Z",
+              "updatedAt": "2026-09-16T10:01:52.359Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "PLC控制器",
+      "path": "PLC控制器",
+      "templateCount": 0,
+      "categories": []
+    }
+  ]
+}

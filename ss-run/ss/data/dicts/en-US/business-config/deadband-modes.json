@@ -1,0 +1,14 @@
+﻿{
+  "dictId": "deadbandMode",
+  "dictName": "Deadband Modes",
+  "category": "business-config",
+  "description": "Deadband filter modes for tag data reporting",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    { "value": "none", "label": "None", "sortOrder": 1, "description": "Report on every data change" },
+    { "value": "absolute", "label": "Absolute", "sortOrder": 2, "description": "Report when absolute change exceeds threshold" },
+    { "value": "relative", "label": "Relative", "sortOrder": 3, "description": "Report when percentage change exceeds threshold" },
+    { "value": "time", "label": "Time", "sortOrder": 4, "description": "Report at fixed intervals since last report" }
+  ]
+}

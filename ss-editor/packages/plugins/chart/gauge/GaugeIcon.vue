@@ -1,0 +1,48 @@
+<template>
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="10"
+      stroke="#DEE2E6"
+      stroke-width="1.5"
+      fill="#F8F9FA"
+    />
+    <path
+      d="M 5.5 17.5 A 9 9 0 1 1 18.5 17.5"
+      stroke="#4dabf7"
+      stroke-width="2"
+      fill="none"
+      stroke-linecap="round"
+    />
+    <line
+      x1="12"
+      y1="12"
+      x2="16.5"
+      y2="6.5"
+      stroke="#E74C3C"
+      stroke-width="1.5"
+      stroke-linecap="round"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="1.5"
+      fill="#6C757D"
+    />
+    <text
+      x="12"
+      y="19"
+      text-anchor="middle"
+      fill="#333"
+      font-size="3.5"
+      font-weight="bold"
+    >50</text>
+  </svg>
+</template>

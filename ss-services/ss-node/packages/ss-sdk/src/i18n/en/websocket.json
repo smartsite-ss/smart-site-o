@@ -1,0 +1,45 @@
+{
+  "websocket": {
+    "connected": "WebSocket connected successfully",
+    "disconnected": "WebSocket disconnected",
+    "pong": "Pong - Heartbeat response",
+    "event": {
+      "data_update": "Data update event (Tag: {{tagId}})",
+      "alarm_triggered": "Alarm triggered event",
+      "alarm_acknowledged": "Alarm acknowledged event",
+      "alarm_cleared": "Alarm cleared event",
+      "device_status_change": "Device status change event"
+    },
+    "error": {
+      "authentication_failed": "WebSocket authentication failed",
+      "rate_limit_exceeded": "Message rate limit exceeded",
+      "invalid_message_format": "Invalid message format"
+    },
+    "room": {
+      "joined": "User {{username}} joined room {{room}}",
+      "left": "User {{username}} left room {{room}}",
+      "permission_denied": "No permission to join project room {{projectId}}",
+      "not_authenticated": "Unauthenticated users cannot join project rooms"
+    },
+    "connection": {
+      "limit_exceeded": "Connection limit reached ({{current}}/{{max}})",
+      "user_limit_exceeded": "User {{username}} connection limit reached ({{current}}/{{max}})",
+      "ip_limit_exceeded": "IP {{ip}} connection limit reached ({{current}}/{{max}})",
+      "idle_timeout": "Connection idle timeout ({{minutes}}min no business message)",
+      "force_disconnected": "Force disconnected by admin",
+      "global_limit_exceeded": "Global connection limit reached ({{current}}/{{max}})"
+    },
+    "monitor": {
+      "online_count": "Online connection count",
+      "message_rate": "Message rate",
+      "connection_duration": "Connection duration",
+      "abnormal_detected": "Abnormal connection detected"
+    },
+    "offline": {
+      "message_cached": "Offline message cached",
+      "message_replayed": "Offline messages replayed ({{count}} messages)",
+      "message_expired": "Message expired and cleaned up",
+      "message_confirmed": "Message confirmed"
+    }
+  }
+}

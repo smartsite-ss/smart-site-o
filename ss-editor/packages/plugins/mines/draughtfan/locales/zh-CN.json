@@ -1,0 +1,33 @@
+{
+  "draughtfan": {
+    "label": "风机",
+    "properties": {
+      "dataset": "数据集",
+      "dur": "动画周期(秒)",
+      "colors": "颜色组",
+      "flowColor": "流动颜色",
+      "pipeColor": "管道颜色",
+      "bgWidth": "背景宽度",
+      "boardWidth": "边框宽度",
+      "roate": "旋转角度",
+      "cls": "旋转方向",
+      "clsLeft": "顺时针",
+      "clsRight": "逆时针",
+      "clsStop": "停止",
+      "backgroundColor": "背景色",
+      "forwardValue": "正转对应值",
+      "backwardValue": "反转对应值",
+      "stopValue": "停止对应值",
+      "defaultCls": "默认动画方向",
+      "decimalPlaces": "小数位数"
+    },
+    "options": {
+      "cls": {
+        "left": "正转",
+        "right": "反转",
+        "stop": "停止"
+      }
+    },
+    "description": "矿产风机 - 抽风机，支持旋转动画"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sys-status-lamp",
+  "name": "状态指示灯",
+  "description": "带标签的状态指示灯，支持 {{label}} 与 {{color}} 变量",
+  "category": "common",
+  "author": "system",
+  "source": "builtin",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 2,
+  "hasVariables": true,
+  "variableCount": 2,
+  "tags": [
+    "指示灯",
+    "状态"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "@ss-node/ss-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA System Management Library - Health, Config, Backup, Monitor, Logs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && npm run copy:templates && npm run copy:restarter",
+    "copy:templates": "powershell -Command \"if (Test-Path 'data\\templates') { Copy-Item -Path 'data\\templates\\*' -Destination 'dist\\data\\templates\\' -Recurse -Force; Write-Host 'Templates copied to dist/data/templates' } else { Write-Host 'data/templates not found, skipping copy' }\"",
+    "copy:restarter": "powershell -Command \"if (!(Test-Path 'dist\\restart')) { New-Item -ItemType Directory -Path 'dist\\restart' -Force | Out-Null }; Copy-Item -Path 'src\\restart\\restarter.js' -Destination 'dist\\restart\\restarter.js' -Force; Write-Host 'Restarter script copied to dist/restart/restarter.js'\"",
+    "typecheck": "tsc --noEmit",
+    "test": "jest --passWithNoTests",
+    "dev": "tsc --watch",
+    "clean": "if exist dist rmdir /s /q dist"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/config": "^3.1.1",
+    "@nestjs/event-emitter": "^3.0.0",
+    "@nestjs/schedule": "^3.0.0",
+    "@nestjs/swagger": "^7.2.0",
+    "@nestjs/throttler": "^6.0.0",
+    "@nestjs/websockets": "^10.3.0",
+    "@nestjs/typeorm": "^10.0.0",
+    "@ss-node/ss-core": "workspace:*",
+    "@ss-node/ss-datatag": "workspace:*",
+    "@ss-node/ss-device": "workspace:*",
+    "@ss-node/ss-i18n": "workspace:*",
+    "@ss-node/ss-sdk": "workspace:*",
+    "bcryptjs": "^2.4.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "cron": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "reflect-metadata": "^0.1.14",
+    "rxjs": "^7.8.1",
+    "socket.io": "^4.7.2",
+    "sqlite3": "^6.0.1",
+    "typeorm": "^0.3.20",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/sqlite3": "^5.1.0",
+    "typescript": "^5.2.2"
+  }
+}

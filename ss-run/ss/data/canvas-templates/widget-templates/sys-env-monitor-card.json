@@ -1,0 +1,103 @@
+{
+  "id": "sys-env-monitor-card",
+  "name": "温湿度环境卡",
+  "description": "温度/湿度读数卡，支持 {{title}}/{{temp}}/{{humidity}} 变量",
+  "category": "device",
+  "author": "system",
+  "source": "builtin",
+  "schemaVersion": 2,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "graphics": [
+    {
+      "type": "group",
+      "id": "g",
+      "name": "温湿度环境卡",
+      "x": 0,
+      "y": 0,
+      "width": 260,
+      "height": 130,
+      "children": [
+        {
+          "type": "rect",
+          "id": "bg",
+          "x": 0,
+          "y": 0,
+          "width": 260,
+          "height": 130,
+          "props": {
+            "fill": "#0f2542",
+            "stroke": "#1e3a5f",
+            "strokeWidth": 1,
+            "cornerRadius": 8
+          }
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "x": 16,
+          "y": 14,
+          "width": 220,
+          "height": 22,
+          "props": {
+            "text": "{{title}}",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "fill": "#e8eef7"
+          }
+        },
+        {
+          "type": "text",
+          "id": "temp",
+          "x": 16,
+          "y": 52,
+          "width": 220,
+          "height": 28,
+          "props": {
+            "text": "温度  {{temp}} ℃",
+            "fontSize": 20,
+            "fill": "#f59e0b"
+          }
+        },
+        {
+          "type": "text",
+          "id": "humidity",
+          "x": 16,
+          "y": 88,
+          "width": 220,
+          "height": 28,
+          "props": {
+            "text": "湿度  {{humidity}} %",
+            "fontSize": 20,
+            "fill": "#38bdf8"
+          }
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "key": "title",
+      "label": "区域名称",
+      "type": "text",
+      "defaultValue": "一号车间"
+    },
+    {
+      "key": "temp",
+      "label": "温度",
+      "type": "text",
+      "defaultValue": "26.5"
+    },
+    {
+      "key": "humidity",
+      "label": "湿度",
+      "type": "text",
+      "defaultValue": "58"
+    }
+  ],
+  "tags": [
+    "温湿度",
+    "环境"
+  ],
+  "thumbnail": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22240%22%20height%3D%22140%22%3E%3Crect%20width%3D%22240%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22%230e7490%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22224%22%20height%3D%22124%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.25)%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22120%22%20y%3D%2276%22%20font-family%3D%22Arial%22%20font-size%3D%2216%22%20fill%3D%22rgba(255%2C255%2C255%2C0.92)%22%20text-anchor%3D%22middle%22%3E%E6%B8%A9%E6%B9%BF%E5%BA%A6%E7%8E%AF%E5%A2%83%E5%8D%A1%3C%2Ftext%3E%3C%2Fsvg%3E"
+}

@@ -1,0 +1,78 @@
+{
+  "validation": {
+    "common": {
+      "is_string": "{{property}} must be a string",
+      "is_number": "{{property}} must be a number",
+      "is_boolean": "{{property}} must be a boolean",
+      "is_date": "{{property}} must be a valid date",
+      "min_length": "{{property}} length must be at least {{constraints.0}} characters",
+      "max_length": "{{property}} length must not exceed {{constraints.0}} characters",
+      "is_email": "{{property}} must be a valid email address",
+      "matches": "{{property}} format is invalid"
+    },
+    "user": {
+      "username": {
+        "required": "Username is required",
+        "length": "Username length must be between {{min}}-{{max}} characters",
+        "pattern": "Username can only contain letters, numbers and underscores",
+        "unique": "This username is already taken"
+      },
+      "email": {
+        "required": "Email is required",
+        "is_email": "Invalid email format",
+        "unique": "This email is already registered"
+      },
+      "password": {
+        "required": "Password is required",
+        "weak": "Password is too weak (at least 8 characters with uppercase, lowercase letters and numbers)",
+        "mismatch": "Passwords do not match"
+      }
+    },
+    "project": {
+      "name": {
+        "required": "Project name is required",
+        "length": "Project name must be between {{min}}-{{max}} characters"
+      },
+      "description": {
+        "maxlength": "Project description must not exceed {{max}} characters"
+      }
+    },
+    "device": {
+      "name": {
+        "required": "Device name is required"
+      },
+      "config": {
+        "host_required": "Device IP address is required",
+        "port_range": "Port number must be between 1-65535",
+        "unitId_range": "Unit ID must be between 1-247"
+      }
+    },
+    "tag": {
+      "name": {
+        "required": "Tag name is required",
+        "unique": "Tag name already exists for this device"
+      },
+      "address": {
+        "required": "Register address is required",
+        "format": "Invalid address format (must be a number or Modbus address format)"
+      },
+      "scanRate": {
+        "range": "Scan rate must be between {{min}}-{{max}} ms"
+      }
+    },
+    "alarm": {
+      "rule": {
+        "name": {
+          "required": "Alarm rule name is required"
+        },
+        "threshold": {
+          "required": "Alarm threshold is required",
+          "number": "Threshold must be a valid number"
+        },
+        "debounceTime": {
+          "range": "Debounce time must be between {{min}}-{{max}} ms"
+        }
+      }
+    }
+  }
+}

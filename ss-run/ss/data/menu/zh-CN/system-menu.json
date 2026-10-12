@@ -1,0 +1,118 @@
+{
+  "menuId": "system-menu",
+  "menuName": "系统菜单",
+  "category": "system",
+  "description": "系统主菜单的中文显示名称",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    {
+      "labelKey": "system.nav.overview",
+      "label": "系统概览",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.projects",
+      "label": "项目管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.devices",
+      "label": "设备管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.plugins",
+      "label": "采集管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.alarms",
+      "label": "报警中心",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.scripts",
+      "label": "脚本管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.reports",
+      "label": "数据报表",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.templates",
+      "label": "模板管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.settings",
+      "label": "系统管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.users",
+      "label": "用户管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.roles",
+      "label": "角色管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.positions",
+      "label": "岗位管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.menus",
+      "label": "菜单管理",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.nav.dict",
+      "label": "数据字典",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.settings.title",
+      "label": "系统设置",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.settings.systemInfo",
+      "label": "系统信息",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.routes.deviceDetail",
+      "label": "设备详情",
+      "sortOrder": 0,
+      "description": ""
+    },
+    {
+      "labelKey": "system.routes.pluginDetail",
+      "label": "插件详情",
+      "sortOrder": 0,
+      "description": ""
+    }
+  ]
+}

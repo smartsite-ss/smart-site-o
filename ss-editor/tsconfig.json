@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "baseUrl": ".",
+    "paths": {
+      "@scada-editor/plugin-sdk": ["./packages/plugin-sdk/src/index.ts"],
+      "@scada-editor/core": ["./packages/core/src/index.ts"],
+      "@scada-editor/core/*": ["./packages/core/src/*"],
+      "@scada-editor/editor": ["./packages/editor/src/index.ts"],
+      "@scada-editor/system": ["./packages/system/src/index.ts"],
+      "@scada-editor/shared": ["./packages/shared/src/index.ts"],
+      "@scada-editor/plugins-*": ["./packages/plugins/*/index.ts"]
+    }
+  },
+  "include": ["env.d.ts", "packages/core/**/*.ts", "packages/core/**/*.d.ts", "packages/core/**/*.tsx", "packages/core/**/*.vue", "packages/editor/**/*.ts", "packages/editor/**/*.d.ts", "packages/editor/**/*.tsx", "packages/editor/**/*.vue", "packages/plugin-sdk/**/*.ts", "packages/plugin-sdk/**/*.d.ts", "packages/plugin-sdk/**/*.tsx", "packages/plugin-sdk/**/*.vue", "packages/shared/**/*.ts", "packages/shared/**/*.d.ts", "packages/shared/**/*.tsx", "packages/shared/**/*.vue", "packages/system/**/*.ts", "packages/system/**/*.d.ts", "packages/system/**/*.tsx", "packages/system/**/*.vue", "apps/**/*.ts", "apps/**/*.d.ts", "apps/**/*.tsx", "apps/**/*.vue"],
+  "exclude": ["**/node_modules", "**/dist", "**/__tests__", "**/vitest.config.ts", "packages/plugins/**", "packages/tools/**", "apps/desktop/**", "apps/desktop-tauri/**", "packages/create-plugin/**"]
+}

@@ -1,0 +1,11 @@
+{
+  "transformer2w": {
+    "label": "Two-Winding Transformer",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Transformer2w graphic element"
+  }
+}

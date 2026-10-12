@@ -1,0 +1,12 @@
+{
+  "cablehead": {
+    "label": "Cable Termination",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "options": {},
+    "description": "Cablehead graphic element"
+  }
+}

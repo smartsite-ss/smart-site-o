@@ -1,0 +1,478 @@
+{
+  "id": "tpl-1786347560205-kubjid",
+  "name": "pg3 模板",
+  "category": "custom",
+  "source": "user",
+  "author": "current-user",
+  "version": "1.0.0",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#808080",
+    "layout": "free"
+  },
+  "graphics": [
+    {
+      "id": "55667c73-2b97-4a87-8935-f331a2dc71da",
+      "type": "el-button",
+      "version": "0.1.0",
+      "config": {
+        "id": "55667c73-2b97-4a87-8935-f331a2dc71da",
+        "type": "el-button",
+        "name": "El-button_4",
+        "geometry": {
+          "x": 100,
+          "y": 180,
+          "width": 268,
+          "height": 91,
+          "rotation": 0,
+          "scale": 1
+        },
+        "style": {
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "opacity": 1,
+          "borderStyle": "solid",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "fontColor": "#000000",
+          "fontSize": 14,
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textAlign": "left",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "shadowBlur": 0,
+          "shadowOffsetX": 0,
+          "shadowOffsetY": 0,
+          "shadowSpread": 0,
+          "shadowColor": "rgba(0,0,0,0.2)",
+          "padding": "",
+          "margin": ""
+        },
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": {
+          "text": "页面1",
+          "type": "primary",
+          "size": "default",
+          "disabled": false,
+          "rounded": false,
+          "targetType": "page",
+          "targetPage": "pg1",
+          "targetUrl": ""
+        },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 0,
+        "createdAt": 1786324611619,
+        "updatedAt": 1786330676871,
+        "events": {
+          "eventHandlers": {},
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619
+        },
+        "dataSource": {
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619,
+          "validation": {
+            "required": false,
+            "min": null,
+            "max": null,
+            "pattern": "",
+            "script": "",
+            "message": ""
+          },
+          "enabled": false,
+          "dataSource": "",
+          "dataField": "",
+          "displayField": "",
+          "dataMapping": []
+        },
+        "animation": {
+          "enabled": false,
+          "type": "fade-in",
+          "duration": 0.5,
+          "delay": 0,
+          "easing": "ease",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "id": "dee1ac37-641d-4216-829b-b3e65d3a2f7c",
+      "type": "el-button",
+      "version": "0.1.0",
+      "config": {
+        "id": "dee1ac37-641d-4216-829b-b3e65d3a2f7c",
+        "type": "el-button",
+        "name": "El-button_5",
+        "geometry": {
+          "x": 100,
+          "y": 377,
+          "width": 268,
+          "height": 91,
+          "rotation": 0,
+          "scale": 1
+        },
+        "style": {
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "opacity": 1,
+          "borderStyle": "solid",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "fontColor": "#000000",
+          "fontSize": 14,
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textAlign": "left",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "shadowBlur": 0,
+          "shadowOffsetX": 0,
+          "shadowOffsetY": 0,
+          "shadowSpread": 0,
+          "shadowColor": "rgba(0,0,0,0.2)",
+          "padding": "",
+          "margin": ""
+        },
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": {
+          "text": "页面2",
+          "type": "primary",
+          "size": "default",
+          "disabled": false,
+          "rounded": false,
+          "targetType": "page",
+          "targetPage": "pg2",
+          "targetUrl": ""
+        },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 1,
+        "createdAt": 1786324611619,
+        "updatedAt": 1786330683952,
+        "events": {
+          "eventHandlers": {},
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619
+        },
+        "dataSource": {
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619,
+          "validation": {
+            "required": false,
+            "min": null,
+            "max": null,
+            "pattern": "",
+            "script": "",
+            "message": ""
+          },
+          "enabled": false,
+          "dataSource": "",
+          "dataField": "",
+          "displayField": "",
+          "dataMapping": []
+        },
+        "animation": {
+          "enabled": false,
+          "type": "fade-in",
+          "duration": 0.5,
+          "delay": 0,
+          "easing": "ease",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "id": "d3e79958-c2f1-4ee7-bbf2-c48193c37009",
+      "type": "el-button",
+      "version": "0.1.0",
+      "config": {
+        "id": "d3e79958-c2f1-4ee7-bbf2-c48193c37009",
+        "type": "el-button",
+        "name": "El-button_6",
+        "geometry": {
+          "x": 100,
+          "y": 574,
+          "width": 268,
+          "height": 91,
+          "rotation": 0,
+          "scale": 1
+        },
+        "style": {
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "opacity": 1,
+          "borderStyle": "solid",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "fontColor": "#000000",
+          "fontSize": 14,
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textAlign": "left",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "shadowBlur": 0,
+          "shadowOffsetX": 0,
+          "shadowOffsetY": 0,
+          "shadowSpread": 0,
+          "shadowColor": "rgba(0,0,0,0.2)",
+          "padding": "",
+          "margin": ""
+        },
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": {
+          "text": "页面3",
+          "type": "primary",
+          "size": "default",
+          "disabled": false,
+          "rounded": false,
+          "targetType": "page",
+          "targetPage": "pg3",
+          "targetUrl": ""
+        },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 2,
+        "createdAt": 1786324611619,
+        "updatedAt": 1786330687591,
+        "events": {
+          "eventHandlers": {},
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619
+        },
+        "dataSource": {
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619,
+          "validation": {
+            "required": false,
+            "min": null,
+            "max": null,
+            "pattern": "",
+            "script": "",
+            "message": ""
+          },
+          "enabled": false,
+          "dataSource": "",
+          "dataField": "",
+          "displayField": "",
+          "dataMapping": []
+        },
+        "animation": {
+          "enabled": false,
+          "type": "fade-in",
+          "duration": 0.5,
+          "delay": 0,
+          "easing": "ease",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "id": "6dd07558-c370-4ef9-bdd4-3788aecc0361",
+      "type": "el-button",
+      "version": "0.1.0",
+      "config": {
+        "id": "6dd07558-c370-4ef9-bdd4-3788aecc0361",
+        "type": "el-button",
+        "name": "El-button_7",
+        "geometry": {
+          "x": 100,
+          "y": 771,
+          "width": 268,
+          "height": 91,
+          "rotation": 0,
+          "scale": 1
+        },
+        "style": {
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "opacity": 1,
+          "borderStyle": "solid",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "fontColor": "#000000",
+          "fontSize": 14,
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textAlign": "left",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "shadowBlur": 0,
+          "shadowOffsetX": 0,
+          "shadowOffsetY": 0,
+          "shadowSpread": 0,
+          "shadowColor": "rgba(0,0,0,0.2)",
+          "padding": "",
+          "margin": ""
+        },
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": {
+          "text": "页面4",
+          "type": "primary",
+          "size": "default",
+          "disabled": false,
+          "rounded": false,
+          "targetType": "page",
+          "targetPage": "pg4",
+          "targetUrl": ""
+        },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 3,
+        "createdAt": 1786324611619,
+        "updatedAt": 1786330691664,
+        "events": {
+          "eventHandlers": {},
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619
+        },
+        "dataSource": {
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619,
+          "validation": {
+            "required": false,
+            "min": null,
+            "max": null,
+            "pattern": "",
+            "script": "",
+            "message": ""
+          },
+          "enabled": false,
+          "dataSource": "",
+          "dataField": "",
+          "displayField": "",
+          "dataMapping": []
+        },
+        "animation": {
+          "enabled": false,
+          "type": "fade-in",
+          "duration": 0.5,
+          "delay": 0,
+          "easing": "ease",
+          "properties": {}
+        }
+      }
+    },
+    {
+      "id": "1afaaee1-f58a-461f-929c-7bd09617bbd6",
+      "type": "el-button",
+      "version": "0.1.0",
+      "config": {
+        "id": "1afaaee1-f58a-461f-929c-7bd09617bbd6",
+        "type": "el-button",
+        "name": "El-button_8",
+        "geometry": {
+          "x": 880,
+          "y": 420,
+          "width": 268,
+          "height": 91,
+          "rotation": 0,
+          "scale": 1
+        },
+        "style": {
+          "borderWidth": 0,
+          "borderRadius": 0,
+          "opacity": 1,
+          "borderStyle": "solid",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#000000",
+          "fontColor": "#000000",
+          "fontSize": 14,
+          "fontFamily": "Arial",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+          "textAlign": "left",
+          "letterSpacing": 0,
+          "lineHeight": 1.2,
+          "shadowBlur": 0,
+          "shadowOffsetX": 0,
+          "shadowOffsetY": 0,
+          "shadowSpread": 0,
+          "shadowColor": "rgba(0,0,0,0.2)",
+          "padding": "",
+          "margin": ""
+        },
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": {
+          "text": "页面3",
+          "type": "primary",
+          "size": "default",
+          "disabled": false,
+          "rounded": false,
+          "targetType": "page",
+          "targetPage": "pg1",
+          "targetUrl": ""
+        },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 4,
+        "createdAt": 1786324611619,
+        "updatedAt": 1786333091398,
+        "events": {
+          "eventHandlers": {},
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619
+        },
+        "dataSource": {
+          "type": "",
+          "payload": {},
+          "timestamp": 1786324611619,
+          "validation": {
+            "required": false,
+            "min": null,
+            "max": null,
+            "pattern": "",
+            "script": "",
+            "message": ""
+          },
+          "enabled": false,
+          "dataSource": "",
+          "dataField": "",
+          "displayField": "",
+          "dataMapping": []
+        },
+        "animation": {
+          "enabled": false,
+          "type": "fade-in",
+          "duration": 0.5,
+          "delay": 0,
+          "easing": "ease",
+          "properties": {}
+        }
+      }
+    }
+  ],
+  "createdAt": 1786347560205,
+  "updatedAt": 1786347560217
+}

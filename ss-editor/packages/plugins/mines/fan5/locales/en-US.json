@@ -1,0 +1,35 @@
+{
+  "fan5": {
+    "label": "Fan 5",
+    "properties": {
+      "colors": "Colors",
+      "flowColor": "Flow Color",
+      "pipeColor": "Pipe Color",
+      "bgWidth": "Base Width",
+      "boardWidth": "Plate Thickness",
+      "roate": "Rotation Angle",
+      "cls": "Rotation Direction",
+      "dur": "Animation Cycle (s)",
+      "backgroundColor": "Background Color",
+      "dataset": "Dataset",
+      "forwardValue": "Forward Value",
+      "backwardValue": "Backward Value",
+      "stopValue": "Stop Value",
+      "defaultCls": "Default Direction",
+      "decimalPlaces": "Decimal Places",
+      "clsOptions": {
+        "right": "Right",
+        "left": "Left",
+        "stop": "Stop"
+      }
+    },
+    "options": {
+      "cls": {
+        "left": "Forward",
+        "right": "Reverse",
+        "stop": "Stop"
+      }
+    },
+    "description": "Fan5 graphic element"
+  }
+}

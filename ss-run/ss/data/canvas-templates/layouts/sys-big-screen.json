@@ -1,0 +1,146 @@
+{
+  "id": "sys-big-screen",
+  "name": "大屏可视化布局",
+  "description": "3840×2160 中控大屏骨架：居中标题栏 + 左右数据面板 + 底部状态栏，中间主展示区可自由编辑",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "schemaVersion": 1,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "pageConfig": {
+    "width": 3840,
+    "height": 2160,
+    "backgroundColor": "#060C29"
+  },
+  "graphics": [
+    {
+      "id": "screen-header-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 3840,
+      "height": 120,
+      "props": {
+        "fill": "#030818",
+        "stroke": "none"
+      }
+    },
+    {
+      "id": "screen-header-title",
+      "type": "text",
+      "x": 1600,
+      "y": 36,
+      "width": 640,
+      "height": 48,
+      "props": {
+        "text": "智慧工厂 — 综合态势",
+        "fontSize": 36,
+        "fill": "#00D4FF",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": "screen-left-panel-bg",
+      "type": "rect",
+      "x": 24,
+      "y": 144,
+      "width": 432,
+      "height": 1872,
+      "props": {
+        "fill": "#071033",
+        "stroke": "#0A1A40",
+        "cornerRadius": 8
+      }
+    },
+    {
+      "id": "screen-right-panel-bg",
+      "type": "rect",
+      "x": 3384,
+      "y": 144,
+      "width": 432,
+      "height": 1872,
+      "props": {
+        "fill": "#071033",
+        "stroke": "#0A1A40",
+        "cornerRadius": 8
+      }
+    },
+    {
+      "id": "screen-footer-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 2040,
+      "width": 3840,
+      "height": 120,
+      "props": {
+        "fill": "#030818",
+        "stroke": "none"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "r-header",
+      "name": "header",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 3840,
+        "height": 120
+      },
+      "locked": true
+    },
+    {
+      "id": "r-left",
+      "name": "left",
+      "rect": {
+        "x": 0,
+        "y": 120,
+        "width": 480,
+        "height": 1920
+      },
+      "locked": true
+    },
+    {
+      "id": "r-content",
+      "name": "content",
+      "rect": {
+        "x": 480,
+        "y": 120,
+        "width": 2880,
+        "height": 1920
+      },
+      "locked": false
+    },
+    {
+      "id": "r-right",
+      "name": "right",
+      "rect": {
+        "x": 3360,
+        "y": 120,
+        "width": 480,
+        "height": 1920
+      },
+      "locked": true
+    },
+    {
+      "id": "r-footer",
+      "name": "footer",
+      "rect": {
+        "x": 0,
+        "y": 2040,
+        "width": 3840,
+        "height": 120
+      },
+      "locked": true
+    }
+  ],
+  "tags": [
+    "大屏",
+    "4K",
+    "可视化",
+    "3840x2160"
+  ]
+}

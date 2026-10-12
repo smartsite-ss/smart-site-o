@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-calc-smart-site",
+  "name": "Smart Site 站点指标计算模板（内置）",
+  "description": "Smart Site 内置计算模板：系统当前年/月/日/时/分/秒与 CPU 占用率、内存占用率、磁盘占用率。由 calc 计算插件内置采集处理（evaluator='system'），无外部依赖，宿主设备协议选择「计算变量（calc）」后应用本模板即可。",
+  "deviceType": "calc",
+  "deviceModel": "calc",
+  "version": "1.0.0",
+  "status": "published",
+  "isDefault": true,
+  "authorId": "system",
+  "tags": [
+    "内置",
+    "计算变量",
+    "指标计算",
+    "Smart Site",
+    "CPU",
+    "内存",
+    "磁盘",
+    "系统时间"
+  ],
+  "industry": "指标计算",
+  "category": "计算变量",
+  "protocol": {
+    "type": "calc",
+    "config": {}
+  },
+  "variables": [
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e01",
+      "order": 0,
+      "name": "系统年份",
+      "description": "服务器当前年份（本地时区），如 2026",
+      "address": "",
+      "dataType": "int32",
+      "direction": "read",
+      "scanRate": 1000,
+      "enabled": true,
+      "unit": "",
+      "displayFormat": "%.0f",
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "year",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e02",
+      "order": 1,
+      "name": "系统月份",
+      "description": "服务器当前月份（1~12，本地时区）",
+      "address": "",
+      "dataType": "int32",
+      "direction": "read",
+      "scanRate": 1000,
+      "enabled": true,
+      "unit": "",
+      "displayFormat": "%.0f",
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "month",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e03",
+      "order": 2,
+      "name": "系统日期",
+      "description": "服务器当前日期（1~31，本地时区）",
+      "address": "",
+      "dataType": "int32",
+      "direction": "read",
+      "scanRate": 1000,
+      "enabled": true,
+      "unit": "",
+      "displayFormat": "%.0f",
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "day",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e04",
+      "order": 3,
+      "name": "系统小时",
+      "description": "服务器当前小时（0~23，本地时区）",
+      "address": "",
+      "dataType": "int32",
+      "direction": "read",
+      "scanRate": 1000,
+      "enabled": true,
+      "unit": "",
+      "displayFormat": "%.0f",
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "hour",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e05",
+      "order": 4,
+      "name": "系统分钟",
+      "description": "服务器当前分钟（0~59，本地时区）",
+      "address": "",
+      "dataType": "int32",
+      "direction": "read",
+      "scanRate": 1000,
+      "enabled": true,
+      "unit": "",
+      "displayFormat": "%.0f",
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "minute",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e06",
+      "order": 5,
+      "name": "系统秒",
+      "description": "服务器当前秒（0~59，本地时区）",
+      "address": "",
+      "dataType": "int32",
+      "direction": "read",
+      "scanRate": 1000,
+      "enabled": true,
+      "unit": "",
+      "displayFormat": "%.0f",
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "second",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e07",
+      "order": 6,
+      "name": "CPU占用率",
+      "description": "宿主机 CPU 占用率（两次采样增量计算；首次读取为 uncertain，下一周期起为真实值）",
+      "address": "",
+      "dataType": "float32",
+      "direction": "read",
+      "scanRate": 5000,
+      "enabled": true,
+      "unit": "%",
+      "displayFormat": "%.1f",
+      "minValue": 0,
+      "maxValue": 100,
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "cpu",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e08",
+      "order": 7,
+      "name": "内存占用率",
+      "description": "宿主机内存占用率（(total - free) / total）",
+      "address": "",
+      "dataType": "float32",
+      "direction": "read",
+      "scanRate": 5000,
+      "enabled": true,
+      "unit": "%",
+      "displayFormat": "%.1f",
+      "minValue": 0,
+      "maxValue": 100,
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "memory",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "7f1c2a90-4d3e-4a5b-8c21-9a0b1c2d3e09",
+      "order": 8,
+      "name": "磁盘占用率",
+      "description": "安装卷磁盘占用率（statfs；数据目录通常同卷）",
+      "address": "",
+      "dataType": "float32",
+      "direction": "read",
+      "scanRate": 5000,
+      "enabled": true,
+      "unit": "%",
+      "displayFormat": "%.1f",
+      "minValue": 0,
+      "maxValue": 100,
+      "category": "CALC",
+      "calc": {
+        "evaluator": "system",
+        "systemMetric": "disk",
+        "schedule": {
+          "mode": "scanRate"
+        }
+      }
+    },
+    {
+      "guid": "47045e2d-d4e1-4fed-84ae-e56cb3e3c89d",
+      "order": 0,
+      "name": "second_100",
+      "description": "系统秒-变换计算",
+      "address": "",
+      "dataType": "float32",
+      "direction": "read",
+      "byteOrder": "little-endian",
+      "scanRate": 1000,
+      "priority": "normal",
+      "enabled": true,
+      "conversionType": "",
+      "conversionConfig": null,
+      "unit": "",
+      "displayFormat": "",
+      "minValue": null,
+      "maxValue": null,
+      "engMinValue": null,
+      "engMaxValue": null,
+      "deadbandMode": "none",
+      "deadbandValue": 0,
+      "deadbandPercent": 0,
+      "deadbandTime": 0,
+      "alarmEnabled": false,
+      "alarmHighHigh": null,
+      "alarmHigh": null,
+      "alarmLow": null,
+      "alarmLowLow": null,
+      "alarmDeviation": null,
+      "qualityCheckEnabled": false,
+      "archiveEnabled": false,
+      "category": "CALC",
+      "calc": {
+        "evaluator": "expression",
+        "expression": "#a*100",
+        "binding": {
+          "mode": "relative",
+          "slots": [
+            {
+              "key": "a",
+              "ref": "系统秒"
+            }
+          ]
+        },
+        "onMissing": "ignore",
+        "schedule": {
+          "mode": "scanRate",
+          "timestampAt": "run-at",
+          "catchUp": false,
+          "catchUpMaxPeriods": 1440
+        }
+      },
+      "simulation": {
+        "enabled": false,
+        "mode": "fixed",
+        "updateIntervalSec": 1,
+        "params": {
+          "value": 0,
+          "min": 0,
+          "max": 100,
+          "pattern": "random_walk",
+          "step": 1,
+          "period": 60,
+          "noiseLevel": 0,
+          "values": [],
+          "switchMode": "sequential",
+          "stepSize": 1,
+          "fixedValue": false,
+          "toggleIntervalSec": 5,
+          "trueProbability": 0.5,
+          "switchIntervalSec": 10,
+          "lowLimit": 0,
+          "highLimit": 100,
+          "limitPattern": "square"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-20T00:00:00.000Z",
+    "updatedAt": "2026-09-20T11:21:04.381Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

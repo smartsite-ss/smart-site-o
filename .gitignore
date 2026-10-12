@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+ss-project/**
+
+dist_*
+coverage
+node_modules
+dist
+dist-ssr
+*.local
+.turbo
+build/**
+dist/**
+.next/**
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# build lib
+lib
+node_modules
+
+# ss-services
+ss-services/**/node_modules
+ss-services/**/dist
+
+# ss-editor
+ss-editor/node_modules
+ss-editor/dist
+ss-editor/apps/web/public/plugins
+
+# Electron
+ss-editor/apps/desktop/dist-electron
+ss-editor/apps/desktop/release
+ss-editor/apps/desktop/out
+
+# ss-run (运行时数据目录) —— 默认整体忽略
+ss-run/
+# 放行 ss-run/ss/data 下的配置/静态数据；运行时大目录仍忽略
+!ss-run/
+!ss-run/ss/
+!ss-run/ss/data/
+# 用户指定排除
+ss-run/ss/data/_bak/
+ss-run/ss/data/_tmp/
+ss-run/ss/data/projects/
+ss-run/ss/data/offline_data/
+# 运行时重目录（大文件，避免撑爆仓库）
+ss-run/ss/data/ai-workspace/
+ss-run/ss/data/faq/
+ss-run/ss/data/models/
+ss-run/ss/data/logs/
+ss-run/ss/data/db/
+
+# 采集器子进程隔离 — 运行时复制的 node.exe 副本
+**/.ss-collector-isolation/
+# ============================================
+# 企业专有目录（仅在 enterprise 分支存在）
+# 开源版 main 分支整体排除以下目录
+# ============================================
+docs/
+docs-optimization-report/
+
+# temp / build artifacts (cleanup)
+**/.vite.config.tmp.ts
+_tmp_*.cjs
+verify_fixes.js
+tmp-check-db.js
+

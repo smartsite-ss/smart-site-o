@@ -1,0 +1,56 @@
+{
+  "image": {
+    "label": "图片",
+    "panelTitle": "图像属性",
+    "properties": {
+      "src": "图片地址",
+      "alt": "替代文本",
+      "opacity": "不透明度",
+      "imageScale": "缩放比例",
+      "imageRotation": "旋转角度",
+      "imageFilter": "滤镜效果",
+      "imageFit": "适应模式",
+      "borderColor": "边框颜色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊",
+      "imageUpload": "上传图片"
+    },
+    "options": {
+      "imageFilter": {
+        "none": "无",
+        "grayscale": "灰度",
+        "sepia": "复古",
+        "invert": "反相",
+        "brightness": "亮度",
+        "contrast": "对比度",
+        "saturate": "饱和度"
+      },
+      "imageFit": {
+        "contain": "包含",
+        "cover": "覆盖",
+        "fill": "填充",
+        "none": "原始",
+        "scale-down": "缩小"
+      },
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式",
+      "shadow": "阴影"
+    },
+    "hints": {
+      "clickToUpload": "点击选择图片"
+    },
+    "description": "图像图元"
+  }
+}

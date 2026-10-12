@@ -1,0 +1,26 @@
+{
+  "name": "@scada-editor/plugin-3d-three-gauge",
+  "version": "1.0.0",
+  "main": "./dist/index.mjs",
+  "pluginMeta": {
+    "type": "three-gauge",
+    "category": "3d",
+    "label": "three-gauge.label",
+    "labelEn": "three-gauge",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "peerDependencies": {
+    "@scada-editor/plugin-sdk": "^1.0.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

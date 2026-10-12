@@ -1,0 +1,22 @@
+{
+  "daozha": {
+    "label": "Knife Switch",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "terminalRadius": "Terminal Radius",
+      "closed": "Closed State",
+      "closedValue": "Closed Value",
+      "openValue": "Open Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "closed": {
+        "yes": "Closed",
+        "no": "Open"
+      }
+    },
+    "description": "Daozha graphic element"
+  }
+}

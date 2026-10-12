@@ -1,0 +1,24 @@
+{
+  "project": {
+    "create": {
+      "success": "Project created successfully",
+      "failed_name_exists": "Project name already exists"
+    },
+    "update": {
+      "success": "Project updated successfully",
+      "failed_not_owner": "No permission to modify this project"
+    },
+    "delete": {
+      "success": "Project deleted successfully",
+      "failed_has_devices": "Cannot delete project with existing devices"
+    },
+    "get": {
+      "success": "Project information retrieved successfully",
+      "not_found": "Project does not exist"
+    },
+    "list": {
+      "success": "Project list retrieved successfully",
+      "empty": "No projects found"
+    }
+  }
+}

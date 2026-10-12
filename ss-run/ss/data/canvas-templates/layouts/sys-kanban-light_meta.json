@@ -1,0 +1,20 @@
+{
+  "id": "sys-kanban-light",
+  "name": "浅色看板布局",
+  "description": "1920×1080 浅色主题：顶部标题栏 + 三分卡片内容区（上左右/下整块），适合车间看板与生产日报屏",
+  "category": "common",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 1,
+  "regionCount": 2,
+  "graphicCount": 5,
+  "tags": [
+    "看板",
+    "浅色",
+    "车间",
+    "1920x1080"
+  ]
+}

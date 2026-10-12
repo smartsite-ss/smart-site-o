@@ -1,0 +1,25 @@
+{
+  "name": "ss",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SS 项目",
+  "author": "SS Team",
+  "license": "Apache-2.0",
+  "scripts": {
+    "scada-editor:dev": "cd scada-editor && pnpm dev",
+    "scada-editor:build": "cd scada-editor && pnpm build",
+    "dev:full": "cd ss-editor && pnpm dev:web:full",
+    "dev:scada": "cd ss-editor && pnpm dev:web:scada",
+    "dev:data": "cd ss-editor && pnpm dev:web:data",
+    "build:web:full": "cd ss-editor && pnpm build:web:full",
+    "build:web:scada": "cd ss-editor && pnpm build:web:scada",
+    "build:web:data": "cd ss-editor && pnpm build:web:data",
+    "build:server": "cd ss-services/ss-node && pnpm --filter ss-node-server build",
+    "build:all": "pnpm build:server && pnpm build:web:full && pnpm build:web:scada && pnpm build:web:data"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "typescript": "^5.2.0"
+  },
+  "packageManager": "pnpm@11.21.0+sha512.521705bce689924eac72f5a3587122f362689ef6571e55ba80076fd637c11132ecffada26fad4ea79c485bfddbfd3d5a2a5b05805a77e893de71ec8a6cca3bb1"
+}

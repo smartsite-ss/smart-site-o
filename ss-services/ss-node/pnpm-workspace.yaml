@@ -1,0 +1,9 @@
+packages:
+  - 'packages/*'
+  - 'packages/ss-collector/*'
+  - 'packages/ss-storage/*'
+  - 'apps/*'
+allowBuilds:
+  '@nestjs/core': true
+  better-sqlite3: true
+  sqlite3: true

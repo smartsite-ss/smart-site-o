@@ -1,0 +1,28 @@
+{
+  "dictId": "testLevel",
+  "dictName": "测试等级",
+  "category": "system-enums",
+  "description": "测试等级枚举，包含低、中、高三个等级",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    {
+      "value": "low",
+      "label": "低",
+      "sortOrder": 1,
+      "description": "低级别测试"
+    },
+    {
+      "value": "medium",
+      "label": "中",
+      "sortOrder": 2,
+      "description": "中级别测试"
+    },
+    {
+      "value": "high",
+      "label": "高",
+      "sortOrder": 3,
+      "description": "高级别测试"
+    }
+  ]
+}

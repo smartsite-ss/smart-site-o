@@ -1,0 +1,149 @@
+{
+  "id": "sys-left-nav",
+  "name": "左侧导航布局",
+  "description": "1920×1080 窄顶栏 + 左侧菜单导航，无底栏，内容区更大，适合菜单较多的操作类工程",
+  "category": "common",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "schemaVersion": 1,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#101C2B"
+  },
+  "graphics": [
+    {
+      "id": "leftnav-header-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 56,
+      "props": {
+        "fill": "#16283C",
+        "stroke": "none"
+      }
+    },
+    {
+      "id": "leftnav-header-title",
+      "type": "text",
+      "x": 24,
+      "y": 14,
+      "width": 400,
+      "height": 28,
+      "props": {
+        "text": "生产操作平台",
+        "fontSize": 20,
+        "fill": "#E6F1FF"
+      }
+    },
+    {
+      "id": "leftnav-sidebar-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 56,
+      "width": 220,
+      "height": 1024,
+      "props": {
+        "fill": "#16283C",
+        "stroke": "none"
+      }
+    },
+    {
+      "id": "leftnav-menu-1",
+      "type": "text",
+      "x": 24,
+      "y": 88,
+      "width": 172,
+      "height": 26,
+      "props": {
+        "text": "▸ 首页概览",
+        "fontSize": 15,
+        "fill": "#B0C4D8"
+      }
+    },
+    {
+      "id": "leftnav-menu-2",
+      "type": "text",
+      "x": 24,
+      "y": 136,
+      "width": 172,
+      "height": 26,
+      "props": {
+        "text": "▸ 设备管理",
+        "fontSize": 15,
+        "fill": "#B0C4D8"
+      }
+    },
+    {
+      "id": "leftnav-menu-3",
+      "type": "text",
+      "x": 24,
+      "y": 184,
+      "width": 172,
+      "height": 26,
+      "props": {
+        "text": "▸ 历史数据",
+        "fontSize": 15,
+        "fill": "#B0C4D8"
+      }
+    },
+    {
+      "id": "leftnav-menu-4",
+      "type": "text",
+      "x": 24,
+      "y": 232,
+      "width": 172,
+      "height": 26,
+      "props": {
+        "text": "▸ 系统设置",
+        "fontSize": 15,
+        "fill": "#B0C4D8"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "r-header",
+      "name": "header",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 56
+      },
+      "locked": true
+    },
+    {
+      "id": "r-sidebar",
+      "name": "sidebar",
+      "rect": {
+        "x": 0,
+        "y": 56,
+        "width": 220,
+        "height": 1024
+      },
+      "locked": true
+    },
+    {
+      "id": "r-content",
+      "name": "content",
+      "rect": {
+        "x": 220,
+        "y": 56,
+        "width": 1700,
+        "height": 1024
+      },
+      "locked": false
+    }
+  ],
+  "tags": [
+    "导航",
+    "侧边菜单",
+    "操作",
+    "1920x1080"
+  ]
+}

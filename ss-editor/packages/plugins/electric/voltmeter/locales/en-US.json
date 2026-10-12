@@ -1,0 +1,15 @@
+{
+  "voltmeter": {
+    "label": "Voltmeter",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "dataset": "Static Value",
+      "showDigital": "Show Digital Reading",
+      "decimalPlaces": "Decimal Places",
+      "unit": "Unit"
+    },
+    "description": "Voltmeter graphic element"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dictId": "priority",
+  "dictName": "采集优先级",
+  "category": "basic-data",
+  "description": "标签采集任务的优先级等级",
+  "version": "1.0",
+  "sortOrder": 4,
+  "items": [
+    { "value": "low", "label": "低优先级", "sortOrder": 1, "description": "低频采集，如环境监测" },
+    { "value": "normal", "label": "普通优先级", "sortOrder": 2, "description": "常规周期采集（默认）" },
+    { "value": "high", "label": "高优先级", "sortOrder": 3, "description": "关键工艺参数，高频采集" },
+    { "value": "critical", "label": "最高优先级", "sortOrder": 4, "description": "安全联锁相关，实时采集" }
+  ]
+}

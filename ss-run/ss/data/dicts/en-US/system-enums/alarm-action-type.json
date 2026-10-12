@@ -1,0 +1,18 @@
+{
+  "dictId": "alarmActionType",
+  "dictName": "Alarm Action Type",
+  "category": "system-enums",
+  "description": "Type definitions for alarm disposition actions in the SCADA system",
+  "version": "1.0",
+  "sortOrder": 4,
+  "items": [
+    { "value": "alarm.triggered", "label": "Alarm Triggered", "sortOrder": 1, "description": "Alarm condition met, alarm event generated (supersedes legacy alarm_triggered)" },
+    { "value": "alarm_acknowledged", "label": "Alarm Acknowledged", "sortOrder": 2, "description": "Operator acknowledged the alarm" },
+    { "value": "alarm.escalated", "label": "Alarm Escalated", "sortOrder": 3, "description": "Alarm not handled in time, escalated to a higher level" },
+    { "value": "alarm.cleared", "label": "Alarm Cleared", "sortOrder": 4, "description": "Alarm condition returned to normal, alarm auto-cleared" },
+    { "value": "alarm.shelve.expired", "label": "Shelve Expired", "sortOrder": 5, "description": "Alarm shelve period expired, notifications resumed" },
+    { "value": "alarm.notification.sent", "label": "Notification Sent", "sortOrder": 6, "description": "Alarm notification (email/SMS/webhook etc.) has been sent" },
+    { "value": "alarm.sound.trigger", "label": "Sound Triggered", "sortOrder": 7, "description": "Alarm sound alert triggered" },
+    { "value": "alarm.popup.show", "label": "Popup Shown", "sortOrder": 8, "description": "Alarm popup window displayed on the frontend" }
+  ]
+}

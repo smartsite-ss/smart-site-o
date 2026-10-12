@@ -1,0 +1,18 @@
+{
+  "dictId": "tagDataType",
+  "dictName": "标签数据类型",
+  "category": "basic-data",
+  "description": "采集标签支持的数据类型定义",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    { "value": "boolean", "label": "布尔类型", "sortOrder": 1, "description": "True/False 开关量信号" },
+    { "value": "int16", "label": "16位有符号整数", "sortOrder": 2, "description": "短整型，范围 -32768 ~ 32767" },
+    { "value": "uint16", "label": "16位无符号整数", "sortOrder": 3, "description": "无符号短整型，范围 0 ~ 65535" },
+    { "value": "int32", "label": "32位有符号整数", "sortOrder": 4, "description": "长整型，范围 -2^31 ~ 2^31-1" },
+    { "value": "uint32", "label": "32位无符号整数", "sortOrder": 5, "description": "无符号长整型，范围 0 ~ 2^32-1" },
+    { "value": "float32", "label": "32位浮点数", "sortOrder": 6, "description": "单精度浮点数 (IEEE 754)" },
+    { "value": "float64", "label": "64位浮点数", "sortOrder": 7, "description": "双精度浮点数 (IEEE 754)" },
+    { "value": "string", "label": "字符串", "sortOrder": 8, "description": "可变长度字符串" }
+  ]
+}

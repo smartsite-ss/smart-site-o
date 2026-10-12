@@ -1,0 +1,56 @@
+{
+  "image": {
+    "label": "Image",
+    "panelTitle": "Image Properties",
+    "properties": {
+      "src": "Image URL",
+      "alt": "Alt Text",
+      "opacity": "Opacity",
+      "imageScale": "Scale",
+      "imageRotation": "Rotation",
+      "imageFilter": "Filter Effect",
+      "imageFit": "Fit Mode",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur",
+      "imageUpload": "Upload Image"
+    },
+    "options": {
+      "imageFilter": {
+        "none": "None",
+        "grayscale": "Grayscale",
+        "sepia": "Sepia",
+        "invert": "Invert",
+        "brightness": "Brightness",
+        "contrast": "Contrast",
+        "saturate": "Saturate"
+      },
+      "imageFit": {
+        "contain": "Contain",
+        "cover": "Cover",
+        "fill": "Fill",
+        "none": "None",
+        "scale-down": "Scale Down"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "shadow": "Shadow"
+    },
+    "hints": {
+      "clickToUpload": "Click to select image"
+    },
+    "description": "Image graphic element"
+  }
+}

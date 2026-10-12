@@ -1,0 +1,14 @@
+{
+  "dictId": "alarmStatus",
+  "dictName": "报警状态",
+  "category": "system-enums",
+  "description": "报警记录的生命周期状态",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    { "value": "active", "label": "激活", "sortOrder": 1, "description": "报警条件满足，处于报警状态" },
+    { "value": "acknowledged", "label": "已确认", "sortOrder": 2, "description": "操作员已确认报警" },
+    { "value": "cleared", "label": "已清除", "sortOrder": 3, "description": "报警条件已恢复正常" },
+    { "value": "shelved", "label": "已搁置", "sortOrder": 4, "description": "临时屏蔽，不触发通知" }
+  ]
+}

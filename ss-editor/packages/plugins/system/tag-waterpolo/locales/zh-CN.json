@@ -1,0 +1,40 @@
+{
+  "tagWaterpolo": {
+    "label": "变量水球图",
+    "description": "绑定单个标签变量，以水球形式实时显示液位百分比",
+    "config": {
+      "bindVariable": "绑定变量",
+      "addVariable": "选择变量",
+      "removeVariable": "删除",
+      "unbound": "未绑定变量"
+    },
+    "properties": {
+      "title": "标题",
+      "titleColor": "标题颜色",
+      "titleFontSize": "标题字号",
+      "unit": "单位",
+      "minValue": "最小值",
+      "maxValue": "最大值",
+      "showValue": "显示数值",
+      "valueColor": "数值颜色",
+      "waterColor": "水球颜色",
+      "trackColor": "轨道颜色",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      }
+    }
+  }
+}

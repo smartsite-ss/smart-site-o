@@ -1,0 +1,15 @@
+{
+  "ammeter": {
+    "label": "电流表",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "dataset": "静态数据值",
+      "showDigital": "显示数字读数",
+      "decimalPlaces": "小数位数",
+      "unit": "单位"
+    },
+    "description": "电流表 - 测量电流仪表"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "capacitor": {
+    "label": "电容器组",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "description": "电容器组 - 无功补偿电容器"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@scada-editor/plugins-industrial-pump",
+  "version": "0.1.0",
+  "description": "Pump graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./PumpConfig": {
+      "import": "./PumpConfig.vue",
+      "types": "./PumpConfig.vue"
+    },
+    "./PumpIcon": {
+      "import": "./PumpIcon.vue",
+      "types": "./PumpIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "pump",
+    "category": "industrial",
+    "label": "pump.label",
+    "labelEn": "pump",
+    "deployMode": "directory",
+    "renderBackend": "vue",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

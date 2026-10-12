@@ -1,0 +1,26 @@
+{
+  "name": "@scada-editor/plugin-3d-three-cube",
+  "version": "1.0.0",
+  "main": "./dist/index.mjs",
+  "pluginMeta": {
+    "type": "three-cube",
+    "category": "3d",
+    "label": "three-cube.label",
+    "labelEn": "three-cube",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "peerDependencies": {
+    "@scada-editor/plugin-sdk": "^1.0.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

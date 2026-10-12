@@ -1,0 +1,11 @@
+{
+  "transformer3w": {
+    "label": "Three-Winding Transformer",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Transformer3w graphic element"
+  }
+}

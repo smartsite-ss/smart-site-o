@@ -1,0 +1,21 @@
+{
+  "faultlamp": {
+    "label": "故障报警灯",
+    "properties": {
+      "color": "颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "alarming": "报警状态",
+      "alarmValue": "报警对应值",
+      "normalValue": "正常对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "alarming": {
+        "yes": "报警中",
+        "no": "正常"
+      }
+    },
+    "description": "故障报警指示灯 - 报警时红色闪烁"
+  }
+}

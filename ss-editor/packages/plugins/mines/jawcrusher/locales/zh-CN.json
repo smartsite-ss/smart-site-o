@@ -1,0 +1,30 @@
+{
+  "jawcrusher": {
+    "label": "颚式破碎机",
+    "properties": {
+      "colors": "颜色1",
+      "colors2": "颜色2",
+      "flowColor": "流动颜色",
+      "pipeColor": "管道颜色",
+      "backgroundColor": "背景色",
+      "bgWidth": "背景宽度",
+      "boardWidth": "边框宽度",
+      "roate": "旋转角度",
+      "cls": "动画方向",
+      "dur": "动画周期(秒)",
+      "dataset": "数据值",
+      "forwardValue": "正转对应值",
+      "backwardValue": "反转对应值",
+      "stopValue": "停止对应值",
+      "defaultCls": "默认动画方向",
+      "decimalPlaces": "小数位数"
+    },
+    "options": {
+      "cls": {
+        "run": "运行",
+        "stop": "停止"
+      }
+    },
+    "description": "颚式破碎机 - 固定颚板+活动颚板摆动破碎，支持运行/停止动画控制"
+  }
+}

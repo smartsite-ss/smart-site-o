@@ -1,0 +1,28 @@
+{
+  "dictId": "energyUnit",
+  "dictName": "能源单位",
+  "category": "energy",
+  "description": "能源管理单位字典",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    {
+      "value": "kW",
+      "label": "千瓦",
+      "sortOrder": 1,
+      "description": ""
+    },
+    {
+      "value": "kWh",
+      "label": "千瓦时",
+      "sortOrder": 2,
+      "description": ""
+    },
+    {
+      "value": "m3",
+      "label": "立方米",
+      "sortOrder": 3,
+      "description": ""
+    }
+  ]
+}

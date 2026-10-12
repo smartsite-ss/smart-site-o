@@ -1,0 +1,503 @@
+// 数据管理面板统一主题样式
+// 基于 property-panel.scss 设计令牌扩展，供 DataPanel 子组件 @import 引用
+//
+// 使用方式：
+//   <style scoped>
+//     @import '../../../../panels/styles/data-panel-theme.scss';
+//   </style>
+//
+// 设计令牌来源：
+//   - property-panel.scss :root 定义的基础变量
+//   - 本文件补充数据面板专用语义变量
+
+// ========================================
+// CSS 变量：数据面板专用设计令牌
+// ========================================
+
+:root {
+  // 数据源类型标签色
+  --ds-type-static: #64748b;
+  --ds-type-tag: #2080f0;
+  --ds-type-api: #18a058;
+  --ds-type-sql: #f59e0b;
+  --ds-type-opc: #8b5cf6;
+  --ds-type-mqtt: #ec4899;
+  --ds-type-modbus: #06b6d4;
+
+  // 数据源连接状态色
+  --ds-status-connected: #10b981;
+  --ds-status-disconnected: #94a3b8;
+  --ds-status-connecting: #f59e0b;
+  --ds-status-error: #ef4444;
+
+  // 数据质量色
+  --ds-quality-good: #10b981;
+  --ds-quality-uncertain: #f59e0b;
+  --ds-quality-bad: #ef4444;
+  --ds-quality-stale: #94a3b8;
+  --ds-quality-disconnected: #d1d5db;
+
+  // 数据面板专用间距
+  --ds-spacing-xs: 4px;
+  --ds-spacing-sm: 8px;
+  --ds-spacing-md: 12px;
+  --ds-spacing-lg: 16px;
+
+  // 弹窗专用
+  --ds-modal-header-bg: var(--surface);
+  --ds-sidebar-bg: var(--background, rgba(0, 0, 0, 0.02));
+}
+
+// ========================================
+// 共享基础组件：按钮
+// ========================================
+
+.ds-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px 12px;
+  line-height: 1.5;
+  transition: background-color var(--transition-fast), border-color var(--transition-fast);
+
+  &:hover {
+    border-color: var(--primary);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.ds-btn--primary {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+
+  &:hover {
+    background: var(--button-hover);
+    border-color: var(--button-hover);
+  }
+}
+
+.ds-btn--sm { font-size: 13px; padding: 3px 10px; }
+.ds-btn--xs { font-size: 12px; padding: 2px 8px; }
+.ds-btn--icon {
+  width: 28px;
+  height: 24px;
+  padding: 0;
+  font-size: 14px;
+}
+.ds-btn--danger {
+  color: var(--color-error, #ef4444);
+  border-color: transparent;
+  background: transparent;
+
+  &:hover {
+    background: rgba(239, 68, 68, 0.08);
+  }
+}
+
+// ========================================
+// 共享基础组件：表单
+// ========================================
+
+.ds-form-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.ds-form-required {
+  color: var(--color-error, #ef4444);
+  margin-left: 2px;
+}
+
+.ds-input,
+.ds-select {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm, 4px);
+  background: var(--surface);
+  color: var(--text);
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color var(--transition-fast, 0.15s ease);
+
+  &:focus {
+    border-color: var(--primary, #2080f0);
+  }
+}
+
+.ds-select { appearance: auto; }
+
+.ds-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 16px 0;
+}
+
+.ds-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ds-item {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+// ========================================
+// 共享基础组件：标签（Tag）
+// ========================================
+
+.ds-tag {
+  display: inline-block;
+  padding: 1px 8px;
+  font-size: 11px;
+  border-radius: 3px;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.ds-tag--success {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--ds-status-connected);
+}
+
+.ds-tag--default {
+  background: rgba(148, 163, 184, 0.15);
+  color: var(--text-secondary, #999);
+}
+
+.ds-tag--type-static { background: rgba(100, 116, 139, 0.12); color: var(--ds-type-static); }
+.ds-tag--type-tag { background: rgba(32, 128, 240, 0.12); color: var(--ds-type-tag); }
+.ds-tag--type-api { background: rgba(24, 160, 88, 0.12); color: var(--ds-type-api); }
+.ds-tag--type-sql { background: rgba(245, 158, 11, 0.12); color: var(--ds-type-sql); }
+
+// ========================================
+// 共享基础组件：状态指示器
+// ========================================
+
+.ds-status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.ds-status-dot--connected { background-color: var(--ds-status-connected); }
+.ds-status-dot--disconnected { background-color: var(--ds-status-disconnected); }
+.ds-status-dot--connecting { background-color: var(--ds-status-connecting); animation: ds-pulse 1.5s ease-in-out infinite; }
+.ds-status-dot--error { background-color: var(--ds-status-error); }
+
+@keyframes ds-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.ds-status-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.ds-status-tag--connected { background: var(--ds-status-connected); }
+.ds-status-tag--disconnected { background: var(--ds-status-disconnected); }
+.ds-status-tag--connecting { background: var(--ds-status-connecting); }
+.ds-status-tag--error { background: var(--ds-status-error); }
+
+// ========================================
+// 共享基础组件：侧栏列表项
+// ========================================
+
+.ds-sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: 0.3px;
+}
+
+.sidebar-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.ds-sidebar-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 4px 0;
+}
+
+.ds-sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  border-radius: 6px;
+  margin: 2px 4px;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    background-color: color-mix(in srgb, var(--primary) 6%, transparent);
+  }
+
+  &--active {
+    background-color: color-mix(in srgb, var(--primary) 10%, transparent);
+    box-shadow: inset 2px 0 0 var(--primary);
+
+    .sidebar-item-name { font-weight: 600; }
+  }
+}
+
+.ds-sidebar-item-name {
+  flex: 1;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text);
+}
+
+.sidebar-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  flex: 1;
+}
+
+.sidebar-item-type {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sidebar-var-count {
+  font-size: 10px;
+  color: var(--text-secondary);
+  background: color-mix(in srgb, var(--text-secondary) 8%, transparent);
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
+.sidebar-data-preview {
+  font-size: 10px;
+  color: var(--text-tertiary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px;
+}
+
+// ========================================
+// 共享基础组件：摘要表格
+// ========================================
+
+.ds-summary-table-wrapper {
+  width: 100%;
+  overflow: visible;
+}
+
+.summary-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 10px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 0.3px;
+  position: sticky;
+  top: 0;
+  background: var(--surface);
+  z-index: 2;
+}
+
+.ds-summary-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 12px;
+  table-layout: fixed;
+
+  thead {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+  }
+
+  th {
+    padding: 9px 10px;
+    background-color: color-mix(in srgb, var(--text-secondary) 8%, var(--surface));
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    border-bottom: 1px solid var(--border);
+
+    &:first-child { border-radius: 6px 0 0 0; }
+    &:last-child { border-radius: 0 6px 0 0; }
+  }
+
+  td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  tbody tr {
+    transition: background-color 0.12s ease;
+
+    &:hover { background-color: color-mix(in srgb, var(--primary) 4%, transparent); }
+
+    &:last-child td {
+      &:first-child { border-radius: 0 0 0 6px; }
+      &:last-child { border-radius: 0 0 6px 0; }
+      border-bottom: none;
+    }
+  }
+
+  .cell-name { font-weight: 500; color: var(--text); }
+  .cell-bound { max-width: 120px; }
+  .cell-time { color: var(--text-secondary); font-variant-numeric: tabular-nums; font-size: 11.5px; }
+  .cell-data { max-width: 160px; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; font-size: 11.5px; }
+}
+
+// ========================================
+// 共享基础组件：绑定标签
+// ========================================
+
+.ds-bound-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  margin: 1px 2px;
+  background: rgba(32, 128, 240, 0.08);
+  color: var(--primary, #2080f0);
+  border-radius: 3px;
+  font-size: 10px;
+  border: 1px solid rgba(32, 128, 240, 0.2);
+}
+
+// ========================================
+// 共享基础组件：空占位
+// ========================================
+
+.ds-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  color: var(--text-tertiary);
+  font-size: 13px;
+  gap: 8px;
+
+  &::before {
+    content: "📦";
+    font-size: 28px;
+    opacity: 0.4;
+  }
+}
+
+.ds-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 200px;
+  color: var(--text-tertiary);
+  font-size: 13px;
+}
+
+.placeholder-text {
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--text-tertiary);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.text-muted { color: var(--text-tertiary); font-style: italic; }
+
+// ========================================
+// 弹窗专用样式（DataSourceConfigDialog）
+// ========================================
+
+.modal-overlay { backdrop-filter: blur(2px); }
+
+.modal-header {
+  background: linear-gradient(135deg, var(--ds-modal-header-bg) 0%, color-mix(in srgb, var(--primary) 3%, var(--ds-modal-header-bg)) 100%);
+}
+
+.modal-header h3 {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  background: linear-gradient(90deg, var(--text) 0%, var(--text-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.modal-sidebar {
+  background-color: var(--ds-sidebar-bg);
+}
+
+// ========================================
+// 数据面板滚动条统一样式
+// ========================================
+
+.data-panel-scroll::-webkit-scrollbar,
+.modal-body::-webkit-scrollbar,
+.modal-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.data-panel-scroll::-webkit-scrollbar-track,
+.modal-body::-webkit-scrollbar-track,
+.modal-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.data-panel-scroll::-webkit-scrollbar-thumb,
+.modal-body::-webkit-scrollbar-thumb,
+.modal-sidebar::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+
+  &:hover { background: var(--text-secondary, #999); }
+}

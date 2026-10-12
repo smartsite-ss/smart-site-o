@@ -1,0 +1,14 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@ss-node/ss-storage": ["../dist"],
+      "@ss-node/ss-storage/*": ["../dist/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/__tests__"]
+}

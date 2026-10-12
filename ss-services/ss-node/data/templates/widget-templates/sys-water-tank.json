@@ -1,0 +1,78 @@
+{
+  "id": "sys-water-tank",
+  "name": "水位储罐",
+  "description": "带标题与水位指示的储罐组件，支持 {{title}} 与 {{level}} 变量",
+  "category": "industry",
+  "author": "system",
+  "source": "builtin",
+  "schemaVersion": 2,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "graphics": [
+    {
+      "type": "group",
+      "id": "g",
+      "name": "水位储罐组",
+      "x": 0,
+      "y": 0,
+      "width": 200,
+      "height": 200,
+      "children": [
+        {
+          "type": "rect",
+          "id": "tank",
+          "x": 40,
+          "y": 20,
+          "width": 120,
+          "height": 160,
+          "props": {
+            "fill": "#cfe8ff",
+            "stroke": "#3a7bd5"
+          }
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "x": 40,
+          "y": 4,
+          "width": 120,
+          "height": 20,
+          "props": {
+            "text": "{{title}}",
+            "fontSize": 14
+          }
+        },
+        {
+          "type": "text",
+          "id": "level",
+          "x": 40,
+          "y": 184,
+          "width": 120,
+          "height": 16,
+          "props": {
+            "text": "水位: {{level}}%",
+            "fontSize": 12
+          }
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "key": "title",
+      "label": "标题",
+      "type": "text",
+      "defaultValue": "储罐"
+    },
+    {
+      "key": "level",
+      "label": "水位百分比",
+      "type": "number",
+      "defaultValue": 50
+    }
+  ],
+  "tags": [
+    "储罐",
+    "水位"
+  ]
+}

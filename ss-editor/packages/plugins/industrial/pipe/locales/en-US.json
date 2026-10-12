@@ -1,0 +1,40 @@
+{
+  "pipe": {
+    "label": "Pipe (Vertical)",
+    "description": "Vertical pipe component with flow animation and direction control",
+    "panelTitle": "Pipe Configuration",
+    "properties": {
+      "width": "Width",
+      "height": "Height",
+      "status": "Status",
+      "direction": "Flow Direction",
+      "pipeColor": "Pipe Color",
+      "flowingColor": "Flowing Color",
+      "stoppedColor": "Stopped Color",
+      "blockedColor": "Blocked Color",
+      "pipeThickness": "Pipe Thickness",
+      "showFlange": "Show Flange",
+      "flowSpeed": "Flow Speed",
+      "showFlowAnimation": "Show Flow Animation"
+    },
+    "options": {
+      "status": {
+        "flowing": "Flowing",
+        "stopped": "Stopped",
+        "blocked": "Blocked"
+      },
+      "direction": {
+        "up": "Up",
+        "down": "Down"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "status": "Status",
+      "color": "Color",
+      "style": "Style",
+      "animation": "Animation"
+    },
+    "hints": {}
+  }
+}

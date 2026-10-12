@@ -1,0 +1,221 @@
+{
+  "id": "builtin-data-screen",
+  "name": "数据大屏（基础）",
+  "description": "4K 数据大屏，深色科技风，含趋势图、占比饼图、仪表盘、液位计与关键参数面板",
+  "category": "data-screen",
+  "icon": "🖥️",
+  "thumbnail": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3840 2160'><rect width='3840' height='2160' fill='%23060C29'/><rect width='3840' height='120' fill='%23030818'/><rect x='60' y='200' width='1620' height='760' rx='8' fill='%230A1440'/><rect x='60' y='1020' width='1620' height='760' rx='8' fill='%230A1440'/><rect x='1740' y='200' width='900' height='760' rx='8' fill='%230A1440'/><rect x='2700' y='200' width='1080' height='1580' rx='8' fill='%230A1440'/></svg>",
+  "source": "builtin",
+  "author": "SS-SCADA",
+  "version": "1.0.0",
+  "pageConfig": {
+    "width": 3840,
+    "height": 2160,
+    "backgroundColor": "#060C29",
+    "layout": "free",
+    "themeName": "dark"
+  },
+  "graphics": [
+    {
+      "id": "screen-header",
+      "type": "shape",
+      "version": "1.0",
+      "config": {
+        "id": "screen-header",
+        "type": "shape",
+        "name": "顶部栏",
+        "geometry": { "x": 0, "y": 0, "width": 3840, "height": 120, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "shapeType": "rectangle", "fillColor": "@token:surface", "borderWidth": 0 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 0,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-header-title",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "screen-header-title",
+        "type": "label",
+        "name": "大屏标题",
+        "geometry": { "x": 1500, "y": 30, "width": 840, "height": 60, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "智慧工厂 — 综合态势", "textColor": "@token:primary", "fontSize": 40, "fontWeight": "bold", "textAlign": "center", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 1,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-header-time",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "screen-header-time",
+        "type": "label",
+        "name": "当前时间",
+        "geometry": { "x": 3360, "y": 44, "width": 440, "height": 32, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "2026-07-01 14:30:00", "textColor": "@token:textSecondary", "fontSize": 22, "textAlign": "right", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 2,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-trend-energy",
+      "type": "trend-chart",
+      "version": "1.0",
+      "config": {
+        "id": "screen-trend-energy",
+        "type": "trend-chart",
+        "name": "能耗趋势",
+        "geometry": { "x": 60, "y": 200, "width": 1620, "height": 760, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "全厂能耗趋势" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 3,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-trend-output",
+      "type": "trend-chart",
+      "version": "1.0",
+      "config": {
+        "id": "screen-trend-output",
+        "type": "trend-chart",
+        "name": "产量趋势",
+        "geometry": { "x": 60, "y": 1020, "width": 1620, "height": 760, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "产线产量趋势" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 4,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-pie-status",
+      "type": "tag-pie",
+      "version": "1.0",
+      "config": {
+        "id": "screen-pie-status",
+        "type": "tag-pie",
+        "name": "设备状态占比",
+        "geometry": { "x": 1740, "y": 200, "width": 900, "height": 760, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "设备状态占比" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 5,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-gauge-load",
+      "type": "gauge",
+      "version": "1.0",
+      "config": {
+        "id": "screen-gauge-load",
+        "type": "gauge",
+        "name": "主变负载",
+        "geometry": { "x": 1740, "y": 1020, "width": 500, "height": 500, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "value": 68, "minValue": 0, "maxValue": 100, "unit": "%", "decimalPlaces": 0 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 6,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-level-tank",
+      "type": "levelgauge",
+      "version": "1.0",
+      "config": {
+        "id": "screen-level-tank",
+        "type": "levelgauge",
+        "name": "蓄水池液位",
+        "geometry": { "x": 2280, "y": 1020, "width": 360, "height": 760, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "dataset": 62, "unit": "%", "showNumeric": true, "decimalPlaces": 1 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 7,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "screen-param-panel",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "screen-param-panel",
+        "type": "param-panel",
+        "name": "关键产线参数",
+        "geometry": { "x": 2700, "y": 200, "width": 1080, "height": 1580, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "关键产线实时参数", "rowCount": 6, "rowNames": "1号产线,2号产线,3号产线,4号产线,5号产线,6号产线", "rowValues": "98,95,100,88,92,97", "rowUnits": "%,%,%,%,%,%" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 8,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    }
+  ],
+  "tags": ["大屏", "4K", "科技", "深色"],
+  "createdAt": 1750000000000,
+  "updatedAt": 1750000000000
+}

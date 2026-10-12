@@ -1,0 +1,62 @@
+[
+  {
+    "id": "general",
+    "label": "通用组件",
+    "labelEn": "General",
+    "icon": "AppstoreOutlined",
+    "order": 1,
+    "secondaryMapping": ["basic", "system", "form"]
+  },
+  {
+    "id": "chart",
+    "label": "图表组件",
+    "labelEn": "Charts",
+    "icon": "LineChartOutlined",
+    "order": 2,
+    "secondaryMapping": ["chart"]
+  },
+  {
+    "id": "industrial",
+    "label": "工业组件",
+    "labelEn": "Industrial",
+    "icon": "SettingOutlined",
+    "order": 3,
+    "secondaryMapping": ["industrial", "svg"]
+  },
+  {
+    "id": "decoration",
+    "label": "装饰组件",
+    "labelEn": "Decoration",
+    "icon": "BgColorsOutlined",
+    "order": 4,
+    "secondaryMapping": [
+      "decorates_borders",
+      "decorates_head",
+      "decorates_other"
+    ]
+  },
+  {
+    "id": "3d",
+    "label": "3D组件",
+    "labelEn": "3D",
+    "icon": "CodepenOutlined",
+    "order": 5,
+    "secondaryMapping": ["3d"]
+  },
+  {
+    "id": "electric",
+    "label": "电力组件",
+    "labelEn": "Electric Power",
+    "icon": "ThunderboltOutlined",
+    "order": 6,
+    "secondaryMapping": ["electric"]
+  },
+  {
+    "id": "mining",
+    "label": "矿产组件",
+    "labelEn": "Mining",
+    "icon": "GoldOutlined",
+    "order": 7,
+    "secondaryMapping": ["mines"]
+  }
+]

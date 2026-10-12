@@ -1,0 +1,11 @@
+{
+  "chartPie": {
+    "label": "饼图",
+    "description": "静态/API 数据源饼图",
+    "config": {
+      "dataSource": "数据源",
+      "noData": "暂无数据",
+      "loadError": "加载失败"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+﻿
+> @scada-editor/system@0.1.0 build F:\work\smartdata\202603_trace\trunk\code\ss-v7\ss-editor\packages\system
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32m鉁?[39m 20 modules transformed.
+node.exe : [31mx[39m Build failed in 899ms
+所在位置 C:\Program Files\nodejs\pnpm.ps1:16 字符: 5
++     & "$basedir/node$exe"  "$basedir/node_modules/pnpm/bin/pnpm.cjs"  ...
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31mx[39m Build failed in 899ms 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31merror during build:
+[31m[vite]: Rollup failed to resolve import "@monaco-editor/loader" from "F:/w
+ork/smartdata/202603_trace/trunk/code/ss-v7/ss-editor/packages/system/src/views
+/scripts/ScriptListView.vue?vue&type=script&setup=true&lang.ts".
+This is most likely unintended because it can break your application at runtime
+.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`[31m
+    at viteWarn (file:///F:/work/smartdata/202603_trace/trunk/code/ss-v7/ss-edi
+tor/node_modules/.pnpm/vite@5.4.21_@types+node@20.19.39_sass@1.99.0/node_module
+s/vite/dist/node/chunks/dep-BK3b2jBa.js:65855:17)
+    at onRollupWarning (file:///F:/work/smartdata/202603_trace/trunk/code/ss-v7
+/ss-editor/node_modules/.pnpm/vite@5.4.21_@types+node@20.19.39_sass@1.99.0/node
+_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65887:5)
+    at onwarn (file:///F:/work/smartdata/202603_trace/trunk/code/ss-v7/ss-edito
+r/node_modules/.pnpm/vite@5.4.21_@types+node@20.19.39_sass@1.99.0/node_modules/
+vite/dist/node/chunks/dep-BK3b2jBa.js:65550:7)
+    at file:///F:/work/smartdata/202603_trace/trunk/code/ss-v7/ss-editor/node_m
+odules/.pnpm/rollup@4.60.4/node_modules/rollup/dist/es/shared/node-entry.js:214
+04:13
+    at Object.logger [as onLog] (file:///F:/work/smartdata/202603_trace/trunk/c
+ode/ss-v7/ss-editor/node_modules/.pnpm/rollup@4.60.4/node_modules/rollup/dist/e
+s/shared/node-entry.js:23385:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///F:/work/smartdata/202603_t
+race/trunk/code/ss-v7/ss-editor/node_modules/.pnpm/rollup@4.60.4/node_modules/r
+ollup/dist/es/shared/node-entry.js:22129:26)
+    at ModuleLoader.resolveDynamicImport (file:///F:/work/smartdata/202603_trac
+e/trunk/code/ss-v7/ss-editor/node_modules/.pnpm/rollup@4.60.4/node_modules/roll
+up/dist/es/shared/node-entry.js:22187:58)
+    at async file:///F:/work/smartdata/202603_trace/trunk/code/ss-v7/ss-editor/
+node_modules/.pnpm/rollup@4.60.4/node_modules/rollup/dist/es/shared/node-entry.
+js:22071:32[39m
+鈥塃LIFECYCLE鈥?Command failed with exit code 1.

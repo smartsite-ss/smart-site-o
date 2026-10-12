@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-dfbfa0f3-190",
+  "name": "能源管理网关模板",
+  "description": "集抄网关虚拟模板（链路状态/上报计数）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "system",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "guid": "1efcdfad-5e06-4681-a587-5d62b1ef873b",
+      "order": 0,
+      "name": "link_status",
+      "description": "11",
+      "address": "",
+      "dataType": "bool",
+      "direction": "read",
+      "byteOrder": "little-endian",
+      "scanRate": 1000,
+      "priority": "normal",
+      "enabled": true,
+      "conversionType": "",
+      "conversionConfig": null,
+      "unit": "",
+      "displayFormat": "",
+      "minValue": null,
+      "maxValue": null,
+      "engMinValue": null,
+      "engMaxValue": null,
+      "deadbandMode": "none",
+      "deadbandValue": 0,
+      "deadbandPercent": 0,
+      "deadbandTime": 0,
+      "alarmEnabled": false,
+      "alarmHighHigh": null,
+      "alarmHigh": null,
+      "alarmLow": null,
+      "alarmLowLow": null,
+      "alarmDeviation": null,
+      "qualityCheckEnabled": false,
+      "archiveEnabled": false,
+      "category": "CALC",
+      "calc": {
+        "evaluator": "expression",
+        "expression": "#a+#b",
+        "binding": {
+          "mode": "absolute",
+          "slots": [
+            {
+              "key": "a",
+              "ref": "FAS-IDF-A.出口压力"
+            },
+            {
+              "key": "b",
+              "ref": "FAS-PAF-B.出口压力"
+            }
+          ]
+        },
+        "onMissing": "ignore"
+      },
+      "simulation": {
+        "enabled": false,
+        "mode": "fixed",
+        "updateIntervalSec": 1,
+        "params": {
+          "value": 0,
+          "min": 0,
+          "max": 100,
+          "pattern": "random_walk",
+          "step": 1,
+          "period": 60,
+          "noiseLevel": 0,
+          "values": [],
+          "switchMode": "sequential",
+          "stepSize": 1,
+          "fixedValue": false,
+          "toggleIntervalSec": 5,
+          "trueProbability": 0.5,
+          "switchIntervalSec": 10,
+          "lowLimit": 0,
+          "highLimit": 100,
+          "limitPattern": "square"
+        }
+      }
+    },
+    {
+      "guid": "6eed670d-dcb0-4fc9-a5bd-afb000757353",
+      "order": 1,
+      "name": "report_count",
+      "address": "V_REPORT",
+      "dataType": "float32",
+      "enabled": true,
+      "unit": "次",
+      "minValue": 0,
+      "maxValue": 1000
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-04T04:11:47.791Z",
+    "updatedAt": "2026-09-16T06:05:15.927Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

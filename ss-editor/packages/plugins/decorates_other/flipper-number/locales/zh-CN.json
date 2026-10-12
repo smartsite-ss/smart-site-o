@@ -1,0 +1,14 @@
+{
+  "flipper-number": {
+    "label": "翻牌数字",
+    "properties": {
+      "dataset": "数值",
+      "flipperLength": "位数",
+      "color1": "文字色",
+      "flipperWidth": "宽度",
+      "flipperHeight": "高度",
+      "flipperGap": "间距"
+    },
+    "description": "数字翻牌显示插件"
+  }
+}

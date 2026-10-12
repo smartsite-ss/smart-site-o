@@ -1,0 +1,199 @@
+{
+  "id": "builtin-industrial-multi",
+  "name": "工业监控（多设备）",
+  "description": "多设备矩阵监控画面，设备卡片网格 + 详情面板 + 趋势图",
+  "category": "industrial",
+  "icon": "🏭",
+  "thumbnail": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'><rect width='1920' height='1080' fill='%230F1E2E'/><rect width='1920' height='56' fill='%23081420'/><rect x='24' y='88' width='456' height='220' rx='8' fill='%23172A3A'/><rect x='504' y='88' width='456' height='220' rx='8' fill='%23172A3A'/><rect x='24' y='332' width='456' height='220' rx='8' fill='%23172A3A'/><rect x='504' y='332' width='456' height='220' rx='8' fill='%23172A3A'/><rect x='984' y='88' width='912' height='464' rx='8' fill='%23172A3A'/><rect x='24' y='576' width='1872' height='480' rx='8' fill='%23172A3A'/></svg>",
+  "source": "builtin",
+  "author": "SS-SCADA",
+  "version": "1.0.0",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#0F1E2E",
+    "layout": "free",
+    "themeName": "blue-dark"
+  },
+  "graphics": [
+    {
+      "id": "multi-header",
+      "type": "shape",
+      "version": "1.0",
+      "config": {
+        "id": "multi-header",
+        "type": "shape",
+        "name": "顶部栏",
+        "geometry": { "x": 0, "y": 0, "width": 1920, "height": 56, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "shapeType": "rectangle", "fillColor": "@token:surface", "borderWidth": 0 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 0,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-header-title",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "multi-header-title",
+        "type": "label",
+        "name": "页面标题",
+        "geometry": { "x": 24, "y": 12, "width": 600, "height": 32, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "生产线监控总览", "textColor": "@token:text", "fontSize": 20, "fontWeight": "bold", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 1,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-dev1",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "multi-dev1",
+        "type": "param-panel",
+        "name": "设备1",
+        "geometry": { "x": 24, "y": 88, "width": 456, "height": 220, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "泵组 #01", "rowCount": 3, "rowNames": "状态,温度,压力", "rowValues": "运行,62,0.8", "rowUnits": ",°C,MPa" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 2,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-dev2",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "multi-dev2",
+        "type": "param-panel",
+        "name": "设备2",
+        "geometry": { "x": 504, "y": 88, "width": 456, "height": 220, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "泵组 #02", "rowCount": 3, "rowNames": "状态,温度,压力", "rowValues": "运行,58,0.7", "rowUnits": ",°C,MPa" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 3,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-dev3",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "multi-dev3",
+        "type": "param-panel",
+        "name": "设备3",
+        "geometry": { "x": 24, "y": 332, "width": 456, "height": 220, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "泵组 #03", "rowCount": 3, "rowNames": "状态,温度,压力", "rowValues": "停机,24,0.0", "rowUnits": ",°C,MPa" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 4,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-dev4",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "multi-dev4",
+        "type": "param-panel",
+        "name": "设备4",
+        "geometry": { "x": 504, "y": 332, "width": 456, "height": 220, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "泵组 #04", "rowCount": 3, "rowNames": "状态,温度,压力", "rowValues": "运行,66,0.9", "rowUnits": ",°C,MPa" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 5,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-detail",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "multi-detail",
+        "type": "param-panel",
+        "name": "详情面板",
+        "geometry": { "x": 984, "y": 88, "width": 912, "height": 464, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "选中设备详情", "rowCount": 5, "rowNames": "设备编号,运行时长,累计流量,当前电流,健康度", "rowValues": "P-04,1280 h,86.4 万m³,34.1 A,92", "rowUnits": ",,," },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 6,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "multi-trend",
+      "type": "trend-chart",
+      "version": "1.0",
+      "config": {
+        "id": "multi-trend",
+        "type": "trend-chart",
+        "name": "总流量趋势",
+        "geometry": { "x": 24, "y": 576, "width": 1872, "height": 480, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "全厂总流量趋势" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 7,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    }
+  ],
+  "tags": ["工业", "监控", "多设备", "矩阵"],
+  "createdAt": 1750000000000,
+  "updatedAt": 1750000000000
+}

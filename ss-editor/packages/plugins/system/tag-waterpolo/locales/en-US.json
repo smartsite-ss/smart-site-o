@@ -1,0 +1,40 @@
+{
+  "tagWaterpolo": {
+    "label": "Variable Water Polo",
+    "description": "Bind a single tag variable and display its level as a water polo",
+    "config": {
+      "bindVariable": "Bind Variable",
+      "addVariable": "Select Variable",
+      "removeVariable": "Remove",
+      "unbound": "No variable bound"
+    },
+    "properties": {
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "unit": "Unit",
+      "minValue": "Min Value",
+      "maxValue": "Max Value",
+      "showValue": "Show Value",
+      "valueColor": "Value Color",
+      "waterColor": "Water Color",
+      "trackColor": "Track Color",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      }
+    }
+  }
+}

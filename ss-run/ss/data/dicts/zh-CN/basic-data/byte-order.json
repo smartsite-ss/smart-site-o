@@ -1,0 +1,12 @@
+{
+  "dictId": "byteOrder",
+  "dictName": "字节顺序",
+  "category": "basic-data",
+  "description": "多字节数据类型在内存中的字节排列顺序",
+  "version": "1.0",
+  "sortOrder": 5,
+  "items": [
+    { "value": "big-endian", "label": "大端序", "sortOrder": 1, "description": "高字节在前（低地址存高位），适用于 MODBUS、Profibus" },
+    { "value": "little-endian", "label": "小端序", "sortOrder": 2, "description": "低字节在前（低地址存低位），适用于 x86、ARM 设备" }
+  ]
+}

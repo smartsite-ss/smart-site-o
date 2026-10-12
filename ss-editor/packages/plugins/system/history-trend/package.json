@@ -1,0 +1,30 @@
+{
+  "name": "@scada-editor/plugins-history-trend",
+  "version": "0.1.0",
+  "description": "Tag historical trend graphic plugin for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./HistoryTrendConfig": {
+      "import": "./HistoryTrendConfig.vue",
+      "types": "./HistoryTrendConfig.vue"
+    },
+    "./HistoryTrendIcon": {
+      "import": "./HistoryTrendIcon.vue",
+      "types": "./HistoryTrendIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "echarts": "^5.5.0",
+    "vue-echarts": "^7.0.3",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  }
+}

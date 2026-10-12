@@ -1,0 +1,25 @@
+{
+  "name": "@scada-editor/contract",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "跨端接口契约共享解包器（单一来源）",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "types": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "head03": {
+    "label": "Head Decoration-03",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "dataset": "Display Text",
+      "textColor": "Text Color",
+      "textSize": "Font Size"
+    },
+    "description": "Head03 graphic element"
+  }
+}

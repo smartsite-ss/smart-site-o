@@ -1,0 +1,14 @@
+﻿{
+  "dictId": "dataQuality",
+  "dictName": "Data Quality",
+  "category": "system-enums",
+  "description": "Quality status identifiers for collected data",
+  "version": "1.0",
+  "sortOrder": 2,
+  "items": [
+    { "value": "good", "label": "Good", "sortOrder": 1, "description": "Data collection normal, quality reliable" },
+    { "value": "bad", "label": "Bad", "sortOrder": 2, "description": "Data collection failed, value unusable" },
+    { "value": "uncertain", "label": "Uncertain", "sortOrder": 3, "description": "Data collected but quality is unreliable" },
+    { "value": "stale", "label": "Stale", "sortOrder": 4, "description": "Exceeded maximum age without update" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "shape": {
+    "label": "Shape",
+    "panelTitle": "Shape Properties",
+    "properties": {
+      "shapeType": "Shape Type",
+      "fillColor": "Fill Color",
+      "fillOpacity": "Fill Opacity",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "shapeType": {
+        "rectangle": "Rectangle",
+        "roundedRectangle": "Rounded Rectangle",
+        "circle": "Circle",
+        "ellipse": "Ellipse",
+        "triangle": "Triangle",
+        "diamond": "Diamond",
+        "polygon": "Polygon",
+        "arrowUp": "Arrow Up",
+        "arrowDown": "Arrow Down",
+        "arrowLeft": "Arrow Left",
+        "arrowRight": "Arrow Right",
+        "line": "Line"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "shadow": "Shadow"
+    },
+    "hints": {},
+    "description": "Shape graphic element"
+  }
+}

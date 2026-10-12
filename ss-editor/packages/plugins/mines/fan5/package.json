@@ -1,0 +1,35 @@
+{
+  "name": "@scada-editor/plugins-mines-fan5",
+  "version": "0.1.0",
+  "description": "Fan5 mining plugin with axial flow duct fan, rotation direction and speed control",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "fan5",
+    "category": "mines",
+    "label": "fan5.label",
+    "labelEn": "fan5",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "data": {
+    "acquisition": {
+      "started": "Data acquisition started successfully",
+      "stopped": "Data acquisition stopped",
+      "error": "Data acquisition error"
+    },
+    "transform": {
+      "success": "Data transformation successful",
+      "failed_invalid_value": "Invalid data value: {{value}}",
+      "failed_scale_error": "Scale factor configuration error"
+    },
+    "persistence": {
+      "save_success": "Data saved successfully",
+      "save_failed": "Failed to save data ({{detail}})"
+    },
+    "history": {
+      "query_success": "Historical data query successful",
+      "query_empty": "No historical data in the specified time range",
+      "time_range_error": "Invalid time range parameters"
+    }
+  }
+}

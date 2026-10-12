@@ -1,0 +1,61 @@
+{
+  "eventPanel": {
+    "label": "事件面板",
+    "description": "展示系统事件日志（按项目/类型/状态筛选）",
+    "loading": "加载中...",
+    "empty": "暂无事件",
+    "loadFailed": "加载失败",
+    "systemLevel": "系统级",
+    "config": {
+      "project": "项目",
+      "allProjects": "全部项目",
+      "eventType": "事件类型",
+      "allEventTypes": "全部类型",
+      "status": "状态",
+      "allStatus": "全部状态"
+    },
+    "columns": {
+      "time": "时间",
+      "eventType": "事件类型",
+      "project": "项目",
+      "operator": "操作者",
+      "status": "状态",
+      "successRatio": "成功率",
+      "duration": "耗时"
+    },
+    "groups": {
+      "device": "设备",
+      "project": "项目",
+      "alarm": "告警",
+      "config": "配置与定时器",
+      "plugin": "插件"
+    },
+    "status": {
+      "emitted": "已发射",
+      "processing": "处理中",
+      "processed": "已处理",
+      "partial": "部分失败",
+      "failed": "失败",
+      "no_subscribers": "无订阅者"
+    },
+    "properties": {
+      "pageSize": "每页条数",
+      "refreshInterval": "刷新间隔(秒)",
+      "showHeader": "显示列头",
+      "showTime": "时间列",
+      "showEventType": "事件类型列",
+      "showProject": "项目列",
+      "showOperator": "操作者列",
+      "showStatus": "状态列",
+      "showSuccessRatio": "成功率列",
+      "showDuration": "耗时列",
+      "fontSize": "字号",
+      "rowHeight": "行高",
+      "headerBackgroundColor": "列头背景",
+      "rowBackgroundColor": "行背景",
+      "alternatingRowColor": "隔行背景",
+      "textColor": "正文颜色",
+      "backgroundColor": "背景色"
+    }
+  }
+}

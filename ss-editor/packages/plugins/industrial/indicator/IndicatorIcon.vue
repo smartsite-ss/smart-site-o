@@ -1,0 +1,40 @@
+<template>
+  <svg
+    viewBox="0 0 24 24"
+    width="32"
+    height="32"
+  >
+    <circle
+      cx="12"
+      cy="12"
+      r="8"
+      fill="#2C3E50"
+      stroke="#34495E"
+      stroke-width="1"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="5.5"
+      fill="#27AE60"
+    />
+    <circle
+      cx="10.5"
+      cy="10.5"
+      r="2"
+      fill="rgba(255,255,255,0.4)"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="8"
+      fill="rgba(39,174,96,0.15)"
+    />
+    <circle
+      cx="12"
+      cy="12"
+      r="12"
+      fill="rgba(39,174,96,0.06)"
+    />
+  </svg>
+</template>

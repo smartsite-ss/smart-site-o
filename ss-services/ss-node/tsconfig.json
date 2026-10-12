@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@ss-node/ss-sdk": ["packages/ss-sdk/src"],
+      "@ss-node/ss-core": ["packages/ss-core/src"],
+      "@ss-node/ss-i18n": ["packages/ss-i18n/src"],
+      "@ss-node/ss-device": ["packages/ss-device/src"],
+      "@ss-node/ss-project": ["packages/ss-project/src"],
+      "@ss-node/ss-alarm": ["packages/ss-alarm/src"],
+      "@ss-node/ss-report": ["packages/ss-report/src"],
+      "@ss-node/ss-script": ["packages/ss-script/src"],
+      "@ss-node/ss-system": ["packages/ss-system/src"],
+      "@ss-node/ss-datatag": ["packages/ss-datatag/src"]
+    },
+    "baseUrl": "."
+  },
+  "references": [
+    { "path": "packages/ss-sdk" },
+    { "path": "packages/ss-core" },
+    { "path": "packages/ss-i18n" },
+    { "path": "packages/ss-cli" },
+    { "path": "packages/ss-device" },
+    { "path": "packages/ss-project" },
+    { "path": "packages/ss-alarm" },
+    { "path": "packages/ss-report" },
+    { "path": "packages/ss-script" },
+    { "path": "packages/ss-system" },
+    { "path": "packages/ss-datatag" },
+    { "path": "packages/ss-collector/ss-collector-s7" }
+  ]
+}

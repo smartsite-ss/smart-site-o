@@ -1,0 +1,35 @@
+{
+  "naiveButton": {
+    "label": "Naive Button",
+    "panelTitle": "Naive Button Properties",
+    "properties": {
+      "text": "Button Text",
+      "type": "Button Type",
+      "size": "Size",
+      "round": "Round Button",
+      "circle": "Circle Button",
+      "disabled": "Disabled",
+      "loading": "Loading State"
+    },
+    "options": {
+      "type": {
+        "default": "Default",
+        "primary": "Primary",
+        "success": "Success",
+        "warning": "Warning",
+        "error": "Error",
+        "info": "Info"
+      },
+      "size": {
+        "small": "Small",
+        "medium": "Medium",
+        "large": "Large"
+      }
+    },
+    "groups": {
+      "basic": "Basic"
+    },
+    "hints": {},
+    "description": "NaiveButton graphic element"
+  }
+}

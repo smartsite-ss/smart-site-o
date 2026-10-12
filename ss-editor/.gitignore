@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Build
+dist/
+build/
+packages/plugins/dist-plugins/
+apps/desktop-tauri/src-tauri/target/
+# Build artifact copied by src-tauri/build.rs for bundling (WebView2 loader resource)
+apps/desktop-tauri/src-tauri/WebView2Loader.dll
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.cache/
+.parcel-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeORM
+*.sqlite
+*.sqlite-journal
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+*.pnpm-store/*

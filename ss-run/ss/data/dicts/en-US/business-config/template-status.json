@@ -1,0 +1,13 @@
+﻿{
+  "dictId": "templateStatus",
+  "dictName": "Template Status",
+  "category": "business-config",
+  "description": "Publishing lifecycle states for device templates",
+  "version": "1.0",
+  "sortOrder": 4,
+  "items": [
+    { "value": "draft", "label": "Draft", "sortOrder": 1, "description": "Editing in progress, not applicable to devices" },
+    { "value": "published", "label": "Published", "sortOrder": 2, "description": "Published and available for device application" },
+    { "value": "deprecated", "label": "Deprecated", "sortOrder": 3, "description": "Deprecated, cannot be applied, existing devices retain" }
+  ]
+}

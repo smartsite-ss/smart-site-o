@@ -1,0 +1,172 @@
+{
+  "name": "scada-editor-plugins-industrial",
+  "version": "1.0.0",
+  "generatedAt": "2026-08-28T04:04:16.130Z",
+  "entries": [
+    {
+      "type": "gauge",
+      "category": "industrial",
+      "label": "gauge.label",
+      "labelEn": "gauge",
+      "url": "@plugins/industrial/gauge/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "indicator",
+      "category": "industrial",
+      "label": "indicator.label",
+      "labelEn": "indicator",
+      "url": "@plugins/industrial/indicator/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipe",
+      "category": "industrial",
+      "label": "pipe.label",
+      "labelEn": "pipe",
+      "url": "@plugins/industrial/pipe/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipe-h",
+      "category": "industrial",
+      "label": "pipeH.label",
+      "labelEn": "pipe-h",
+      "url": "@plugins/industrial/pipe-h/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipe-path",
+      "category": "industrial",
+      "label": "pipe-path.label",
+      "labelEn": "pipe-path",
+      "url": "@plugins/industrial/pipe-path/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipe-path-svg",
+      "category": "industrial",
+      "label": "pipe-path-svg.label",
+      "labelEn": "pipe-path-svg",
+      "url": "@plugins/industrial/pipe-path-svg/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipe-v",
+      "category": "industrial",
+      "label": "pipe-v.label",
+      "labelEn": "pipe-v",
+      "url": "@plugins/industrial/pipe-v/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipeline-h",
+      "category": "industrial",
+      "label": "pipeline-h.label",
+      "labelEn": "pipeline-h",
+      "url": "@plugins/industrial/pipeline-h/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pipeline-v",
+      "category": "industrial",
+      "label": "pipeline-v.label",
+      "labelEn": "pipeline-v",
+      "url": "@plugins/industrial/pipeline-v/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "pump",
+      "category": "industrial",
+      "label": "pump.label",
+      "labelEn": "pump",
+      "url": "@plugins/industrial/pump/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "status-indicator",
+      "category": "industrial",
+      "label": "statusIndicator.label",
+      "labelEn": "status-indicator",
+      "url": "@plugins/industrial/status-indicator/index.ts",
+      "version": "1.0.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "tank",
+      "category": "industrial",
+      "label": "tank.label",
+      "labelEn": "tank",
+      "url": "@plugins/industrial/tank/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "track-move",
+      "category": "industrial",
+      "label": "track-move.label",
+      "labelEn": "track-move",
+      "url": "@plugins/industrial/track-move/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "valve",
+      "category": "industrial",
+      "label": "valve.label",
+      "labelEn": "valve",
+      "url": "@plugins/industrial/valve/index.ts",
+      "version": "0.1.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    },
+    {
+      "type": "waterpump",
+      "category": "industrial",
+      "label": "waterpump.label",
+      "labelEn": "waterpump",
+      "url": "@plugins/industrial/waterpump/index.ts",
+      "version": "1.0.0",
+      "checksum": "",
+      "deployMode": "directory",
+      "sdkVersionRange": "^1.0.0"
+    }
+  ]
+}

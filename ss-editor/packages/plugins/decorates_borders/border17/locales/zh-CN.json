@@ -1,0 +1,15 @@
+{
+  "border17": {
+    "label": "边框-17（赛博朋克霓虹）",
+    "description": "边框-17装饰组件（赛博朋克霓虹）",
+    "properties": {
+      "color1": "霓虹青",
+      "color2": "霓虹粉",
+      "color3": "底色",
+      "backgroundColor": "背景色",
+      "showCircuit": "电路纹理",
+      "showScanline": "扫描线",
+      "animationSpeed": "动画速度"
+    }
+  }
+}

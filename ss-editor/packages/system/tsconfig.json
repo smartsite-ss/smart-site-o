@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@scada-editor/core": ["../core/src/index.ts"],
+      "@scada-editor/core/src/scada-data/types/script.types": ["../core/src/scada-data/types/script.types.ts"],
+      "@scada-editor/core/src/scada-data/engine/ScriptEngine": ["../core/src/scada-data/engine/ScriptEngine.ts"],
+      "@scada-editor/plugin-sdk": ["../plugin-sdk/src/index.ts"]
+    },
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "src/**/*.tsx", "src/**/*.d.ts", "../plugin-sdk/src/**/*.d.ts"],
+  "exclude": ["**/node_modules", "**/dist", "**/__tests__"]
+}

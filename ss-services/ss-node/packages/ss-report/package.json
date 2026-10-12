@@ -1,0 +1,29 @@
+{
+  "name": "@ss-node/ss-report",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA Report Library - Templates, Generation, History",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/swagger": "^7.2.0",
+    "@ss-node/ss-alarm": "workspace:*",
+    "@ss-node/ss-core": "workspace:*",
+    "@ss-node/ss-device": "workspace:*",
+    "@ss-node/ss-sdk": "workspace:*",
+    "@ss-node/ss-storage-influx": "workspace:*",
+    "@nestjs/typeorm": "^10.0.0",
+    "class-transformer": "^0.5.1",
+    "typeorm": "^0.3.20",
+    "class-validator": "^0.15.1",
+    "reflect-metadata": "^0.1.14"
+  }
+}

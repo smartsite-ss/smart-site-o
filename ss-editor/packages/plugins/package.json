@@ -1,0 +1,32 @@
+{
+  "name": "@scada-editor/plugins-test",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "cli": "node scripts/plugins-cli.cjs",
+    "generate": "node scripts/generate-directory-configs.cjs --all",
+    "build": "node scripts/build-directory-plugins.cjs --all",
+    "validate": "node scripts/validate-categories.cjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "konva": "^9.2.0",
+    "pinia": "^2.1.6",
+    "uuid": "^13.0.0",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vitest": "^1.2.0"
+  },
+  "description": "## 目录",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

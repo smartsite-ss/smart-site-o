@@ -1,0 +1,44 @@
+{
+  "gauge": {
+    "label": "Gauge",
+    "description": "Gauge component for value display and alarms",
+    "panelTitle": "Gauge Configuration",
+    "properties": {
+      "width": "Width",
+      "height": "Height",
+      "value": "Current Value",
+      "minValue": "Min Value",
+      "maxValue": "Max Value",
+      "unit": "Unit",
+      "decimalPlaces": "Decimal Places",
+      "startAngle": "Start Angle",
+      "endAngle": "End Angle",
+      "faceColor": "Face Color",
+      "rimColor": "Rim Color",
+      "needleColor": "Needle Color",
+      "tickColor": "Tick Color",
+      "labelColor": "Label Color",
+      "valueColor": "Value Color",
+      "showTicks": "Show Ticks",
+      "showLabels": "Show Labels",
+      "showValue": "Show Value",
+      "majorTicks": "Major Ticks",
+      "minorTicks": "Minor Ticks",
+      "warningValue": "Warning Value",
+      "dangerValue": "Danger Value",
+      "warningColor": "Warning Color",
+      "dangerColor": "Danger Color"
+    },
+    "options": {},
+    "groups": {
+      "basic": "Basic",
+      "value": "Value",
+      "gauge": "Gauge",
+      "color": "Color",
+      "display": "Display",
+      "ticks": "Ticks",
+      "alarm": "Alarm"
+    },
+    "hints": {}
+  }
+}

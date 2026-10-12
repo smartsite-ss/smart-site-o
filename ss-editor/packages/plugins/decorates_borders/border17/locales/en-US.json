@@ -1,0 +1,15 @@
+{
+  "border17": {
+    "label": "Border 17 (Cyberpunk Neon)",
+    "description": "Border 17 decorative component (Cyberpunk Neon)",
+    "properties": {
+      "color1": "Neon Cyan",
+      "color2": "Neon Magenta",
+      "color3": "Base Dark",
+      "backgroundColor": "Background Color",
+      "showCircuit": "Circuit Traces",
+      "showScanline": "Scanlines",
+      "animationSpeed": "Animation Speed"
+    }
+  }
+}

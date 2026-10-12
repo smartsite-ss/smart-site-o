@@ -1,0 +1,41 @@
+{
+  "name": "@scada-editor/plugins-industrial-pipe-v",
+  "version": "0.1.0",
+  "description": "Vertical pipe graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./PipeConfig": {
+      "import": "./PipeConfig.vue",
+      "types": "./PipeConfig.vue"
+    },
+    "./PipeIcon": {
+      "import": "./PipeIcon.vue",
+      "types": "./PipeIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "pipe-v",
+    "category": "industrial",
+    "label": "pipe-v.label",
+    "labelEn": "pipe-v",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

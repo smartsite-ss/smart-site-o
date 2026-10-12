@@ -1,0 +1,34 @@
+{
+  "name": "@scada-editor/plugins-electric-cablehead",
+  "version": "0.1.0",
+  "description": "Electric power cable termination head plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "cablehead",
+    "category": "electric",
+    "label": "cablehead.label",
+    "labelEn": "cablehead",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

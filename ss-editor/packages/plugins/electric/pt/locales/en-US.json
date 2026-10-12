@@ -1,0 +1,11 @@
+{
+  "pt": {
+    "label": "Voltage Transformer (PT)",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Pt graphic element"
+  }
+}

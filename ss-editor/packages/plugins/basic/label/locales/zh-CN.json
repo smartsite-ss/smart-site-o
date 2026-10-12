@@ -1,0 +1,69 @@
+{
+  "label": {
+    "label": "标签",
+    "panelTitle": "标签属性",
+    "properties": {
+      "text": "文本",
+      "textColor": "文本颜色",
+      "fontSize": "字体大小",
+      "fontWeight": "字体粗细",
+      "fontStyle": "字体样式",
+      "textDecoration": "文本装饰",
+      "textAlign": "文本对齐",
+      "verticalAlignment": "垂直对齐",
+      "lineHeight": "行高",
+      "letterSpacing": "字间距",
+      "wordWrap": "自动换行",
+      "maxLines": "最大行数",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderRadius": "圆角",
+      "textShadowColor": "文字阴影色",
+      "textShadowOffsetX": "阴影偏移X",
+      "textShadowOffsetY": "阴影偏移Y",
+      "textShadowBlur": "阴影模糊",
+      "decimalPlaces": "小数位数",
+      "unit": "单位",
+      "unitFontSize": "单位字体大小",
+      "unitFontColor": "单位字体颜色",
+      "unitGap": "单位间距"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      },
+      "fontStyle": {
+        "normal": "正常",
+        "italic": "斜体"
+      },
+      "textDecoration": {
+        "none": "无",
+        "underline": "下划线",
+        "line-through": "删除线"
+      },
+      "textAlign": {
+        "left": "左对齐",
+        "center": "居中",
+        "right": "右对齐"
+      },
+      "verticalAlignment": {
+        "top": "顶部",
+        "middle": "居中",
+        "bottom": "底部"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式",
+      "text": "文字",
+      "unit": "单位",
+      "shadow": "阴影"
+    },
+    "hints": {
+      "maxLinesHint": "0表示不限制"
+    },
+    "description": "标签图元"
+  }
+}

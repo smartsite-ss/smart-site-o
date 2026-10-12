@@ -1,0 +1,42 @@
+{
+  "valve": {
+    "label": "Valve",
+    "description": "Valve component with open/close status and type switching",
+    "panelTitle": "Valve Configuration",
+    "properties": {
+      "width": "Width",
+      "height": "Height",
+      "status": "Status",
+      "valveType": "Valve Type",
+      "bodyColor": "Body Color",
+      "stemColor": "Stem Color",
+      "openColor": "Open Color",
+      "closedColor": "Closed Color",
+      "faultColor": "Fault Color",
+      "showLabel": "Show Label",
+      "labelText": "Label Text"
+    },
+    "options": {
+      "status": {
+        "open": "Open",
+        "closed": "Closed",
+        "opening": "Opening",
+        "closing": "Closing",
+        "fault": "Fault"
+      },
+      "valveType": {
+        "butterfly": "Butterfly Valve",
+        "gate": "Gate Valve"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "status": "Status",
+      "color": "Color",
+      "statusColor": "Status Color",
+      "label": "Label",
+      "binding": "Binding"
+    },
+    "hints": {}
+  }
+}

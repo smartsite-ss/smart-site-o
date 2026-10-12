@@ -1,0 +1,1184 @@
+common.actions  ←  DeviceMonitorView.vue
+common.back  ←  DeviceDetailView.vue
+common.cancel  ←  KnowledgeView.vue, KnowledgeView.vue, KnowledgeView.vue, AiProviderConfigView.vue
+common.delete  ←  DeviceListView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue
+common.edit  ←  DeviceListView.vue, KnowledgeView.vue
+common.latestValue  ←  DeviceDetailView.vue
+common.loading  ←  DeviceListView.vue, DeviceListView.vue, DeviceMonitorView.vue, DeviceMonitorView.vue, DeviceMonitorView.vue, DeviceMonitorView.vue, KnowledgeView.vue, KnowledgeView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, SettingsView.vue, WebSocketMonitorView.vue
+common.nameAlias  ←  DeviceDetailView.vue, DeviceMonitorView.vue
+common.no  ←  DeviceMonitorView.vue
+common.notAvailable  ←  DeviceMonitorView.vue
+common.quality  ←  DeviceDetailView.vue, DeviceMonitorView.vue
+common.refresh  ←  AiProviderConfigView.vue
+common.reload  ←  DictView.vue, WebSocketMonitorView.vue
+common.retry  ←  DictView.vue
+common.save  ←  KnowledgeView.vue, AiProviderConfigView.vue
+common.saving  ←  KnowledgeView.vue, AiProviderConfigView.vue
+common.search  ←  KnowledgeView.vue
+common.template  ←  DeviceDetailView.vue, DeviceMonitorView.vue
+common.tid  ←  DeviceMonitorView.vue
+common.yes  ←  DeviceMonitorView.vue
+system.aiConfig.advancedSettings  ←  AiProviderConfigView.vue
+system.aiConfig.apiBase  ←  AiProviderConfigView.vue
+system.aiConfig.apiKey  ←  AiProviderConfigView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.apiKeyHint  ←  AiProviderConfigView.vue
+system.aiConfig.apiKeyPlaceholder  ←  AiProviderConfigView.vue
+system.aiConfig.configure  ←  AiProviderConfigView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.defaultModel  ←  AiProviderConfigView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.description  ←  AiProviderConfigView.vue
+system.aiConfig.disabled  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.domestic  ←  AiProviderConfigView.vue
+system.aiConfig.enabled  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.getApiKey  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.international  ←  AiProviderConfigView.vue
+system.aiConfig.loading  ←  AiProviderConfigView.vue
+system.aiConfig.notConfigured  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.testConnection  ←  AiProviderConfigView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.testFailed  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.testing  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.testSuccess  ←  AiProviderConfigView.vue, AiProviderConfigView.vue
+system.aiConfig.title  ←  AiProviderConfigView.vue
+system.aiConfig.updateApiKey  ←  AiProviderConfigView.vue, AiProviderConfigView.vue, AiProviderConfigView.vue
+system.alarms.acknowledge  ←  AlarmListView.vue
+system.alarms.acknowledged  ←  AlarmListView.vue
+system.alarms.active  ←  AlarmListView.vue
+system.alarms.activeAlarmCount  ←  AlarmListView.vue
+system.alarms.alarmCount  ←  AlarmListView.vue
+system.alarms.clear  ←  AlarmListView.vue
+system.alarms.cleared  ←  AlarmListView.vue
+system.alarms.createRule  ←  AlarmListView.vue
+system.alarms.disabled  ←  AlarmListView.vue
+system.alarms.enabled  ←  AlarmListView.vue
+system.alarms.loading  ←  AlarmListView.vue
+system.alarms.noAlarms  ←  AlarmListView.vue
+system.alarms.noRules  ←  AlarmListView.vue
+system.alarms.noRulesDesc  ←  AlarmListView.vue
+system.alarms.recordsTab  ←  AlarmListView.vue
+system.alarms.retry  ←  AlarmListView.vue
+system.alarms.rulesTab  ←  AlarmListView.vue
+system.alarms.statsTab  ←  AlarmListView.vue
+system.alarms.title  ←  AlarmListView.vue
+system.alarms.totalAlarms  ←  AlarmListView.vue
+system.alarms.trend7Days  ←  AlarmListView.vue
+system.alarmStatistics.average  ←  AlarmStatisticsView.vue
+system.alarmStatistics.avgResponseTime  ←  AlarmStatisticsView.vue
+system.alarmStatistics.backToAlarms  ←  AlarmStatisticsView.vue
+system.alarmStatistics.count  ←  AlarmStatisticsView.vue
+system.alarmStatistics.currentPeriodCount  ←  AlarmStatisticsView.vue
+system.alarmStatistics.endDate  ←  AlarmStatisticsView.vue
+system.alarmStatistics.level  ←  AlarmStatisticsView.vue
+system.alarmStatistics.levelDistribution  ←  AlarmStatisticsView.vue
+system.alarmStatistics.loading  ←  AlarmStatisticsView.vue, AlarmStatisticsView.vue
+system.alarmStatistics.max  ←  AlarmStatisticsView.vue
+system.alarmStatistics.median  ←  AlarmStatisticsView.vue
+system.alarmStatistics.message  ←  AlarmStatisticsView.vue
+system.alarmStatistics.min  ←  AlarmStatisticsView.vue
+system.alarmStatistics.noData  ←  AlarmStatisticsView.vue, AlarmStatisticsView.vue, AlarmStatisticsView.vue, AlarmStatisticsView.vue
+system.alarmStatistics.query  ←  AlarmStatisticsView.vue, AlarmStatisticsView.vue
+system.alarmStatistics.responseTimeStats  ←  AlarmStatisticsView.vue
+system.alarmStatistics.ruleName  ←  AlarmStatisticsView.vue
+system.alarmStatistics.startDate  ←  AlarmStatisticsView.vue
+system.alarmStatistics.time  ←  AlarmStatisticsView.vue
+system.alarmStatistics.timeSeries  ←  AlarmStatisticsView.vue
+system.alarmStatistics.title  ←  AlarmListView.vue, AlarmStatisticsView.vue
+system.alarmStatistics.topAlarms  ←  AlarmStatisticsView.vue
+system.alarmStatistics.totalSamples  ←  AlarmStatisticsView.vue
+system.alarmStatistics.trendChange  ←  AlarmStatisticsView.vue
+system.audit.actionGrant  ←  PermissionAuditLogView.vue
+system.audit.actionRevoke  ←  PermissionAuditLogView.vue
+system.audit.actionUpdateAuth  ←  PermissionAuditLogView.vue
+system.audit.actionUpdatePerms  ←  PermissionAuditLogView.vue
+system.audit.allActions  ←  PermissionAuditLogView.vue
+system.audit.allTargets  ←  PermissionAuditLogView.vue
+system.audit.empty  ←  PermissionAuditLogView.vue
+system.audit.searchOperator  ←  PermissionAuditLogView.vue
+system.audit.targetDeviceAuth  ←  PermissionAuditLogView.vue
+system.audit.targetGroupAuth  ←  PermissionAuditLogView.vue
+system.audit.targetProjectAuth  ←  PermissionAuditLogView.vue
+system.audit.targetRole  ←  PermissionAuditLogView.vue
+system.audit.targetUser  ←  PermissionAuditLogView.vue
+system.audit.title  ←  PermissionAuditLogView.vue
+system.baseServices.addService  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.binary  ←  BaseServicesView.vue
+system.baseServices.cancel  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.clearing  ←  BaseServicesView.vue
+system.baseServices.clearLogs  ←  BaseServicesView.vue
+system.baseServices.close  ←  BaseServicesView.vue
+system.baseServices.config  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.configPlaceholder  ←  BaseServicesView.vue
+system.baseServices.configTitle  ←  BaseServicesView.vue
+system.baseServices.delete  ←  BaseServicesView.vue
+system.baseServices.edit  ←  BaseServicesView.vue
+system.baseServices.editService  ←  BaseServicesView.vue
+system.baseServices.fieldAutoStart  ←  BaseServicesView.vue
+system.baseServices.fieldBinaryPath  ←  BaseServicesView.vue
+system.baseServices.fieldConfigPath  ←  BaseServicesView.vue
+system.baseServices.fieldDataDir  ←  BaseServicesView.vue
+system.baseServices.fieldDescription  ←  BaseServicesView.vue
+system.baseServices.fieldDisplayName  ←  BaseServicesView.vue
+system.baseServices.fieldDisplayNamePlaceholder  ←  BaseServicesView.vue
+system.baseServices.fieldEnabled  ←  BaseServicesView.vue
+system.baseServices.fieldLogDir  ←  BaseServicesView.vue
+system.baseServices.fieldName  ←  BaseServicesView.vue
+system.baseServices.fieldNamePlaceholder  ←  BaseServicesView.vue
+system.baseServices.fieldPort  ←  BaseServicesView.vue
+system.baseServices.fieldProcessName  ←  BaseServicesView.vue
+system.baseServices.fieldSortOrder  ←  BaseServicesView.vue
+system.baseServices.fieldStartArgs  ←  BaseServicesView.vue
+system.baseServices.fieldStartScript  ←  BaseServicesView.vue
+system.baseServices.fieldStartScriptPlaceholder  ←  BaseServicesView.vue
+system.baseServices.fieldStopScript  ←  BaseServicesView.vue
+system.baseServices.fieldStopScriptPlaceholder  ←  BaseServicesView.vue
+system.baseServices.fileSize  ←  BaseServicesView.vue
+system.baseServices.initInfluxdb  ←  BaseServicesView.vue
+system.baseServices.initInfluxdbChecking  ←  BaseServicesView.vue
+system.baseServices.initInfluxdbIniting  ←  BaseServicesView.vue
+system.baseServices.initInfluxdbNeeded  ←  BaseServicesView.vue
+system.baseServices.initInfluxdbReady  ←  BaseServicesView.vue
+system.baseServices.initInfluxdbUnreachable  ←  BaseServicesView.vue
+system.baseServices.lines  ←  BaseServicesView.vue
+system.baseServices.loading  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.logDir  ←  BaseServicesView.vue
+system.baseServices.logs  ←  BaseServicesView.vue
+system.baseServices.logsTitle  ←  BaseServicesView.vue
+system.baseServices.no  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.noLogs  ←  BaseServicesView.vue
+system.baseServices.noServices  ←  BaseServicesView.vue
+system.baseServices.pid  ←  BaseServicesView.vue
+system.baseServices.portReachable  ←  BaseServicesView.vue
+system.baseServices.processRunning  ←  BaseServicesView.vue
+system.baseServices.refresh  ←  BaseServicesView.vue
+system.baseServices.refreshLogs  ←  BaseServicesView.vue
+system.baseServices.restart  ←  BaseServicesView.vue
+system.baseServices.save  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.saving  ←  BaseServicesView.vue, BaseServicesView.vue
+system.baseServices.start  ←  BaseServicesView.vue
+system.baseServices.stop  ←  BaseServicesView.vue
+system.baseServices.title  ←  BaseServicesView.vue
+system.baseServices.uptime  ←  BaseServicesView.vue
+system.baseServices.yes  ←  BaseServicesView.vue, BaseServicesView.vue
+system.common.close  ←  TagHistoryDialog.vue
+system.config.restartRequired  ←  SettingsView.vue
+system.config.sensitive  ←  SettingsView.vue
+system.database.abnormal  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.actions  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.afterVacuum  ←  DatabaseOpsView.vue
+system.database.autoBackup  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.backupAllProjects  ←  DatabaseOpsView.vue
+system.database.backupLocationLabel  ←  DatabaseOpsView.vue
+system.database.backupLocationPlaceholder  ←  DatabaseOpsView.vue
+system.database.backupSelected  ←  DatabaseOpsView.vue
+system.database.backupType  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.beforeVacuum  ←  DatabaseOpsView.vue
+system.database.cancel  ←  DatabaseOpsView.vue
+system.database.checkTime  ←  DatabaseOpsView.vue
+system.database.cleanup  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.createdAt  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.createSystemBackup  ←  DatabaseOpsView.vue
+system.database.cronExpression  ←  DatabaseOpsView.vue
+system.database.dbType  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.delete  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.download  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.enableScheduledBackup  ←  DatabaseOpsView.vue
+system.database.errorMessage  ←  DatabaseOpsView.vue
+system.database.filename  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.filePath  ←  DatabaseOpsView.vue
+system.database.freedSpace  ←  DatabaseOpsView.vue
+system.database.integrityCheck  ←  DatabaseOpsView.vue
+system.database.lastModified  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.manualBackup  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.maxSizeMb  ←  DatabaseOpsView.vue
+system.database.noBackups  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.noProjectDatabases  ←  DatabaseOpsView.vue
+system.database.normal  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.notChecked  ←  DatabaseOpsView.vue
+system.database.notVacuumed  ←  DatabaseOpsView.vue
+system.database.projectCategory  ←  DatabaseOpsView.vue
+system.database.projectDatabases  ←  DatabaseOpsView.vue
+system.database.projectDb  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.projectName  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.refresh  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.restore  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.retentionDays  ←  DatabaseOpsView.vue
+system.database.runCheck  ←  DatabaseOpsView.vue
+system.database.runVacuum  ←  DatabaseOpsView.vue
+system.database.save  ←  DatabaseOpsView.vue
+system.database.scheduledBackupConfig  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.selectAll  ←  DatabaseOpsView.vue
+system.database.selectNone  ←  DatabaseOpsView.vue
+system.database.size  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.spaceReclaim  ←  DatabaseOpsView.vue
+system.database.statsAuto  ←  DatabaseOpsView.vue
+system.database.statsBackupDir  ←  DatabaseOpsView.vue
+system.database.statsFreeSpace  ←  DatabaseOpsView.vue
+system.database.statsManual  ←  DatabaseOpsView.vue
+system.database.statsProjectCount  ←  DatabaseOpsView.vue
+system.database.statsSystemCount  ←  DatabaseOpsView.vue
+system.database.statsTotal  ←  DatabaseOpsView.vue
+system.database.statsTotalSize  ←  DatabaseOpsView.vue
+system.database.status  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.systemCategory  ←  DatabaseOpsView.vue
+system.database.systemDatabase  ←  DatabaseOpsView.vue
+system.database.systemDb  ←  DatabaseOpsView.vue, DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.tableCount  ←  DatabaseOpsView.vue, DatabaseOpsView.vue
+system.database.title  ←  DatabaseOpsView.vue
+system.database.triggeredBy  ←  DatabaseOpsView.vue
+system.deviceDetail.address  ←  DeviceDetailView.vue
+system.deviceDetail.dataTags  ←  DeviceDetailView.vue
+system.deviceDetail.dataType  ←  DeviceDetailView.vue
+system.deviceDetail.description  ←  DeviceDetailView.vue
+system.deviceDetail.errorCount  ←  DeviceDetailView.vue
+system.deviceDetail.lastOnline  ←  DeviceDetailView.vue
+system.deviceDetail.lastUpdate  ←  DeviceDetailView.vue
+system.deviceDetail.loading  ←  DeviceDetailView.vue
+system.deviceDetail.noTagsDesc  ←  DeviceDetailView.vue
+system.deviceDetail.notFound  ←  DeviceDetailView.vue, DeviceMonitorView.vue
+system.deviceDetail.tagCount  ←  DeviceDetailView.vue
+system.deviceDetail.tagName  ←  DeviceDetailView.vue
+system.deviceDetail.updateTime  ←  DeviceDetailView.vue
+system.deviceMonitor.alarmCondition  ←  DeviceMonitorView.vue
+system.deviceMonitor.alarmEnabled  ←  DeviceMonitorView.vue
+system.deviceMonitor.alarmLevel  ←  DeviceMonitorView.vue
+system.deviceMonitor.alarmRuleCount  ←  DeviceMonitorView.vue
+system.deviceMonitor.alarmRuleName  ←  DeviceMonitorView.vue
+system.deviceMonitor.alarmTagName  ←  DeviceMonitorView.vue
+system.deviceMonitor.alarmThreshold  ←  DeviceMonitorView.vue
+system.deviceMonitor.connected  ←  DeviceMonitorView.vue
+system.deviceMonitor.description  ←  DeviceMonitorView.vue
+system.deviceMonitor.deviceName  ←  DeviceMonitorView.vue
+system.deviceMonitor.deviceTree  ←  DeviceMonitorView.vue
+system.deviceMonitor.deviceType  ←  DeviceMonitorView.vue
+system.deviceMonitor.disconnected  ←  DeviceMonitorView.vue
+system.deviceMonitor.driver  ←  DeviceMonitorView.vue
+system.deviceMonitor.errorCount  ←  DeviceMonitorView.vue
+system.deviceMonitor.groupIdentity  ←  DeviceMonitorView.vue
+system.deviceMonitor.groupProtocol  ←  DeviceMonitorView.vue
+system.deviceMonitor.groupRuntime  ←  DeviceMonitorView.vue
+system.deviceMonitor.lastData  ←  DeviceMonitorView.vue
+system.deviceMonitor.lastOnline  ←  DeviceMonitorView.vue
+system.deviceMonitor.neverOnline  ←  DeviceMonitorView.vue
+system.deviceMonitor.noAlarmRules  ←  DeviceMonitorView.vue
+system.deviceMonitor.noData  ←  DeviceMonitorView.vue
+system.deviceMonitor.scanRate  ←  DeviceMonitorView.vue
+system.deviceMonitor.selectDeviceDesc  ←  DeviceMonitorView.vue
+system.deviceMonitor.selectDeviceHint  ←  DeviceMonitorView.vue
+system.deviceMonitor.tabAlarms  ←  DeviceMonitorView.vue
+system.deviceMonitor.tabBasic  ←  DeviceMonitorView.vue
+system.deviceMonitor.tabRealtime  ←  DeviceMonitorView.vue
+system.deviceMonitor.tagCount  ←  DeviceMonitorView.vue
+system.deviceMonitor.tags  ←  DeviceMonitorView.vue
+system.deviceMonitor.updateTime  ←  DeviceMonitorView.vue
+system.deviceMonitor.wsLabel  ←  DeviceMonitorView.vue, DeviceMonitorView.vue
+system.devices.add  ←  DeviceFormDialog.vue
+system.devices.addDevice  ←  DeviceListView.vue, DeviceListView.vue, DeviceFormDialog.vue
+system.devices.basicInfo  ←  DeviceFormDialog.vue
+system.devices.cancel  ←  DeviceListView.vue, DeviceListView.vue, DeviceListView.vue, DeviceListView.vue, DeviceFormDialog.vue
+system.devices.channelConfig  ←  DeviceDetailView.vue, DeviceMonitorView.vue, DeviceFormDialog.vue
+system.devices.channelEmptyHint  ←  DeviceFormDialog.vue
+system.devices.confirmDelete  ←  DeviceListView.vue
+system.devices.confirmDeleteBtn  ←  DeviceListView.vue, DeviceListView.vue
+system.devices.create  ←  DeviceListView.vue
+system.devices.creating  ←  DeviceListView.vue
+system.devices.offlinePeriod  ←  DeviceFormDialog.vue
+system.devices.offlinePeriodHint  ←  DeviceFormDialog.vue
+system.devices.offlinePeriodPlaceholder  ←  DeviceFormDialog.vue
+system.devices.delete  ←  GroupTreeNode.vue
+system.devices.deleteConfirmMessage  ←  DeviceListView.vue
+system.devices.deleteGroupConfirmMessage  ←  DeviceListView.vue
+system.devices.deleteGroupTitle  ←  DeviceListView.vue
+system.devices.deleteGroupWarning  ←  DeviceListView.vue
+system.devices.deleteWarning  ←  DeviceListView.vue
+system.devices.description  ←  DeviceListView.vue
+system.devices.deviceCount  ←  DeviceListView.vue
+system.devices.deviceDesc  ←  DeviceFormDialog.vue
+system.devices.deviceDescPlaceholder  ←  DeviceFormDialog.vue
+system.devices.deviceName  ←  DeviceFormDialog.vue
+system.devices.deviceNamePlaceholder  ←  DeviceFormDialog.vue
+system.devices.deviceTree  ←  DeviceListView.vue
+system.devices.driver  ←  DeviceFormDialog.vue
+system.devices.driverHint  ←  DeviceFormDialog.vue
+system.devices.driverSelect  ←  DeviceFormDialog.vue
+system.devices.edit  ←  GroupTreeNode.vue
+system.devices.editDevice  ←  DeviceFormDialog.vue
+system.devices.editGroup  ←  DeviceListView.vue
+system.devices.group  ←  DeviceFormDialog.vue
+system.devices.groupDescPlaceholder  ←  DeviceListView.vue
+system.devices.groupName  ←  DeviceListView.vue
+system.devices.groupNamePlaceholder  ←  DeviceListView.vue
+system.devices.loading  ←  DeviceListView.vue
+system.devices.loadingTemplates  ←  DeviceFormDialog.vue
+system.devices.moveToGroup  ←  DeviceListView.vue
+system.devices.moveToGroupConfirm  ←  DeviceListView.vue
+system.devices.moveToGroupHint  ←  DeviceListView.vue
+system.devices.moveToGroupTitle  ←  DeviceListView.vue
+system.devices.nameAlias  ←  DeviceFormDialog.vue
+system.devices.nameAliasPlaceholder  ←  DeviceFormDialog.vue
+system.devices.newGroup  ←  DeviceListView.vue, DeviceListView.vue
+system.devices.noDevices  ←  DeviceListView.vue, DeviceListView.vue, GroupTreeNode.vue, MonitorGroupTreeNode.vue
+system.devices.noDevicesDesc  ←  DeviceListView.vue
+system.devices.noGroup  ←  DeviceFormDialog.vue
+system.devices.noGroups  ←  DeviceListView.vue, DeviceListView.vue, DeviceMonitorView.vue
+system.devices.noParent  ←  DeviceListView.vue
+system.devices.noProjects  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.noTagData  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.noTemplate  ←  DeviceListView.vue
+system.devices.noTemplates  ←  DeviceFormDialog.vue
+system.devices.opcuaSecurityTitle  ←  DeviceFormDialog.vue
+system.devices.optimizeBlockAccess  ←  DeviceFormDialog.vue
+system.devices.optimizeBlockAccessHint  ←  DeviceFormDialog.vue
+system.devices.parentGroup  ←  DeviceListView.vue
+system.devices.password  ←  DeviceFormDialog.vue
+system.devices.passwordOptional  ←  DeviceFormDialog.vue
+system.devices.rack  ←  DeviceFormDialog.vue
+system.devices.refresh  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.s7ConfigTitle  ←  DeviceFormDialog.vue
+system.devices.save  ←  DeviceListView.vue, DeviceFormDialog.vue
+system.devices.scanRate  ←  DeviceFormDialog.vue
+system.devices.scanRatePlaceholder  ←  DeviceFormDialog.vue
+system.devices.search  ←  DeviceListView.vue
+system.devices.searchPlaceholder  ←  DeviceListView.vue
+system.devices.securityMode  ←  DeviceFormDialog.vue
+system.devices.securityPolicy  ←  DeviceFormDialog.vue
+system.devices.selectProjectFirst  ←  DeviceListView.vue
+system.devices.selectProjectFirstDesc  ←  DeviceListView.vue
+system.devices.slot  ←  DeviceFormDialog.vue
+system.devices.submitting  ←  DeviceListView.vue, DeviceFormDialog.vue
+system.devices.tagAddress  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.tagData  ←  DeviceListView.vue
+system.devices.tagDataType  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.tagHighLimit  ←  DeviceMonitorView.vue
+system.devices.tagLowLimit  ←  DeviceMonitorView.vue
+system.devices.tagName  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.tagUnit  ←  DeviceMonitorView.vue
+system.devices.tagUpdatedAt  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.tagValue  ←  DeviceListView.vue, DeviceMonitorView.vue
+system.devices.template  ←  DeviceFormDialog.vue
+system.devices.tid  ←  DeviceFormDialog.vue
+system.devices.tidPlaceholder  ←  DeviceFormDialog.vue
+system.devices.title  ←  DeviceListView.vue
+system.devices.ungrouped  ←  DeviceListView.vue
+system.devices.username  ←  DeviceFormDialog.vue
+system.devices.usernameOptional  ←  DeviceFormDialog.vue
+system.devices.viewData  ←  DeviceListView.vue
+system.deviceTemplate.actions.clone  ←  TemplateListView.vue
+system.deviceTemplate.actions.delete  ←  TemplateListView.vue
+system.deviceTemplate.actions.deprecate  ←  TemplateListView.vue
+system.deviceTemplate.actions.edit  ←  TemplateListView.vue, TemplateListView.vue, TemplateListView.vue
+system.deviceTemplate.actions.import  ←  TemplateListView.vue, TemplateListView.vue
+system.deviceTemplate.actions.newTemplate  ←  TemplateListView.vue
+system.deviceTemplate.actions.publish  ←  TemplateListView.vue
+system.deviceTemplate.actions.rebuild  ←  TemplateListView.vue
+system.deviceTemplate.actions.reload  ←  TemplateListView.vue
+system.deviceTemplate.actionsLabel  ←  VariableEditor.vue
+system.deviceTemplate.addVariable  ←  VariableEditor.vue
+system.deviceTemplate.alarmDeviation  ←  TemplateListView.vue
+system.deviceTemplate.alarmEnabled  ←  TemplateListView.vue
+system.deviceTemplate.alarmHigh  ←  TemplateListView.vue
+system.deviceTemplate.alarmHighHigh  ←  TemplateListView.vue
+system.deviceTemplate.alarmLow  ←  TemplateListView.vue
+system.deviceTemplate.alarmLowLow  ←  TemplateListView.vue
+system.deviceTemplate.allTemplates  ←  TemplateListView.vue
+system.deviceTemplate.apply  ←  ApplyDialog.vue
+system.deviceTemplate.applyErrors  ←  ApplyDialog.vue
+system.deviceTemplate.applyResult  ←  ApplyDialog.vue
+system.deviceTemplate.applyTemplate  ←  ApplyDialog.vue
+system.deviceTemplate.archiveEnabled  ←  TemplateListView.vue
+system.deviceTemplate.archiveInterval  ←  TemplateListView.vue
+system.deviceTemplate.byteOrder  ←  TemplateListView.vue
+system.deviceTemplate.cancel  ←  ApplyDialog.vue
+system.deviceTemplate.cancelEdit  ←  VariableEditor.vue
+system.deviceTemplate.category  ←  TemplateListView.vue
+system.deviceTemplate.categoryPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.confirmSave  ←  VariableEditor.vue
+system.deviceTemplate.conversionType  ←  TemplateListView.vue
+system.deviceTemplate.createdCount  ←  ApplyDialog.vue
+system.deviceTemplate.createTemplate  ←  TemplateListView.vue
+system.deviceTemplate.deadbandMode  ←  TemplateListView.vue
+system.deviceTemplate.deadbandPercent  ←  TemplateListView.vue
+system.deviceTemplate.deadbandTime  ←  TemplateListView.vue
+system.deviceTemplate.deadbandValue  ←  TemplateListView.vue
+system.deviceTemplate.deleteVariable  ←  VariableEditor.vue
+system.deviceTemplate.description  ←  TemplateListView.vue
+system.deviceTemplate.descriptionPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.deviceType  ←  TemplateListView.vue
+system.deviceTemplate.directory.categoryName  ←  TemplateListView.vue
+system.deviceTemplate.directory.categoryNamePlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.directory.deleteCategory  ←  TemplateListView.vue
+system.deviceTemplate.directory.newCategory  ←  TemplateListView.vue
+system.deviceTemplate.directory.newCategoryTitle  ←  TemplateListView.vue
+system.deviceTemplate.directory.newName  ←  TemplateListView.vue
+system.deviceTemplate.directory.rename  ←  TemplateListView.vue
+system.deviceTemplate.directory.renameTitle  ←  TemplateListView.vue
+system.deviceTemplate.displayFormat  ←  TemplateListView.vue
+system.deviceTemplate.editTemplate  ←  TemplateListView.vue
+system.deviceTemplate.editVariable  ←  TemplateListView.vue, VariableEditor.vue
+system.deviceTemplate.enabled  ←  TemplateListView.vue
+system.deviceTemplate.engMaxValue  ←  TemplateListView.vue
+system.deviceTemplate.engMinValue  ←  TemplateListView.vue
+system.deviceTemplate.history.compare  ←  VersionHistory.vue
+system.deviceTemplate.history.currentVersion  ←  VersionHistory.vue, VersionHistory.vue
+system.deviceTemplate.history.noChanges  ←  VersionHistory.vue
+system.deviceTemplate.history.noHistory  ←  VersionHistory.vue
+system.deviceTemplate.history.selectVersion  ←  VersionHistory.vue
+system.deviceTemplate.history.title  ←  VersionHistory.vue
+system.deviceTemplate.history.variablesAdded  ←  VersionHistory.vue
+system.deviceTemplate.history.variablesModified  ←  VersionHistory.vue
+system.deviceTemplate.history.variablesRemoved  ←  VersionHistory.vue
+system.deviceTemplate.history.version  ←  VersionHistory.vue
+system.deviceTemplate.importFailed  ←  TemplateListView.vue
+system.deviceTemplate.importSuccess  ←  TemplateListView.vue
+system.deviceTemplate.importTitle  ←  TemplateListView.vue
+system.deviceTemplate.industry  ←  TemplateListView.vue, TemplateListView.vue
+system.deviceTemplate.library  ←  TemplateListView.vue
+system.deviceTemplate.maxAge  ←  TemplateListView.vue
+system.deviceTemplate.maxValue  ←  TemplateListView.vue
+system.deviceTemplate.minValue  ←  TemplateListView.vue
+system.deviceTemplate.name  ←  TemplateListView.vue
+system.deviceTemplate.namePlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.noSearchResults  ←  TemplateListView.vue
+system.deviceTemplate.noTemplates  ←  TemplateListView.vue, TemplateListView.vue
+system.deviceTemplate.noVariables  ←  TemplateListView.vue, VariableEditor.vue
+system.deviceTemplate.offset  ←  TemplateListView.vue
+system.deviceTemplate.pasteJson  ←  TemplateListView.vue
+system.deviceTemplate.priority  ←  TemplateListView.vue
+system.deviceTemplate.qualityCheckEnabled  ←  TemplateListView.vue
+system.deviceTemplate.registerCount  ←  TemplateListView.vue
+system.deviceTemplate.replaceExisting  ←  ApplyDialog.vue
+system.deviceTemplate.retentionDays  ←  TemplateListView.vue
+system.deviceTemplate.retryCount  ←  TemplateListView.vue
+system.deviceTemplate.saveVariables  ←  VariableEditor.vue
+system.deviceTemplate.scaleFactor  ←  TemplateListView.vue
+system.deviceTemplate.searchPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.sectionAlarm  ←  TemplateListView.vue
+system.deviceTemplate.sectionBasic  ←  TemplateListView.vue
+system.deviceTemplate.sectionCollection  ←  TemplateListView.vue
+system.deviceTemplate.sectionConversion  ←  TemplateListView.vue
+system.deviceTemplate.sectionDeadband  ←  TemplateListView.vue
+system.deviceTemplate.sectionEngineering  ←  TemplateListView.vue
+system.deviceTemplate.sectionOther  ←  TemplateListView.vue
+system.deviceTemplate.sectionQuality  ←  TemplateListView.vue
+system.deviceTemplate.selectCategory  ←  VariableEditor.vue
+system.deviceTemplate.selectDataType  ←  VariableEditor.vue
+system.deviceTemplate.selectDevice  ←  ApplyDialog.vue
+system.deviceTemplate.selectDevicePlaceholder  ←  ApplyDialog.vue
+system.deviceTemplate.selectTemplateHint  ←  TemplateListView.vue
+system.deviceTemplate.skippedCount  ←  ApplyDialog.vue
+system.deviceTemplate.status  ←  TemplateListView.vue, VersionHistory.vue
+system.deviceTemplate.statusDeprecated  ←  TemplateListView.vue
+system.deviceTemplate.statusDraft  ←  TemplateListView.vue
+system.deviceTemplate.statusPublished  ←  TemplateListView.vue
+system.deviceTemplate.tagsLabel  ←  TemplateListView.vue
+system.deviceTemplate.tagsPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.templateName  ←  ApplyDialog.vue
+system.deviceTemplate.timeout  ←  TemplateListView.vue
+system.deviceTemplate.unitPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.updatedAt  ←  TemplateListView.vue
+system.deviceTemplate.varAddress  ←  TemplateListView.vue, TemplateListView.vue, VariableEditor.vue, VariableEditor.vue, VersionHistory.vue, VersionHistory.vue, VersionHistory.vue
+system.deviceTemplate.varAddressPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.varCategory  ←  TemplateListView.vue, VariableEditor.vue
+system.deviceTemplate.varDataType  ←  TemplateListView.vue, TemplateListView.vue, VariableEditor.vue, VersionHistory.vue, VersionHistory.vue, VersionHistory.vue
+system.deviceTemplate.varDescription  ←  TemplateListView.vue, TemplateListView.vue
+system.deviceTemplate.varEnabled  ←  VariableEditor.vue
+system.deviceTemplate.variables  ←  TemplateListView.vue, VariableEditor.vue
+system.deviceTemplate.varName  ←  TemplateListView.vue, TemplateListView.vue, VariableEditor.vue, VariableEditor.vue, VersionHistory.vue, VersionHistory.vue, VersionHistory.vue
+system.deviceTemplate.varNamePlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.varScanRate  ←  TemplateListView.vue, TemplateListView.vue, VariableEditor.vue, VariableEditor.vue, VersionHistory.vue, VersionHistory.vue, VersionHistory.vue
+system.deviceTemplate.varSearchPlaceholder  ←  TemplateListView.vue
+system.deviceTemplate.varUnit  ←  TemplateListView.vue, TemplateListView.vue
+system.deviceTemplate.version  ←  TemplateListView.vue
+system.dict.actions  ←  DictView.vue
+system.dict.addCategory  ←  DictView.vue, DictView.vue
+system.dict.addItem  ←  DictView.vue, DictView.vue
+system.dict.addTable  ←  DictView.vue, DictView.vue
+system.dict.categoryName  ←  DictView.vue
+system.dict.categoryNamePlaceholder  ←  DictView.vue
+system.dict.colDescription  ←  DictView.vue
+system.dict.colLabel  ←  DictView.vue
+system.dict.colValue  ←  DictView.vue
+system.dict.delete  ←  DictView.vue, DictView.vue, DictView.vue
+system.dict.description  ←  DictView.vue
+system.dict.descriptionPlaceholder  ←  DictView.vue
+system.dict.dictId  ←  DictView.vue
+system.dict.dictIdPlaceholder  ←  DictView.vue
+system.dict.dictName  ←  DictView.vue
+system.dict.dictNamePlaceholder  ←  DictView.vue
+system.dict.edit  ←  DictView.vue, DictView.vue, DictView.vue
+system.dict.editItem  ←  DictView.vue
+system.dict.editTable  ←  DictView.vue
+system.dict.export  ←  DictView.vue, DictView.vue
+system.dict.import  ←  DictView.vue, DictView.vue
+system.dict.importJsonHint  ←  DictView.vue
+system.dict.importTable  ←  DictView.vue
+system.dict.itemDescription  ←  DictView.vue
+system.dict.itemDescriptionPlaceholder  ←  DictView.vue
+system.dict.itemLabel  ←  DictView.vue
+system.dict.itemLabelPlaceholder  ←  DictView.vue
+system.dict.items  ←  DictView.vue, DictView.vue
+system.dict.itemValue  ←  DictView.vue
+system.dict.itemValuePlaceholder  ←  DictView.vue
+system.dict.noData  ←  DictView.vue
+system.dict.rename  ←  DictView.vue
+system.dict.renameCategory  ←  DictView.vue
+system.dict.selectHint  ←  DictView.vue
+system.dict.sortOrder  ←  DictView.vue, DictView.vue
+system.dict.version  ←  DictView.vue
+system.health.cpuLoad  ←  HealthView.vue
+system.health.diskCriticalThreshold  ←  HealthView.vue
+system.health.diskFree  ←  HealthView.vue
+system.health.diskPartitions  ←  HealthView.vue
+system.health.diskWarnThreshold  ←  HealthView.vue
+system.health.hostname  ←  HealthView.vue
+system.health.memory  ←  HealthView.vue
+system.health.memoryCriticalThreshold  ←  HealthView.vue
+system.health.memoryWarnThreshold  ←  HealthView.vue
+system.health.platform  ←  HealthView.vue
+system.health.probes  ←  HealthView.vue
+system.health.refresh  ←  HealthView.vue
+system.health.resources  ←  HealthView.vue
+system.health.systemInfo  ←  HealthView.vue
+system.health.uptime  ←  HealthView.vue
+system.historicalTrend.custom  ←  HistoricalTrendView.vue
+system.historicalTrend.device  ←  HistoricalTrendView.vue
+system.historicalTrend.done  ←  HistoricalTrendView.vue
+system.historicalTrend.last1h  ←  HistoricalTrendView.vue
+system.historicalTrend.last24h  ←  HistoricalTrendView.vue
+system.historicalTrend.last6h  ←  HistoricalTrendView.vue
+system.historicalTrend.last7d  ←  HistoricalTrendView.vue
+system.historicalTrend.loading  ←  HistoricalTrendView.vue
+system.historicalTrend.noData  ←  HistoricalTrendView.vue
+system.historicalTrend.noTags  ←  HistoricalTrendView.vue
+system.historicalTrend.project  ←  HistoricalTrendView.vue
+system.historicalTrend.query  ←  HistoricalTrendView.vue
+system.historicalTrend.querying  ←  HistoricalTrendView.vue
+system.historicalTrend.searchTag  ←  HistoricalTrendView.vue
+system.historicalTrend.selectAll  ←  HistoricalTrendView.vue
+system.historicalTrend.selectDevice  ←  HistoricalTrendView.vue
+system.historicalTrend.selectProject  ←  HistoricalTrendView.vue
+system.historicalTrend.selectTags  ←  HistoricalTrendView.vue
+system.historicalTrend.tags  ←  HistoricalTrendView.vue
+system.historicalTrend.tagsSelected  ←  HistoricalTrendView.vue
+system.historicalTrend.timeRange  ←  HistoricalTrendView.vue
+system.home.alarm  ←  SystemHomeView.vue
+system.home.alarmCenter  ←  SystemHomeView.vue
+system.home.alarmCenterDesc  ←  SystemHomeView.vue
+system.home.dataTags  ←  SystemHomeView.vue
+system.home.deviceManage  ←  SystemHomeView.vue
+system.home.deviceManageDesc  ←  SystemHomeView.vue
+system.home.deviceStatus  ←  SystemHomeView.vue
+system.home.noActivity  ←  SystemHomeView.vue
+system.home.offline  ←  SystemHomeView.vue
+system.home.offlineDevices  ←  SystemHomeView.vue
+system.home.online  ←  SystemHomeView.vue
+system.home.onlineDevices  ←  SystemHomeView.vue
+system.home.quickEntries  ←  SystemHomeView.vue
+system.home.recentActivity  ←  SystemHomeView.vue
+system.home.scriptManage  ←  SystemHomeView.vue
+system.home.scriptManageDesc  ←  SystemHomeView.vue
+system.home.subtitle  ←  SystemHomeView.vue
+system.home.systemSettings  ←  SystemHomeView.vue
+system.home.systemSettingsDesc  ←  SystemHomeView.vue
+system.home.templateManage  ←  SystemHomeView.vue
+system.home.templateManageDesc  ←  SystemHomeView.vue
+system.home.title  ←  SystemHomeView.vue
+system.home.totalDevices  ←  SystemHomeView.vue
+system.kb.contents  ←  KnowledgeView.vue
+system.kb.editPlaceholder  ←  KnowledgeView.vue
+system.kb.empty  ←  KnowledgeView.vue
+system.kb.fallbackFrom  ←  KnowledgeView.vue
+system.kb.fallbackHint  ←  KnowledgeView.vue
+system.kb.insertImage  ←  KnowledgeView.vue, KnowledgeView.vue
+system.kb.module  ←  KnowledgeView.vue
+system.kb.noResults  ←  KnowledgeView.vue
+system.kb.searchPlaceholder  ←  KnowledgeView.vue
+system.kb.searchResults  ←  KnowledgeView.vue
+system.kb.selectArticle  ←  KnowledgeView.vue
+system.login.backToLogin  ←  LoginView.vue
+system.login.createAccount  ←  LoginView.vue
+system.login.displayName  ←  LoginView.vue
+system.login.email  ←  LoginView.vue
+system.login.hasAccount  ←  LoginView.vue
+system.login.hidePassword  ←  LoginView.vue
+system.login.loginAccount  ←  LoginView.vue
+system.login.loginBtn  ←  LoginView.vue
+system.login.noAccount  ←  LoginView.vue
+system.login.password  ←  LoginView.vue
+system.login.register  ←  LoginView.vue
+system.login.registerBtn  ←  LoginView.vue
+system.login.showPassword  ←  LoginView.vue
+system.login.tagline  ←  LoginView.vue
+system.login.username  ←  LoginView.vue
+system.menus.addButton  ←  MenuManageView.vue
+system.menus.addChild  ←  MenuManageView.vue
+system.menus.addRoot  ←  MenuManageView.vue
+system.menus.buttonId  ←  MenuManageView.vue
+system.menus.buttonLabelKey  ←  MenuManageView.vue
+system.menus.buttons  ←  MenuManageView.vue
+system.menus.deleteItem  ←  MenuManageView.vue
+system.menus.displayName  ←  MenuManageView.vue
+system.menus.displayNameHint  ←  MenuManageView.vue, MenuManageView.vue
+system.menus.editItem  ←  MenuManageView.vue
+system.menus.empty  ←  MenuManageView.vue
+system.menus.icon  ←  MenuManageView.vue
+system.menus.isDetail  ←  MenuManageView.vue
+system.menus.isDetailHint  ←  MenuManageView.vue
+system.menus.itemId  ←  MenuManageView.vue
+system.menus.labelKey  ←  MenuManageView.vue
+system.menus.langEnUS  ←  MenuManageView.vue
+system.menus.langZhCN  ←  MenuManageView.vue
+system.menus.menuTree  ←  MenuManageView.vue
+system.menus.moveDown  ←  MenuManageView.vue
+system.menus.moveUp  ←  MenuManageView.vue
+system.menus.noButtons  ←  MenuManageView.vue
+system.menus.permissionCode  ←  MenuManageView.vue
+system.menus.roles  ←  MenuManageView.vue
+system.menus.saveAll  ←  MenuManageView.vue
+system.menus.saveItem  ←  MenuManageView.vue
+system.menus.saving  ←  MenuManageView.vue
+system.menus.selectHint  ←  MenuManageView.vue
+system.menus.sortOrder  ←  MenuManageView.vue, MenuManageView.vue
+system.menus.sortOrderLabel  ←  MenuManageView.vue
+system.menus.subsystem  ←  MenuManageView.vue
+system.menus.subsystemHint  ←  MenuManageView.vue
+system.menus.syncEnUS  ←  MenuManageView.vue
+system.menus.syncHint  ←  MenuManageView.vue
+system.menus.syncZhCN  ←  MenuManageView.vue
+system.nav.dict  ←  DictView.vue
+system.nav.knowledge  ←  KnowledgeView.vue
+system.nav.menus  ←  MenuManageView.vue
+system.nav.notificationChannels  ←  SettingsView.vue
+system.nav.positions  ←  PositionListView.vue
+system.nav.roles  ←  RoleListView.vue
+system.nav.users  ←  UserListView.vue
+system.notificationChannel.apiKeyPlaceholder  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.apiSecretPlaceholder  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.calledNumber  ←  NotificationChannelView.vue
+system.notificationChannel.calledNumberPlaceholder  ←  NotificationChannelView.vue
+system.notificationChannel.provider  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.providerAliyun  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.providerTencent  ←  NotificationChannelView.vue
+system.notificationChannel.save  ←  NotificationChannelView.vue
+system.notificationChannel.saving  ←  NotificationChannelView.vue
+system.notificationChannel.signName  ←  NotificationChannelView.vue
+system.notificationChannel.signNamePlaceholder  ←  NotificationChannelView.vue
+system.notificationChannel.smsTab  ←  NotificationChannelView.vue
+system.notificationChannel.templateCode  ←  NotificationChannelView.vue
+system.notificationChannel.templateCodePlaceholder  ←  NotificationChannelView.vue
+system.notificationChannel.testCall  ←  NotificationChannelView.vue
+system.notificationChannel.testing  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.testPhone  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.testPhonePlaceholder  ←  NotificationChannelView.vue, NotificationChannelView.vue
+system.notificationChannel.testSend  ←  NotificationChannelView.vue
+system.notificationChannel.title  ←  NotificationChannelView.vue, SettingsView.vue, SettingsView.vue
+system.notificationChannel.ttsTab  ←  NotificationChannelView.vue
+system.pipeline.activeTasks  ←  PipelineMetricsView.vue
+system.pipeline.autoRefreshOff  ←  DeviceListView.vue, DeviceMonitorView.vue, PipelineMetricsView.vue
+system.pipeline.autoRefreshOn  ←  DeviceListView.vue, DeviceMonitorView.vue, PipelineMetricsView.vue
+system.pipeline.avgMs  ←  PipelineMetricsView.vue
+system.pipeline.backToPlugins  ←  PipelineMetricsView.vue
+system.pipeline.bufferedMessages  ←  PipelineMetricsView.vue
+system.pipeline.cacheHit  ←  PipelineMetricsView.vue
+system.pipeline.cacheHitRate  ←  PipelineMetricsView.vue
+system.pipeline.cacheMiss  ←  PipelineMetricsView.vue
+system.pipeline.cacheStats  ←  PipelineMetricsView.vue
+system.pipeline.calls  ←  PipelineMetricsView.vue
+system.pipeline.clearCache  ←  PipelineMetricsView.vue
+system.pipeline.close  ←  PipelineMetricsView.vue
+system.pipeline.copy  ←  PipelineMetricsView.vue
+system.pipeline.deadbandFiltered  ←  PipelineMetricsView.vue
+system.pipeline.diagnosticTitle  ←  PipelineMetricsView.vue
+system.pipeline.errorCount  ←  PipelineMetricsView.vue
+system.pipeline.errorRate  ←  PipelineMetricsView.vue
+system.pipeline.errors  ←  PipelineMetricsView.vue, PipelineMetricsView.vue
+system.pipeline.executionsError  ←  PipelineMetricsView.vue
+system.pipeline.executionsSuccess  ←  PipelineMetricsView.vue
+system.pipeline.executionsTotal  ←  PipelineMetricsView.vue
+system.pipeline.flameGraph  ←  PipelineMetricsView.vue
+system.pipeline.flameGraphHint  ←  PipelineMetricsView.vue
+system.pipeline.flushCache  ←  PipelineMetricsView.vue
+system.pipeline.lastDuration  ←  PipelineMetricsView.vue
+system.pipeline.lastRefresh  ←  DeviceListView.vue, PipelineMetricsView.vue
+system.pipeline.loading  ←  PipelineMetricsView.vue
+system.pipeline.maxMs  ←  PipelineMetricsView.vue
+system.pipeline.minMs  ←  PipelineMetricsView.vue
+system.pipeline.newestTimestamp  ←  PipelineMetricsView.vue
+system.pipeline.noBreakdowns  ←  PipelineMetricsView.vue
+system.pipeline.noOfflineCacheData  ←  PipelineMetricsView.vue
+system.pipeline.noPrometheus  ←  PipelineMetricsView.vue
+system.pipeline.noStepStats  ←  PipelineMetricsView.vue
+system.pipeline.offlineCache  ←  PipelineMetricsView.vue
+system.pipeline.oldestTimestamp  ←  PipelineMetricsView.vue
+system.pipeline.persistStats  ←  PipelineMetricsView.vue
+system.pipeline.pipelineMetricsBtn  ←  PluginListView.vue
+system.pipeline.prometheusRaw  ←  PipelineMetricsView.vue
+system.pipeline.protocolRead  ←  PipelineMetricsView.vue
+system.pipeline.queueDepth  ←  PipelineMetricsView.vue
+system.pipeline.refresh  ←  DeviceListView.vue, DeviceMonitorView.vue, DeviceMonitorView.vue, PipelineMetricsView.vue
+system.pipeline.refreshing  ←  DeviceListView.vue, DeviceMonitorView.vue, DeviceMonitorView.vue, PipelineMetricsView.vue
+system.pipeline.retry  ←  PipelineMetricsView.vue
+system.pipeline.runDiagnostic  ←  PipelineMetricsView.vue
+system.pipeline.stepName  ←  PipelineMetricsView.vue
+system.pipeline.stepStats  ←  PipelineMetricsView.vue
+system.pipeline.title  ←  PipelineMetricsView.vue
+system.pipeline.total  ←  PipelineMetricsView.vue, PipelineMetricsView.vue, PipelineMetricsView.vue
+system.plugins.acquisitionLogs  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.activate  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.activatedAt  ←  PluginDetailView.vue, PluginMonitorView.vue
+system.plugins.activeConnections  ←  PluginDetailView.vue, PluginDetailView.vue, PluginListView.vue
+system.plugins.activePlugins  ←  PluginListView.vue
+system.plugins.allCategories  ←  PluginListView.vue
+system.plugins.allStatus  ←  PluginListView.vue
+system.plugins.avgResponseTime  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.backToList  ←  PluginDetailView.vue, PluginMonitorView.vue
+system.plugins.category  ←  PluginDetailView.vue, PluginListView.vue, PluginListView.vue, PluginMonitorView.vue
+system.plugins.categoryBuilding  ←  PluginListView.vue
+system.plugins.categoryCustom  ←  PluginListView.vue
+system.plugins.categoryIndustrialBus  ←  PluginListView.vue
+system.plugins.categoryIot  ←  PluginListView.vue
+system.plugins.categoryPower  ←  PluginListView.vue
+system.plugins.checkUpdate  ←  PluginListView.vue
+system.plugins.clearing  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.clearLogs  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.connectionSchema  ←  PluginDetailView.vue
+system.plugins.cpuUsage  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.deactivate  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.defaultConnection  ←  PluginDetailView.vue
+system.plugins.description  ←  PluginDetailView.vue, PluginMonitorView.vue
+system.plugins.deviceLayer  ←  PluginMonitorView.vue
+system.plugins.deviceOffline  ←  PluginListView.vue, PluginMonitorView.vue
+system.plugins.deviceOnline  ←  PluginListView.vue, PluginMonitorView.vue
+system.plugins.deviceTotal  ←  PluginListView.vue, PluginMonitorView.vue
+system.plugins.errorMessage  ←  PluginDetailView.vue
+system.plugins.healthCheck  ←  PluginListView.vue
+system.plugins.isolationChildProcess  ←  PluginDetailView.vue
+system.plugins.isolationInProcess  ←  PluginDetailView.vue
+system.plugins.isolationMode  ←  PluginDetailView.vue, PluginDetailView.vue, PluginListView.vue, PluginMonitorView.vue
+system.plugins.isolationModeHint  ←  PluginDetailView.vue
+system.plugins.isolationWorkerThread  ←  PluginDetailView.vue
+system.plugins.loading  ←  PluginDetailView.vue, PluginListView.vue, PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.logFile  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.memoryUsage  ←  PluginMonitorView.vue, PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.metrics  ←  PluginDetailView.vue
+system.plugins.monitor  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.monitorTitle  ←  PluginMonitorDialog.vue
+system.plugins.more  ←  PluginListView.vue
+system.plugins.noLogs  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.noPlugins  ←  PluginListView.vue
+system.plugins.noPluginsHint  ←  PluginListView.vue
+system.plugins.pluginCount  ←  PluginListView.vue
+system.plugins.pluginDetail  ←  PluginMonitorView.vue
+system.plugins.pluginNotFound  ←  PluginDetailView.vue
+system.plugins.processId  ←  PluginMonitorView.vue
+system.plugins.processMetrics  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.processName  ←  PluginMonitorView.vue
+system.plugins.protocol  ←  PluginDetailView.vue, PluginListView.vue, PluginMonitorView.vue
+system.plugins.rediscover  ←  PluginListView.vue, PluginListView.vue
+system.plugins.rediscovering  ←  PluginListView.vue
+system.plugins.refresh  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.refreshing  ←  PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.registeredAt  ←  PluginDetailView.vue, PluginMonitorView.vue
+system.plugins.retry  ←  PluginDetailView.vue, PluginListView.vue, PluginMonitorView.vue
+system.plugins.rollback  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.runtimeConfig  ←  PluginDetailView.vue
+system.plugins.saveConfig  ←  PluginDetailView.vue
+system.plugins.saving  ←  PluginDetailView.vue
+system.plugins.status  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.statusActive  ←  PluginListView.vue
+system.plugins.statusError  ←  PluginListView.vue
+system.plugins.statusInactive  ←  PluginListView.vue
+system.plugins.supportedDataTypes  ←  PluginDetailView.vue
+system.plugins.tags  ←  PluginDetailView.vue
+system.plugins.threadId  ←  PluginMonitorView.vue
+system.plugins.title  ←  PluginListView.vue
+system.plugins.totalConnections  ←  PluginDetailView.vue
+system.plugins.totalErrors  ←  PluginDetailView.vue, PluginDetailView.vue, PluginListView.vue
+system.plugins.totalReads  ←  PluginDetailView.vue, PluginDetailView.vue, PluginListView.vue
+system.plugins.transport  ←  PluginDetailView.vue, PluginListView.vue, PluginMonitorView.vue
+system.plugins.update  ←  PluginDetailView.vue, PluginListView.vue
+system.plugins.uptime  ←  PluginDetailView.vue, PluginDetailView.vue, PluginMonitorView.vue, PluginMonitorDialog.vue
+system.plugins.viewSchema  ←  PluginListView.vue
+system.positions.cancel  ←  PositionListView.vue
+system.positions.code  ←  PositionListView.vue
+system.positions.create  ←  PositionListView.vue, PositionListView.vue
+system.positions.delete  ←  PositionListView.vue
+system.positions.description  ←  PositionListView.vue
+system.positions.edit  ←  PositionListView.vue, PositionListView.vue
+system.positions.name  ←  PositionListView.vue
+system.positions.save  ←  PositionListView.vue
+system.positions.saving  ←  PositionListView.vue
+system.positions.sortOrder  ←  PositionListView.vue
+system.projectManage.copy  ←  ProjectManageView.vue, ProjectManageView.vue, ProjectManageView.vue, ProjectManageView.vue
+system.projectManage.createdAt  ←  ProjectManageView.vue
+system.projectManage.createdBy  ←  ProjectManageView.vue
+system.projectManage.databasePath  ←  ProjectManageView.vue
+system.projectManage.dbMode  ←  ProjectManageView.vue
+system.projectManage.exportAll  ←  ProjectManageView.vue
+system.projectManage.exportData  ←  ProjectManageView.vue
+system.projectManage.exportDesc  ←  ProjectManageView.vue
+system.projectManage.exporting  ←  ProjectManageView.vue
+system.projectManage.exportPages  ←  ProjectManageView.vue
+system.projectManage.exportPagesBtn  ←  ProjectManageView.vue
+system.projectManage.exportProjectDb  ←  ProjectManageView.vue
+system.projectManage.exportRtdb  ←  ProjectManageView.vue
+system.projectManage.groupIdentity  ←  ProjectManageView.vue
+system.projectManage.groupStorage  ←  ProjectManageView.vue
+system.projectManage.groupTimestamps  ←  ProjectManageView.vue
+system.projectManage.importAll  ←  ProjectManageView.vue
+system.projectManage.importBtn  ←  ProjectManageView.vue
+system.projectManage.importData  ←  ProjectManageView.vue
+system.projectManage.importDesc  ←  ProjectManageView.vue
+system.projectManage.importing  ←  ProjectManageView.vue
+system.projectManage.importPages  ←  ProjectManageView.vue
+system.projectManage.pageCount  ←  ProjectManageView.vue
+system.projectManage.pagesUnit  ←  ProjectManageView.vue
+system.projectManage.projectId  ←  ProjectManageView.vue
+system.projectManage.projectPath  ←  ProjectManageView.vue
+system.projectManage.rtdbPath  ←  ProjectManageView.vue
+system.projectManage.runDiagnose  ←  ProjectManageView.vue
+system.projectManage.tabDiagnose  ←  ProjectManageView.vue
+system.projectManage.tabImportExport  ←  ProjectManageView.vue
+system.projectManage.tabInfo  ←  ProjectManageView.vue
+system.projectManage.updatedAt  ←  ProjectManageView.vue
+system.projectManage.updatedBy  ←  ProjectManageView.vue
+system.projects.backToList  ←  ProjectManageView.vue
+system.projects.cancel  ←  ProjectListView.vue, ProjectListView.vue
+system.projects.confirmDelete  ←  ProjectListView.vue
+system.projects.confirmDeleteBtn  ←  ProjectListView.vue
+system.projects.confirmDeleteDesc  ←  ProjectListView.vue
+system.projects.create  ←  ProjectListView.vue
+system.projects.dbMode  ←  ProjectManageView.vue
+system.projects.delete  ←  ProjectListView.vue
+system.projects.deleteWarning  ←  ProjectListView.vue
+system.projects.deleting  ←  ProjectListView.vue
+system.projects.descPlaceholder  ←  ProjectListView.vue
+system.projects.description  ←  ProjectListView.vue
+system.projects.diagnoseNotRun  ←  ProjectManageView.vue
+system.projects.diagnosing  ←  ProjectManageView.vue, ProjectManageView.vue
+system.projects.edit  ←  ProjectListView.vue
+system.projects.editProject  ←  ProjectListView.vue
+system.projects.healthStatus  ←  ProjectManageView.vue
+system.projects.issuesFound  ←  ProjectManageView.vue
+system.projects.loading  ←  ProjectListView.vue, ProjectManageView.vue
+system.projects.manage  ←  ProjectListView.vue
+system.projects.name  ←  ProjectListView.vue
+system.projects.namePlaceholder  ←  ProjectListView.vue
+system.projects.nameReadonly  ←  ProjectListView.vue
+system.projects.newProject  ←  ProjectListView.vue, ProjectListView.vue, ProjectListView.vue
+system.projects.nextPage  ←  ProjectListView.vue
+system.projects.noDescription  ←  ProjectListView.vue
+system.projects.noProjects  ←  ProjectListView.vue
+system.projects.noProjectsDesc  ←  ProjectListView.vue
+system.projects.open  ←  ProjectListView.vue
+system.projects.pageCount  ←  ProjectListView.vue
+system.projects.prevPage  ←  ProjectListView.vue
+system.projects.projectCount  ←  ProjectListView.vue
+system.projects.reDiagnose  ←  ProjectManageView.vue
+system.projects.refresh  ←  ProjectListView.vue, ProjectListView.vue
+system.projects.repairAll  ←  ProjectManageView.vue
+system.projects.repaired  ←  ProjectManageView.vue
+system.projects.repairing  ←  ProjectManageView.vue
+system.projects.repairResult  ←  ProjectManageView.vue
+system.projects.repairWarnings  ←  ProjectManageView.vue
+system.projects.resourceList  ←  ProjectManageView.vue
+system.projects.retry  ←  ProjectListView.vue, ProjectManageView.vue
+system.projects.save  ←  ProjectListView.vue
+system.projects.searchPlaceholder  ←  ProjectListView.vue
+system.projects.submitting  ←  ProjectListView.vue
+system.projects.title  ←  ProjectListView.vue
+system.roles.adminInheritHint  ←  RoleAuthPanel.vue
+system.roles.allGroups  ←  RoleAuthPanel.vue
+system.roles.basic  ←  RoleListView.vue
+system.roles.builtin  ←  RoleListView.vue
+system.roles.buttonAccess  ←  RoleListView.vue
+system.roles.cancel  ←  RoleListView.vue
+system.roles.code  ←  RoleListView.vue
+system.roles.create  ←  RoleListView.vue, RoleListView.vue
+system.roles.custom  ←  RoleListView.vue
+system.roles.dataAuth  ←  RoleListView.vue
+system.roles.delete  ←  RoleListView.vue
+system.roles.description  ←  RoleListView.vue
+system.roles.deselectAll  ←  RoleAuthPanel.vue, RoleAuthPanel.vue, RoleAuthPanel.vue
+system.roles.edit  ←  RoleListView.vue, RoleListView.vue
+system.roles.filterByGroup  ←  RoleAuthPanel.vue
+system.roles.filterByProject  ←  RoleAuthPanel.vue, RoleAuthPanel.vue
+system.roles.menuAccess  ←  RoleListView.vue
+system.roles.name  ←  RoleListView.vue
+system.roles.noDeviceAuth  ←  RoleAuthPanel.vue
+system.roles.noDeviceGroupAuth  ←  RoleAuthPanel.vue
+system.roles.noMenuButtons  ←  RoleButtonPanel.vue
+system.roles.noMenus  ←  RoleMenuPanel.vue
+system.roles.noProjectAuth  ←  RoleAuthPanel.vue
+system.roles.permissionAdmin  ←  RoleAuthPanel.vue
+system.roles.permissionRead  ←  RoleAuthPanel.vue, RoleAuthPanel.vue, RoleAuthPanel.vue
+system.roles.permissions  ←  RoleListView.vue
+system.roles.permissionWrite  ←  RoleAuthPanel.vue, RoleAuthPanel.vue, RoleAuthPanel.vue
+system.roles.save  ←  RoleListView.vue
+system.roles.saveAuth  ←  RoleAuthPanel.vue
+system.roles.saving  ←  RoleAuthPanel.vue, RoleListView.vue
+system.roles.selectAll  ←  RoleAuthPanel.vue, RoleAuthPanel.vue, RoleAuthPanel.vue, RolePermissionPanel.vue
+system.roles.selectAllButtons  ←  RoleButtonPanel.vue
+system.roles.selectAllMenus  ←  RoleMenuPanel.vue
+system.roles.selectProject  ←  RoleAuthPanel.vue, RoleAuthPanel.vue
+system.scripts.cancel  ←  ScriptListView.vue
+system.scripts.content  ←  ScriptListView.vue
+system.scripts.contentPlaceholder  ←  ScriptListView.vue
+system.scripts.create  ←  ScriptListView.vue
+system.scripts.creating  ←  ScriptListView.vue
+system.scripts.delete  ←  ScriptListView.vue
+system.scripts.descPlaceholder  ←  ScriptListView.vue
+system.scripts.description  ←  ScriptListView.vue
+system.scripts.eventDriven  ←  ScriptListView.vue
+system.scripts.executing  ←  ScriptListView.vue
+system.scripts.executionFailure  ←  ScriptListView.vue
+system.scripts.executionSuccess  ←  ScriptListView.vue
+system.scripts.loading  ←  ScriptListView.vue
+system.scripts.manual  ←  ScriptListView.vue
+system.scripts.namePlaceholder  ←  ScriptListView.vue
+system.scripts.new  ←  ScriptListView.vue
+system.scripts.newScript  ←  ScriptListView.vue
+system.scripts.noScripts  ←  ScriptListView.vue
+system.scripts.pipeline  ←  ScriptListView.vue
+system.scripts.run  ←  ScriptListView.vue
+system.scripts.save  ←  ScriptListView.vue
+system.scripts.saving  ←  ScriptListView.vue
+system.scripts.scheduled  ←  ScriptListView.vue
+system.scripts.scriptName  ←  ScriptListView.vue
+system.scripts.selectHint  ←  ScriptListView.vue
+system.scripts.selectOrCreate  ←  ScriptListView.vue
+system.scripts.status  ←  ScriptListView.vue
+system.scripts.timeout  ←  ScriptListView.vue
+system.scripts.title  ←  ScriptListView.vue
+system.scripts.trigger  ←  ScriptListView.vue
+system.scripts.triggerType  ←  ScriptListView.vue
+system.scriptTemplates.authorLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.authorPlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.backToScripts  ←  ScriptTemplateView.vue
+system.scriptTemplates.builtin  ←  ScriptTemplateView.vue
+system.scriptTemplates.cancel  ←  ScriptTemplateView.vue, ScriptTemplateView.vue
+system.scriptTemplates.categoryLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.codeLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.codePlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.codePreview  ←  ScriptTemplateView.vue
+system.scriptTemplates.confirm  ←  ScriptTemplateView.vue
+system.scriptTemplates.create  ←  ScriptTemplateView.vue
+system.scriptTemplates.createTemplate  ←  ScriptTemplateView.vue
+system.scriptTemplates.createTitle  ←  ScriptTemplateView.vue
+system.scriptTemplates.delete  ←  ScriptTemplateView.vue
+system.scriptTemplates.descPlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.descriptionLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.edit  ←  ScriptTemplateView.vue
+system.scriptTemplates.editTitle  ←  ScriptTemplateView.vue
+system.scriptTemplates.instantiateTitle  ←  ScriptTemplateView.vue
+system.scriptTemplates.namePlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.noDescription  ←  ScriptTemplateView.vue
+system.scriptTemplates.noTemplates  ←  ScriptTemplateView.vue
+system.scriptTemplates.save  ←  ScriptTemplateView.vue
+system.scriptTemplates.scriptName  ←  ScriptTemplateView.vue
+system.scriptTemplates.scriptNamePlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.searchPlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.selectProject  ←  ScriptTemplateView.vue
+system.scriptTemplates.sourceTemplate  ←  ScriptTemplateView.vue
+system.scriptTemplates.tagsLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.tagsPlaceholder  ←  ScriptTemplateView.vue
+system.scriptTemplates.targetProject  ←  ScriptTemplateView.vue
+system.scriptTemplates.templateName  ←  ScriptTemplateView.vue, ScriptTemplateView.vue
+system.scriptTemplates.title  ←  ScriptListView.vue, ScriptListView.vue, ScriptTemplateView.vue
+system.scriptTemplates.triggerTypeLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.useTemplate  ←  ScriptTemplateView.vue
+system.scriptTemplates.versionLabel  ←  ScriptTemplateView.vue
+system.scriptTemplates.viewCode  ←  ScriptTemplateView.vue
+system.settings.abnormal  ←  SystemInfoView.vue
+system.settings.accentColor  ←  SettingsView.vue
+system.settings.aiAssistantVisible  ←  SettingsView.vue
+system.settings.aiAssistantVisibleHint  ←  SettingsView.vue
+system.settings.app  ←  SystemInfoView.vue
+system.settings.appearance  ←  SettingsView.vue
+system.settings.backendApi  ←  SystemInfoView.vue
+system.settings.backendBuildTime  ←  SystemInfoView.vue
+system.settings.backendVersion  ←  SystemInfoView.vue
+system.settings.backgroundColor  ←  SettingsView.vue
+system.settings.backToHome  ←  NotificationChannelView.vue
+system.settings.checkHealth  ←  SystemInfoView.vue
+system.settings.cpu  ←  SystemInfoView.vue
+system.settings.cpuCores  ←  SystemInfoView.vue
+system.settings.cpuLoad  ←  SystemInfoView.vue
+system.settings.currentTheme  ←  SettingsView.vue
+system.settings.degraded  ←  SystemInfoView.vue
+system.settings.diskUsage  ←  SystemInfoView.vue
+system.settings.error  ←  SettingsView.vue
+system.settings.frontendBuildTime  ←  SystemInfoView.vue
+system.settings.frontendVersion  ←  SystemInfoView.vue
+system.settings.headerHeight  ←  SettingsView.vue
+system.settings.healthy  ←  SystemInfoView.vue
+system.settings.langEnUS  ←  SettingsView.vue
+system.settings.langZhCN  ←  SettingsView.vue
+system.settings.layoutConfig  ←  SettingsView.vue
+system.settings.memory  ←  SystemInfoView.vue
+system.settings.memoryUsage  ←  SystemInfoView.vue
+system.settings.node  ←  SystemInfoView.vue
+system.settings.platform  ←  SystemInfoView.vue
+system.settings.primaryColor  ←  SettingsView.vue, SettingsView.vue
+system.settings.secondaryColor  ←  SettingsView.vue
+system.settings.selectTheme  ←  SettingsView.vue
+system.settings.sidebarWidth  ←  SettingsView.vue
+system.settings.success  ←  SettingsView.vue
+system.settings.swagger  ←  SystemInfoView.vue
+system.settings.systemHealth  ←  HealthView.vue, SystemInfoView.vue
+system.settings.systemInfo  ←  SystemInfoView.vue, SystemInfoView.vue
+system.settings.tabAppearance  ←  SettingsView.vue
+system.settings.tabConfig  ←  SettingsView.vue
+system.settings.textColor  ←  SettingsView.vue
+system.settings.themeInfo  ←  SettingsView.vue
+system.settings.themePreview  ←  SettingsView.vue
+system.settings.title  ←  NotificationChannelView.vue, SettingsView.vue
+system.settings.uptime  ←  SystemInfoView.vue
+system.settings.viewSysInfo  ←  SystemInfoView.vue
+system.settings.warning  ←  SettingsView.vue
+system.systemConfig.allCategories  ←  SettingsView.vue
+system.systemConfig.badges.hotReloadable  ←  SettingsView.vue
+system.systemConfig.badges.readonly  ←  SettingsView.vue
+system.systemConfig.badges.restartRequired  ←  SettingsView.vue, SettingsView.vue
+system.systemConfig.badges.sensitive  ←  SettingsView.vue
+system.systemConfig.edit.cancel  ←  SettingsView.vue
+system.systemConfig.edit.currentValue  ←  SettingsView.vue
+system.systemConfig.edit.defaultValue  ←  SettingsView.vue
+system.systemConfig.edit.description  ←  SettingsView.vue, SettingsView.vue
+system.systemConfig.edit.key  ←  SettingsView.vue, SettingsView.vue
+system.systemConfig.edit.save  ←  SettingsView.vue
+system.systemConfig.edit.saving  ←  SettingsView.vue
+system.systemConfig.edit.title  ←  SettingsView.vue, SettingsView.vue
+system.systemConfig.edit.type  ←  SettingsView.vue, SettingsView.vue
+system.systemConfig.edit.value  ←  SettingsView.vue
+system.systemConfig.edit.writeEnv  ←  SettingsView.vue
+system.systemConfig.edit.writeEnvHint  ←  SettingsView.vue
+system.systemConfig.hideValue  ←  SettingsView.vue
+system.systemConfig.noConfigs  ←  SettingsView.vue
+system.systemConfig.pendingRestart.clear  ←  SettingsView.vue
+system.systemConfig.pendingRestart.count  ←  SettingsView.vue
+system.systemConfig.pendingRestart.empty  ←  SettingsView.vue
+system.systemConfig.pendingRestart.title  ←  SettingsView.vue
+system.systemConfig.refresh  ←  SettingsView.vue
+system.systemConfig.restart  ←  SettingsView.vue
+system.systemConfig.searchPlaceholder  ←  SettingsView.vue
+system.systemConfig.showValue  ←  SettingsView.vue
+system.systemConfig.stats.modified  ←  SettingsView.vue
+system.systemConfig.stats.pendingRestart  ←  SettingsView.vue
+system.systemConfig.stats.sensitive  ←  SettingsView.vue
+system.systemConfig.stats.total  ←  SettingsView.vue
+system.tagHistory.clickToQuery  ←  DeviceMonitorView.vue
+system.tagHistory.dataCount  ←  TagHistoryDialog.vue
+system.tagHistory.exportCsv  ←  TagHistoryDialog.vue, TagHistoryDialog.vue
+system.tagHistory.exporting  ←  TagHistoryDialog.vue
+system.tagHistory.index  ←  TagHistoryDialog.vue
+system.tagHistory.noData  ←  TagHistoryDialog.vue
+system.tagHistory.query  ←  TagHistoryDialog.vue
+system.tagHistory.querying  ←  TagHistoryDialog.vue, TagHistoryDialog.vue
+system.tagHistory.saveImage  ←  TagHistoryDialog.vue, TagHistoryDialog.vue
+system.tagHistory.tagAddress  ←  TagHistoryDialog.vue
+system.tagHistory.tagId  ←  TagHistoryDialog.vue
+system.tagHistory.timestamp  ←  TagHistoryDialog.vue
+system.tagHistory.title  ←  TagHistoryDialog.vue
+system.tagHistory.value  ←  TagHistoryDialog.vue
+system.tagHistory.view  ←  DeviceMonitorView.vue
+system.tagHistory.viewTable  ←  TagHistoryDialog.vue
+system.tagHistory.viewTrend  ←  TagHistoryDialog.vue
+system.templates.cancel  ←  DictView.vue, DictView.vue, DictView.vue, DictView.vue, TemplateListView.vue, TemplateListView.vue, TemplateListView.vue
+system.templates.close  ←  TemplateListView.vue
+system.templates.confirm  ←  DictView.vue, TemplateListView.vue
+system.templates.create  ←  TemplateListView.vue
+system.templates.loading  ←  TemplateListView.vue, VersionHistory.vue
+system.templates.save  ←  DictView.vue, DictView.vue, TemplateListView.vue
+system.templates.saving  ←  DictView.vue, DictView.vue, DictView.vue, DictView.vue, TemplateListView.vue, TemplateListView.vue, TemplateListView.vue
+system.templates.update  ←  TemplateListView.vue
+system.terminal.clear  ←  TerminalView.vue
+system.terminal.clearHistory  ←  TerminalView.vue
+system.terminal.commandPlaceholder  ←  TerminalView.vue
+system.terminal.connect  ←  TerminalView.vue
+system.terminal.disconnect  ←  TerminalView.vue
+system.terminal.emptyHint  ←  TerminalView.vue
+system.terminal.execute  ←  TerminalView.vue
+system.terminal.executing  ←  TerminalView.vue
+system.terminal.hideWhitelist  ←  TerminalView.vue
+system.terminal.history  ←  TerminalView.vue
+system.terminal.securityNotice  ←  TerminalView.vue
+system.terminal.showWhitelist  ←  TerminalView.vue
+system.terminal.subtitle  ←  TerminalView.vue
+system.terminal.title  ←  TerminalView.vue
+system.terminal.whitelistTitle  ←  TerminalView.vue
+system.users.active  ←  UserListView.vue
+system.users.cancel  ←  UserListView.vue
+system.users.create  ←  UserListView.vue, UserListView.vue
+system.users.disable  ←  UserListView.vue
+system.users.displayName  ←  UserListView.vue
+system.users.edit  ←  UserListView.vue, UserListView.vue
+system.users.email  ←  UserListView.vue
+system.users.inactive  ←  UserListView.vue
+system.users.password  ←  UserListView.vue
+system.users.phone  ←  UserListView.vue
+system.users.position  ←  UserListView.vue
+system.users.role  ←  UserListView.vue
+system.users.save  ←  UserListView.vue
+system.users.saving  ←  UserListView.vue
+system.users.selectPosition  ←  UserListView.vue
+system.users.selectRole  ←  UserListView.vue
+system.users.username  ←  UserListView.vue
+system.websocket.abnormalConnections  ←  WebSocketMonitorView.vue
+system.websocket.actions  ←  WebSocketMonitorView.vue
+system.websocket.autoRefresh  ←  WebSocketMonitorView.vue
+system.websocket.avgDuration  ←  WebSocketMonitorView.vue
+system.websocket.backendStatus  ←  WebSocketMonitorView.vue
+system.websocket.bridgeLatencyAvg  ←  WebSocketMonitorView.vue
+system.websocket.broadcasts  ←  WebSocketMonitorView.vue
+system.websocket.checkBackendRunning  ←  WebSocketMonitorView.vue
+system.websocket.checkClientConnected  ←  WebSocketMonitorView.vue
+system.websocket.checkDataFlow  ←  WebSocketMonitorView.vue
+system.websocket.checkRoomSubscription  ←  WebSocketMonitorView.vue
+system.websocket.cleanupIdle  ←  WebSocketMonitorView.vue
+system.websocket.clientConnected  ←  WebSocketMonitorView.vue
+system.websocket.clientDisconnected  ←  WebSocketMonitorView.vue
+system.websocket.clientStatus  ←  WebSocketMonitorView.vue
+system.websocket.collapse  ←  WebSocketMonitorView.vue
+system.websocket.conclusions  ←  WebSocketMonitorView.vue
+system.websocket.connectedAt  ←  WebSocketMonitorView.vue
+system.websocket.connectionConfig  ←  WebSocketMonitorView.vue
+system.websocket.connectionList  ←  WebSocketMonitorView.vue
+system.websocket.dataFlow  ←  WebSocketMonitorView.vue
+system.websocket.details  ←  WebSocketMonitorView.vue
+system.websocket.diagnostic  ←  WebSocketMonitorView.vue
+system.websocket.durationDistribution  ←  WebSocketMonitorView.vue
+system.websocket.expand  ←  WebSocketMonitorView.vue
+system.websocket.forceDisconnect  ←  WebSocketMonitorView.vue
+system.websocket.idleTimeoutMinutes  ←  WebSocketMonitorView.vue
+system.websocket.ip  ←  WebSocketMonitorView.vue
+system.websocket.lastActivity  ←  WebSocketMonitorView.vue
+system.websocket.maxConnectionsPerIp  ←  WebSocketMonitorView.vue
+system.websocket.maxConnectionsPerUser  ←  WebSocketMonitorView.vue
+system.websocket.maxDuration  ←  WebSocketMonitorView.vue
+system.websocket.maxGlobalConnections  ←  WebSocketMonitorView.vue
+system.websocket.messageCount  ←  WebSocketMonitorView.vue, WebSocketMonitorView.vue
+system.websocket.messageRates  ←  WebSocketMonitorView.vue
+system.websocket.messagesPerSecond  ←  WebSocketMonitorView.vue
+system.websocket.noConnections  ←  WebSocketMonitorView.vue
+system.websocket.noData  ←  WebSocketMonitorView.vue, WebSocketMonitorView.vue, WebSocketMonitorView.vue
+system.websocket.offlineCacheHits  ←  WebSocketMonitorView.vue
+system.websocket.onlineUsers  ←  WebSocketMonitorView.vue
+system.websocket.over1Day  ←  WebSocketMonitorView.vue
+system.websocket.recipients  ←  WebSocketMonitorView.vue
+system.websocket.roomCount  ←  WebSocketMonitorView.vue
+system.websocket.saveConfig  ←  WebSocketMonitorView.vue
+system.websocket.saving  ←  WebSocketMonitorView.vue
+system.websocket.serviceUptime  ←  WebSocketMonitorView.vue
+system.websocket.socketId  ←  WebSocketMonitorView.vue, WebSocketMonitorView.vue, WebSocketMonitorView.vue
+system.websocket.suggestions  ←  WebSocketMonitorView.vue
+system.websocket.title  ←  WebSocketMonitorView.vue
+system.websocket.totalBroadcasts  ←  WebSocketMonitorView.vue
+system.websocket.totalConnections  ←  WebSocketMonitorView.vue
+system.websocket.totalRecipients  ←  WebSocketMonitorView.vue
+system.websocket.under10Min  ←  WebSocketMonitorView.vue
+system.websocket.under1Day  ←  WebSocketMonitorView.vue
+system.websocket.under1Hour  ←  WebSocketMonitorView.vue
+system.websocket.under1Min  ←  WebSocketMonitorView.vue
+system.websocket.uniqueIps  ←  WebSocketMonitorView.vue
+system.websocket.username  ←  WebSocketMonitorView.vue
+system.websocket.windowSeconds  ←  WebSocketMonitorView.vue
+system.websocket.zeroDataHintDesc  ←  WebSocketMonitorView.vue
+system.websocket.zeroDataHintTitle  ←  WebSocketMonitorView.vue

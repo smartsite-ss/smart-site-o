@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-4631108c-be4",
+  "name": "污水机组模板",
+  "description": "污水泵/风机虚拟模板（运行状态/电流/频率）",
+  "deviceType": "undefined",
+  "deviceModel": "undefined",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "undefined",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "运行状态",
+      "label": "运行状态",
+      "address": "20",
+      "dataType": "int",
+      "guid": "832ff686-7731-4a94-b078-ce454039dbcf"
+    },
+    {
+      "name": "电流",
+      "label": "电流",
+      "address": "24",
+      "dataType": "float",
+      "guid": "35176460-de7c-4fb8-96e6-c0b2d305ac2d"
+    },
+    {
+      "name": "频率",
+      "label": "频率",
+      "address": "28",
+      "dataType": "float",
+      "guid": "146c9185-3f19-4ffd-8467-28ceb6950e1b"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T15:06:05.631Z",
+    "updatedAt": "2026-09-06T15:06:05.631Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "button": {
+    "label": "按钮",
+    "panelTitle": "按钮属性",
+    "properties": {
+      "text": "文本",
+      "backgroundColor": "背景色",
+      "fontColor": "文本色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "fontSize": "字体大小",
+      "fontWeight": "字体粗细",
+      "textAlign": "文本对齐",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊",
+      "targetType": "点击动作",
+      "targetPage": "目标页面",
+      "targetUrl": "目标URL"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      },
+      "fontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      },
+      "textAlign": {
+        "left": "左对齐",
+        "center": "居中",
+        "right": "右对齐"
+      },
+      "targetType": {
+        "none": "无",
+        "page": "打开页面",
+        "url": "打开URL"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式",
+      "text": "文字",
+      "shadow": "阴影",
+      "action": "交互动作"
+    },
+    "hints": {},
+    "description": "按钮图元"
+  }
+}

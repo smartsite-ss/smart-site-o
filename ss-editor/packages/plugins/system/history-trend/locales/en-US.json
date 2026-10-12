@@ -1,0 +1,102 @@
+{
+  "historyTrend": {
+    "label": "Historical Trend",
+    "description": "Query historical trend of one or more variables by time range",
+    "config": {
+      "bindVariables": "Bind Variables",
+      "addVariable": "Add Variable",
+      "removeVariable": "Remove",
+      "unbound": "No variables bound",
+      "timeRange": "Time Range",
+      "queryMethod": "Query Method",
+      "query": "Query",
+      "querying": "Querying…"
+    },
+    "series": {
+      "lineWidth": "Line Width",
+      "lineType": "Line Type",
+      "lineColor": "Line Color",
+      "symbolSize": "Symbol Size",
+      "labelShow": "Show Label",
+      "labelFontSize": "Label Font Size",
+      "labelColor": "Label Color",
+      "labelPosition": "Label Position",
+      "areaShow": "Show Area Fill",
+      "areaStartColor": "Start Color",
+      "areaMiddleColor": "Middle Color",
+      "areaEndColor": "End Color",
+      "areaOpacity": "Opacity"
+    },
+    "options": {
+      "interpolation": {
+        "raw": "Raw Value",
+        "linear": "Linear Interpolation",
+        "step": "Step Interpolation"
+      },
+      "presetRange": {
+        "1h": "Last 1 hour",
+        "6h": "Last 6 hours",
+        "24h": "Last 24 hours",
+        "7d": "Last 7 days",
+        "custom": "Custom"
+      },
+      "lineType": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      },
+      "labelPosition": {
+        "top": "Top",
+        "left": "Left",
+        "right": "Right",
+        "bottom": "Bottom"
+      },
+      "legendPosition": {
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      },
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      }
+    },
+    "properties": {
+      "defaultInterpolation": "Default Query Method",
+      "defaultInterval": "Default Interval (ms)",
+      "defaultPresetRange": "Default Time Range",
+      "defaultCustomStart": "Custom Start Time",
+      "defaultCustomEnd": "Custom End Time",
+      "maxPoints": "Max Points",
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "titleFontWeight": "Title Font Weight",
+      "gridColor": "Grid Color",
+      "axisColor": "Axis Color",
+      "showLegend": "Show Legend",
+      "legendPosition": "Legend Position",
+      "showTooltip": "Show Tooltip",
+      "showDataZoom": "Time Axis Zoom",
+      "showXAxis": "Show X Axis",
+      "xAxisLineColor": "X Axis Line Color",
+      "xAxisLabelFontSize": "X Axis Font Size",
+      "xAxisLabelRotate": "X Axis Label Rotate",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    }
+  }
+}

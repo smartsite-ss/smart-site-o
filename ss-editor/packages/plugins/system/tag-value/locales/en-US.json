@@ -1,0 +1,61 @@
+{
+  "plugins": {
+    "groups": {
+      "shape": "Shape",
+      "name": "Name",
+      "decoration": "Decoration"
+    }
+  },
+  "tagValue": {
+    "label": "Decorative Tag Variable",
+    "description": "Display a device variable value (rectangle/circle)",
+    "config": {
+      "bindVariable": "Bind Variable",
+      "selectVariable": "Select Variable",
+      "clear": "Clear",
+      "unbound": "Unbound",
+      "decorationImage": "Decoration Image",
+      "backgroundImage": "Background Image",
+      "selectImage": "Select Image"
+    },
+    "selector": {
+      "title": "Select Device Variable",
+      "searchPlaceholder": "Search device or variable",
+      "tagCount": "{count} tags",
+      "loading": "Loading...",
+      "empty": "No device variables"
+    },
+    "properties": {
+      "shape": "Shape",
+      "alias": "Alias",
+      "showName": "Show Name",
+      "nameColor": "Name Color",
+      "nameFontSize": "Name Font Size",
+      "nameFontWeight": "Name Font Weight",
+      "nameGap": "Name Gap",
+      "decorationImagePosition": "Decoration Position",
+      "decorationImageSize": "Decoration Size",
+      "decorationImageOpacity": "Decoration Opacity",
+      "backgroundRepeat": "Background Repeat",
+      "backgroundImageFit": "Fill Style"
+    },
+    "options": {
+      "shape": {
+        "rectangle": "Rectangle",
+        "circle": "Circle"
+      },
+      "decorationPosition": {
+        "left": "Left",
+        "right": "Right",
+        "background": "Background",
+        "center": "Center"
+      },
+      "backgroundRepeat": {
+        "repeat": "Repeat",
+        "no-repeat": "No Repeat",
+        "repeat-x": "Repeat X",
+        "repeat-y": "Repeat Y"
+      }
+    }
+  }
+}

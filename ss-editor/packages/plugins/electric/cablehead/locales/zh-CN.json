@@ -1,0 +1,12 @@
+{
+  "cablehead": {
+    "label": "电缆终端头",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "options": {},
+    "description": "电缆终端头 - 电缆与设备连接端头"
+  }
+}

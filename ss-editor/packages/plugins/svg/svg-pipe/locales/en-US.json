@@ -1,0 +1,68 @@
+{
+  "svg-pipe": {
+    "label": "SVG Pipe",
+    "panelTitle": "SVG Pipe Config",
+    "properties": {
+      "status": "Status",
+      "flowDirection": "Flow Direction",
+      "strokeColor": "Pipe Color",
+      "flowingColor": "Flowing Color",
+      "stoppedColor": "Stopped Color",
+      "blockedColor": "Blocked Color",
+      "strokeWidth": "Pipe Width",
+      "strokeLinecap": "End Cap",
+      "strokeLinejoin": "Join Style",
+      "strokeDasharray": "Dash Array",
+      "gradientType": "Gradient Type",
+      "gradientStartColor": "Gradient Start",
+      "gradientEndColor": "Gradient End",
+      "filterShadow": "Shadow",
+      "shadowColor": "Shadow Color",
+      "shadowBlur": "Shadow Blur",
+      "showFlowAnimation": "Flow Animation",
+      "flowSpeed": "Flow Speed",
+      "arrowSpacing": "Arrow Spacing",
+      "arrowSize": "Arrow Size",
+      "arrowStyle": "Arrow Style"
+    },
+    "options": {
+      "status": {
+        "flowing": "Flowing",
+        "stopped": "Stopped",
+        "blocked": "Blocked"
+      },
+      "flowDirection": {
+        "forward": "Forward",
+        "backward": "Backward",
+        "bidirectional": "Bidirectional"
+      },
+      "strokeLinecap": {
+        "butt": "Butt",
+        "round": "Round",
+        "square": "Square"
+      },
+      "strokeLinejoin": {
+        "miter": "Miter",
+        "round": "Round",
+        "bevel": "Bevel"
+      },
+      "gradientType": {
+        "none": "Solid",
+        "linear": "Linear",
+        "radial": "Radial"
+      },
+      "arrowStyle": {
+        "triangle": "Triangle",
+        "rectangle": "Rectangle",
+        "square": "Square"
+      }
+    },
+    "groups": {
+      "status": "Status",
+      "color": "Color",
+      "style": "Style",
+      "animation": "Animation"
+    },
+    "description": "Svg-pipe graphic element"
+  }
+}

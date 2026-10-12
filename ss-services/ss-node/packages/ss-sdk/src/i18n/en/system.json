@@ -1,0 +1,23 @@
+{
+  "system": {
+    "health_check": {
+      "success": "System health check passed",
+      "failed": "System health check failed: {{detail}}"
+    },
+    "config": {
+      "reload_success": "Configuration reloaded successfully",
+      "reload_failed": "Configuration reload failed: {{detail}}",
+      "validation_error": "Configuration validation failed: {{detail}}"
+    },
+    "storage": {
+      "database_connected": "Database connected successfully",
+      "database_connection_failed": "Database connection failed: {{detail}}",
+      "redis_connected": "Redis connected successfully",
+      "redis_connection_failed": "Redis connection failed: {{detail}}"
+    },
+    "maintenance": {
+      "mode_enabled": "Maintenance mode enabled",
+      "mode_disabled": "Maintenance mode disabled"
+    }
+  }
+}

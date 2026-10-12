@@ -1,0 +1,12 @@
+{
+  "dictId": "byteOrder",
+  "dictName": "Byte Order",
+  "category": "basic-data",
+  "description": "Memory byte arrangement order for multi-byte data types",
+  "version": "1.0",
+  "sortOrder": 5,
+  "items": [
+    { "value": "big-endian", "label": "Big-Endian", "sortOrder": 1, "description": "High byte first (low address stores MSB), used by MODBUS, Profibus" },
+    { "value": "little-endian", "label": "Little-Endian", "sortOrder": 2, "description": "Low byte first (low address stores LSB), used by x86, ARM devices" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@scada-editor/core": ["../core/src/index.ts"],
+      "@scada-editor/plugin-sdk": ["../plugin-sdk/src/index.ts"],
+      "@scada-editor/system": ["../system/src/index.ts"],
+      "@scada-editor/editor": ["./src/index.ts"]
+    },
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue", "../core/src/**/*.ts", "../plugin-sdk/src/**/*.d.ts", "../plugins/scripts/virtual-modules.d.ts"]
+}

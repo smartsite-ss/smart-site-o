@@ -1,0 +1,68 @@
+{
+  "svg-pipe": {
+    "label": "SVG 管道",
+    "panelTitle": "SVG 管道配置",
+    "properties": {
+      "status": "状态",
+      "flowDirection": "流向",
+      "strokeColor": "管道颜色",
+      "flowingColor": "流动颜色",
+      "stoppedColor": "停止颜色",
+      "blockedColor": "堵塞颜色",
+      "strokeWidth": "管径",
+      "strokeLinecap": "端点样式",
+      "strokeLinejoin": "连接样式",
+      "strokeDasharray": "虚线",
+      "gradientType": "渐变类型",
+      "gradientStartColor": "渐变起始色",
+      "gradientEndColor": "渐变结束色",
+      "filterShadow": "阴影",
+      "shadowColor": "阴影颜色",
+      "shadowBlur": "阴影模糊",
+      "showFlowAnimation": "流动动画",
+      "flowSpeed": "流速",
+      "arrowSpacing": "箭头间距",
+      "arrowSize": "箭头大小",
+      "arrowStyle": "箭头样式"
+    },
+    "options": {
+      "status": {
+        "flowing": "流动中",
+        "stopped": "停止",
+        "blocked": "堵塞"
+      },
+      "flowDirection": {
+        "forward": "正向",
+        "backward": "反向",
+        "bidirectional": "双向"
+      },
+      "strokeLinecap": {
+        "butt": "平头",
+        "round": "圆头",
+        "square": "方头"
+      },
+      "strokeLinejoin": {
+        "miter": "尖角",
+        "round": "圆角",
+        "bevel": "切角"
+      },
+      "gradientType": {
+        "none": "纯色",
+        "linear": "线性渐变",
+        "radial": "径向渐变"
+      },
+      "arrowStyle": {
+        "triangle": "三角块",
+        "rectangle": "长方形",
+        "square": "正方形"
+      }
+    },
+    "groups": {
+      "status": "状态",
+      "color": "颜色",
+      "style": "样式",
+      "animation": "动画"
+    },
+    "description": "基于 SVG Path 的管道组件，支持流动动画、渐变和样式配置"
+  }
+}

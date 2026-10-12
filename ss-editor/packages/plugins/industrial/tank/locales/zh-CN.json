@@ -1,0 +1,43 @@
+{
+  "tank": {
+    "label": "储罐",
+    "description": "储罐组件，用于液位显示和报警",
+    "panelTitle": "储罐配置",
+    "properties": {
+      "width": "宽度",
+      "height": "高度",
+      "level": "当前液位",
+      "maxLevel": "最大液位",
+      "unit": "单位",
+      "decimalPlaces": "小数位数",
+      "status": "状态",
+      "warningLevel": "警告液位",
+      "dangerLevel": "危险液位",
+      "bodyColor": "罐体颜色",
+      "liquidColor": "液体颜色",
+      "warningLiquidColor": "警告液体色",
+      "dangerLiquidColor": "危险液体色",
+      "rimColor": "边框颜色",
+      "showLevelText": "显示液位文本",
+      "showTicks": "显示刻度",
+      "showAnimation": "波动动画",
+      "tickCount": "刻度数量"
+    },
+    "options": {
+      "status": {
+        "normal": "正常",
+        "warning": "警告",
+        "danger": "危险"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "level": "液位",
+      "status": "状态",
+      "threshold": "阈值",
+      "color": "颜色",
+      "display": "显示"
+    },
+    "hints": {}
+  }
+}

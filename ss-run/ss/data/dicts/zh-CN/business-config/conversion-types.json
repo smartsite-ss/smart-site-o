@@ -1,0 +1,15 @@
+{
+  "dictId": "conversionType",
+  "dictName": "转换类型",
+  "category": "business-config",
+  "description": "原始值到工程值的转换方式",
+  "version": "1.0",
+  "sortOrder": 2,
+  "items": [
+    { "value": "none", "label": "无转换", "sortOrder": 1, "description": "不进行转换，使用原始值" },
+    { "value": "linear", "label": "线性转换", "sortOrder": 2, "description": "engValue = rawValue × scale + offset" },
+    { "value": "polynomial", "label": "多项式转换", "sortOrder": 3, "description": "使用多项式系数拟合，如 a*x²+b*x+c" },
+    { "value": "table", "label": "查表转换", "sortOrder": 4, "description": "基于离散点线性插值" },
+    { "value": "script", "label": "脚本转换", "sortOrder": 5, "description": "使用自定义 JS 表达式转换" }
+  ]
+}

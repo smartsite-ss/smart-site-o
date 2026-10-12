@@ -1,0 +1,22 @@
+{
+  "name": "@scada-editor/plugins-chart-bar",
+  "version": "0.1.0",
+  "description": "Bar chart graphic plugin (static/API data source) for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "echarts": "^5.5.0",
+    "vue-echarts": "^7.0.3",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "input": {
+    "label": "输入框",
+    "description": "输入框组件，用于单行文本输入",
+    "panelTitle": "输入框配置",
+    "properties": {
+      "value": "值",
+      "placeholder": "占位符",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "textColor": "文本颜色",
+      "fontSize": "字体大小",
+      "fontWeight": "字体粗细",
+      "textAlign": "文本对齐",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      },
+      "fontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      },
+      "textAlign": {
+        "left": "左对齐",
+        "center": "居中",
+        "right": "右对齐"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式",
+      "text": "文字",
+      "shadow": "阴影"
+    },
+    "hints": {}
+  }
+}

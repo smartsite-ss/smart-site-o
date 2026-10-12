@@ -1,0 +1,13 @@
+{
+  "head03": {
+    "label": "头部装饰-03",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "dataset": "显示文本",
+      "textColor": "文本颜色",
+      "textSize": "字号"
+    },
+    "description": "左右箭头形装饰带中间文本"
+  }
+}

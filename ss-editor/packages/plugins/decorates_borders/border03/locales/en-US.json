@@ -1,0 +1,11 @@
+{
+  "border03": {
+    "label": "Border 03",
+    "description": "Border 03 decorative component",
+    "properties": {
+      "colors": "Color 1",
+      "colors2": "Color 2",
+      "backgroundColor": "Background Color"
+    }
+  }
+}

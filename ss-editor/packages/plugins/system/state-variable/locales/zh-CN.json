@@ -1,0 +1,49 @@
+{
+  "stateVariable": {
+    "label": "状态变量",
+    "description": "根据变量值显示不同状态图片",
+    "graphic": {
+      "placeholder": "未绑定 / 无匹配"
+    },
+    "config": {
+      "bindVariable": "绑定变量",
+      "selectVariable": "选择变量",
+      "clear": "清除",
+      "unbound": "未绑定",
+      "states": "状态规则",
+      "addRule": "添加规则",
+      "stateName": "状态名称",
+      "value": "比较值",
+      "value2": "结束值",
+      "selectImage": "选择图片",
+      "defaultImage": "默认图片",
+      "deleteRule": "删除"
+    },
+    "imagePicker": {
+      "title": "选择图片",
+      "sourceGallery": "图库",
+      "sourceUrl": "URL",
+      "sourceUpload": "上传",
+      "urlPlaceholder": "输入图片 URL",
+      "confirm": "确定",
+      "cancel": "取消",
+      "loading": "加载中...",
+      "empty": "暂无图片",
+      "selectCategory": "请选择分类",
+      "uploadHint": "选择本地图片文件",
+      "fileSizeError": "图片大小不能超过 10MB"
+    },
+    "operator": {
+      "equal": "=",
+      "notEqual": "≠",
+      "greaterThan": ">",
+      "greaterOrEqual": "≥",
+      "lessThan": "<",
+      "lessOrEqual": "≤",
+      "between": "∈",
+      "contains": "contains",
+      "startsWith": "starts with",
+      "endsWith": "ends with"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "border08": {
+    "label": "Border 08",
+    "description": "Border 08 decorative component",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "backgroundColor": "Background Color",
+      "dur": "Animation Duration(s)",
+      "reverse": "Reverse Motion"
+    }
+  }
+}

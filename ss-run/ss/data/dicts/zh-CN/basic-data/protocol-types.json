@@ -1,0 +1,28 @@
+{
+  "dictId": "protocolType",
+  "dictName": "协议类型",
+  "category": "basic-data",
+  "description": "通信协议分类（按通信层/应用层划分）",
+  "version": "2.0",
+  "sortOrder": 3,
+  "items": [
+    { "value": "modbus_tcp", "label": "Modbus TCP", "sortOrder": 1, "description": "基于 TCP/IP 的 Modbus 协议" },
+    { "value": "modbus_rtu", "label": "Modbus RTU", "sortOrder": 2, "description": "RS-232/485 串口 Modbus" },
+    { "value": "opc_ua", "label": "OPC UA", "sortOrder": 3, "description": "OPC 统一架构，安全跨平台" },
+    { "value": "s7comm", "label": "S7 Communication", "sortOrder": 4, "description": "西门子 S7 专有协议" },
+    { "value": "mqtt", "label": "MQTT", "sortOrder": 5, "description": "发布/订阅模式物联网协议" },
+    { "value": "bacnet_ip", "label": "BACnet/IP", "sortOrder": 6, "description": "楼宇自动化，基于 UDP/IP" },
+    { "value": "iec104", "label": "IEC 60870-5-104", "sortOrder": 7, "description": "电力远动，基于 TCP/IP" },
+    { "value": "dlt645", "label": "DL/T 645", "sortOrder": 8, "description": "中国电表协议，基于串口" },
+    { "value": "profinet", "label": "PROFINET", "sortOrder": 9, "description": "西门子工业以太网，支持实时自动化通信" },
+    { "value": "ethernet_ip", "label": "EtherNet/IP", "sortOrder": 10, "description": "罗克韦尔工业以太网，基于 CIP 协议" },
+    { "value": "ethercat", "label": "EtherCAT", "sortOrder": 11, "description": "倍福高速以太网，适用于运动控制" },
+    { "value": "melsec", "label": "三菱 MELSEC", "sortOrder": 12, "description": "三菱 PLC 通信协议" },
+    { "value": "omron_fins", "label": "欧姆龙 FINS", "sortOrder": 13, "description": "欧姆龙 PLC 工厂自动化控制协议" },
+    { "value": "profibus_dp", "label": "PROFIBUS DP", "sortOrder": 14, "description": "分散式外围设备现场总线，适用于工厂自动化" },
+    { "value": "canopen", "label": "CANopen", "sortOrder": 15, "description": "基于 CAN 的现场总线，适用于机器控制" },
+    { "value": "dnp3", "label": "DNP3", "sortOrder": 16, "description": "分布式网络协议，适用于电力 SCADA" },
+    { "value": "iec61850", "label": "IEC 61850", "sortOrder": 17, "description": "变电站自动化通信标准" },
+    { "value": "hart", "label": "HART", "sortOrder": 18, "description": "可寻址远程传感器高速通道，适用于过程自动化" }
+  ]
+}

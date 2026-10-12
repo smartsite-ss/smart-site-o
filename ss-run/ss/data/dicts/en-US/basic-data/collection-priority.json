@@ -1,0 +1,14 @@
+﻿{
+  "dictId": "priority",
+  "dictName": "Collection Priority",
+  "category": "basic-data",
+  "description": "Priority levels for tag collection tasks",
+  "version": "1.0",
+  "sortOrder": 4,
+  "items": [
+    { "value": "low", "label": "Low", "sortOrder": 1, "description": "Low-frequency collection, e.g. environmental monitoring" },
+    { "value": "normal", "label": "Normal", "sortOrder": 2, "description": "Regular periodic collection (default)" },
+    { "value": "high", "label": "High", "sortOrder": 3, "description": "Critical process parameters, high-frequency collection" },
+    { "value": "critical", "label": "Critical", "sortOrder": 4, "description": "Safety interlock related, real-time collection" }
+  ]
+}

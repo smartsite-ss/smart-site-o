@@ -1,0 +1,11 @@
+{
+  "insulator": {
+    "label": "Insulator",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Insulator graphic element"
+  }
+}

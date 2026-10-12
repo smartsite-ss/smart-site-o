@@ -1,0 +1,28 @@
+{
+  "name": "@scada-editor/plugins-state-variable",
+  "version": "0.1.0",
+  "description": "State variable graphic plugin for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./StateVariableConfig": {
+      "import": "./StateVariableConfig.vue",
+      "types": "./StateVariableConfig.vue"
+    },
+    "./StateVariableIcon": {
+      "import": "./StateVariableIcon.vue",
+      "types": "./StateVariableIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  }
+}

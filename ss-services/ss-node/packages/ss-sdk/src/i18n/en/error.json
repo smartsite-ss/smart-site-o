@@ -1,0 +1,59 @@
+{
+  "error": {
+    "auth": {
+      "AUTH_001": "Invalid username or password",
+      "AUTH_002": "Account has been disabled, please contact administrator",
+      "AUTH_003": "Token has expired, please login again",
+      "AUTH_004": "Invalid or tampered token",
+      "AUTH_005": "Username or email already exists",
+      "AUTH_006": "Invalid email format",
+      "AUTH_007": "Password is too weak (at least 8 characters with letters and numbers)",
+      "AUTH_008": "User does not exist"
+    },
+    "project": {
+      "PROJ_001": "Project does not exist",
+      "PROJ_002": "No permission to access this project",
+      "PROJ_003": "Project name cannot be empty",
+      "PROJ_004": "Project name too long (max 100 characters)",
+      "PROJ_005": "Can only delete projects you created"
+    },
+    "device": {
+      "DEV_001": "Device does not exist",
+      "DEV_002": "Device {{name}} (ID: {{id}}) is offline",
+      "DEV_003": "Failed to read device {{deviceId}} address {{address}}: {{detail}}",
+      "DEV_004": "Failed to write device data",
+      "DEV_005": "Device connection timeout ({{timeout}}ms)",
+      "DEV_006": "Device communication interrupted",
+      "DEV_007": "Invalid device configuration: {{detail}}"
+    },
+    "data": {
+      "DATA_001": "Data acquisition error",
+      "DATA_002": "Protocol {{protocol}} communication timeout ({{timeout}}ms)",
+      "DATA_003": "Data persistence failed (storage: {{storage}}, detail: {{detail}})",
+      "DATA_004": "Tag {{tagId}} data quality issue: {{quality}}",
+      "DATA_005": "Historical data does not exist",
+      "DATA_006": "Invalid time range (start time must be earlier than end time)"
+    },
+    "alarm": {
+      "ALM_001": "Alarm error: {{detail}}",
+      "ALM_002": "Failed to send alarm notification (channel: {{channel}}, detail: {{detail}})",
+      "ALM_003": "Alarm rule does not exist",
+      "ALM_004": "Invalid alarm condition configuration",
+      "ALM_005": "Alarm record does not exist or has been cleared"
+    },
+    "protocol": {
+      "PROTO_001": "Unsupported protocol type: {{type}}",
+      "PROTO_002": "Protocol connection failed: {{detail}}",
+      "PROTO_003": "Protocol disconnection failed: {{detail}}",
+      "PROTO_004": "Protocol read timeout",
+      "PROTO_005": "Protocol write failed"
+    },
+    "system": {
+      "SYS_001": "Internal system error",
+      "SYS_002": "Configuration error ({{key}}: {{detail}})",
+      "SYS_003": "Storage error ({{storage}}: {{detail}})",
+      "SYS_004": "Service unavailable",
+      "SYS_005": "Database connection failed"
+    }
+  }
+}

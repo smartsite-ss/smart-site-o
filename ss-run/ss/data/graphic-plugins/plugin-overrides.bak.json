@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-02T15:03:40.673Z",
+  "categories": {},
+  "entries": {
+    "busbar": {
+      "enabled": false
+    }
+  }
+}

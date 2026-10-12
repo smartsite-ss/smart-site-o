@@ -1,0 +1,41 @@
+{
+  "name": "@scada-editor/plugins-industrial-pipe-h",
+  "version": "0.1.0",
+  "description": "Horizontal pipe graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./PipeHConfig": {
+      "import": "./PipeHConfig.vue",
+      "types": "./PipeHConfig.vue"
+    },
+    "./PipeHIcon": {
+      "import": "./PipeHIcon.vue",
+      "types": "./PipeHIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "pipe-h",
+    "category": "industrial",
+    "label": "pipeH.label",
+    "labelEn": "pipe-h",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

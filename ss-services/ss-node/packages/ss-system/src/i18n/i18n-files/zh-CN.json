@@ -1,0 +1,48 @@
+{
+  "system": {
+    "health": {
+      "ok": "系统运行正常",
+      "degraded": "系统性能下降",
+      "error": "系统异常"
+    },
+    "backup": {
+      "success": "备份成功",
+      "failed": "备份失败",
+      "restoring": "正在恢复备份"
+    },
+    "upgrade": {
+      "checking": "正在检查更新",
+      "downloading": "正在下载升级包",
+      "installing": "正在安装升级",
+      "rollback": "正在回滚",
+      "success": "升级成功",
+      "failed": "升级失败"
+    },
+    "error": {
+      "not_found": "资源不存在",
+      "unauthorized": "未授权访问",
+      "forbidden": "权限不足",
+      "internal": "内部服务器错误",
+      "validation": "输入验证失败",
+      "config_not_found": "配置项不存在",
+      "user_not_found": "用户不存在",
+      "last_admin": "不能删除最后一个管理员",
+      "invalid_role": "无效的角色",
+      "username_exists": "用户名已存在",
+      "setup_not_complete": "初始化未完成"
+    },
+    "notification": {
+      "password_reset": "您的密码已被管理员重置",
+      "user_disabled": "您的账户已被禁用",
+      "force_logout": "您已被管理员强制下线",
+      "role_changed": "您的角色已被修改为 {{role}}",
+      "backup_completed": "数据备份已完成",
+      "upgrade_available": "新版本 {{version}} 可用"
+    },
+    "terminal": {
+      "command_blocked": "命令被拦截: {{command}}",
+      "timeout": "命令执行超时",
+      "permission_denied": "仅管理员可访问终端"
+    }
+  }
+}

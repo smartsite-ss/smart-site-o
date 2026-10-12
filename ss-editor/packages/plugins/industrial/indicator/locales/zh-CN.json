@@ -1,0 +1,43 @@
+{
+  "indicator": {
+    "label": "指示灯",
+    "description": "指示灯组件，用于状态显示和报警",
+    "panelTitle": "指示灯配置",
+    "properties": {
+      "width": "宽度",
+      "height": "高度",
+      "status": "状态",
+      "onColor": "点亮颜色",
+      "offColor": "熄灭颜色",
+      "warningColor": "警告颜色",
+      "faultColor": "故障颜色",
+      "blinkOnAlarm": "报警闪烁",
+      "blinkInterval": "闪烁间隔(ms)",
+      "showLabel": "显示标签",
+      "labelText": "标签文本",
+      "labelColor": "标签颜色",
+      "onValue": "点亮对应值",
+      "offValue": "熄灭对应值",
+      "warningValue": "警告对应值",
+      "faultValue": "故障对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "status": {
+        "on": "点亮",
+        "off": "熄灭",
+        "warning": "警告",
+        "fault": "故障"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "status": "状态",
+      "color": "颜色",
+      "animation": "动画",
+      "label": "标签",
+      "binding": "绑定映射"
+    },
+    "hints": {}
+  }
+}

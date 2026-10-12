@@ -1,0 +1,70 @@
+{
+  "dictId": "deviceType",
+  "dictName": "设备类型",
+  "category": "basic-data",
+  "description": "Smart-SCADA 支持的设备协议类型1",
+  "version": "1.0",
+  "sortOrder": 2,
+  "items": [
+    {
+      "value": "modbus_tcp",
+      "label": "Modbus TCP",
+      "sortOrder": 1,
+      "description": "基于 TCP/IP 的 Modbus 协议"
+    },
+    {
+      "value": "modbus_rtu",
+      "label": "Modbus RTU",
+      "sortOrder": 2,
+      "description": "基于串口的 Modbus 协议 (RS-232/485)"
+    },
+    {
+      "value": "modbus_ascii",
+      "label": "Modbus ASCII",
+      "sortOrder": 3,
+      "description": "基于串口的 Modbus ASCII 模式"
+    },
+    {
+      "value": "opc_ua",
+      "label": "OPC UA",
+      "sortOrder": 4,
+      "description": "OPC 统一架构协议"
+    },
+    {
+      "value": "siemens_s7",
+      "label": "Siemens S7",
+      "sortOrder": 5,
+      "description": "西门子 S7 系列 PLC 通信协议"
+    },
+    {
+      "value": "mqtt",
+      "label": "MQTT",
+      "sortOrder": 6,
+      "description": "MQTT 物联网消息协议"
+    },
+    {
+      "value": "bacnet",
+      "label": "BACnet",
+      "sortOrder": 7,
+      "description": "楼宇自动化控制网络协议"
+    },
+    {
+      "value": "iec104",
+      "label": "IEC 60870-5-104",
+      "sortOrder": 8,
+      "description": "电力远动通信协议"
+    },
+    {
+      "value": "dlt645",
+      "label": "DL/T 645",
+      "sortOrder": 9,
+      "description": "中国多功能电能表通信协议"
+    },
+    {
+      "value": "cjt188",
+      "label": "CJ/T 188",
+      "sortOrder": 10,
+      "description": "户用计量仪表数据传输协议"
+    }
+  ]
+}

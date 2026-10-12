@@ -1,0 +1,76 @@
+{
+  "dictId": "alarmType",
+  "dictName": "告警类型",
+  "category": "system-enums",
+  "description": "按业务领域划分的 SCADA 告警类型定义",
+  "version": "1.0",
+  "sortOrder": 5,
+  "items": [
+    {
+      "value": "device",
+      "label": "设备告警",
+      "sortOrder": 1,
+      "description": "设备故障、离线、运行异常等"
+    },
+    {
+      "value": "communication",
+      "label": "通信告警",
+      "sortOrder": 2,
+      "description": "网络中断、协议错误、通信超时等"
+    },
+    {
+      "value": "overlimit",
+      "label": "超限告警",
+      "sortOrder": 3,
+      "description": "数值超过上下限阈值（超高限、高限、低限、低低限）"
+    },
+    {
+      "value": "data",
+      "label": "数据告警",
+      "sortOrder": 4,
+      "description": "数据质量异常、数据丢失、偏差越限、变化率越限等"
+    },
+    {
+      "value": "safety",
+      "label": "安全告警",
+      "sortOrder": 5,
+      "description": "安全阈值越限、紧急停车、联锁触发等"
+    },
+    {
+      "value": "power",
+      "label": "电力告警",
+      "sortOrder": 6,
+      "description": "供电异常、电压/电流/频率越限等"
+    },
+    {
+      "value": "process",
+      "label": "工艺告警",
+      "sortOrder": 7,
+      "description": "工艺参数偏离、流程异常、批次异常等"
+    },
+    {
+      "value": "environment",
+      "label": "环境告警",
+      "sortOrder": 8,
+      "description": "温湿度异常、气体浓度、环境监测越限等"
+    },
+    {
+      "value": "system",
+      "label": "系统告警",
+      "sortOrder": 9,
+      "description": "系统资源不足、服务状态异常、配置错误等"
+    },
+    {
+      "value": "security",
+      "label": "安防告警",
+      "sortOrder": 10,
+      "description": "非法入侵、门禁异常、视频监控异常等"
+    },
+    {
+      "value": "custom",
+      "label": "自定义告警",
+      "sortOrder": 11,
+      "description": "用户自定义业务告警"
+    }
+  ]
+}

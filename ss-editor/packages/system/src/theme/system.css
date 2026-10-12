@@ -1,0 +1,279 @@
+:root {
+  --sys-btn-primary-bg: var(--button-background);
+  --sys-btn-primary-hover: var(--button-hover);
+  --sys-btn-primary-text: var(--button-text);
+  --sys-btn-secondary-bg: var(--control-button-background);
+  --sys-btn-secondary-hover: var(--control-button-hover);
+  --sys-btn-secondary-text: var(--control-button-text);
+  --sys-btn-secondary-border: var(--control-button-border);
+}
+
+.sys-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1.5;
+}
+
+.sys-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sys-btn-primary {
+  background: var(--sys-btn-primary-bg);
+  color: var(--sys-btn-primary-text);
+}
+
+.sys-btn-primary:hover:not(:disabled) {
+  background: var(--sys-btn-primary-hover);
+}
+
+.sys-btn-secondary {
+  background: var(--sys-btn-secondary-bg);
+  color: var(--sys-btn-secondary-text);
+  border: 1px solid var(--sys-btn-secondary-border);
+}
+
+.sys-btn-secondary:hover:not(:disabled) {
+  background: var(--sys-btn-secondary-hover);
+}
+
+.sys-btn-danger {
+  background: var(--status-error);
+  color: #fff;
+}
+
+.sys-btn-danger:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.sys-btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.sys-status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sys-status-active {
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--status-success);
+}
+
+.sys-status-inactive {
+  background: rgba(234, 179, 8, 0.12);
+  color: var(--status-warning);
+}
+
+.sys-status-registered {
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--text-tertiary);
+}
+
+.sys-status-error {
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--status-error);
+}
+
+.sys-status-unregistered {
+  background: rgba(148, 163, 184, 0.08);
+  color: var(--text-secondary);
+}
+
+.sys-health-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.sys-health-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.sys-health-healthy {
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--status-success);
+}
+
+.sys-health-healthy .sys-health-dot {
+  background: var(--status-success);
+}
+
+.sys-health-degraded {
+  background: rgba(234, 179, 8, 0.12);
+  color: var(--status-warning);
+}
+
+.sys-health-degraded .sys-health-dot {
+  background: var(--status-warning);
+}
+
+.sys-health-unhealthy {
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--status-error);
+}
+
+.sys-health-unhealthy .sys-health-dot {
+  background: var(--status-error);
+}
+
+.sys-device-stat-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.sys-dot-online {
+  background: var(--status-success);
+}
+
+.sys-dot-offline {
+  background: var(--text-tertiary);
+}
+
+.sys-stat-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.sys-stat-dot-online {
+  background: var(--status-success);
+}
+
+.sys-stat-dot-offline {
+  background: var(--text-tertiary);
+}
+
+.sys-stat-dot-error {
+  background: var(--status-error);
+}
+
+.sys-mode-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 1px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: monospace;
+}
+
+.sys-mode-in_process {
+  background: rgba(148, 163, 184, 0.12);
+  color: var(--text-tertiary);
+}
+
+.sys-mode-worker_thread {
+  background: rgba(234, 179, 8, 0.12);
+  color: var(--status-warning);
+}
+
+.sys-mode-child_process {
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--status-success);
+}
+
+.sys-tag-item {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.sys-monitor-heap {
+  background: var(--primary);
+}
+
+.sys-monitor-rss {
+  background: var(--accent);
+}
+
+.sys-monitor-cpu {
+  background: var(--status-warning);
+}
+
+.sys-log-level-info {
+  color: var(--primary);
+}
+
+.sys-log-level-warn {
+  color: var(--status-warning);
+}
+
+.sys-log-level-error {
+  color: var(--status-error);
+}
+
+.sys-log-level-debug {
+  color: var(--text-tertiary);
+}
+
+.sys-config-message {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--status-success);
+}
+
+.sys-config-message-error {
+  background: rgba(239, 68, 68, 0.08);
+  border-color: rgba(239, 68, 68, 0.2);
+  color: var(--status-error);
+}
+
+.sys-card-error {
+  padding: 8px 10px;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--status-error);
+}
+
+.sys-status-error-msg {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--status-error);
+}
+
+.sys-protocol-code {
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  background: var(--background);
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: var(--primary);
+}

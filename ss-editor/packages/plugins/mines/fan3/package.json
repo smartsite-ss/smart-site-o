@@ -1,0 +1,35 @@
+{
+  "name": "@scada-editor/plugins-mines-fan3",
+  "version": "0.1.0",
+  "description": "Fan3 mining plugin with ducted centrifugal fan, rotation direction and speed control",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "fan3",
+    "category": "mines",
+    "label": "fan3.label",
+    "labelEn": "fan3",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

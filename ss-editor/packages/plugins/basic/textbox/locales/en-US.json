@@ -1,0 +1,57 @@
+{
+  "textbox": {
+    "label": "TextBox",
+    "panelTitle": "Textbox Configuration",
+    "properties": {
+      "text": "Text Content",
+      "placeholder": "Placeholder",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "fontStyle": "Font Style",
+      "textColor": "Text Color",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "textAlign": "Text Align",
+      "verticalAlignment": "Vertical Align",
+      "padding": "Padding",
+      "multiline": "Multiline Mode",
+      "readOnly": "Read Only"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "fontStyle": {
+        "normal": "Normal",
+        "italic": "Italic"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted",
+        "none": "None"
+      },
+      "textAlign": {
+        "left": "Left",
+        "center": "Center",
+        "right": "Right"
+      },
+      "verticalAlignment": {
+        "top": "Top",
+        "middle": "Middle",
+        "bottom": "Bottom"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "text": "Text"
+    },
+    "hints": {},
+    "description": "Textbox graphic element"
+  }
+}

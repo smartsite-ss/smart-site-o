@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-th-sensor-modbus",
+  "name": "Modbus 温湿度传感器采集模板",
+  "description": "适用于工业级 Modbus RTU/TCP 温湿度传感器的标准采集模板，支持温度、湿度、露点等参数",
+  "deviceType": "modbus_tcp",
+  "deviceModel": "modbus_tcp",
+  "version": "1.0.0",
+  "status": "published",
+  "isDefault": true,
+  "authorId": "system",
+  "tags": [
+    "温湿度",
+    "传感器",
+    "环境监测",
+    "Modbus"
+  ],
+  "industry": "环境监测",
+  "category": "环境传感器",
+  "protocol": {
+    "type": "modbus_tcp",
+    "config": {}
+  },
+  "variables": [
+    [],
+    [],
+    [],
+    []
+  ],
+  "metadata": {
+    "createdAt": "2026-06-09T00:00:00.000Z",
+    "updatedAt": "2026-07-28T05:11:12.577Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

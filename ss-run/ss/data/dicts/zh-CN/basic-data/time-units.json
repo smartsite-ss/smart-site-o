@@ -1,0 +1,15 @@
+{
+  "dictId": "timeUnit",
+  "dictName": "时间单位",
+  "category": "basic-data",
+  "description": "时间相关配置项的单位定义",
+  "version": "1.0",
+  "sortOrder": 5,
+  "items": [
+    { "value": "ms", "label": "毫秒", "sortOrder": 1, "description": "千分之一秒" },
+    { "value": "s", "label": "秒", "sortOrder": 2, "description": "秒" },
+    { "value": "min", "label": "分钟", "sortOrder": 3, "description": "60秒" },
+    { "value": "h", "label": "小时", "sortOrder": 4, "description": "60分钟" },
+    { "value": "d", "label": "天", "sortOrder": 5, "description": "24小时" }
+  ]
+}

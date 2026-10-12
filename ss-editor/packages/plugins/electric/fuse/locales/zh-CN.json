@@ -1,0 +1,11 @@
+{
+  "fuse": {
+    "label": "熔断器",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "description": "电力熔断器 - 过流保护元件"
+  }
+}

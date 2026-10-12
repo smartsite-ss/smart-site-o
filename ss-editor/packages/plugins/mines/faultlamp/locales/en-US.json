@@ -1,0 +1,24 @@
+{
+  "faultlamp": {
+    "label": "Fault Alarm Lamp",
+    "properties": {
+      "alarmColor": "Alarm Color",
+      "backgroundColor": "Background Color",
+      "dataset": "Data Value (0=Normal, >0=Alarm)",
+      "flashing": "Flashing Effect",
+      "flashSpeed": "Flash Speed (s)",
+      "showBuzzer": "Show Buzzer",
+      "alarmValue": "Alarm Value",
+      "normalValue": "Normal Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "alarmColor": {
+        "red": "Red",
+        "amber": "Amber",
+        "off": "Off"
+      }
+    },
+    "description": "Faultlamp graphic element"
+  }
+}

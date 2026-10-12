@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "vue": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/node_modules/.pnpm/vue@3.5.32_typescript@5.9.3/node_modules/vue/dist/vue.esm-browser.js",
+    "vue-i18n": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/node_modules/.pnpm/vue-i18n@9.14.5_vue@3.5.32_typescript@5.9.3_/node_modules/vue-i18n/dist/vue-i18n.esm-browser.js",
+    "pinia": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/node_modules/.pnpm/pinia@2.3.1_typescript@5.9.3_vue@3.5.32_typescript@5.9.3_/node_modules/pinia/dist/pinia.esm-browser.js",
+    "vue-demi": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/node_modules/.pnpm/vue-demi@0.13.11_vue@3.5.32_typescript@5.9.3_/node_modules/vue-demi/lib/index.mjs",
+    "@vue/devtools-api": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/index.js",
+    "@scada-editor/core": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/packages/core/src/index.ts",
+    "@scada-editor/plugin-sdk": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/packages/plugin-sdk/src/index.ts",
+    "@plugins/": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/packages/plugins/",
+    "three": "/@fs/F:/work/smartdata/202603_trace/trunk/code/ss-o/ss-editor/node_modules/.pnpm/three@0.160.1/node_modules/three/build/three.module.js"
+  }
+}

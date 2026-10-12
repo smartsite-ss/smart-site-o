@@ -1,0 +1,35 @@
+{
+  "name": "@scada-editor/plugins-svg-svg-pipe",
+  "version": "0.1.0",
+  "description": "SVG Path-based pipe graphic plugin with flow animation for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*"
+  },
+  "devDependencies": {
+    "vitest": "0.34.6",
+    "@vitejs/plugin-vue": "^4.6.2"
+  },
+  "pluginMeta": {
+    "type": "svg-pipe",
+    "category": "svg",
+    "label": "svg-pipe.label",
+    "labelEn": "svg-pipe",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  }
+}

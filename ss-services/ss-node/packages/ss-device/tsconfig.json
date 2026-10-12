@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ss-node/ss-sdk": ["../ss-sdk/dist"],
+      "@ss-node/ss-core": ["../ss-core/dist"],
+      "@ss-node/ss-core/*": ["../ss-core/dist/*"],
+      "@ss-node/ss-datatag": ["../ss-datatag/dist"],
+      "@ss-node/ss-i18n": ["../ss-i18n/dist"],
+      "@ss-node/ss-system": ["../ss-system/dist"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/__tests__"]
+}

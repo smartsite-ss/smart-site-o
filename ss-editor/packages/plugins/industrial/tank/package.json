@@ -1,0 +1,44 @@
+{
+  "name": "@scada-editor/plugins-industrial-tank",
+  "version": "0.1.0",
+  "description": "Tank graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./TankConfig": {
+      "import": "./TankConfig.vue",
+      "types": "./TankConfig.vue"
+    },
+    "./TankIcon": {
+      "import": "./TankIcon.vue",
+      "types": "./TankIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "tank",
+    "category": "industrial",
+    "label": "tank.label",
+    "labelEn": "tank",
+    "deployMode": "directory",
+    "renderBackend": "vue",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

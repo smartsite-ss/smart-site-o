@@ -1,0 +1,199 @@
+{
+  "id": "builtin-industrial-single",
+  "name": "工业监控（单设备）",
+  "description": "单台设备监控画面，含设备图、双仪表盘、实时数据面板和报警面板",
+  "category": "industrial",
+  "icon": "⚙️",
+  "thumbnail": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'><rect width='1920' height='1080' fill='%23172A3A'/><rect width='1920' height='56' fill='%230F2131'/><rect x='80' y='160' width='400' height='400' fill='%231E3A50'/><circle cx='690' cy='290' r='140' fill='%231E3A50'/><circle cx='1010' cy='290' r='140' fill='%231E3A50'/><rect x='1200' y='80' width='680' height='320' rx='8' fill='%231E3A50'/><rect x='1200' y='420' width='680' height='300' rx='8' fill='%231E3A50'/></svg>",
+  "source": "builtin",
+  "author": "SS-SCADA",
+  "version": "1.0.0",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#172A3A",
+    "layout": "free",
+    "themeName": "blue-dark"
+  },
+  "graphics": [
+    {
+      "id": "ind-header",
+      "type": "shape",
+      "version": "1.0",
+      "config": {
+        "id": "ind-header",
+        "type": "shape",
+        "name": "顶部栏",
+        "geometry": { "x": 0, "y": 0, "width": 1920, "height": 56, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "shapeType": "rectangle", "fillColor": "@token:surface", "borderWidth": 0 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 0,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-header-title",
+      "type": "label",
+      "version": "1.0",
+      "config": {
+        "id": "ind-header-title",
+        "type": "label",
+        "name": "页面标题",
+        "geometry": { "x": 24, "y": 12, "width": 600, "height": 32, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "text": "水泵 #001 — 实时监控", "textColor": "@token:text", "fontSize": 20, "fontWeight": "bold", "verticalAlignment": "middle" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 1,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-pump",
+      "type": "image",
+      "version": "1.0",
+      "config": {
+        "id": "ind-pump",
+        "type": "image",
+        "name": "水泵本体",
+        "geometry": { "x": 80, "y": 160, "width": 400, "height": 400, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "src": "", "alt": "水泵本体", "imageFit": "contain" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 2,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-gauge-temp",
+      "type": "gauge",
+      "version": "1.0",
+      "config": {
+        "id": "ind-gauge-temp",
+        "type": "gauge",
+        "name": "温度表",
+        "geometry": { "x": 540, "y": 140, "width": 300, "height": 300, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "value": 45, "minValue": 0, "maxValue": 120, "unit": "°C", "decimalPlaces": 1 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 3,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-gauge-pressure",
+      "type": "gauge",
+      "version": "1.0",
+      "config": {
+        "id": "ind-gauge-pressure",
+        "type": "gauge",
+        "name": "压力表",
+        "geometry": { "x": 860, "y": 140, "width": 300, "height": 300, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "value": 4.2, "minValue": 0, "maxValue": 10, "unit": "MPa", "decimalPlaces": 1 },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 4,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-data-panel",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "ind-data-panel",
+        "type": "param-panel",
+        "name": "实时数据",
+        "geometry": { "x": 1200, "y": 80, "width": 680, "height": 320, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "实时数据", "rowCount": 4, "rowNames": "流量,转速,电流,振动", "rowValues": "125.6,1480,32.5,0.8", "rowUnits": "m³/h,rpm,A,mm/s" },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 5,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-alarm-panel",
+      "type": "param-panel",
+      "version": "1.0",
+      "config": {
+        "id": "ind-alarm-panel",
+        "type": "param-panel",
+        "name": "最近报警",
+        "geometry": { "x": 1200, "y": 420, "width": 680, "height": 300, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": { "title": "最近报警", "rowCount": 3, "rowNames": "温度偏高,压力波动,电流告警", "rowValues": "已确认,恢复中,已确认", "rowUnits": ",," },
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 6,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    },
+    {
+      "id": "ind-pipe",
+      "type": "pipe-h",
+      "version": "1.0",
+      "config": {
+        "id": "ind-pipe",
+        "type": "pipe-h",
+        "name": "出水管",
+        "geometry": { "x": 80, "y": 620, "width": 1080, "height": 40, "rotation": 0, "scale": 1 },
+        "style": {},
+        "isGroup": false,
+        "groupId": null,
+        "groupMembers": [],
+        "customProps": {},
+        "locked": false,
+        "visible": true,
+        "disabled": false,
+        "zIndex": 7,
+        "createdAt": 1750000000000,
+        "updatedAt": 1750000000000
+      }
+    }
+  ],
+  "tags": ["工业", "监控", "泵", "单设备"],
+  "createdAt": 1750000000000,
+  "updatedAt": 1750000000000
+}

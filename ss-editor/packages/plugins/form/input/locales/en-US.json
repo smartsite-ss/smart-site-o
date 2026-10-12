@@ -1,0 +1,47 @@
+{
+  "input": {
+    "label": "Input",
+    "description": "Input component for single-line text entry",
+    "panelTitle": "Input Configuration",
+    "properties": {
+      "value": "Value",
+      "placeholder": "Placeholder",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "textColor": "Text Color",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "textAlign": "Text Align",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      },
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "textAlign": {
+        "left": "Left",
+        "center": "Center",
+        "right": "Right"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "text": "Text",
+      "shadow": "Shadow"
+    },
+    "hints": {}
+  }
+}

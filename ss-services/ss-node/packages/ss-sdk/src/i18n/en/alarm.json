@@ -1,0 +1,36 @@
+{
+  "alarm": {
+    "rule": {
+      "created": "Alarm rule created successfully",
+      "updated": "Alarm rule updated successfully",
+      "deleted": "Alarm rule deleted",
+      "enabled": "Alarm rule enabled",
+      "disabled": "Alarm rule disabled",
+      "not_found": "Alarm rule does not exist"
+    },
+    "record": {
+      "triggered": "Alarm triggered: {{message}}",
+      "acknowledged": "Alarm acknowledged (Operator: {{operator}})",
+      "cleared": "Alarm cleared (Reason: {{reason}})",
+      "not_found": "Alarm record does not exist",
+      "already_acknowledged": "This alarm has already been acknowledged",
+      "already_cleared": "This alarm has already been cleared"
+    },
+    "condition": {
+      "gt": "{{tag}} value {{value}} exceeds upper limit {{threshold}}",
+      "lt": "{{tag}} value {{value}} below lower limit {{threshold}}",
+      "range_in": "{{tag}} value {{value}} is within normal range",
+      "range_out": "{{tag}} value {{value}} is out of normal range"
+    },
+    "level": {
+      "info": "Info",
+      "warning": "Warning",
+      "error": "Error",
+      "critical": "Critical"
+    },
+    "notification": {
+      "send_success": "Alarm notification sent successfully",
+      "send_failed": "Failed to send alarm notification"
+    }
+  }
+}

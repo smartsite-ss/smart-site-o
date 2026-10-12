@@ -1,0 +1,11 @@
+{
+  "head05": {
+    "label": "Head Decoration-05",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "dur": "Animation Cycle (s)"
+    },
+    "description": "Head05 graphic element"
+  }
+}

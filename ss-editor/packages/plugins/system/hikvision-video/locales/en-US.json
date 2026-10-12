@@ -1,0 +1,48 @@
+{
+  "hikvisionVideo": {
+    "label": "Hikvision Video",
+    "description": "Hikvision camera RTSP video wall (1/4/9)",
+    "properties": {
+      "layout": "Layout",
+      "autoPlay": "Auto Play",
+      "muted": "Muted",
+      "objectFit": "Object Fit",
+      "showChannelName": "Show Channel Name",
+      "nameColor": "Name Color",
+      "nameFontSize": "Name Font Size",
+      "nameBackgroundColor": "Name Background",
+      "backgroundColor": "Background",
+      "gap": "Gap"
+    },
+    "options": {
+      "layout": {
+        "1x1": "1 Channel",
+        "2x2": "4 Channels",
+        "3x3": "9 Channels"
+      },
+      "objectFit": {
+        "contain": "Contain",
+        "cover": "Cover",
+        "fill": "Fill"
+      }
+    },
+    "config": {
+      "channels": "Channels",
+      "channelsEmpty": "No Channels",
+      "addChannel": "Add Channel",
+      "channelName": "Channel Name",
+      "sourceUrl": "RTSP Source URL",
+      "playUrl": "Play URL",
+      "username": "Username",
+      "password": "Password",
+      "enabled": "Enabled",
+      "deleteChannel": "Delete"
+    },
+    "player": {
+      "loading": "Loading...",
+      "loadFailed": "Load failed",
+      "needFlv": "HTTP-FLV requires flv.js",
+      "needWebrtc": "WebRTC requires jessibuca"
+    }
+  }
+}

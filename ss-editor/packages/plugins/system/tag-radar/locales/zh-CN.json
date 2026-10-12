@@ -1,0 +1,51 @@
+{
+  "tagRadar": {
+    "label": "变量雷达图",
+    "description": "绑定多个标签变量，以雷达图实时显示多维健康度",
+    "config": {
+      "bindVariables": "绑定变量",
+      "addVariable": "添加变量",
+      "removeVariable": "删除",
+      "unbound": "未绑定变量",
+      "loadError": "加载失败"
+    },
+    "properties": {
+      "title": "标题",
+      "titleColor": "标题颜色",
+      "titleFontSize": "标题字号",
+      "titleFontWeight": "标题粗细",
+      "indicatorMax": "指标最大值",
+      "gridColor": "网格颜色",
+      "axisColor": "坐标轴颜色",
+      "showLegend": "显示图例",
+      "legendPosition": "图例位置",
+      "showTooltip": "显示提示框",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      },
+      "legendPosition": {
+        "top": "顶部",
+        "bottom": "底部",
+        "left": "左侧",
+        "right": "右侧"
+      },
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      }
+    }
+  }
+}

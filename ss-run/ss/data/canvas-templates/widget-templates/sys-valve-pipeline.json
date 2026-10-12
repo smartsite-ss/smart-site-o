@@ -1,0 +1,82 @@
+{
+  "id": "sys-valve-pipeline",
+  "name": "阀门管路组",
+  "description": "管道 + 阀门组合，支持 {{title}} 变量（阀门/管道状态拖入后绑定）",
+  "category": "control",
+  "author": "system",
+  "source": "builtin",
+  "schemaVersion": 2,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "graphics": [
+    {
+      "type": "group",
+      "id": "g",
+      "name": "阀门管路组",
+      "x": 0,
+      "y": 0,
+      "width": 240,
+      "height": 100,
+      "children": [
+        {
+          "type": "rect",
+          "id": "bg",
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 100,
+          "props": {
+            "fill": "#0f2542",
+            "stroke": "#1e3a5f",
+            "strokeWidth": 1,
+            "cornerRadius": 8
+          }
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "x": 12,
+          "y": 8,
+          "width": 200,
+          "height": 20,
+          "props": {
+            "text": "{{title}}",
+            "fontSize": 13,
+            "fill": "#93a3b8"
+          }
+        },
+        {
+          "type": "pipe-h",
+          "id": "pipe",
+          "x": 10,
+          "y": 48,
+          "width": 140,
+          "height": 26,
+          "props": {}
+        },
+        {
+          "type": "valve",
+          "id": "valve",
+          "x": 150,
+          "y": 34,
+          "width": 54,
+          "height": 54,
+          "props": {}
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "key": "title",
+      "label": "管路名称",
+      "type": "text",
+      "defaultValue": "供水管路"
+    }
+  ],
+  "tags": [
+    "阀门",
+    "管路"
+  ],
+  "thumbnail": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22240%22%20height%3D%22140%22%3E%3Crect%20width%3D%22240%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22%23b45309%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22224%22%20height%3D%22124%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.25)%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22120%22%20y%3D%2276%22%20font-family%3D%22Arial%22%20font-size%3D%2216%22%20fill%3D%22rgba(255%2C255%2C255%2C0.92)%22%20text-anchor%3D%22middle%22%3E%E9%98%80%E9%97%A8%E7%AE%A1%E8%B7%AF%E7%BB%84%3C%2Ftext%3E%3C%2Fsvg%3E"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sys-water-tank",
+  "name": "水位储罐",
+  "description": "带标题与水位指示的储罐组件，支持 {{title}} 与 {{level}} 变量",
+  "category": "industry",
+  "author": "system",
+  "source": "builtin",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 2,
+  "hasVariables": true,
+  "variableCount": 2,
+  "tags": [
+    "储罐",
+    "水位"
+  ]
+}

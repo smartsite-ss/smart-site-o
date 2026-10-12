@@ -1,0 +1,22 @@
+{
+  "generator": {
+    "label": "Generator",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "running": "Running State",
+      "runningValue": "Running Value",
+      "stoppedValue": "Stopped Value",
+      "faultValue": "Fault Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "running": {
+        "yes": "Running",
+        "no": "Stopped"
+      }
+    },
+    "description": "Generator graphic element"
+  }
+}

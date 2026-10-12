@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "2.0",
+  "lastUpdated": "2026-09-20T11:21:04.385Z",
+  "totalTemplates": 7,
+  "totalIndustries": 4,
+  "totalCategories": 4,
+  "description": "Smart SCADA 设备模板库树形索引 - 按行业/设备类型双级目录组织",
+  "rootPath": "F:\\work\\smartdata\\202603_trace\\trunk\\code\\ss-v7\\ss-run\\ss\\data\\templates",
+  "industries": [
+    {
+      "type": "industry",
+      "name": "工业自动化",
+      "path": "工业自动化",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "DCS分散控制系统",
+          "path": "工业自动化/DCS分散控制系统",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-dcs-ecs700",
+              "name": "中控 ECS-700 DCS 采集模板",
+              "fileName": "tpl-dcs-ecs700.json",
+              "relativePath": "工业自动化/DCS分散控制系统/tpl-dcs-ecs700.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-28T05:11:52.444Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "环境监测",
+      "path": "环境监测",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "环境传感器",
+          "path": "环境监测/环境传感器",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-th-sensor-modbus",
+              "name": "Modbus 温湿度传感器采集模板",
+              "fileName": "tpl-th-sensor-modbus.json",
+              "relativePath": "环境监测/环境传感器/tpl-th-sensor-modbus.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "温湿度",
+                "传感器",
+                "环境监测",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-28T05:11:12.577Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "物联网与边缘计算",
+      "path": "物联网与边缘计算",
+      "templateCount": 1,
+      "categories": [
+        {
+          "type": "category",
+          "name": "工业网关",
+          "path": "物联网与边缘计算/工业网关",
+          "templateCount": 1,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-iot-edge-gateway",
+              "name": "工业 IoT 边缘数据网关采集模板",
+              "fileName": "tpl-iot-edge-gateway.json",
+              "relativePath": "物联网与边缘计算/工业网关/tpl-iot-edge-gateway.json",
+              "deviceType": "mqtt",
+              "deviceModel": "mqtt",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "IoT",
+                "边缘计算",
+                "网关",
+                "MQTT",
+                "Modbus",
+                "OPC UA"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-28T03:38:17.052Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "industry",
+      "name": "自定义模板",
+      "path": "自定义模板",
+      "templateCount": 4,
+      "categories": [
+        {
+          "type": "category",
+          "name": "通用",
+          "path": "自定义模板/通用",
+          "templateCount": 4,
+          "templates": [
+            {
+              "type": "template",
+              "id": "tpl-23fdb84d-983",
+              "name": "测试模板_20260715_155000",
+              "fileName": "tpl-23fdb84d-983.json",
+              "relativePath": "自定义模板/通用/tpl-23fdb84d-983.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "draft",
+              "isDefault": false,
+              "variableCount": 0,
+              "tags": [],
+              "createdAt": "2026-07-14T23:58:42.390Z",
+              "updatedAt": "2026-07-14T23:58:42.391Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-three-phase-meter",
+              "name": "三相多功能电表采集模板",
+              "fileName": "tpl-three-phase-meter.json",
+              "relativePath": "自定义模板/通用/tpl-three-phase-meter.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 12,
+              "tags": [
+                "电表",
+                "三相",
+                "电能",
+                "能源电力",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-15T08:33:29.188Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-dcs-ecs700",
+              "name": "中控 ECS-700 DCS 采集模板",
+              "fileName": "tpl-dcs-ecs700.json",
+              "relativePath": "自定义模板/通用/tpl-dcs-ecs700.json",
+              "deviceType": "opc_ua",
+              "deviceModel": "opc_ua",
+              "version": "1.0.0",
+              "status": "planned",
+              "isDefault": true,
+              "variableCount": 5,
+              "tags": [
+                "中控",
+                "SUPCON",
+                "ECS-700",
+                "DCS",
+                "OPC UA",
+                "分散控制系统"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-15T08:45:36.916Z"
+            },
+            {
+              "type": "template",
+              "id": "tpl-th-sensor-modbus",
+              "name": "Modbus 温湿度传感器采集模板",
+              "fileName": "tpl-th-sensor-modbus.json",
+              "relativePath": "自定义模板/通用/tpl-th-sensor-modbus.json",
+              "deviceType": "modbus_tcp",
+              "deviceModel": "modbus_tcp",
+              "version": "1.0.0",
+              "status": "published",
+              "isDefault": true,
+              "variableCount": 4,
+              "tags": [
+                "温湿度",
+                "传感器",
+                "环境监测",
+                "Modbus"
+              ],
+              "createdAt": "2026-06-09T00:00:00.000Z",
+              "updatedAt": "2026-07-15T08:31:27.508Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

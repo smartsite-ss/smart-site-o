@@ -1,0 +1,14 @@
+{
+  "dictId": "deadbandMode",
+  "dictName": "死区模式",
+  "category": "business-config",
+  "description": "标签数据上报的死区过滤模式",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    { "value": "none", "label": "无死区", "sortOrder": 1, "description": "每次数据变化均上报" },
+    { "value": "absolute", "label": "绝对死区", "sortOrder": 2, "description": "绝对值超过阈值时上报" },
+    { "value": "relative", "label": "相对死区", "sortOrder": 3, "description": "变化百分比超过阈值时上报" },
+    { "value": "time", "label": "时间死区", "sortOrder": 4, "description": "距离上次上报超过指定时间时上报" }
+  ]
+}

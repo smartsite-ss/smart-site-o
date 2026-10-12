@@ -1,0 +1,44 @@
+{
+  "pump": {
+    "label": "Pump",
+    "description": "Pump component with rotation animation and status display",
+    "panelTitle": "Pump Configuration",
+    "properties": {
+      "width": "Width",
+      "height": "Height",
+      "status": "Status",
+      "bodyColor": "Body Color",
+      "impellerColor": "Impeller Color",
+      "highlightColor": "Highlight Color",
+      "showAnimation": "Show Animation",
+      "animationSpeed": "Rotation Speed",
+      "rotationDirection": "Rotation Direction",
+      "showLabel": "Show Label",
+      "labelText": "Label Text",
+      "runningValue": "Running Value",
+      "stoppedValue": "Stopped Value",
+      "faultValue": "Fault Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "status": {
+        "running": "Running",
+        "stopped": "Stopped",
+        "fault": "Fault"
+      },
+      "rotationDirection": {
+        "clockwise": "Clockwise",
+        "counterclockwise": "Counterclockwise"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "status": "Status",
+      "color": "Color",
+      "animation": "Animation",
+      "label": "Label",
+      "binding": "Binding"
+    },
+    "hints": {}
+  }
+}

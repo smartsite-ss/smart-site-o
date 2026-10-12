@@ -1,0 +1,24 @@
+{
+  "mixingpool": {
+    "label": "搅拌桶",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "flowColor": "流动色",
+      "pipeColor": "管道色",
+      "backgroundColor": "背景色",
+      "bgWidth": "背景宽度",
+      "boardWidth": "边框宽度",
+      "roate": "旋转角度",
+      "cls": "动画样式",
+      "dur": "动画周期(秒)",
+      "dataset": "数据值",
+      "forwardValue": "正转对应值",
+      "backwardValue": "反转对应值",
+      "stopValue": "停止对应值",
+      "defaultCls": "默认动画样式",
+      "decimalPlaces": "小数位数"
+    },
+    "description": "矿产搅拌桶 - 带搅拌器的混合容器，支持旋转动画"
+  }
+}

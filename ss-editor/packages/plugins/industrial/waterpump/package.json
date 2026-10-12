@@ -1,0 +1,44 @@
+{
+  "name": "@scada-editor/plugin-industrial-waterpump",
+  "version": "1.0.0",
+  "description": "Water pump graphic plugin for SCADA editor",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./WaterpumpConfig": {
+      "import": "./WaterpumpConfig.vue",
+      "types": "./WaterpumpConfig.vue"
+    },
+    "./WaterpumpIcon": {
+      "import": "./WaterpumpIcon.vue",
+      "types": "./WaterpumpIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "waterpump",
+    "category": "industrial",
+    "label": "waterpump.label",
+    "labelEn": "waterpump",
+    "deployMode": "directory",
+    "renderBackend": "vue",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

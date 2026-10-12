@@ -1,0 +1,15 @@
+{
+  "border14": {
+    "label": "Border 14",
+    "description": "Border 14 decorative component",
+    "properties": {
+      "color1": "Primary Color",
+      "color2": "Accent Color",
+      "backgroundColor": "Background Color",
+      "showHexGrid": "Hex Grid",
+      "showScanLine": "Scan Line",
+      "showCoreLines": "Core Lines",
+      "animationSpeed": "Animation Speed"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "fuse": {
+    "label": "Fuse",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Fuse graphic element"
+  }
+}

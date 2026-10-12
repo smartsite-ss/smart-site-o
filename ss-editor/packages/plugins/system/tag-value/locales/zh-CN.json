@@ -1,0 +1,61 @@
+{
+  "plugins": {
+    "groups": {
+      "shape": "形态",
+      "name": "名称",
+      "decoration": "装饰"
+    }
+  },
+  "tagValue": {
+    "label": "装饰标签变量",
+    "description": "显示设备变量实时值（方形/圆形）",
+    "config": {
+      "bindVariable": "绑定变量",
+      "selectVariable": "选择变量",
+      "clear": "清除",
+      "unbound": "未绑定",
+      "decorationImage": "装饰图片",
+      "backgroundImage": "背景图片",
+      "selectImage": "选择图片"
+    },
+    "selector": {
+      "title": "选择设备变量",
+      "searchPlaceholder": "搜索设备或变量",
+      "tagCount": "{count} 个变量",
+      "loading": "加载中...",
+      "empty": "暂无设备变量"
+    },
+    "properties": {
+      "shape": "形态",
+      "alias": "别名",
+      "showName": "显示名称",
+      "nameColor": "名称颜色",
+      "nameFontSize": "名称字号",
+      "nameFontWeight": "名称粗细",
+      "nameGap": "名称间距",
+      "decorationImagePosition": "装饰图位置",
+      "decorationImageSize": "装饰图尺寸",
+      "decorationImageOpacity": "装饰图透明度",
+      "backgroundRepeat": "背景平铺",
+      "backgroundImageFit": "填充样式"
+    },
+    "options": {
+      "shape": {
+        "rectangle": "方形",
+        "circle": "圆形"
+      },
+      "decorationPosition": {
+        "left": "左侧",
+        "right": "右侧",
+        "background": "背景",
+        "center": "居中"
+      },
+      "backgroundRepeat": {
+        "repeat": "平铺",
+        "no-repeat": "不平铺",
+        "repeat-x": "横向平铺",
+        "repeat-y": "纵向平铺"
+      }
+    }
+  }
+}

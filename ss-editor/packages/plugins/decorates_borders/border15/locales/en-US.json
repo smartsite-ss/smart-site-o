@@ -1,0 +1,15 @@
+{
+  "border15": {
+    "label": "Border 15 (Art Deco)",
+    "description": "Border 15 decorative component (Art Deco)",
+    "properties": {
+      "color1": "Primary Gold",
+      "color2": "Deep Gold",
+      "color3": "Dark Color",
+      "backgroundColor": "Background Color",
+      "showSunburst": "Sunburst Rays",
+      "showCorners": "Corner Decor",
+      "animationSpeed": "Animation Speed"
+    }
+  }
+}

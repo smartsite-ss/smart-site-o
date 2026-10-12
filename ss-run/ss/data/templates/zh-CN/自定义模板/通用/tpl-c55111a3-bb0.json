@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-c55111a3-bb0",
+  "name": "风烟风机虚拟模板",
+  "description": "电厂风烟系统风机虚拟模板（运行状态/电流/频率/开度/出口温度/出口压力）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "运行状态",
+      "label": "运行状态",
+      "address": "0",
+      "dataType": "int",
+      "guid": "b1bab41b-9cbd-46ba-93b0-65268efacc34"
+    },
+    {
+      "name": "电流",
+      "label": "电流",
+      "address": "4",
+      "dataType": "float",
+      "guid": "ce02f7b9-1aca-4d93-87dd-23270c3ba274"
+    },
+    {
+      "name": "频率",
+      "label": "频率",
+      "address": "8",
+      "dataType": "float",
+      "guid": "52e6d9b1-4bb8-4e7a-983c-bbf34de8b634"
+    },
+    {
+      "name": "开度",
+      "label": "开度",
+      "address": "12",
+      "dataType": "float",
+      "guid": "a386bb21-28ae-435d-81ba-962fbd557446"
+    },
+    {
+      "name": "出口温度",
+      "label": "出口温度",
+      "address": "16",
+      "dataType": "float",
+      "guid": "fa2c4b62-7533-4ca9-8c84-8f5baf436f17"
+    },
+    {
+      "name": "出口压力",
+      "label": "出口压力",
+      "address": "20",
+      "dataType": "float",
+      "guid": "2c37b54e-0da6-4c4f-802c-fbdd064549b3"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-10T15:43:49.019Z",
+    "updatedAt": "2026-09-10T15:43:49.019Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "trendChart": {
+    "label": "趋势图",
+    "description": "实时/历史趋势图，支持多笔对比、LTTB降采样",
+    "properties": {
+      "title": "标题",
+      "titleColor": "标题颜色",
+      "titleFontSize": "标题字号",
+      "titleFontWeight": "标题粗细",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "gridColor": "网格线颜色",
+      "axisColor": "坐标轴颜色",
+      "lineColors": "曲线颜色",
+      "lineWidth": "曲线宽度",
+      "showPoints": "显示数据点",
+      "pointRadius": "数据点半径",
+      "showLegend": "显示图例",
+      "legendPosition": "图例位置",
+      "maxPens": "最大笔数",
+      "timeWindow": "时间窗口（秒）",
+      "showTooltip": "显示提示框",
+      "yAxisLabel": "Y轴标签",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "titleFontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      },
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      },
+      "legendPosition": {
+        "top": "顶部",
+        "bottom": "底部",
+        "left": "左侧",
+        "right": "右侧"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "clock": {
+    "label": "时钟",
+    "properties": {
+      "color1": "指针颜色",
+      "color2": "表盘背景",
+      "color3": "边框颜色",
+      "borderWidth": "边框宽度"
+    },
+    "description": "模拟时钟"
+  }
+}

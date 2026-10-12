@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-iot-edge-gateway",
+  "name": "工业 IoT 边缘数据网关采集模板",
+  "description": "适用于工业物联网边缘数据网关的采集模板，支持多协议接入（Modbus/OPC UA/MQTT）和数据转发",
+  "deviceType": "mqtt",
+  "deviceModel": "mqtt",
+  "version": "1.0.0",
+  "status": "planned",
+  "isDefault": true,
+  "authorId": "system",
+  "tags": [
+    "IoT",
+    "边缘计算",
+    "网关",
+    "MQTT",
+    "Modbus",
+    "OPC UA"
+  ],
+  "industry": "物联网与边缘计算",
+  "category": "工业网关",
+  "protocol": {
+    "type": "mqtt",
+    "config": {}
+  },
+  "variables": [
+    [],
+    [],
+    [],
+    []
+  ],
+  "metadata": {
+    "createdAt": "2026-06-09T00:00:00.000Z",
+    "updatedAt": "2026-07-28T03:38:17.052Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

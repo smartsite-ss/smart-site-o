@@ -1,0 +1,57 @@
+{
+  "textbox": {
+    "label": "文本框",
+    "panelTitle": "文本框配置",
+    "properties": {
+      "text": "文本内容",
+      "placeholder": "占位符",
+      "fontSize": "字体大小",
+      "fontWeight": "字体粗细",
+      "fontStyle": "字体样式",
+      "textColor": "文本颜色",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "textAlign": "文本对齐",
+      "verticalAlignment": "垂直对齐",
+      "padding": "内边距",
+      "multiline": "多行模式",
+      "readOnly": "只读"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      },
+      "fontStyle": {
+        "normal": "正常",
+        "italic": "斜体"
+      },
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线",
+        "none": "无"
+      },
+      "textAlign": {
+        "left": "左对齐",
+        "center": "居中",
+        "right": "右对齐"
+      },
+      "verticalAlignment": {
+        "top": "顶部",
+        "middle": "居中",
+        "bottom": "底部"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式",
+      "text": "文字"
+    },
+    "hints": {},
+    "description": "文本框图元"
+  }
+}

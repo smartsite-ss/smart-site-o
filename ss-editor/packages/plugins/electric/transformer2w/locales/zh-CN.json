@@ -1,0 +1,11 @@
+{
+  "transformer2w": {
+    "label": "双绕组变压器",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "description": "双绕组电力变压器 - 两线圈符号"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "arccoil": {
+    "label": "Arc Suppression Coil",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Arccoil graphic element"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "create-@scada-editor/plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SCADA Editor Plugin Scaffold CLI",
+  "bin": {
+    "create-plugin": "./bin/create-plugin.js",
+    "create-@scada-editor/plugin": "./bin/create-plugin.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@scada-editor/plugin-sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.0",
+    "typescript": "^5.0.2"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "sys-kanban-light",
+  "name": "浅色看板布局",
+  "description": "1920×1080 浅色主题：顶部标题栏 + 三分卡片内容区（上左右/下整块），适合车间看板与生产日报屏",
+  "category": "common",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "schemaVersion": 1,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#F5F7FA"
+  },
+  "graphics": [
+    {
+      "id": "kanban-header-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 64,
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#E0E0E0"
+      }
+    },
+    {
+      "id": "kanban-header-title",
+      "type": "text",
+      "x": 24,
+      "y": 18,
+      "width": 400,
+      "height": 28,
+      "props": {
+        "text": "生产看板",
+        "fontSize": 20,
+        "fill": "#333333"
+      }
+    },
+    {
+      "id": "kanban-card-left-bg",
+      "type": "rect",
+      "x": 24,
+      "y": 88,
+      "width": 924,
+      "height": 460,
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#EBEDF0",
+        "cornerRadius": 8
+      }
+    },
+    {
+      "id": "kanban-card-right-bg",
+      "type": "rect",
+      "x": 972,
+      "y": 88,
+      "width": 924,
+      "height": 460,
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#EBEDF0",
+        "cornerRadius": 8
+      }
+    },
+    {
+      "id": "kanban-card-bottom-bg",
+      "type": "rect",
+      "x": 24,
+      "y": 564,
+      "width": 1872,
+      "height": 492,
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#EBEDF0",
+        "cornerRadius": 8
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "r-header",
+      "name": "header",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 64
+      },
+      "locked": true
+    },
+    {
+      "id": "r-content",
+      "name": "content",
+      "rect": {
+        "x": 0,
+        "y": 64,
+        "width": 1920,
+        "height": 1016
+      },
+      "locked": false
+    }
+  ],
+  "tags": [
+    "看板",
+    "浅色",
+    "车间",
+    "1920x1080"
+  ]
+}

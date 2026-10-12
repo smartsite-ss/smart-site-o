@@ -1,0 +1,48 @@
+{
+  "hikvisionVideo": {
+    "label": "海康视频",
+    "description": "海康摄像头 RTSP 视频墙（1/4/9 路）",
+    "properties": {
+      "layout": "视频布局",
+      "autoPlay": "自动播放",
+      "muted": "静音",
+      "objectFit": "画面适应",
+      "showChannelName": "显示通道名",
+      "nameColor": "通道名颜色",
+      "nameFontSize": "通道名字号",
+      "nameBackgroundColor": "通道名背景",
+      "backgroundColor": "背景色",
+      "gap": "通道间距"
+    },
+    "options": {
+      "layout": {
+        "1x1": "1 路",
+        "2x2": "4 路",
+        "3x3": "9 路"
+      },
+      "objectFit": {
+        "contain": "包含",
+        "cover": "覆盖",
+        "fill": "填充"
+      }
+    },
+    "config": {
+      "channels": "视频通道",
+      "channelsEmpty": "暂无通道",
+      "addChannel": "添加通道",
+      "channelName": "通道名称",
+      "sourceUrl": "RTSP 源地址",
+      "playUrl": "播放地址",
+      "username": "用户名",
+      "password": "密码",
+      "enabled": "启用",
+      "deleteChannel": "删除"
+    },
+    "player": {
+      "loading": "加载中...",
+      "loadFailed": "加载失败",
+      "needFlv": "HTTP-FLV 需引入 flv.js",
+      "needWebrtc": "WebRTC 需引入 jessibuca"
+    }
+  }
+}

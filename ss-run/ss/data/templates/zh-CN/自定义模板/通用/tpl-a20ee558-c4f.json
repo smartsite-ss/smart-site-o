@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-a20ee558-c4f",
+  "name": "HVAC中央空调机组模板",
+  "description": "中央空调冷水/热水机组虚拟模板（供水回水温度/EER/COP/耗电/偏差/状态）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "supplyTemp",
+      "label": "供水温度",
+      "address": "40001",
+      "dataType": "float32",
+      "unit": "℃",
+      "guid": "e8d1dcfb-0873-4716-af03-ab93d7cd0112"
+    },
+    {
+      "name": "returnTemp",
+      "label": "回水温度",
+      "address": "40002",
+      "dataType": "float32",
+      "unit": "℃",
+      "guid": "214d76ad-0f27-4115-8e18-1d7b59c94ebf"
+    },
+    {
+      "name": "inletTemp",
+      "label": "进水温度",
+      "address": "40003",
+      "dataType": "float32",
+      "unit": "℃",
+      "guid": "cfabacbd-f672-44f0-9d88-5e22217cc548"
+    },
+    {
+      "name": "eer",
+      "label": "瞬时制冷能效EER",
+      "address": "40004",
+      "dataType": "float32",
+      "unit": "",
+      "guid": "e2d5c2b9-a557-459f-98d1-90122068be59"
+    },
+    {
+      "name": "eerAvg",
+      "label": "综合制冷能效EER",
+      "address": "40005",
+      "dataType": "float32",
+      "unit": "",
+      "guid": "1aa403b3-4b11-4dd3-b2a5-8b3276fac0b1"
+    },
+    {
+      "name": "cop",
+      "label": "瞬时制热能效COP",
+      "address": "40006",
+      "dataType": "float32",
+      "unit": "",
+      "guid": "fd2b1b0f-d163-4891-9860-31ea8fcf070d"
+    },
+    {
+      "name": "copAvg",
+      "label": "综合制热能效COP",
+      "address": "40007",
+      "dataType": "float32",
+      "unit": "",
+      "guid": "0df79196-0996-4f0e-9f56-0c41aea2fafe"
+    },
+    {
+      "name": "power1",
+      "label": "冷热端耗电1",
+      "address": "40008",
+      "dataType": "float32",
+      "unit": "kW",
+      "guid": "2b92e232-17c6-4e5f-9f03-68c59dbcea32"
+    },
+    {
+      "name": "power2",
+      "label": "冷热端耗电2",
+      "address": "40009",
+      "dataType": "float32",
+      "unit": "kW",
+      "guid": "f1e47a74-43ae-4d08-93b1-d44515cef243"
+    },
+    {
+      "name": "eerDev",
+      "label": "能效比偏差",
+      "address": "40010",
+      "dataType": "float32",
+      "unit": "%",
+      "guid": "a59b975f-14d6-4b00-a4b4-846c2e5a7bd8"
+    },
+    {
+      "name": "flowDev",
+      "label": "水流量偏差",
+      "address": "40011",
+      "dataType": "float32",
+      "unit": "%",
+      "guid": "14ae8bfe-4a09-494b-94c2-207e01084e92"
+    },
+    {
+      "name": "loadKw",
+      "label": "名义负荷",
+      "address": "40012",
+      "dataType": "float32",
+      "unit": "kW",
+      "guid": "fd472231-5893-4965-b180-92402cbcc751"
+    },
+    {
+      "name": "status",
+      "label": "运行状态",
+      "address": "40013",
+      "dataType": "bool",
+      "unit": "",
+      "guid": "64f1645a-f6b3-47de-951b-bc12461ac01e"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T10:40:53.333Z",
+    "updatedAt": "2026-09-06T10:40:53.333Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

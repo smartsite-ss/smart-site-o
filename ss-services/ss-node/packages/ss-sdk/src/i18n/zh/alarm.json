@@ -1,0 +1,36 @@
+{
+  "alarm": {
+    "rule": {
+      "created": "报警规则创建成功",
+      "updated": "报警规则更新成功",
+      "deleted": "报警规则已删除",
+      "enabled": "报警规则已启用",
+      "disabled": "报警规则已禁用",
+      "not_found": "报警规则不存在"
+    },
+    "record": {
+      "triggered": "报警触发: {{message}}",
+      "acknowledged": "报警已确认 (操作人: {{operator}})",
+      "cleared": "报警已清除 (原因: {{reason}})",
+      "not_found": "事件记录不存在",
+      "already_acknowledged": "该报警已被确认",
+      "already_cleared": "该报警已清除"
+    },
+    "condition": {
+      "gt": "{{tag}} 的值 {{value}} 大于上限 {{threshold}}",
+      "lt": "{{tag}} 的值 {{value}} 小于下限 {{threshold}}",
+      "range_in": "{{tag}} 的值 {{value}} 在正常范围内",
+      "range_out": "{{tag}} 的值 {{value}} 超出正常范围"
+    },
+    "level": {
+      "info": "信息",
+      "warning": "警告",
+      "error": "错误",
+      "critical": "严重"
+    },
+    "notification": {
+      "send_success": "报警通知发送成功",
+      "send_failed": "报警通知发送失败"
+    }
+  }
+}

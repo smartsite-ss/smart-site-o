@@ -1,0 +1,31 @@
+{
+  "ballvalve": {
+    "label": "Electric Ball Valve",
+    "properties": {
+      "colors": "Color 1",
+      "colors2": "Color 2",
+      "flowColor": "Flow Color",
+      "pipeColor": "Pipe Color",
+      "backgroundColor": "Background Color",
+      "bgWidth": "Background Width",
+      "boardWidth": "Border Width",
+      "roate": "Rotation Angle",
+      "cls": "Animation Direction",
+      "dur": "Animation Cycle (s)",
+      "dataset": "Data Value",
+      "forwardValue": "Forward Value",
+      "backwardValue": "Backward Value",
+      "stopValue": "Stop Value",
+      "defaultCls": "Default Direction",
+      "decimalPlaces": "Decimal Places"
+    },
+    "options": {
+      "cls": {
+        "left": "Forward",
+        "right": "Reverse",
+        "stop": "Stop"
+      }
+    },
+    "description": "Ballvalve graphic element"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "head02": {
+    "label": "头部装饰-02",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "dur": "动画周期(秒)",
+      "lineHeight": "线条高度"
+    },
+    "description": "水平线条加虚线动画装饰"
+  }
+}

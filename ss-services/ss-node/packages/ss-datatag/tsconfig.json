@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@ss-node/ss-sdk": ["../ss-sdk/dist"],
+      "@ss-node/ss-core": ["../ss-core/dist"],
+      "@ss-node/ss-i18n": ["../ss-i18n/dist"]
+    }
+  },
+  "include": ["src/**/*"]
+}

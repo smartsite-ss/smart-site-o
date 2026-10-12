@@ -1,0 +1,28 @@
+{
+  "name": "@scada-editor/plugins-tag-value",
+  "version": "0.1.0",
+  "description": "Tag value graphic plugin (rectangle/circle) for SCADA editor",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    },
+    "./TagValueConfig": {
+      "import": "./TagValueConfig.vue",
+      "types": "./TagValueConfig.vue"
+    },
+    "./TagValueIcon": {
+      "import": "./TagValueIcon.vue",
+      "types": "./TagValueIcon.vue"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "@scada-editor/system": "workspace:*"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "border18": {
+    "label": "Border 18 (Moroccan Arabesque)",
+    "description": "Border 18 decorative component (Moroccan Arabesque)",
+    "properties": {
+      "color1": "Jewel Teal",
+      "color2": "Terracotta",
+      "color3": "Gold",
+      "backgroundColor": "Background Color",
+      "showStars": "Star Patterns",
+      "showArches": "Scallop Arches",
+      "animationSpeed": "Animation Speed"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "sys-big-screen",
+  "name": "大屏可视化布局",
+  "description": "3840×2160 中控大屏骨架：居中标题栏 + 左右数据面板 + 底部状态栏，中间主展示区可自由编辑",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 1,
+  "regionCount": 5,
+  "graphicCount": 5,
+  "tags": [
+    "大屏",
+    "4K",
+    "可视化",
+    "3840x2160"
+  ]
+}

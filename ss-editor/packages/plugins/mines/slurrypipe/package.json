@@ -1,0 +1,33 @@
+{
+  "name": "@scada-editor/plugins-mines-slurrypipe",
+  "version": "0.1.0",
+  "main": "./dist/index.mjs",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "import": "./index.ts",
+      "types": "./index.ts"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/plugin-sdk": "workspace:*"
+  },
+  "pluginMeta": {
+    "type": "slurrypipe",
+    "category": "mines",
+    "label": "slurrypipe.label",
+    "labelEn": "slurrypipe",
+    "deployMode": "directory",
+    "renderBackend": "canvas2d",
+    "sdkVersionRange": "^1.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.6.2"
+  }
+}

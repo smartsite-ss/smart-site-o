@@ -1,0 +1,18 @@
+﻿{
+  "dictId": "tagDataType",
+  "dictName": "Tag Data Types",
+  "category": "basic-data",
+  "description": "Supported data types for collection tags",
+  "version": "1.0",
+  "sortOrder": 1,
+  "items": [
+    { "value": "boolean", "label": "Boolean", "sortOrder": 1, "description": "True/False discrete signal" },
+    { "value": "int16", "label": "Int16", "sortOrder": 2, "description": "Signed 16-bit integer, range -32768 ~ 32767" },
+    { "value": "uint16", "label": "UInt16", "sortOrder": 3, "description": "Unsigned 16-bit integer, range 0 ~ 65535" },
+    { "value": "int32", "label": "Int32", "sortOrder": 4, "description": "Signed 32-bit integer, range -2^31 ~ 2^31-1" },
+    { "value": "uint32", "label": "UInt32", "sortOrder": 5, "description": "Unsigned 32-bit integer, range 0 ~ 2^32-1" },
+    { "value": "float32", "label": "Float32", "sortOrder": 6, "description": "Single-precision floating point (IEEE 754)" },
+    { "value": "float64", "label": "Float64", "sortOrder": 7, "description": "Double-precision floating point (IEEE 754)" },
+    { "value": "string", "label": "String", "sortOrder": 8, "description": "Variable-length string" }
+  ]
+}

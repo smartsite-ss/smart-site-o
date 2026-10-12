@@ -1,0 +1,11 @@
+packages:
+  - "scada-editor/**"
+  - "ss-services/ss-node"
+  - "ss-shared-contract"
+allowBuilds:
+  "@nestjs/core": true
+  '@serialport/bindings-cpp': set this to true or false
+  bcrypt: true
+  better-sqlite3: true
+  msgpackr-extract: true
+  sqlite3: true

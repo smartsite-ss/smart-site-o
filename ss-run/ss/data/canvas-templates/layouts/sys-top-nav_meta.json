@@ -1,0 +1,20 @@
+{
+  "id": "sys-top-nav",
+  "name": "顶部导航布局",
+  "description": "1920×1080 顶部标题 + 画面切换按钮导航，下方整块内容区，适合多画面平铺切换的监控工程",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 1,
+  "regionCount": 2,
+  "graphicCount": 10,
+  "tags": [
+    "导航",
+    "顶部菜单",
+    "监控",
+    "1920x1080"
+  ]
+}

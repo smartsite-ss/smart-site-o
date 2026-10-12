@@ -1,0 +1,670 @@
+[
+  {
+    "id": "mock-user-simple-monitor",
+    "name": "小型监控面板",
+    "description": "3 个 KPI 卡片 + 趋势图区域，适合小型车间监控",
+    "category": "industrial",
+    "icon": "📋",
+    "source": "user",
+    "author": "test-user",
+    "version": "1.0.0",
+    "pageConfig": {
+      "width": 1280,
+      "height": 720,
+      "backgroundColor": "#0A1628",
+      "layout": "free"
+    },
+    "graphics": [
+      {
+        "id": "mock-panel-header",
+        "type": "rect",
+        "x": 0, "y": 0,
+        "width": 1280, "height": 52,
+        "fill": "#0D2137",
+        "stroke": "none"
+      },
+      {
+        "id": "mock-panel-title",
+        "type": "text",
+        "x": 20, "y": 10,
+        "width": 300, "height": 32,
+        "text": "一号车间 — 实时监控",
+        "fontSize": 18,
+        "fill": "#99C9FF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "mock-kpi-temp",
+        "type": "rect",
+        "x": 20, "y": 72,
+        "width": 380, "height": 120,
+        "fill": "#0D2137",
+        "stroke": "#1A3A5C",
+        "cornerRadius": 6
+      },
+      {
+        "id": "mock-kpi-temp-label",
+        "type": "text",
+        "x": 40, "y": 86,
+        "width": 200, "height": 20,
+        "text": "🌡 平均温度",
+        "fontSize": 13,
+        "fill": "#5A8AB5"
+      },
+      {
+        "id": "mock-kpi-temp-value",
+        "type": "text",
+        "x": 40, "y": 118,
+        "width": 300, "height": 44,
+        "text": "38.5 °C",
+        "fontSize": 32,
+        "fill": "#7EC8E3",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "mock-kpi-temp-trend",
+        "type": "text",
+        "x": 280, "y": 146,
+        "width": 100, "height": 20,
+        "text": "↑ 0.5°C",
+        "fontSize": 12,
+        "fill": "#52C41A",
+        "textAlign": "right"
+      },
+      {
+        "id": "mock-kpi-humidity",
+        "type": "rect",
+        "x": 420, "y": 72,
+        "width": 380, "height": 120,
+        "fill": "#0D2137",
+        "stroke": "#1A3A5C",
+        "cornerRadius": 6
+      },
+      {
+        "id": "mock-kpi-humidity-label",
+        "type": "text",
+        "x": 440, "y": 86,
+        "width": 200, "height": 20,
+        "text": "💧 湿度",
+        "fontSize": 13,
+        "fill": "#5A8AB5"
+      },
+      {
+        "id": "mock-kpi-humidity-value",
+        "type": "text",
+        "x": 440, "y": 118,
+        "width": 300, "height": 44,
+        "text": "62.3 %",
+        "fontSize": 32,
+        "fill": "#3E92CC",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "mock-kpi-pressure",
+        "type": "rect",
+        "x": 820, "y": 72,
+        "width": 440, "height": 120,
+        "fill": "#0D2137",
+        "stroke": "#1A3A5C",
+        "cornerRadius": 6
+      },
+      {
+        "id": "mock-kpi-pressure-label",
+        "type": "text",
+        "x": 840, "y": 86,
+        "width": 200, "height": 20,
+        "text": "⏲ 管道压力",
+        "fontSize": 13,
+        "fill": "#5A8AB5"
+      },
+      {
+        "id": "mock-kpi-pressure-value",
+        "type": "text",
+        "x": 840, "y": 118,
+        "width": 300, "height": 44,
+        "text": "2.8 MPa",
+        "fontSize": 32,
+        "fill": "#FFD166",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "mock-chart-area",
+        "type": "rect",
+        "x": 20, "y": 212,
+        "width": 1240, "height": 360,
+        "fill": "#0D2137",
+        "stroke": "#1A3A5C",
+        "cornerRadius": 6
+      },
+      {
+        "id": "mock-chart-label",
+        "type": "text",
+        "x": 40, "y": 226,
+        "width": 300, "height": 20,
+        "text": "📈 温度趋势（24 小时）",
+        "fontSize": 13,
+        "fill": "#5A8AB5"
+      },
+      {
+        "id": "mock-chart-placeholder",
+        "type": "text",
+        "x": 460, "y": 340,
+        "width": 320, "height": 32,
+        "text": "[ 趋势图区域 ]",
+        "fontSize": 18,
+        "fill": "#2A4A6A",
+        "textAlign": "center"
+      },
+      {
+        "id": "mock-footer-bar",
+        "type": "rect",
+        "x": 0, "y": 680,
+        "width": 1280, "height": 40,
+        "fill": "#081420",
+        "stroke": "none"
+      },
+      {
+        "id": "mock-footer-label",
+        "type": "text",
+        "x": 20, "y": 690,
+        "width": 400, "height": 20,
+        "text": "上次刷新: 14:30:25 | 采集周期: 5s",
+        "fontSize": 11,
+        "fill": "#3A5A7A"
+      }
+    ],
+    "tags": ["监控", "车间", "温度", "湿度"],
+    "createdAt": 1755086400000,
+    "updatedAt": 1755086400000
+  },
+  {
+    "id": "mock-user-device-status",
+    "name": "设备状态总览",
+    "description": "6 台设备卡片 + 运行指示灯，适合设备健康度巡检",
+    "category": "industrial",
+    "icon": "🏭",
+    "source": "user",
+    "author": "test-user",
+    "version": "1.0.0",
+    "pageConfig": {
+      "width": 1920,
+      "height": 1080,
+      "backgroundColor": "#0F1923",
+      "layout": "free"
+    },
+    "graphics": [
+      {
+        "id": "status-header",
+        "type": "rect",
+        "x": 0, "y": 0,
+        "width": 1920, "height": 56,
+        "fill": "#09131C",
+        "stroke": "#162A3D"
+      },
+      {
+        "id": "status-title",
+        "type": "text",
+        "x": 24, "y": 12,
+        "width": 400, "height": 32,
+        "text": "设备状态总览",
+        "fontSize": 20,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-summary",
+        "type": "rect",
+        "x": 0, "y": 56,
+        "width": 1920, "height": 48,
+        "fill": "#0D1A28",
+        "stroke": "#162A3D"
+      },
+      {
+        "id": "status-summary-online",
+        "type": "text",
+        "x": 24, "y": 66,
+        "width": 200, "height": 28,
+        "text": "🟢 在线: 4",
+        "fontSize": 14,
+        "fill": "#52C41A",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-summary-offline",
+        "type": "text",
+        "x": 180, "y": 66,
+        "width": 200, "height": 28,
+        "text": "🔴 离线: 1",
+        "fontSize": 14,
+        "fill": "#F56C6C",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-summary-warning",
+        "type": "text",
+        "x": 340, "y": 66,
+        "width": 200, "height": 28,
+        "text": "🟡 告警: 1",
+        "fontSize": 14,
+        "fill": "#E6A23C",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-refresh-btn",
+        "type": "button",
+        "x": 1780, "y": 62,
+        "width": 100, "height": 30,
+        "text": "刷新",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "backgroundColor": "#1A3A5C",
+        "cornerRadius": 4
+      },
+      {
+        "id": "status-device1",
+        "type": "rect",
+        "x": 24, "y": 124,
+        "width": 440, "height": 180,
+        "fill": "#0D1F31",
+        "stroke": "#1A3A5C",
+        "cornerRadius": 8
+      },
+      {
+        "id": "status-device1-indicator",
+        "type": "rect",
+        "x": 36, "y": 136,
+        "width": 12, "height": 12,
+        "fill": "#52C41A",
+        "stroke": "none",
+        "cornerRadius": 6
+      },
+      {
+        "id": "status-device1-name",
+        "type": "text",
+        "x": 56, "y": 132,
+        "width": 200, "height": 20,
+        "text": "水泵 #001",
+        "fontSize": 15,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-device1-info",
+        "type": "text",
+        "x": 36, "y": 164,
+        "width": 400, "height": 20,
+        "text": "IP: 192.168.1.101 | Modbus TCP | 运行时间: 128h",
+        "fontSize": 12,
+        "fill": "#5A8AB5"
+      },
+      {
+        "id": "status-device1-detail",
+        "type": "text",
+        "x": 36, "y": 192,
+        "width": 400, "height": 40,
+        "text": "温度: 42°C  |  压力: 3.2MPa  |  流量: 88.5 m³/h",
+        "fontSize": 13,
+        "fill": "#B0C0D0"
+      },
+      {
+        "id": "status-device2",
+        "type": "rect",
+        "x": 488, "y": 124,
+        "width": 440, "height": 180,
+        "fill": "#0D1F31",
+        "stroke": "#1A3A5C",
+        "cornerRadius": 8
+      },
+      {
+        "id": "status-device2-indicator",
+        "type": "rect",
+        "x": 500, "y": 136,
+        "width": 12, "height": 12,
+        "fill": "#52C41A",
+        "stroke": "none",
+        "cornerRadius": 6
+      },
+      {
+        "id": "status-device2-name",
+        "type": "text",
+        "x": 520, "y": 132,
+        "width": 200, "height": 20,
+        "text": "变频器 #002",
+        "fontSize": 15,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-device2-info",
+        "type": "text",
+        "x": 500, "y": 164,
+        "width": 400, "height": 20,
+        "text": "IP: 192.168.1.102 | Modbus TCP | 运行时间: 256h",
+        "fontSize": 12,
+        "fill": "#5A8AB5"
+      },
+      {
+        "id": "status-device2-detail",
+        "type": "text",
+        "x": 500, "y": 192,
+        "width": 400, "height": 40,
+        "text": "频率: 50Hz  |  电流: 12.8A  |  功率: 5.6kW",
+        "fontSize": 13,
+        "fill": "#B0C0D0"
+      },
+      {
+        "id": "status-device3",
+        "type": "rect",
+        "x": 952, "y": 124,
+        "width": 440, "height": 180,
+        "fill": "#0D1F31",
+        "stroke": "#E6A23C",
+        "cornerRadius": 8
+      },
+      {
+        "id": "status-device3-indicator",
+        "type": "rect",
+        "x": 964, "y": 136,
+        "width": 12, "height": 12,
+        "fill": "#E6A23C",
+        "stroke": "none",
+        "cornerRadius": 6
+      },
+      {
+        "id": "status-device3-name",
+        "type": "text",
+        "x": 984, "y": 132,
+        "width": 200, "height": 20,
+        "text": "压缩机 #003",
+        "fontSize": 15,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-device3-info",
+        "type": "text",
+        "x": 964, "y": 164,
+        "width": 400, "height": 20,
+        "text": "IP: 192.168.1.103 | OPC UA | 告警: 温度过高",
+        "fontSize": 12,
+        "fill": "#E6A23C"
+      },
+      {
+        "id": "status-device3-detail",
+        "type": "text",
+        "x": 964, "y": 192,
+        "width": 400, "height": 40,
+        "text": "温度: 89°C⚠️  |  压力: 5.1MPa  |  转速: 1480rpm",
+        "fontSize": 13,
+        "fill": "#B0C0D0"
+      },
+      {
+        "id": "status-device4",
+        "type": "rect",
+        "x": 1416, "y": 124,
+        "width": 480, "height": 180,
+        "fill": "#0D1F31",
+        "stroke": "#F56C6C",
+        "cornerRadius": 8
+      },
+      {
+        "id": "status-device4-indicator",
+        "type": "rect",
+        "x": 1428, "y": 136,
+        "width": 12, "height": 12,
+        "fill": "#F56C6C",
+        "stroke": "none",
+        "cornerRadius": 6
+      },
+      {
+        "id": "status-device4-name",
+        "type": "text",
+        "x": 1448, "y": 132,
+        "width": 200, "height": 20,
+        "text": "循环泵 #004",
+        "fontSize": 15,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "status-device4-info",
+        "type": "text",
+        "x": 1428, "y": 164,
+        "width": 400, "height": 20,
+        "text": "IP: 192.168.1.104 | Modbus TCP | 状态: 离线",
+        "fontSize": 12,
+        "fill": "#F56C6C"
+      },
+      {
+        "id": "status-device4-detail",
+        "type": "text",
+        "x": 1428, "y": 192,
+        "width": 400, "height": 20,
+        "text": "最后在线: 2026-08-09 22:15:30",
+        "fontSize": 13,
+        "fill": "#8A9099"
+      }
+    ],
+    "tags": ["设备", "状态", "巡检", "指示灯"],
+    "createdAt": 1755172800000,
+    "updatedAt": 1755172800000
+  },
+  {
+    "id": "mock-user-alarm-center",
+    "name": "告警中心",
+    "description": "当前告警 + 历史告警双面板布局，适合值班室大屏",
+    "category": "dashboard",
+    "icon": "🔔",
+    "source": "user",
+    "author": "test-user",
+    "version": "1.0.0",
+    "pageConfig": {
+      "width": 1600,
+      "height": 900,
+      "backgroundColor": "#0A0E27",
+      "layout": "free"
+    },
+    "graphics": [
+      {
+        "id": "alarm-header-bg",
+        "type": "rect",
+        "x": 0, "y": 0,
+        "width": 1600, "height": 60,
+        "fill": "#060B1F",
+        "stroke": "#0C1A40"
+      },
+      {
+        "id": "alarm-header-title",
+        "type": "text",
+        "x": 24, "y": 14,
+        "width": 300, "height": 32,
+        "text": "🔔 告警中心",
+        "fontSize": 20,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "alarm-header-count",
+        "type": "rect",
+        "x": 720, "y": 10,
+        "width": 160, "height": 40,
+        "fill": "#F56C6C",
+        "stroke": "none",
+        "cornerRadius": 20
+      },
+      {
+        "id": "alarm-header-count-text",
+        "type": "text",
+        "x": 748, "y": 18,
+        "width": 100, "height": 24,
+        "text": "3 条未处理",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "fontWeight": "bold",
+        "textAlign": "center"
+      },
+      {
+        "id": "alarm-active-panel",
+        "type": "rect",
+        "x": 20, "y": 80,
+        "width": 780, "height": 500,
+        "fill": "#0C1430",
+        "stroke": "#1A2A50",
+        "cornerRadius": 6
+      },
+      {
+        "id": "alarm-active-title",
+        "type": "text",
+        "x": 36, "y": 96,
+        "width": 300, "height": 24,
+        "text": "⚠️ 当前告警",
+        "fontSize": 16,
+        "fill": "#F56C6C",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "alarm-active-item1",
+        "type": "rect",
+        "x": 36, "y": 136,
+        "width": 748, "height": 64,
+        "fill": "rgba(245, 108, 108, 0.08)",
+        "stroke": "#2A1A1A",
+        "cornerRadius": 4
+      },
+      {
+        "id": "alarm-active-item1-severity",
+        "type": "rect",
+        "x": 40, "y": 158,
+        "width": 8, "height": 20,
+        "fill": "#F56C6C",
+        "stroke": "none",
+        "cornerRadius": 2
+      },
+      {
+        "id": "alarm-active-item1-text",
+        "type": "text",
+        "x": 60, "y": 144,
+        "width": 600, "height": 20,
+        "text": "🔥 压缩机 #003 温度过高 | 当前: 89°C | 阈值: 75°C",
+        "fontSize": 13,
+        "fill": "#FF8888",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "alarm-active-item1-time",
+        "type": "text",
+        "x": 60, "y": 168,
+        "width": 300, "height": 16,
+        "text": "2026-08-10 14:22:05 | 来源: 压缩机 #003",
+        "fontSize": 11,
+        "fill": "#5A5A7A"
+      },
+      {
+        "id": "alarm-active-item2",
+        "type": "rect",
+        "x": 36, "y": 216,
+        "width": 748, "height": 64,
+        "fill": "rgba(230, 162, 60, 0.08)",
+        "stroke": "#2A2010",
+        "cornerRadius": 4
+      },
+      {
+        "id": "alarm-active-item2-severity",
+        "type": "rect",
+        "x": 40, "y": 238,
+        "width": 8, "height": 20,
+        "fill": "#E6A23C",
+        "stroke": "none",
+        "cornerRadius": 2
+      },
+      {
+        "id": "alarm-active-item2-text",
+        "type": "text",
+        "x": 60, "y": 224,
+        "width": 600, "height": 20,
+        "text": "⚡ 变频器 #002 电流异常 | 当前: 12.8A | 阈值: 10A",
+        "fontSize": 13,
+        "fill": "#FFCC66",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "alarm-active-item2-time",
+        "type": "text",
+        "x": 60, "y": 248,
+        "width": 300, "height": 16,
+        "text": "2026-08-10 13:45:18 | 来源: 变频器 #002",
+        "fontSize": 11,
+        "fill": "#5A5A7A"
+      },
+      {
+        "id": "alarm-history-panel",
+        "type": "rect",
+        "x": 820, "y": 80,
+        "width": 760, "height": 500,
+        "fill": "#0C1430",
+        "stroke": "#1A2A50",
+        "cornerRadius": 6
+      },
+      {
+        "id": "alarm-history-title",
+        "type": "text",
+        "x": 836, "y": 96,
+        "width": 300, "height": 24,
+        "text": "📋 历史告警",
+        "fontSize": 16,
+        "fill": "#5A8AB5",
+        "fontWeight": "bold"
+      },
+      {
+        "id": "alarm-history-filter-btn",
+        "type": "button",
+        "x": 1420, "y": 90,
+        "width": 80, "height": 28,
+        "text": "筛选",
+        "fontSize": 11,
+        "fill": "#FFFFFF",
+        "backgroundColor": "#1A2A50",
+        "cornerRadius": 4
+      },
+      {
+        "id": "alarm-history-item1",
+        "type": "text",
+        "x": 836, "y": 148,
+        "width": 700, "height": 20,
+        "text": "08-09 18:30  ✅ 水泵 #001 压力恢复 | 压力: 3.2MPa → 正常",
+        "fontSize": 12,
+        "fill": "#52C41A"
+      },
+      {
+        "id": "alarm-history-item2",
+        "type": "text",
+        "x": 836, "y": 180,
+        "width": 700, "height": 20,
+        "text": "08-09 15:12  ⚠️ 循环泵 #004 通讯中断 | 设备离线",
+        "fontSize": 12,
+        "fill": "#E6A23C"
+      },
+      {
+        "id": "alarm-history-item3",
+        "type": "text",
+        "x": 836, "y": 212,
+        "width": 700, "height": 20,
+        "text": "08-09 09:45  ❌ 压缩机 #003 过载停机 | 电流: 18.2A → 跳闸",
+        "fontSize": 12,
+        "fill": "#F56C6C"
+      },
+      {
+        "id": "alarm-history-item4",
+        "type": "text",
+        "x": 836, "y": 244,
+        "width": 700, "height": 20,
+        "text": "08-08 22:00  ✅ 变频器 #002 频率恢复 | 频率: 50Hz → 正常",
+        "fontSize": 12,
+        "fill": "#52C41A"
+      }
+    ],
+    "tags": ["告警", "值班", "报警"],
+    "createdAt": 1755259200000,
+    "updatedAt": 1755259200000
+  }
+]

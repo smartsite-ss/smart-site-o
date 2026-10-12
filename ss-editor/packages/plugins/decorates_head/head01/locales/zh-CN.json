@@ -1,0 +1,13 @@
+{
+  "head01": {
+    "label": "头部装饰-01",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "dur": "动画周期(秒)",
+      "lineHeight": "线条高度",
+      "endWidth": "滑块宽度"
+    },
+    "description": "动画矩形条加滑动颜色块装饰"
+  }
+}

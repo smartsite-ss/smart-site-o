@@ -1,0 +1,63 @@
+{
+  "name": "@scada-editor/system",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "SCADA System Management - Project/Device/Alarm/Script/System settings",
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "test:ui": "vitest --ui",
+    "lint": "eslint . --ext .ts,.vue"
+  },
+  "dependencies": {
+    "@scada-editor/contract": "workspace:*",
+    "@monaco-editor/loader": "^1.7.0",
+    "@scada-editor/core": "workspace:*",
+    "@scada-editor/shared": "workspace:*",
+    "axios": "^1.6.0",
+    "echarts": "^5.5.0",
+    "html2canvas": "^1.4.1",
+    "leaflet": "^1.9.4",
+    "pinia": "^2.1.7",
+    "socket.io-client": "^4.8.3",
+    "vue": "^3.4.21",
+    "vue-echarts": "^7.0.3",
+    "vue-router": "^4.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^20.11.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.4",
+    "jsdom": "^22.1.0",
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.27.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.2.0",
+    "vue-i18n": "9.14.5"
+  }
+}

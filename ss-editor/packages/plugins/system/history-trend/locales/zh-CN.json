@@ -1,0 +1,102 @@
+{
+  "historyTrend": {
+    "label": "历史趋势",
+    "description": "按时间段查询一个或多个变量的历史趋势",
+    "config": {
+      "bindVariables": "绑定变量",
+      "addVariable": "添加变量",
+      "removeVariable": "删除",
+      "unbound": "未绑定变量",
+      "timeRange": "时间段",
+      "queryMethod": "查询方式",
+      "query": "查询",
+      "querying": "查询中…"
+    },
+    "series": {
+      "lineWidth": "线条宽度",
+      "lineType": "线条类型",
+      "lineColor": "线条颜色",
+      "symbolSize": "实心点大小",
+      "labelShow": "显示标签",
+      "labelFontSize": "标签字号",
+      "labelColor": "标签颜色",
+      "labelPosition": "标签位置",
+      "areaShow": "显示区域填充",
+      "areaStartColor": "开始颜色",
+      "areaMiddleColor": "中间颜色",
+      "areaEndColor": "结束颜色",
+      "areaOpacity": "透明度"
+    },
+    "options": {
+      "interpolation": {
+        "raw": "原始值",
+        "linear": "线性插值",
+        "step": "阶梯插值"
+      },
+      "presetRange": {
+        "1h": "最近1小时",
+        "6h": "最近6小时",
+        "24h": "最近24小时",
+        "7d": "最近7天",
+        "custom": "自定义"
+      },
+      "lineType": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      },
+      "labelPosition": {
+        "top": "顶部",
+        "left": "左侧",
+        "right": "右侧",
+        "bottom": "底部"
+      },
+      "legendPosition": {
+        "top": "顶部",
+        "bottom": "底部",
+        "left": "左侧",
+        "right": "右侧"
+      },
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      },
+      "fontWeight": {
+        "normal": "正常",
+        "bold": "粗体"
+      }
+    },
+    "properties": {
+      "defaultInterpolation": "默认查询方式",
+      "defaultInterval": "默认插值间隔(ms)",
+      "defaultPresetRange": "默认时间范围",
+      "defaultCustomStart": "自定义开始时间",
+      "defaultCustomEnd": "自定义结束时间",
+      "maxPoints": "显示最大点数",
+      "title": "标题",
+      "titleColor": "标题颜色",
+      "titleFontSize": "标题字号",
+      "titleFontWeight": "标题粗细",
+      "gridColor": "网格颜色",
+      "axisColor": "坐标轴颜色",
+      "showLegend": "显示图例",
+      "legendPosition": "图例位置",
+      "showTooltip": "显示提示框",
+      "showDataZoom": "时间轴缩放",
+      "showXAxis": "显示时间轴",
+      "xAxisLineColor": "时间轴颜色",
+      "xAxisLabelFontSize": "时间轴字号",
+      "xAxisLabelRotate": "时间轴文字斜度",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    }
+  }
+}

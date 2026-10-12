@@ -1,0 +1,40 @@
+{
+  "pipe": {
+    "label": "管道-竖向",
+    "description": "管道-竖向组件，支持流动动画和方向控制",
+    "panelTitle": "管道配置",
+    "properties": {
+      "width": "宽度",
+      "height": "高度",
+      "status": "状态",
+      "direction": "流向",
+      "pipeColor": "管道颜色",
+      "flowingColor": "流动颜色",
+      "stoppedColor": "停止颜色",
+      "blockedColor": "堵塞颜色",
+      "pipeThickness": "管道粗细",
+      "showFlange": "显示法兰",
+      "flowSpeed": "流速",
+      "showFlowAnimation": "显示流动动画"
+    },
+    "options": {
+      "status": {
+        "flowing": "流动中",
+        "stopped": "停止",
+        "blocked": "堵塞"
+      },
+      "direction": {
+        "up": "向上",
+        "down": "向下"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "status": "状态",
+      "color": "颜色",
+      "style": "样式",
+      "animation": "动画"
+    },
+    "hints": {}
+  }
+}

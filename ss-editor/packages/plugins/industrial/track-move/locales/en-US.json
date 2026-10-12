@@ -1,0 +1,62 @@
+{
+  "track-move": {
+    "label": "Track Move",
+    "description": "Animated dot moving along a customizable track with bend points and image support",
+    "panelTitle": "Track Move Configuration",
+    "properties": {
+      "speed": "Speed(px/s)",
+      "dotStyle": "Dot Style",
+      "dotColor": "Dot Color",
+      "dotSize": "Dot Size",
+      "dotImage": "Image URL",
+      "imageWidth": "Image Width",
+      "imageHeight": "Image Height",
+      "trackColor": "Track Color",
+      "trackWidth": "Track Width",
+      "trackStyle": "Track Style",
+      "status": "Animation",
+      "direction": "Direction",
+      "loopMode": "Loop Mode"
+    },
+    "options": {
+      "dotStyle": {
+        "circle": "Circle",
+        "image": "Image"
+      },
+      "trackStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed"
+      },
+      "direction": {
+        "forward": "Forward",
+        "backward": "Backward"
+      },
+      "loopMode": {
+        "loop": "Loop",
+        "once": "Once",
+        "bounce": "Bounce"
+      }
+    },
+    "groups": {
+      "dot": "Dot",
+      "track": "Track",
+      "motion": "Motion"
+    },
+    "hints": {
+      "dotImage": "Enter image URL"
+    },
+    "editor": {
+      "pathPoints": "Path Points",
+      "index": "#",
+      "coordX": "X",
+      "coordY": "Y",
+      "type": "Type",
+      "action": "Action",
+      "startPoint": "Start",
+      "endPoint": "End",
+      "bendPoint": "Bend Point",
+      "addBendPoint": "+ Add Bend Point",
+      "reversePath": "Reverse Path"
+    }
+  }
+}

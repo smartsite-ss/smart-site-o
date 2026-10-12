@@ -1,0 +1,24 @@
+{
+  "project": {
+    "create": {
+      "success": "项目创建成功",
+      "failed_name_exists": "项目名称已存在"
+    },
+    "update": {
+      "success": "项目更新成功",
+      "failed_not_owner": "无权修改此项目"
+    },
+    "delete": {
+      "success": "项目删除成功",
+      "failed_has_devices": "项目下还有设备，无法删除"
+    },
+    "get": {
+      "success": "获取项目信息成功",
+      "not_found": "项目不存在"
+    },
+    "list": {
+      "success": "获取项目列表成功",
+      "empty": "暂无项目"
+    }
+  }
+}

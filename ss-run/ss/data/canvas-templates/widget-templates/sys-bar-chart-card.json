@@ -1,0 +1,74 @@
+{
+  "id": "sys-bar-chart-card",
+  "name": "柱状图卡",
+  "description": "柱状统计图 + 标题，支持 {{title}} 变量（数据经图表数据源配置）",
+  "category": "chart",
+  "author": "system",
+  "source": "builtin",
+  "schemaVersion": 2,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "graphics": [
+    {
+      "type": "group",
+      "id": "g",
+      "name": "柱状图卡",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 200,
+      "children": [
+        {
+          "type": "rect",
+          "id": "bg",
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 200,
+          "props": {
+            "fill": "#0f2542",
+            "stroke": "#1e3a5f",
+            "strokeWidth": 1,
+            "cornerRadius": 8
+          }
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "x": 14,
+          "y": 12,
+          "width": 280,
+          "height": 22,
+          "props": {
+            "text": "{{title}}",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "fill": "#e8eef7"
+          }
+        },
+        {
+          "type": "chart-bar",
+          "id": "bar",
+          "x": 12,
+          "y": 42,
+          "width": 296,
+          "height": 146,
+          "props": {}
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "key": "title",
+      "label": "卡片标题",
+      "type": "text",
+      "defaultValue": "分类统计"
+    }
+  ],
+  "tags": [
+    "柱状图",
+    "统计"
+  ],
+  "thumbnail": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22240%22%20height%3D%22140%22%3E%3Crect%20width%3D%22240%22%20height%3D%22140%22%20rx%3D%2210%22%20fill%3D%22%231d4ed8%22%2F%3E%3Crect%20x%3D%228%22%20y%3D%228%22%20width%3D%22224%22%20height%3D%22124%22%20rx%3D%226%22%20fill%3D%22none%22%20stroke%3D%22rgba(255%2C255%2C255%2C0.25)%22%20stroke-width%3D%221%22%2F%3E%3Ctext%20x%3D%22120%22%20y%3D%2276%22%20font-family%3D%22Arial%22%20font-size%3D%2216%22%20fill%3D%22rgba(255%2C255%2C255%2C0.92)%22%20text-anchor%3D%22middle%22%3E%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%8D%A1%3C%2Ftext%3E%3C%2Fsvg%3E"
+}

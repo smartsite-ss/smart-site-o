@@ -1,0 +1,19 @@
+{
+  "id": "sys-standard-monitor",
+  "name": "标准监控布局",
+  "description": "1920×1080 监控页骨架：顶部标题栏 + 左侧导航 + 底部状态栏，content 区域可自由编辑",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 1,
+  "regionCount": 4,
+  "graphicCount": 4,
+  "tags": [
+    "监控",
+    "标准",
+    "1920x1080"
+  ]
+}

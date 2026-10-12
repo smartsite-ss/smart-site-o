@@ -1,0 +1,24 @@
+{
+  "name": "@ss-node/ss-cli",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA CLI Tool",
+  "main": "dist/index.js",
+  "bin": {
+    "ss-node": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "@ss-node/ss-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "breaker": {
+    "label": "断路器",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "closed": "闭合状态",
+      "closedValue": "闭合对应值",
+      "openValue": "断开对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "closed": {
+        "yes": "合闸",
+        "no": "分闸"
+      }
+    },
+    "description": "电力断路器 - 高压/低压断路器，支持合闸/分闸状态切换"
+  }
+}

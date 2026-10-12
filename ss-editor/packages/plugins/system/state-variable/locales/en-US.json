@@ -1,0 +1,49 @@
+{
+  "stateVariable": {
+    "label": "State Variable",
+    "description": "Display state image by variable value",
+    "graphic": {
+      "placeholder": "Unbound / No Match"
+    },
+    "config": {
+      "bindVariable": "Bind Variable",
+      "selectVariable": "Select Variable",
+      "clear": "Clear",
+      "unbound": "Unbound",
+      "states": "State Rules",
+      "addRule": "Add Rule",
+      "stateName": "State Name",
+      "value": "Value",
+      "value2": "Value 2",
+      "selectImage": "Select Image",
+      "defaultImage": "Default Image",
+      "deleteRule": "Delete"
+    },
+    "imagePicker": {
+      "title": "Select Image",
+      "sourceGallery": "Gallery",
+      "sourceUrl": "URL",
+      "sourceUpload": "Upload",
+      "urlPlaceholder": "Enter image URL",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "loading": "Loading...",
+      "empty": "No images",
+      "selectCategory": "Select a category",
+      "uploadHint": "Choose a local image file",
+      "fileSizeError": "Image size must not exceed 10MB"
+    },
+    "operator": {
+      "equal": "=",
+      "notEqual": "≠",
+      "greaterThan": ">",
+      "greaterOrEqual": "≥",
+      "lessThan": "<",
+      "lessOrEqual": "≤",
+      "between": "∈",
+      "contains": "contains",
+      "startsWith": "starts with",
+      "endsWith": "ends with"
+    }
+  }
+}

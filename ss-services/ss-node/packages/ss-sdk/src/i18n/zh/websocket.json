@@ -1,0 +1,45 @@
+{
+  "websocket": {
+    "connected": "WebSocket 连接成功",
+    "disconnected": "WebSocket 已断开连接",
+    "pong": "Pong - 心跳响应",
+    "event": {
+      "data_update": "数据更新事件 (标签: {{tagId}})",
+      "alarm_triggered": "报警触发事件",
+      "alarm_acknowledged": "报警确认事件",
+      "alarm_cleared": "报警清除事件",
+      "device_status_change": "设备状态变更事件"
+    },
+    "error": {
+      "authentication_failed": "WebSocket 认证失败",
+      "rate_limit_exceeded": "消息频率超限",
+      "invalid_message_format": "无效的消息格式"
+    },
+    "room": {
+      "joined": "用户 {{username}} 加入房间 {{room}}",
+      "left": "用户 {{username}} 离开房间 {{room}}",
+      "permission_denied": "无权限加入项目房间 {{projectId}}",
+      "not_authenticated": "未认证用户无法加入项目房间"
+    },
+    "connection": {
+      "limit_exceeded": "连接数已达上限 ({{current}}/{{max}})",
+      "user_limit_exceeded": "用户 {{username}} 连接数已达上限 ({{current}}/{{max}})",
+      "ip_limit_exceeded": "IP {{ip}} 连接数已达上限 ({{current}}/{{max}})",
+      "idle_timeout": "连接空闲超时 ({{minutes}}分钟无业务消息)",
+      "force_disconnected": "管理员强制断开连接",
+      "global_limit_exceeded": "全局连接数已达上限 ({{current}}/{{max}})"
+    },
+    "monitor": {
+      "online_count": "在线连接数",
+      "message_rate": "消息速率",
+      "connection_duration": "连接时长",
+      "abnormal_detected": "检测到异常连接"
+    },
+    "offline": {
+      "message_cached": "离线消息已缓存",
+      "message_replayed": "离线消息已补发 ({{count}}条)",
+      "message_expired": "消息已过期清理",
+      "message_confirmed": "消息已确认"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "groundswitch": {
+    "label": "Grounding Switch",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "closed": "Closed State",
+      "closedValue": "Closed Value",
+      "openValue": "Open Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "closed": {
+        "yes": "Closed",
+        "no": "Open"
+      }
+    },
+    "description": "Groundswitch graphic element"
+  }
+}

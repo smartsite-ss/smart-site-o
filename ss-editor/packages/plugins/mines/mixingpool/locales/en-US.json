@@ -1,0 +1,24 @@
+{
+  "mixingpool": {
+    "label": "Mixing Pool",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "flowColor": "Flow Color",
+      "pipeColor": "Pipe Color",
+      "backgroundColor": "Background Color",
+      "bgWidth": "Background Width",
+      "boardWidth": "Border Width",
+      "roate": "Rotation Angle",
+      "cls": "Animation Style",
+      "dur": "Animation Cycle (s)",
+      "dataset": "Data Value",
+      "forwardValue": "Forward Value",
+      "backwardValue": "Backward Value",
+      "stopValue": "Stop Value",
+      "defaultCls": "Default Animation Style",
+      "decimalPlaces": "Decimal Places"
+    },
+    "description": "Mixingpool graphic element"
+  }
+}

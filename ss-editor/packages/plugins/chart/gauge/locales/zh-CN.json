@@ -1,0 +1,67 @@
+{
+  "chartGauge": {
+    "label": "仪表盘",
+    "description": "仪表盘组件，用于单值实时显示与阈值报警",
+    "panelTitle": "仪表盘配置",
+    "config": {
+      "dataSource": "数据源",
+      "noData": "暂无数据",
+      "loadError": "加载失败"
+    },
+    "properties": {
+      "title": "标题",
+      "titleColor": "标题颜色",
+      "titleFontSize": "标题字号",
+      "value": "当前值",
+      "minValue": "最小值",
+      "maxValue": "最大值",
+      "unit": "单位",
+      "startAngle": "起始角度",
+      "endAngle": "结束角度",
+      "backgroundColor": "背景色",
+      "borderColor": "边框色",
+      "borderWidth": "边框宽度",
+      "borderStyle": "边框样式",
+      "borderRadius": "圆角",
+      "faceColor": "表盘颜色",
+      "rimColor": "外圈颜色",
+      "normalColor": "正常区颜色",
+      "needleColor": "指针颜色",
+      "tickColor": "刻度线颜色",
+      "labelColor": "标签颜色",
+      "valueColor": "数值颜色",
+      "showTicks": "显示刻度",
+      "showLabels": "显示标签",
+      "showValue": "显示数值",
+      "majorTicks": "主刻度数",
+      "minorTicks": "副刻度数",
+      "warningValue": "警告阈值",
+      "dangerValue": "危险阈值",
+      "warningColor": "警告颜色",
+      "dangerColor": "危险颜色",
+      "shadowColor": "阴影颜色",
+      "shadowOffsetX": "阴影偏移X",
+      "shadowOffsetY": "阴影偏移Y",
+      "shadowBlur": "阴影模糊"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "实线",
+        "dashed": "虚线",
+        "dotted": "点线"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "value": "数值",
+      "gauge": "仪表",
+      "style": "样式",
+      "color": "颜色",
+      "display": "显示",
+      "ticks": "刻度",
+      "alarm": "报警",
+      "shadow": "阴影"
+    },
+    "hints": {}
+  }
+}

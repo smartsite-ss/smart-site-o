@@ -1,0 +1,50 @@
+{
+  "trendChart": {
+    "label": "Trend Chart",
+    "description": "Real-time/historical trend chart with multi-pen comparison and LTTB downsampling",
+    "properties": {
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "titleFontWeight": "Title Font Weight",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "gridColor": "Grid Color",
+      "axisColor": "Axis Color",
+      "lineColors": "Line Colors",
+      "lineWidth": "Line Width",
+      "showPoints": "Show Data Points",
+      "pointRadius": "Point Radius",
+      "showLegend": "Show Legend",
+      "legendPosition": "Legend Position",
+      "maxPens": "Max Pens",
+      "timeWindow": "Time Window (seconds)",
+      "showTooltip": "Show Tooltip",
+      "yAxisLabel": "Y Axis Label",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "titleFontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      },
+      "legendPosition": {
+        "top": "Top",
+        "bottom": "Bottom",
+        "left": "Left",
+        "right": "Right"
+      }
+    }
+  }
+}

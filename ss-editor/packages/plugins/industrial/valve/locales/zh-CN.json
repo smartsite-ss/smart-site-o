@@ -1,0 +1,46 @@
+{
+  "valve": {
+    "label": "阀门",
+    "description": "阀门组件，支持开关状态和类型切换",
+    "panelTitle": "阀门配置",
+    "properties": {
+      "width": "宽度",
+      "height": "高度",
+      "status": "状态",
+      "valveType": "阀门类型",
+      "bodyColor": "主体颜色",
+      "stemColor": "阀杆颜色",
+      "openColor": "开启颜色",
+      "closedColor": "关闭颜色",
+      "faultColor": "故障颜色",
+      "showLabel": "显示标签",
+      "labelText": "标签文本",
+      "openValue": "开启对应值",
+      "closedValue": "关闭对应值",
+      "faultValue": "故障对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "status": {
+        "open": "开启",
+        "closed": "关闭",
+        "opening": "正在开启",
+        "closing": "正在关闭",
+        "fault": "故障"
+      },
+      "valveType": {
+        "butterfly": "蝶阀",
+        "gate": "闸阀"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "status": "状态",
+      "color": "颜色",
+      "statusColor": "状态颜色",
+      "label": "标签",
+      "binding": "绑定映射"
+    },
+    "hints": {}
+  }
+}

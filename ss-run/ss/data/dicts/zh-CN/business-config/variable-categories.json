@@ -1,0 +1,17 @@
+{
+  "dictId": "variableCategory",
+  "dictName": "变量分类",
+  "category": "business-config",
+  "description": "采集变量的信号类型分类",
+  "version": "1.0",
+  "sortOrder": 3,
+  "items": [
+    { "value": "AI", "label": "模拟输入", "sortOrder": 1, "description": "连续变化的模拟量信号，需要 AD 转换：温度、压力、流量、液位" },
+    { "value": "AO", "label": "模拟输出", "sortOrder": 2, "description": "模拟量控制输出信号：阀门开度、频率给定" },
+    { "value": "DI", "label": "数字输入", "sortOrder": 3, "description": "离散状态输入信号：限位开关、急停按钮、状态位" },
+    { "value": "DO", "label": "数字输出", "sortOrder": 4, "description": "离散控制输出信号：继电器控制、指示灯、电磁阀" },
+    { "value": "SYS", "label": "系统状态", "sortOrder": 5, "description": "设备自身运行状态与诊断：运行时长、通信状态、固件版本" },
+    { "value": "ALARM", "label": "报警汇总", "sortOrder": 6, "description": "设备报警与事件汇总：综合报警、故障汇总" },
+    { "value": "CALC", "label": "计算变量", "sortOrder": 7, "description": "不直接从设备采集，由表达式对其他变量计算派生：温差、总功率、效率。无物理地址，需配置表达式与依赖绑定" }
+  ]
+}

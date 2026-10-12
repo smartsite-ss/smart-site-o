@@ -1,0 +1,16 @@
+{
+  "border04": {
+    "label": "Border 04",
+    "description": "Border 04 decorative component",
+    "properties": {
+      "colors": "Color 1",
+      "colors2": "Color 2",
+      "backgroundColor": "Background Color",
+      "borderTitle": "Title",
+      "borderTitleColor": "Title Color",
+      "borderTitleSize": "Title Size",
+      "borderTitleWidth": "Title Area Width",
+      "borderTitleHeight": "Title Height"
+    }
+  }
+}

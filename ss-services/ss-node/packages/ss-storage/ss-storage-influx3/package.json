@@ -1,0 +1,24 @@
+{
+  "name": "@ss-node/ss-storage-influx3",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA InfluxDB 3 Core Storage Adapter (SQL query / write_lp)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@ss-node/ss-core": "workspace:*",
+    "@ss-node/ss-storage": "workspace:*",
+    "reflect-metadata": "^0.1.14"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

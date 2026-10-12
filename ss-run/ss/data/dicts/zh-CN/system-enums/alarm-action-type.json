@@ -1,0 +1,18 @@
+{
+  "dictId": "alarmActionType",
+  "dictName": "告警处置类型",
+  "category": "system-enums",
+  "description": "SCADA 系统告警处置动作的类型定义",
+  "version": "1.0",
+  "sortOrder": 4,
+  "items": [
+    { "value": "alarm.triggered", "label": "告警触发", "sortOrder": 1, "description": "告警条件满足，产生告警事件（兼容旧标识 alarm_triggered）" },
+    { "value": "alarm_acknowledged", "label": "告警确认", "sortOrder": 2, "description": "操作员确认告警" },
+    { "value": "alarm.escalated", "label": "告警升级", "sortOrder": 3, "description": "告警未及时处理，升级到更高级别" },
+    { "value": "alarm.cleared", "label": "告警清除", "sortOrder": 4, "description": "告警条件恢复正常，告警自动清除" },
+    { "value": "alarm.shelve.expired", "label": "搁置过期", "sortOrder": 5, "description": "告警搁置期限到期，恢复告警通知" },
+    { "value": "alarm.notification.sent", "label": "通知发送", "sortOrder": 6, "description": "告警通知（邮件/短信/webhook 等）已发送" },
+    { "value": "alarm.sound.trigger", "label": "声音触发", "sortOrder": 7, "description": "触发告警声音提示" },
+    { "value": "alarm.popup.show", "label": "弹窗显示", "sortOrder": 8, "description": "前端弹出告警提示窗口" }
+  ]
+}

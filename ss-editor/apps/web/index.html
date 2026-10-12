@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SS-SCADA Editor</title>
+    
+    <!-- Baidu Tongji（仅发布时生效，开发模式下由 vite.config.ts 的 strip-baidu-tongji-in-dev 插件剥离） -->
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?3eb3e720f84bcf3ff2838b6cceb31329";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <style>
+      :root {
+        --primary: #2196F3;
+        --secondary: #4CAF50;
+        --accent: #FF9800;
+        --background: #F5F5F5;
+        --surface: #FFFFFF;
+        --header-background: #2196F3;
+        --header-text: #ffffff;
+        --text: #333333;
+        --text-secondary: #666666;
+        --border: #CCCCCC;
+        --border-light: #E0E0E0;
+        --button-background: #2196F3;
+        --button-hover: #1976D2;
+        --button-active: #1565C0;
+        --button-text: #FFFFFF;
+        --control-button-background: #FFFFFF;
+        --control-button-hover: #E3F2FD;
+        --control-button-active: #2196F3;
+        --control-button-text: #333333;
+        --control-button-border: #CCCCCC;
+        --status-success: #4CAF50;
+        --status-warning: #FFC107;
+        --status-error: #F44336;
+        --status-info: #2196F3;
+        --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.15);
+        --shadow-large: 0 8px 16px rgba(0, 0, 0, 0.2);
+        --transition-fast: 0.2s ease;
+        --transition-normal: 0.3s ease;
+        --transition-slow: 0.5s ease;
+      }
+      body {
+        background-color: var(--background);
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!--
+        Vue 挂载前的首屏 Loading 占位
+        - 纯 HTML + 内联 CSS，零 JS 依赖
+        - app.mount('#app') 执行后会自动清空并替换此内容，无需手动清理
+        - 视觉风格呼应 packages/shared/src/SsLoading.vue（双环 + SS 标识 + 渐变蓝）
+      -->
+      <div id="app-bootstrap-loading" class="bootstrap-loading">
+        <div class="bootstrap-loading__animation">
+          <div class="bootstrap-loading__ring bootstrap-loading__ring--outer"></div>
+          <div class="bootstrap-loading__ring bootstrap-loading__ring--main"></div>
+          <div class="bootstrap-loading__logo">SS</div>
+        </div>
+        <div class="bootstrap-loading__text">
+          <span class="bootstrap-loading__text-content">正在加载编辑器</span>
+          <span class="bootstrap-loading__dots">
+            <span class="bootstrap-loading__dot">.</span>
+            <span class="bootstrap-loading__dot">.</span>
+            <span class="bootstrap-loading__dot">.</span>
+          </span>
+        </div>
+      </div>
+      <style>
+        /* ═══════════════════════════════════════════════
+           首屏 Bootstrap Loading（纯 CSS，零依赖）
+           ═══════════════════════════════════════════════ */
+        .bootstrap-loading {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          background-color: #1a1a1a;
+          color: #94a3b8;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          user-select: none;
+          z-index: 9999;
+        }
+
+        .bootstrap-loading__animation {
+          position: relative;
+          width: 108px;
+          height: 108px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        /* 光晕背景 */
+        .bootstrap-loading__animation::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 108px;
+          height: 108px;
+          border-radius: 50%;
+          background: radial-gradient(
+            circle,
+            rgba(59, 130, 246, 0.12) 0%,
+            rgba(96, 165, 250, 0.06) 40%,
+            transparent 70%
+          );
+          transform: translate(-50%, -50%);
+          animation: bootstrap-glow-pulse 2.5s ease-in-out infinite;
+          pointer-events: none;
+        }
+
+        @keyframes bootstrap-glow-pulse {
+          0%, 100% { transform: translate(-50%, -50%) scale(0.9); opacity: 0.6; }
+          50%      { transform: translate(-50%, -50%) scale(1.15); opacity: 1; }
+        }
+
+        /* 旋转环通用样式 */
+        .bootstrap-loading__ring {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        /* 外环：虚线反向旋转 */
+        .bootstrap-loading__ring--outer {
+          width: 88px;
+          height: 88px;
+          border: 1.5px dashed rgba(96, 165, 250, 0.35);
+          animation: bootstrap-ring-rotate-outer 8s linear infinite;
+        }
+
+        @keyframes bootstrap-ring-rotate-outer {
+          to { transform: translate(-50%, -50%) rotate(-360deg); }
+        }
+
+        /* 主环：渐变弧线正向旋转 */
+        .bootstrap-loading__ring--main {
+          width: 88px;
+          height: 88px;
+          border: 2.5px solid rgba(59, 130, 246, 0.1);
+          border-top-color: #3b82f6;
+          border-right-color: #60a5fa;
+          animation: bootstrap-ring-rotate 1.8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+          box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+        }
+
+        @keyframes bootstrap-ring-rotate {
+          to { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        /* SS 标识 */
+        .bootstrap-loading__logo {
+          position: relative;
+          z-index: 1;
+          font-size: 26px;
+          font-weight: 900;
+          letter-spacing: -1.5px;
+          background: linear-gradient(
+            160deg,
+            #3b82f6 0%,
+            #60a5fa 40%,
+            #93c5fd 70%,
+            #3b82f6 100%
+          );
+          background-size: 300% 300%;
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: bootstrap-logo-pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes bootstrap-logo-pulse {
+          0%, 100% { opacity: 0.8; background-position: 0% 50%; transform: scale(1); }
+          50%      { opacity: 1;   background-position: 100% 50%; transform: scale(1.05); }
+        }
+
+        /* 加载文字 */
+        .bootstrap-loading__text {
+          margin-top: 24px;
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 0.5px;
+          color: #94a3b8;
+          white-space: nowrap;
+        }
+
+        .bootstrap-loading__dots {
+          display: inline-flex;
+          width: 1.5em;
+          overflow: hidden;
+          color: #3b82f6;
+          font-weight: 700;
+        }
+
+        .bootstrap-loading__dot {
+          animation: bootstrap-dot-blink 1.4s infinite both;
+        }
+
+        .bootstrap-loading__dot:nth-child(2) { animation-delay: 0.2s; }
+        .bootstrap-loading__dot:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes bootstrap-dot-blink {
+          0%, 80%, 100% { opacity: 0; transform: translateY(0); }
+          40%           { opacity: 1; transform: translateY(-2px); }
+        }
+      </style>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
+

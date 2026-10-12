@@ -1,0 +1,44 @@
+{
+  "pump": {
+    "label": "泵",
+    "description": "泵组件，支持旋转动画和状态显示",
+    "panelTitle": "泵配置",
+    "properties": {
+      "width": "宽度",
+      "height": "高度",
+      "status": "状态",
+      "bodyColor": "主体颜色",
+      "impellerColor": "叶轮颜色",
+      "highlightColor": "高亮颜色",
+      "showAnimation": "显示动画",
+      "animationSpeed": "转速",
+      "rotationDirection": "旋转方向",
+      "showLabel": "显示标签",
+      "labelText": "标签文本",
+      "runningValue": "运行对应值",
+      "stoppedValue": "停止对应值",
+      "faultValue": "故障对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "status": {
+        "running": "运行中",
+        "stopped": "已停止",
+        "fault": "故障"
+      },
+      "rotationDirection": {
+        "clockwise": "顺时针",
+        "counterclockwise": "逆时针"
+      }
+    },
+    "groups": {
+      "basic": "基本",
+      "status": "状态",
+      "color": "颜色",
+      "animation": "动画",
+      "label": "标签",
+      "binding": "绑定映射"
+    },
+    "hints": {}
+  }
+}

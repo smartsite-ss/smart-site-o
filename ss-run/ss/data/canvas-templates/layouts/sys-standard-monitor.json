@@ -1,0 +1,119 @@
+{
+  "id": "sys-standard-monitor",
+  "name": "标准监控布局",
+  "description": "1920×1080 监控页骨架：顶部标题栏 + 左侧导航 + 底部状态栏，content 区域可自由编辑",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "schemaVersion": 1,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#0A1929"
+  },
+  "graphics": [
+    {
+      "id": "layout-header-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 64,
+      "props": {
+        "fill": "#0D2137",
+        "stroke": "none"
+      }
+    },
+    {
+      "id": "layout-header-title",
+      "type": "text",
+      "x": 24,
+      "y": 18,
+      "width": 400,
+      "height": 28,
+      "props": {
+        "text": "SCADA 监控系统",
+        "fontSize": 20,
+        "fill": "#E6F1FF"
+      }
+    },
+    {
+      "id": "layout-sidebar-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 64,
+      "width": 240,
+      "height": 976,
+      "props": {
+        "fill": "#0D2137",
+        "stroke": "none"
+      }
+    },
+    {
+      "id": "layout-footer-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 1040,
+      "width": 1920,
+      "height": 40,
+      "props": {
+        "fill": "#0D2137",
+        "stroke": "none"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "r-header",
+      "name": "header",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 64
+      },
+      "locked": true
+    },
+    {
+      "id": "r-sidebar",
+      "name": "sidebar",
+      "rect": {
+        "x": 0,
+        "y": 64,
+        "width": 240,
+        "height": 976
+      },
+      "locked": true
+    },
+    {
+      "id": "r-content",
+      "name": "content",
+      "rect": {
+        "x": 240,
+        "y": 64,
+        "width": 1680,
+        "height": 976
+      },
+      "locked": false
+    },
+    {
+      "id": "r-footer",
+      "name": "footer",
+      "rect": {
+        "x": 0,
+        "y": 1040,
+        "width": 1920,
+        "height": 40
+      },
+      "locked": true
+    }
+  ],
+  "tags": [
+    "监控",
+    "标准",
+    "1920x1080"
+  ]
+}

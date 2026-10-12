@@ -1,0 +1,13 @@
+{
+  "border08": {
+    "label": "边框-08",
+    "description": "边框-08装饰组件",
+    "properties": {
+      "color1": "颜色一",
+      "color2": "颜色二",
+      "backgroundColor": "背景色",
+      "dur": "动画周期(秒)",
+      "reverse": "反向运动"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "dictId": "conversionType",
+  "dictName": "Conversion Types",
+  "category": "business-config",
+  "description": "Conversion methods from raw value to engineering value",
+  "version": "1.0",
+  "sortOrder": 2,
+  "items": [
+    { "value": "none", "label": "None", "sortOrder": 1, "description": "No conversion, use raw value directly" },
+    { "value": "linear", "label": "Linear", "sortOrder": 2, "description": "engValue = rawValue × scale + offset" },
+    { "value": "polynomial", "label": "Polynomial", "sortOrder": 3, "description": "Polynomial fitting, e.g. a*x²+b*x+c" },
+    { "value": "table", "label": "Lookup Table", "sortOrder": 4, "description": "Linear interpolation from discrete points" },
+    { "value": "script", "label": "Script", "sortOrder": 5, "description": "Custom JavaScript expression" }
+  ]
+}

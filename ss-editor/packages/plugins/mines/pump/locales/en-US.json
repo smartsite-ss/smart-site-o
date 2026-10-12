@@ -1,0 +1,32 @@
+{
+  "pump": {
+    "label": "Pump",
+    "properties": {
+      "colors": "Body Color 1",
+      "colors2": "Body Color 2",
+      "colors3": "Body Color 3",
+      "flowColor": "Flow Color",
+      "pipeColor": "Pipe Color",
+      "backgroundColor": "Background Color",
+      "bgWidth": "Background Width",
+      "boardWidth": "Border Width",
+      "roate": "Rotation Angle",
+      "cls": "Animation Direction",
+      "dur": "Animation Cycle (s)",
+      "dataset": "Data Value",
+      "forwardValue": "Forward Value",
+      "backwardValue": "Backward Value",
+      "stopValue": "Stop Value",
+      "defaultCls": "Default Direction",
+      "decimalPlaces": "Decimal Places"
+    },
+    "options": {
+      "cls": {
+        "left": "Forward",
+        "right": "Reverse",
+        "stop": "Stop"
+      }
+    },
+    "description": "Pump graphic element"
+  }
+}

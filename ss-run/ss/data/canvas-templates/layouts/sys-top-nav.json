@@ -1,0 +1,182 @@
+{
+  "id": "sys-top-nav",
+  "name": "顶部导航布局",
+  "description": "1920×1080 顶部标题 + 画面切换按钮导航，下方整块内容区，适合多画面平铺切换的监控工程",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "schemaVersion": 1,
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "pageConfig": {
+    "width": 1920,
+    "height": 1080,
+    "backgroundColor": "#0A1929"
+  },
+  "graphics": [
+    {
+      "id": "topnav-header-bg",
+      "type": "rect",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 80,
+      "props": {
+        "fill": "#0D2137",
+        "stroke": "none"
+      }
+    },
+    {
+      "id": "topnav-header-title",
+      "type": "text",
+      "x": 24,
+      "y": 26,
+      "width": 400,
+      "height": 30,
+      "props": {
+        "text": "SCADA 监控系统",
+        "fontSize": 22,
+        "fill": "#E6F1FF"
+      }
+    },
+    {
+      "id": "topnav-btn-1-bg",
+      "type": "rect",
+      "x": 640,
+      "y": 24,
+      "width": 140,
+      "height": 32,
+      "props": {
+        "fill": "#1A3A5C",
+        "stroke": "none",
+        "cornerRadius": 4
+      }
+    },
+    {
+      "id": "topnav-btn-1-text",
+      "type": "text",
+      "x": 640,
+      "y": 30,
+      "width": 140,
+      "height": 20,
+      "props": {
+        "text": "总览画面",
+        "fontSize": 14,
+        "fill": "#9ECBFF",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": "topnav-btn-2-bg",
+      "type": "rect",
+      "x": 800,
+      "y": 24,
+      "width": 140,
+      "height": 32,
+      "props": {
+        "fill": "#1A3A5C",
+        "stroke": "none",
+        "cornerRadius": 4
+      }
+    },
+    {
+      "id": "topnav-btn-2-text",
+      "type": "text",
+      "x": 800,
+      "y": 30,
+      "width": 140,
+      "height": 20,
+      "props": {
+        "text": "设备监控",
+        "fontSize": 14,
+        "fill": "#9ECBFF",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": "topnav-btn-3-bg",
+      "type": "rect",
+      "x": 960,
+      "y": 24,
+      "width": 140,
+      "height": 32,
+      "props": {
+        "fill": "#1A3A5C",
+        "stroke": "none",
+        "cornerRadius": 4
+      }
+    },
+    {
+      "id": "topnav-btn-3-text",
+      "type": "text",
+      "x": 960,
+      "y": 30,
+      "width": 140,
+      "height": 20,
+      "props": {
+        "text": "报警管理",
+        "fontSize": 14,
+        "fill": "#9ECBFF",
+        "textAlign": "center"
+      }
+    },
+    {
+      "id": "topnav-btn-4-bg",
+      "type": "rect",
+      "x": 1120,
+      "y": 24,
+      "width": 140,
+      "height": 32,
+      "props": {
+        "fill": "#1A3A5C",
+        "stroke": "none",
+        "cornerRadius": 4
+      }
+    },
+    {
+      "id": "topnav-btn-4-text",
+      "type": "text",
+      "x": 1120,
+      "y": 30,
+      "width": 140,
+      "height": 20,
+      "props": {
+        "text": "报表查询",
+        "fontSize": 14,
+        "fill": "#9ECBFF",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "regions": [
+    {
+      "id": "r-header",
+      "name": "header",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 80
+      },
+      "locked": true
+    },
+    {
+      "id": "r-content",
+      "name": "content",
+      "rect": {
+        "x": 0,
+        "y": 80,
+        "width": 1920,
+        "height": 1000
+      },
+      "locked": false
+    }
+  ],
+  "tags": [
+    "导航",
+    "顶部菜单",
+    "监控",
+    "1920x1080"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "levelgauge": {
+    "label": "Level Gauge",
+    "properties": {
+      "color": "Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "dataset": "Data Value (0-100)",
+      "showNumeric": "Show Numeric",
+      "decimalPlaces": "Decimal Places",
+      "unit": "Unit"
+    },
+    "description": "Levelgauge graphic element"
+  }
+}

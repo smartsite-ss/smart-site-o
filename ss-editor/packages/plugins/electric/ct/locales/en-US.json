@@ -1,0 +1,11 @@
+{
+  "ct": {
+    "label": "Current Transformer (CT)",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Ct graphic element"
+  }
+}

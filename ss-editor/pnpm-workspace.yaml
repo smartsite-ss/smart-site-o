@@ -1,0 +1,10 @@
+packages:
+  - 'packages/*'
+  - 'packages/plugins/*'
+  - 'packages/plugins/*/*'
+  - 'apps/*'
+allowBuilds:
+  '@parcel/watcher': false
+  electron: false
+  esbuild: false
+  vue-demi: false

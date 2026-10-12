@@ -1,0 +1,15 @@
+{
+  "border19": {
+    "label": "边框-19（瑞士排版风格）",
+    "description": "边框-19装饰组件（瑞士排版风格）",
+    "properties": {
+      "color1": "深黑",
+      "color2": "亮红",
+      "color3": "白色",
+      "backgroundColor": "背景色",
+      "showBlocks": "几何块",
+      "showAccents": "装饰圆点",
+      "animationSpeed": "动画速度"
+    }
+  }
+}

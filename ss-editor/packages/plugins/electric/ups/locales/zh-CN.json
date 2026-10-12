@@ -1,0 +1,19 @@
+{
+  "ups": {
+    "label": "UPS电源",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "state": "工作状态"
+    },
+    "options": {
+      "state": {
+        "online": "在线",
+        "bypass": "旁路",
+        "fault": "故障"
+      }
+    },
+    "description": "UPS不间断电源 - 在线/旁路/故障状态"
+  }
+}

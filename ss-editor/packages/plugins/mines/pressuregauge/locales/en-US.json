@@ -1,0 +1,15 @@
+{
+  "pressuregauge": {
+    "label": "Pressure Gauge",
+    "properties": {
+      "color": "Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "dataset": "Data Value (0-100)",
+      "maxPressure": "Max Range (MPa)",
+      "decimalPlaces": "Decimal Places",
+      "unit": "Unit"
+    },
+    "description": "Pressuregauge graphic element"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "border12": {
+    "label": "边框-12",
+    "description": "边框-12装饰组件"
+  },
+  "border12.properties": {
+    "color1": "颜色一",
+    "color2": "颜色二",
+    "backgroundColor": "背景色"
+  }
+}

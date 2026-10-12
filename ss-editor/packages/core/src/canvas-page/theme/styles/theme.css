@@ -1,0 +1,114 @@
+/* CSS 主题变量 */
+:root {
+  /* 基础色 */
+  --primary: #2196F3;
+  --secondary: #4CAF50;
+  --accent: #FF9800;
+
+  /* 背景 */
+  --background: #F5F5F5;
+  --surface: #FFFFFF;
+  --header-background: #2196F3;
+  --elevated: #FFFFFF;
+  --backdrop: rgba(0, 0, 0, 0.3);
+
+  /* 文字 */
+  --text: #333333;
+  --text-secondary: #666666;
+  --text-tertiary: #999999;
+  --text-disabled: #CCCCCC;
+  --header-text: #FFFFFF;
+
+  /* 边框 */
+  --border: #CCCCCC;
+  --border-light: #E0E0E0;
+  --border-focus: #2196F3;
+
+  /* 按钮 */
+  --button-background: #2196F3;
+  --button-hover: #1976D2;
+  --button-active: #1565C0;
+  --button-text: #FFFFFF;
+
+  /* 控制按钮 */
+  --control-button-background: #FFFFFF;
+  --control-button-hover: #E3F2FD;
+  --control-button-active: #2196F3;
+  --control-button-text: #333333;
+  --control-button-border: #CCCCCC;
+
+  /* 状态 */
+  --status-success: #4CAF50;
+  --status-warning: #FFC107;
+  --status-error: #F44336;
+  --status-info: #2196F3;
+  --status-online: #22c55e;
+  --status-offline: #64748b;
+  --status-disconnected: #9ca3af;
+  --status-pending: #f59e0b;
+
+  /* 图表色板 */
+  --chart-1: #3b82f6;
+  --chart-2: #10b981;
+  --chart-3: #f59e0b;
+  --chart-4: #ef4444;
+  --chart-5: #8b5cf6;
+  --chart-6: #ec4899;
+  --chart-7: #06b6d4;
+  --chart-8: #84cc16;
+
+  /* 圆角 */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+
+  /* 阴影 */
+  --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-large: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-modal: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --shadow-dropdown: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  /* 过渡 */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  --transition-theme: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+
+  /* 工业语义 */
+  --industrial-pipe-flowing: #2196F3;
+  --industrial-pipe-stopped: #9E9E9E;
+  --industrial-pipe-blocked: #F44336;
+  --industrial-tank-normal: #2196F3;
+  --industrial-tank-high: #FFC107;
+  --industrial-tank-low: #F44336;
+  --industrial-gauge-normal: #2196F3;
+  --industrial-gauge-warn: #FFC107;
+  --industrial-gauge-alarm: #F44336;
+  --industrial-valve-open: #4CAF50;
+  --industrial-valve-closed: #9E9E9E;
+  --industrial-alarm-critical: #F44336;
+  --industrial-alarm-major: #FF9800;
+  --industrial-alarm-minor: #FFC107;
+}
+
+/* 全局过渡 */
+body, body * {
+  transition: var(--transition-theme);
+}
+
+/* 排除不需要过渡的元素 */
+body *:not(input, textarea, select, button, .no-theme-transition),
+body *:not(input, textarea, select, button, .no-theme-transition)::before,
+body *:not(input, textarea, select, button, .no-theme-transition)::after {
+  transition-property: background-color, color, border-color, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.no-theme-transition,
+.no-theme-transition * {
+  transition: none !important;
+}

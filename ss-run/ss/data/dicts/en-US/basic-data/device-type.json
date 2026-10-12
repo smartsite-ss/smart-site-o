@@ -1,0 +1,20 @@
+﻿{
+  "dictId": "deviceType",
+  "dictName": "Device Types",
+  "category": "basic-data",
+  "description": "Device protocol types supported by Smart-SCADA",
+  "version": "1.0",
+  "sortOrder": 2,
+  "items": [
+    { "value": "modbus_tcp", "label": "Modbus TCP", "sortOrder": 1, "description": "Modbus over TCP/IP" },
+    { "value": "modbus_rtu", "label": "Modbus RTU", "sortOrder": 2, "description": "Modbus over serial (RS-232/485)" },
+    { "value": "modbus_ascii", "label": "Modbus ASCII", "sortOrder": 3, "description": "Modbus ASCII mode over serial" },
+    { "value": "opc_ua", "label": "OPC UA", "sortOrder": 4, "description": "OPC Unified Architecture protocol" },
+    { "value": "siemens_s7", "label": "Siemens S7", "sortOrder": 5, "description": "Siemens S7 PLC communication protocol" },
+    { "value": "mqtt", "label": "MQTT", "sortOrder": 6, "description": "MQTT IoT messaging protocol" },
+    { "value": "bacnet", "label": "BACnet", "sortOrder": 7, "description": "Building automation control network" },
+    { "value": "iec104", "label": "IEC 60870-5-104", "sortOrder": 8, "description": "Power telecontrol communication protocol" },
+    { "value": "dlt645", "label": "DL/T 645", "sortOrder": 9, "description": "Chinese multi-function meter protocol" },
+    { "value": "cjt188", "label": "CJ/T 188", "sortOrder": 10, "description": "Household metering data transmission protocol" }
+  ]
+}

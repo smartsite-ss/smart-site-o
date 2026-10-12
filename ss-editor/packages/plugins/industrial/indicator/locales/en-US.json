@@ -1,0 +1,43 @@
+{
+  "indicator": {
+    "label": "Indicator",
+    "description": "Indicator component for status display and alarms",
+    "panelTitle": "Indicator Configuration",
+    "properties": {
+      "width": "Width",
+      "height": "Height",
+      "status": "Status",
+      "onColor": "On Color",
+      "offColor": "Off Color",
+      "warningColor": "Warning Color",
+      "faultColor": "Fault Color",
+      "blinkOnAlarm": "Blink on Alarm",
+      "blinkInterval": "Blink Interval (ms)",
+      "showLabel": "Show Label",
+      "labelText": "Label Text",
+      "labelColor": "Label Color",
+      "onValue": "On Value",
+      "offValue": "Off Value",
+      "warningValue": "Warning Value",
+      "faultValue": "Fault Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "status": {
+        "on": "On",
+        "off": "Off",
+        "warning": "Warning",
+        "fault": "Fault"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "status": "Status",
+      "color": "Color",
+      "animation": "Animation",
+      "label": "Label",
+      "binding": "Binding"
+    },
+    "hints": {}
+  }
+}

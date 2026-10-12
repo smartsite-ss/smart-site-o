@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-3e2ebf3e-1c7",
+  "name": "HVAC末端环境模板",
+  "description": "中央空调末端环境虚拟模板（室温/湿度/新风量/空气流速/PM2.5）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "roomTemp",
+      "label": "室温",
+      "address": "40018",
+      "dataType": "float32",
+      "unit": "℃",
+      "guid": "8b96cea0-7bd2-4e9c-a622-f49bee5403be"
+    },
+    {
+      "name": "humidity",
+      "label": "湿度",
+      "address": "40019",
+      "dataType": "float32",
+      "unit": "%",
+      "guid": "5fb555ce-1ce2-48d5-a093-4d192f38f03a"
+    },
+    {
+      "name": "freshAir",
+      "label": "新风量",
+      "address": "40020",
+      "dataType": "float32",
+      "unit": "m³/h",
+      "guid": "6bc2f158-9c6e-47e3-ab7f-4ab285f0c213"
+    },
+    {
+      "name": "airSpeed",
+      "label": "空气流速",
+      "address": "40021",
+      "dataType": "float32",
+      "unit": "m/s",
+      "guid": "d84a3918-a86e-4d8f-aed2-fc3eb33b556d"
+    },
+    {
+      "name": "pm25",
+      "label": "PM2.5",
+      "address": "40022",
+      "dataType": "float32",
+      "unit": "μg/m³",
+      "guid": "bf076174-690d-4caa-936e-355f90cdece3"
+    },
+    {
+      "name": "status",
+      "label": "运行状态",
+      "address": "40023",
+      "dataType": "bool",
+      "unit": "",
+      "guid": "203c4d83-15cc-42fe-9a19-050cdfc02520"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T10:40:53.538Z",
+    "updatedAt": "2026-09-06T10:40:53.538Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

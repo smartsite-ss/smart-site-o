@@ -1,0 +1,44 @@
+{
+  "gauge": {
+    "label": "仪表盘",
+    "description": "仪表盘组件，用于数值显示和报警",
+    "panelTitle": "仪表盘配置",
+    "properties": {
+      "width": "宽度",
+      "height": "高度",
+      "value": "当前值",
+      "minValue": "最小值",
+      "maxValue": "最大值",
+      "unit": "单位",
+      "decimalPlaces": "小数位数",
+      "startAngle": "起始角度",
+      "endAngle": "结束角度",
+      "faceColor": "表盘颜色",
+      "rimColor": "边框颜色",
+      "needleColor": "指针颜色",
+      "tickColor": "刻度线颜色",
+      "labelColor": "标签颜色",
+      "valueColor": "数值颜色",
+      "showTicks": "显示刻度",
+      "showLabels": "显示标签",
+      "showValue": "显示数值",
+      "majorTicks": "主刻度数",
+      "minorTicks": "副刻度数",
+      "warningValue": "警告阈值",
+      "dangerValue": "危险阈值",
+      "warningColor": "警告颜色",
+      "dangerColor": "危险颜色"
+    },
+    "options": {},
+    "groups": {
+      "basic": "基本",
+      "value": "数值",
+      "gauge": "仪表",
+      "color": "颜色",
+      "display": "显示",
+      "ticks": "刻度",
+      "alarm": "报警"
+    },
+    "hints": {}
+  }
+}

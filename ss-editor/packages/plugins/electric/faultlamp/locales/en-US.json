@@ -1,0 +1,21 @@
+{
+  "faultlamp": {
+    "label": "Fault Alarm Lamp",
+    "properties": {
+      "color": "Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "alarming": "Alarm State",
+      "alarmValue": "Alarm Value",
+      "normalValue": "Normal Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "alarming": {
+        "yes": "Alarming",
+        "no": "Normal"
+      }
+    },
+    "description": "Faultlamp graphic element"
+  }
+}

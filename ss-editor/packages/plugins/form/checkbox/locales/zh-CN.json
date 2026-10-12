@@ -1,0 +1,32 @@
+{
+  "checkbox": {
+    "label": "复选框",
+    "description": "复选框组件，用于多选操作",
+    "panelTitle": "复选框配置",
+    "properties": {
+      "checked": "选中状态",
+      "label": "标签文本",
+      "disabled": "禁用",
+      "indeterminate": "半选状态",
+      "color": "选中颜色",
+      "labelPosition": "标签位置",
+      "size": "尺寸"
+    },
+    "options": {
+      "labelPosition": {
+        "right": "右侧",
+        "left": "左侧"
+      },
+      "size": {
+        "small": "小",
+        "medium": "中",
+        "large": "大"
+      }
+    },
+    "groups": {
+      "basic": "基本属性",
+      "style": "样式"
+    },
+    "hints": {}
+  }
+}

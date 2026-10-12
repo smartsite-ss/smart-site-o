@@ -1,0 +1,13 @@
+# Build output
+dist/
+
+# Isolation executables (generated at runtime by child-process-executor,
+# which copies node.exe with a custom process name. Never commit these.)
+src/plugins/.isolation/*.exe
+dist/plugins/.isolation/*.exe
+
+# TypeScript incremental cache
+*.tsbuildinfo
+
+# Test coverage
+coverage/

@@ -1,0 +1,67 @@
+{
+  "chartGauge": {
+    "label": "Gauge",
+    "description": "Gauge component for single value real-time display with threshold alarms",
+    "panelTitle": "Gauge Configuration",
+    "config": {
+      "dataSource": "Data Source",
+      "noData": "No Data",
+      "loadError": "Load Failed"
+    },
+    "properties": {
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "value": "Current Value",
+      "minValue": "Min Value",
+      "maxValue": "Max Value",
+      "unit": "Unit",
+      "startAngle": "Start Angle",
+      "endAngle": "End Angle",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "faceColor": "Face Color",
+      "rimColor": "Rim Color",
+      "normalColor": "Normal Color",
+      "needleColor": "Needle Color",
+      "tickColor": "Tick Color",
+      "labelColor": "Label Color",
+      "valueColor": "Value Color",
+      "showTicks": "Show Ticks",
+      "showLabels": "Show Labels",
+      "showValue": "Show Value",
+      "majorTicks": "Major Ticks",
+      "minorTicks": "Minor Ticks",
+      "warningValue": "Warning Value",
+      "dangerValue": "Danger Value",
+      "warningColor": "Warning Color",
+      "dangerColor": "Danger Color",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "value": "Value",
+      "gauge": "Gauge",
+      "style": "Style",
+      "color": "Color",
+      "display": "Display",
+      "ticks": "Ticks",
+      "alarm": "Alarm",
+      "shadow": "Shadow"
+    },
+    "hints": {}
+  }
+}

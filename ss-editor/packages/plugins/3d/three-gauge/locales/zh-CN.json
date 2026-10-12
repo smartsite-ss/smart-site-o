@@ -1,0 +1,28 @@
+{
+  "three-gauge": {
+    "label": "3D 仪表盘",
+    "panelTitle": "3D 仪表盘配置",
+    "properties": {
+      "value": "当前值",
+      "min": "最小值",
+      "max": "最大值",
+      "gaugeColor": "正常颜色",
+      "warningColor": "警告颜色",
+      "dangerColor": "危险颜色",
+      "warningThreshold": "警告阈值",
+      "dangerThreshold": "危险阈值",
+      "showTicks": "显示刻度",
+      "showLabels": "显示标签",
+      "needleColor": "指针颜色",
+      "backgroundColor": "背景颜色",
+      "rimColor": "边框颜色"
+    },
+    "groups": {
+      "数据": "数据",
+      "颜色": "颜色",
+      "阈值": "阈值",
+      "显示": "显示"
+    },
+    "description": "3D 仪表盘图元，支持数据驱动指针旋转"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "head01": {
+    "label": "Head Decoration-01",
+    "properties": {
+      "color1": "Color 1",
+      "color2": "Color 2",
+      "dur": "Animation Cycle (s)",
+      "lineHeight": "Line Height",
+      "endWidth": "Slider Width"
+    },
+    "description": "Head01 graphic element"
+  }
+}

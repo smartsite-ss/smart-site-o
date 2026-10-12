@@ -1,0 +1,22 @@
+{
+  "generator": {
+    "label": "发电机",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "running": "运行状态",
+      "runningValue": "运行对应值",
+      "stoppedValue": "停止对应值",
+      "faultValue": "故障对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "running": {
+        "yes": "运行中",
+        "no": "停止"
+      }
+    },
+    "description": "发电机 - 带旋转状态指示"
+  }
+}

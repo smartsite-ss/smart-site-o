@@ -1,0 +1,11 @@
+{
+  "autotransformer": {
+    "label": "自耦变压器",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽"
+    },
+    "description": "自耦变压器 - 单线圈带抽头"
+  }
+}

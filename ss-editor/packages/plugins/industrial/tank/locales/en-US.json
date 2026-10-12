@@ -1,0 +1,43 @@
+{
+  "tank": {
+    "label": "Tank",
+    "description": "Tank component for level display and alarms",
+    "panelTitle": "Tank Configuration",
+    "properties": {
+      "width": "Width",
+      "height": "Height",
+      "level": "Current Level",
+      "maxLevel": "Max Level",
+      "unit": "Unit",
+      "decimalPlaces": "Decimal Places",
+      "status": "Status",
+      "warningLevel": "Warning Level",
+      "dangerLevel": "Danger Level",
+      "bodyColor": "Body Color",
+      "liquidColor": "Liquid Color",
+      "warningLiquidColor": "Warning Liquid Color",
+      "dangerLiquidColor": "Danger Liquid Color",
+      "rimColor": "Rim Color",
+      "showLevelText": "Show Level Text",
+      "showTicks": "Show Ticks",
+      "showAnimation": "Wave Animation",
+      "tickCount": "Tick Count"
+    },
+    "options": {
+      "status": {
+        "normal": "Normal",
+        "warning": "Warning",
+        "danger": "Danger"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "level": "Level",
+      "status": "Status",
+      "threshold": "Threshold",
+      "color": "Color",
+      "display": "Display"
+    },
+    "hints": {}
+  }
+}

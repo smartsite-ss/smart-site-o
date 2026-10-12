@@ -1,0 +1,106 @@
+/* ===== SCADA Editor — 5 组主题 ===== */
+
+/* blue-light — 通用 SCADA */
+[data-theme="blue-light"] {
+  --ss-color-primary: #4A90A4;
+  --ss-color-success: #52C41A;
+  --ss-color-warning: #FAAD14;
+  --ss-color-danger: #FF4D4F;
+  --ss-color-info: #1677FF;
+  --ss-bg-canvas: #F0F2F5;
+  --ss-bg-surface: #FFFFFF;
+  --ss-border-default: #D9D9D9;
+  --ss-text-primary: #333333;
+  --ss-text-secondary: #666666;
+  --ss-pipe-flowing: #4A90A4;
+  --ss-pipe-stopped: #8C8C8C;
+  --ss-pipe-blocked: #FF4D4F;
+  --ss-tank-normal: #4A90A4;
+  --ss-tank-high: #FAAD14;
+  --ss-gauge-normal: #4A90A4;
+  --ss-gauge-warn: #FAAD14;
+}
+
+/* blue-dark — 暗色大屏 */
+[data-theme="blue-dark"] {
+  --ss-color-primary: #5BA0B5;
+  --ss-color-success: #52C41A;
+  --ss-color-warning: #FAAD14;
+  --ss-color-danger: #FF4D4F;
+  --ss-color-info: #1677FF;
+  --ss-bg-canvas: #1A1D23;
+  --ss-bg-surface: #252830;
+  --ss-border-default: #333333;
+  --ss-text-primary: #E8E8E8;
+  --ss-text-secondary: #A0A0A0;
+  --ss-pipe-flowing: #5BA0B5;
+  --ss-pipe-stopped: #8C8C8C;
+  --ss-pipe-blocked: #FF4D4F;
+  --ss-tank-normal: #5BA0B5;
+  --ss-tank-high: #FAAD14;
+  --ss-gauge-normal: #5BA0B5;
+  --ss-gauge-warn: #FAAD14;
+}
+
+/* green-tech — 环保能源 */
+[data-theme="green-tech"] {
+  --ss-color-primary: #00B96B;
+  --ss-color-success: #00B96B;
+  --ss-color-warning: #FAAD14;
+  --ss-color-danger: #FF4D4F;
+  --ss-color-info: #1677FF;
+  --ss-bg-canvas: #0D1117;
+  --ss-bg-surface: #1A1F26;
+  --ss-border-default: #30363D;
+  --ss-text-primary: #E8E8E8;
+  --ss-text-secondary: #A0A0A0;
+  --ss-pipe-flowing: #00B96B;
+  --ss-pipe-stopped: #8C8C8C;
+  --ss-pipe-blocked: #FF4D4F;
+  --ss-tank-normal: #00B96B;
+  --ss-tank-high: #FAAD14;
+  --ss-gauge-normal: #00B96B;
+  --ss-gauge-warn: #FAAD14;
+}
+
+/* orange-warm — 告警监控 */
+[data-theme="orange-warm"] {
+  --ss-color-primary: #FA8C16;
+  --ss-color-success: #52C41A;
+  --ss-color-warning: #FA8C16;
+  --ss-color-danger: #FF4D4F;
+  --ss-color-info: #1677FF;
+  --ss-bg-canvas: #FFF7E6;
+  --ss-bg-surface: #FFFFFF;
+  --ss-border-default: #FFE7BA;
+  --ss-text-primary: #333333;
+  --ss-text-secondary: #666666;
+  --ss-pipe-flowing: #FA8C16;
+  --ss-pipe-stopped: #8C8C8C;
+  --ss-pipe-blocked: #FF4D4F;
+  --ss-tank-normal: #FA8C16;
+  --ss-tank-high: #FF4D4F;
+  --ss-gauge-normal: #FA8C16;
+  --ss-gauge-warn: #FF4D4F;
+}
+
+/* enterprise — 企业管理 */
+[data-theme="enterprise"] {
+  --ss-color-primary: #1677FF;
+  --ss-color-success: #52C41A;
+  --ss-color-warning: #FAAD14;
+  --ss-color-danger: #FF4D4F;
+  --ss-color-info: #1677FF;
+  --ss-bg-canvas: #F5F7FA;
+  --ss-bg-surface: #FFFFFF;
+  --ss-border-default: #E8ECF1;
+  --ss-text-primary: #333333;
+  --ss-text-secondary: #666666;
+  --ss-pipe-flowing: #1677FF;
+  --ss-pipe-stopped: #8C8C8C;
+  --ss-pipe-blocked: #FF4D4F;
+  --ss-tank-normal: #1677FF;
+  --ss-tank-high: #FAAD14;
+  --ss-gauge-normal: #1677FF;
+  --ss-gauge-warn: #FAAD14;
+}

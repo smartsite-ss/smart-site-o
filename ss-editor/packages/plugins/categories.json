@@ -1,0 +1,14 @@
+[
+  { "id": "basic", "deployMode": "bundled", "label": "基础组件", "labelEn": "Basic" },
+  { "id": "system", "deployMode": "bundled", "label": "系统组件", "labelEn": "System" },
+  { "id": "form", "deployMode": "bundled", "label": "表单组件", "labelEn": "Form" },
+  { "id": "chart", "deployMode": "bundled", "label": "图表组件", "labelEn": "Chart" },
+  { "id": "decorates_borders", "deployMode": "bundled", "label": "边框装饰", "labelEn": "Border Decor" },
+  { "id": "decorates_head", "deployMode": "bundled", "label": "头部装饰", "labelEn": "Head Decor" },
+  { "id": "decorates_other", "deployMode": "bundled", "label": "其他装饰", "labelEn": "Other Decor" },
+  { "id": "electric", "deployMode": "directory", "label": "电力组件", "labelEn": "Electric" },
+  { "id": "industrial", "deployMode": "directory", "label": "工业组件", "labelEn": "Industrial" },
+  { "id": "mines", "deployMode": "directory", "label": "矿产组件", "labelEn": "Mining" },
+  { "id": "3d", "deployMode": "directory", "label": "3D组件", "labelEn": "3D" },
+  { "id": "svg", "deployMode": "directory", "label": "SVG组件", "labelEn": "SVG" }
+]

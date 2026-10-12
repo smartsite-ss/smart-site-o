@@ -1,0 +1,43 @@
+{
+  "id": "wt-78b1755e",
+  "name": "测试组件",
+  "description": "单元测试",
+  "category": "common",
+  "author": "test-user",
+  "source": "user",
+  "createdAt": "2026-08-29T02:20:42.221Z",
+  "updatedAt": "2026-08-29T02:20:42.221Z",
+  "schemaVersion": 2,
+  "graphics": [
+    {
+      "type": "group",
+      "id": "g",
+      "children": [
+        {
+          "type": "text",
+          "id": "t",
+          "props": {
+            "text": "{{title}}"
+          }
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "key": "title",
+      "label": "标题",
+      "type": "text",
+      "defaultValue": "储罐"
+    },
+    {
+      "key": "level",
+      "label": "水位",
+      "type": "number",
+      "defaultValue": 50
+    }
+  ],
+  "tags": [
+    "test"
+  ]
+}

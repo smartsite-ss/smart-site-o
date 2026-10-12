@@ -1,0 +1,21 @@
+{
+  "id": "sys-blue-monitor",
+  "name": "企业蓝监控布局",
+  "description": "1920×1080 科技蓝监控骨架：图片标题栏（header 装饰图）+ 左侧图片+文字组合导航 + 底部版本栏，content 区可自由编辑",
+  "category": "monitor",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "createdAt": "2026-10-09T09:03:42.222Z",
+  "updatedAt": "2026-10-09T09:03:42.222Z",
+  "schemaVersion": 1,
+  "regionCount": 3,
+  "graphicCount": 28,
+  "tags": [
+    "监控",
+    "企业蓝",
+    "1920x1080",
+    "图片标题栏",
+    "图片文字导航"
+  ]
+}

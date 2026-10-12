@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "paths": {
+      "@ss-node/ss-sdk": ["../ss-sdk/dist"],
+      "@ss-node/ss-core": ["../ss-core/dist"],
+      "@ss-node/ss-i18n": ["../ss-i18n/dist"],
+      "@ss-node/ss-datatag": ["../ss-datatag/dist"],
+      "@ss-node/ss-alarm": ["../ss-alarm/dist"],
+      "@ss-node/ss-storage-influx": ["../ss-storage/ss-storage-influx/dist"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/__tests__"]
+}

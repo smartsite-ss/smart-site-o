@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-59601d88-d47",
+  "name": "污水池体模板",
+  "description": "污水池体虚拟模板（液位/温度/溶解氧/污泥浓度/ORP）",
+  "deviceType": "undefined",
+  "deviceModel": "undefined",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "undefined",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "液位",
+      "label": "液位",
+      "address": "0",
+      "dataType": "float",
+      "guid": "dec47ce2-59b5-4932-8581-0c396340b4d4"
+    },
+    {
+      "name": "温度",
+      "label": "温度",
+      "address": "4",
+      "dataType": "float",
+      "guid": "4464bb31-0f19-4deb-8bb7-a2e4ea5f760b"
+    },
+    {
+      "name": "溶解氧",
+      "label": "溶解氧",
+      "address": "8",
+      "dataType": "float",
+      "guid": "503a2329-dfb4-45f3-adfc-a001807e837d"
+    },
+    {
+      "name": "污泥浓度",
+      "label": "污泥浓度",
+      "address": "12",
+      "dataType": "float",
+      "guid": "be2d04d5-2026-4627-907a-2e085d958ebd"
+    },
+    {
+      "name": "ORP",
+      "label": "ORP",
+      "address": "16",
+      "dataType": "int",
+      "guid": "39f435b5-d8a0-4d20-a6ba-29aadba1dc67"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T15:06:05.478Z",
+    "updatedAt": "2026-09-06T15:06:05.478Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

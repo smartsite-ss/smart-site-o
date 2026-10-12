@@ -1,0 +1,11 @@
+{
+  "border02": {
+    "label": "边框-02",
+    "description": "边框-02装饰组件",
+    "properties": {
+      "colors": "颜色一",
+      "colors2": "颜色二",
+      "backgroundColor": "背景色"
+    }
+  }
+}

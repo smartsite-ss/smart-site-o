@@ -1,0 +1,17 @@
+﻿{
+  "dictId": "variableCategory",
+  "dictName": "Variable Categories",
+  "category": "business-config",
+  "description": "Signal type classification for collection variables",
+  "version": "1.0",
+  "sortOrder": 3,
+  "items": [
+    { "value": "AI", "label": "Analog Input", "sortOrder": 1, "description": "Continuous analog signals requiring A/D conversion: temperature, pressure, flow, level" },
+    { "value": "AO", "label": "Analog Output", "sortOrder": 2, "description": "Analog control output signals: valve position, frequency setpoint" },
+    { "value": "DI", "label": "Digital Input", "sortOrder": 3, "description": "Discrete state input signals: limit switch, E-stop, status bit" },
+    { "value": "DO", "label": "Digital Output", "sortOrder": 4, "description": "Discrete control output signals: relay control, indicator, solenoid valve" },
+    { "value": "SYS", "label": "System Status", "sortOrder": 5, "description": "Device runtime status and diagnostics: uptime, communication status, firmware version" },
+    { "value": "ALARM", "label": "Alarm Summary", "sortOrder": 6, "description": "Device alarms and events summary: composite alarm, fault summary" },
+    { "value": "CALC", "label": "Calculated", "sortOrder": 7, "description": "Not collected from device; derived from other variables via expression: temperature difference, total power, efficiency. No physical address; requires expression and dependency binding" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ups": {
+    "label": "UPS Power Supply",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width",
+      "state": "Operating State"
+    },
+    "options": {
+      "state": {
+        "online": "Online",
+        "bypass": "Bypass",
+        "fault": "Fault"
+      }
+    },
+    "description": "Ups graphic element"
+  }
+}

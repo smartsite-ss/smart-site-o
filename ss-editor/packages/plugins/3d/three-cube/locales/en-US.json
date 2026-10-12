@@ -1,0 +1,17 @@
+{
+  "three-cube": {
+    "label": "3D Cube",
+    "panelTitle": "3D Cube Configuration",
+    "properties": {
+      "cubeColor": "Cube Color",
+      "cubeSize": "Cube Size",
+      "rotationSpeed": "Rotation Speed",
+      "showGrid": "Show Grid",
+      "showAxes": "Show Axes"
+    },
+    "groups": {
+      "basic": "Basic"
+    },
+    "description": "Three-cube graphic element"
+  }
+}

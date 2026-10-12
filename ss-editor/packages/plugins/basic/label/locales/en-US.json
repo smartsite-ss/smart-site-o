@@ -1,0 +1,69 @@
+{
+  "label": {
+    "label": "Label",
+    "panelTitle": "Label Properties",
+    "properties": {
+      "text": "Text",
+      "textColor": "Text Color",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "fontStyle": "Font Style",
+      "textDecoration": "Text Decoration",
+      "textAlign": "Text Align",
+      "verticalAlignment": "Vertical Align",
+      "lineHeight": "Line Height",
+      "letterSpacing": "Letter Spacing",
+      "wordWrap": "Word Wrap",
+      "maxLines": "Max Lines",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderRadius": "Border Radius",
+      "textShadowColor": "Text Shadow Color",
+      "textShadowOffsetX": "Shadow Offset X",
+      "textShadowOffsetY": "Shadow Offset Y",
+      "textShadowBlur": "Shadow Blur",
+      "decimalPlaces": "Decimal Places",
+      "unit": "Unit",
+      "unitFontSize": "Unit Font Size",
+      "unitFontColor": "Unit Font Color",
+      "unitGap": "Unit Gap"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "fontStyle": {
+        "normal": "Normal",
+        "italic": "Italic"
+      },
+      "textDecoration": {
+        "none": "None",
+        "underline": "Underline",
+        "line-through": "Line Through"
+      },
+      "textAlign": {
+        "left": "Left",
+        "center": "Center",
+        "right": "Right"
+      },
+      "verticalAlignment": {
+        "top": "Top",
+        "middle": "Middle",
+        "bottom": "Bottom"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "style": "Style",
+      "text": "Text",
+      "unit": "Unit",
+      "shadow": "Shadow"
+    },
+    "hints": {
+      "maxLinesHint": "0 means unlimited"
+    },
+    "description": "Label graphic element"
+  }
+}

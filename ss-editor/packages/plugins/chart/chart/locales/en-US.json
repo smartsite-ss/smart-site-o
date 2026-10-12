@@ -1,0 +1,42 @@
+{
+  "chart": {
+    "label": "Chart",
+    "description": "Chart component for data visualization",
+    "panelTitle": "Chart Configuration",
+    "properties": {
+      "title": "Title",
+      "titleColor": "Title Color",
+      "titleFontSize": "Title Font Size",
+      "titleFontWeight": "Title Font Weight",
+      "backgroundColor": "Background Color",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "borderStyle": "Border Style",
+      "borderRadius": "Border Radius",
+      "gridColor": "Grid Line Color",
+      "axisColor": "Axis Color",
+      "shadowColor": "Shadow Color",
+      "shadowOffsetX": "Shadow Offset X",
+      "shadowOffsetY": "Shadow Offset Y",
+      "shadowBlur": "Shadow Blur"
+    },
+    "options": {
+      "titleFontWeight": {
+        "normal": "Normal",
+        "bold": "Bold"
+      },
+      "borderStyle": {
+        "solid": "Solid",
+        "dashed": "Dashed",
+        "dotted": "Dotted"
+      }
+    },
+    "groups": {
+      "basic": "Basic",
+      "visual": "Visual Style",
+      "style": "Style",
+      "shadow": "Shadow"
+    },
+    "hints": {}
+  }
+}

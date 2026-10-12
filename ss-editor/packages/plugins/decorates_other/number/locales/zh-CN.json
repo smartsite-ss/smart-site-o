@@ -1,0 +1,19 @@
+{
+  "number": {
+    "label": "数字",
+    "properties": {
+      "dataset": "目标值",
+      "from": "起始值",
+      "dur": "动画时长(秒)",
+      "precision": "小数位数",
+      "showSeparator": "千分位",
+      "numberSize": "字号",
+      "color1": "数字色",
+      "prefixText": "前缀",
+      "color2": "前缀色",
+      "suffixText": "后缀",
+      "color3": "后缀色"
+    },
+    "description": "数字计数动画插件"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "loadswitch": {
+    "label": "负荷开关",
+    "properties": {
+      "color": "线条颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "closed": "闭合状态",
+      "closedValue": "闭合对应值",
+      "openValue": "断开对应值",
+      "defaultStatus": "默认状态"
+    },
+    "options": {
+      "closed": {
+        "yes": "闭合",
+        "no": "断开"
+      }
+    },
+    "description": "电力负荷开关 - 带灭弧能力的负荷开关"
+  }
+}

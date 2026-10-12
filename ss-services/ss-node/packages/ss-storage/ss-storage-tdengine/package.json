@@ -1,0 +1,24 @@
+{
+  "name": "@ss-node/ss-storage-tdengine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA TDengine Storage Adapter (taosAdapter Line Protocol write / SQL query)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@ss-node/ss-core": "workspace:*",
+    "@ss-node/ss-storage": "workspace:*",
+    "reflect-metadata": "^0.1.14"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

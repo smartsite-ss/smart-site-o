@@ -1,0 +1,3 @@
+# Directory plugins build artifacts auto-copied from dist-plugins/ during dev startup
+# (plugin-manifest.json is already tracked; .mjs/.png/.svg etc. are auto-generated)
+public/plugins/

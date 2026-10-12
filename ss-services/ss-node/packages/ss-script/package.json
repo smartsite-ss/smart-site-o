@@ -1,0 +1,38 @@
+{
+  "name": "@ss-node/ss-script",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart SCADA Server-Side Script Engine (isolated-vm sandbox)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest --passWithNoTests"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/core": "^10.3.0",
+    "@nestjs/swagger": "^7.2.0",
+    "@nestjs/typeorm": "^10.0.0",
+    "@ss-node/ss-core": "workspace:*",
+    "@ss-node/ss-collector-sdk": "workspace:*",
+    "@ss-node/ss-i18n": "workspace:*",
+    "@ss-node/ss-sdk": "workspace:*",
+    "@ss-node/ss-datatag": "workspace:*",
+    "@ss-node/ss-alarm": "workspace:*",
+    "@ss-node/ss-storage-influx": "workspace:*",
+    "acorn": "^8.11.0",
+    "node-cron": "^3.0.3",
+    "reflect-metadata": "^0.1.14",
+    "typeorm": "^0.3.20"
+  },
+  "peerDependencies": {
+    "@nestjs/schedule": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11"
+  }
+}

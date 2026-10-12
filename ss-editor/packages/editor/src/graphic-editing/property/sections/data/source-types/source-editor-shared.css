@@ -1,0 +1,139 @@
+/**
+ * source-editor-shared.css — 4 个 SourceEditor 共享的基础样式
+ *
+ * 抽取自 StaticSourceEditor / ApiSourceEditor / TagSourceSelector / DbSourceEditor 的重复 CSS：
+ * .section-header / .form-item / .form-row / button / table / .kv-list / .btn-row 等
+ *
+ * 使用方式：在 SFC 的 <style scoped> 中 @import './source-editor-shared.css';
+ */
+
+.section-header {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+
+.form-item label {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.form-item label.required::after {
+  content: ' *';
+  color: var(--status-error, #d03050);
+}
+
+.form-item-flex {
+  flex: 1;
+}
+
+.form-row {
+  display: flex;
+  gap: 8px;
+}
+
+.form-row .form-item-method {
+  width: 110px;
+  flex-shrink: 0;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 12px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--status-info);
+}
+
+.btn-primary {
+  background: var(--status-info);
+  color: #fff;
+  border-color: var(--status-info);
+}
+
+.btn-add {
+  margin-top: 4px;
+}
+
+.btn-remove {
+  padding: 4px 8px;
+  color: var(--status-error, #d03050);
+}
+
+.btn-row {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.btn-row.action-row {
+  margin-top: 8px;
+  justify-content: flex-end;
+}
+
+.kv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.kv-row {
+  display: flex;
+  gap: 4px;
+}
+
+.kv-row input {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+table th,
+table td {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+table th {
+  background: var(--background);
+  font-weight: 600;
+}

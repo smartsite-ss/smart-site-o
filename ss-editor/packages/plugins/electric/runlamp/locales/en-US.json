@@ -1,0 +1,23 @@
+{
+  "runlamp": {
+    "label": "Running Indicator Lamp",
+    "properties": {
+      "lampColor": "Lamp Color",
+      "backgroundColor": "Background Color",
+      "radius": "Radius",
+      "state": "State",
+      "runningValue": "Running Value",
+      "stoppedValue": "Stopped Value",
+      "faultValue": "Fault Value",
+      "defaultStatus": "Default Status"
+    },
+    "options": {
+      "state": {
+        "running": "Running",
+        "stopped": "Stopped",
+        "fault": "Fault"
+      }
+    },
+    "description": "Runlamp graphic element"
+  }
+}

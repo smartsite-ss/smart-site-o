@@ -1,0 +1,19 @@
+{
+  "time-common": {
+    "label": "Time Common",
+    "properties": {
+      "textColor": "Text Color",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "shadow": "Shadow"
+    },
+    "options": {
+      "fontWeight": {
+        "normal": "Normal",
+        "bold": "Bold",
+        "lighter": "Lighter"
+      }
+    },
+    "description": "Time-common graphic element"
+  }
+}

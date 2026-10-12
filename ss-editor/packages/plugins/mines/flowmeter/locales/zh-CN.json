@@ -1,0 +1,16 @@
+{
+  "flowmeter": {
+    "label": "流量计",
+    "properties": {
+      "color": "颜色",
+      "backgroundColor": "背景色",
+      "lineWidth": "线宽",
+      "dataset": "数据值(0-100)",
+      "showDigital": "显示数字读数",
+      "rangeMax": "量程最大值",
+      "decimalPlaces": "小数位数",
+      "unit": "单位"
+    },
+    "description": "流量计 - 圆形表盘式流量仪表，指针角度由数据值驱动"
+  }
+}

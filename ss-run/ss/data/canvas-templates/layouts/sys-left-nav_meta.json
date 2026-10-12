@@ -1,0 +1,20 @@
+{
+  "id": "sys-left-nav",
+  "name": "左侧导航布局",
+  "description": "1920×1080 窄顶栏 + 左侧菜单导航，无底栏，内容区更大，适合菜单较多的操作类工程",
+  "category": "common",
+  "author": "system",
+  "source": "builtin",
+  "templateType": "layout",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "schemaVersion": 1,
+  "regionCount": 3,
+  "graphicCount": 7,
+  "tags": [
+    "导航",
+    "侧边菜单",
+    "操作",
+    "1920x1080"
+  ]
+}

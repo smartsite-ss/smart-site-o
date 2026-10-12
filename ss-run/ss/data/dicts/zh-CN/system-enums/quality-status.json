@@ -1,0 +1,15 @@
+{
+  "dictId": "qualityStatus",
+  "dictName": "质量状态",
+  "category": "system-enums",
+  "description": "标签质量检查结果状态",
+  "version": "1.0",
+  "sortOrder": 3,
+  "items": [
+    { "value": "passed", "label": "通过", "sortOrder": 1, "description": "质量检查通过" },
+    { "value": "out_of_range", "label": "超量程", "sortOrder": 2, "description": "数值超出量程上下限" },
+    { "value": "communication_error", "label": "通信异常", "sortOrder": 3, "description": "与设备通信失败" },
+    { "value": "timeout", "label": "超时", "sortOrder": 4, "description": "采集响应超时" },
+    { "value": "config_error", "label": "配置错误", "sortOrder": 5, "description": "标签配置参数错误" }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-66992be7-0ef",
+  "name": "HVAC水泵冷却塔模板",
+  "description": "中央空调水泵/冷却塔虚拟模板（水流量/功率/进水温度/状态）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "ai-assistant",
+  "tags": [],
+  "industry": "自定义模板",
+  "category": "通用",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "flow",
+      "label": "水流量",
+      "address": "40014",
+      "dataType": "float32",
+      "unit": "m³/h",
+      "guid": "7e647225-fc87-455f-ba6c-0f4f3e23077d"
+    },
+    {
+      "name": "power",
+      "label": "功率",
+      "address": "40015",
+      "dataType": "float32",
+      "unit": "kW",
+      "guid": "ccbbbb87-741c-42c5-afc3-ba9cfb89e704"
+    },
+    {
+      "name": "inletTemp",
+      "label": "进水温度",
+      "address": "40016",
+      "dataType": "float32",
+      "unit": "℃",
+      "guid": "915acbe6-ffdb-4d7d-96aa-1ef5a178daec"
+    },
+    {
+      "name": "status",
+      "label": "运行状态",
+      "address": "40017",
+      "dataType": "bool",
+      "unit": "",
+      "guid": "85ca0f37-b2fa-470f-aa01-36fe00d5af69"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-06T10:40:53.444Z",
+    "updatedAt": "2026-09-06T10:40:53.444Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

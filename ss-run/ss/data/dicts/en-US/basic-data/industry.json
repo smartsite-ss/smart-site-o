@@ -1,0 +1,19 @@
+{
+  "dictId": "industry",
+  "dictName": "Industry Categories",
+  "category": "basic-data",
+  "description": "Industry domain classification for device templates",
+  "version": "1.0",
+  "sortOrder": 6,
+  "items": [
+    { "value": "industrial-automation", "label": "Industrial Automation", "sortOrder": 1, "description": "Manufacturing, discrete control and process automation" },
+    { "value": "energy-power", "label": "Energy & Power", "sortOrder": 2, "description": "Power generation, transmission, distribution and renewable energy" },
+    { "value": "environmental-monitoring", "label": "Environmental Monitoring", "sortOrder": 3, "description": "Water quality, air quality, noise and environmental parameter monitoring" },
+    { "value": "smart-building", "label": "Smart Building", "sortOrder": 4, "description": "Building automation including HVAC, lighting and security" },
+    { "value": "transportation", "label": "Transportation", "sortOrder": 5, "description": "Rail transit, intelligent transportation systems, connected vehicles" },
+    { "value": "petrochemical", "label": "Petrochemical", "sortOrder": 6, "description": "Oil, gas and chemical process automation" },
+    { "value": "water-treatment", "label": "Water Treatment", "sortOrder": 7, "description": "Water supply, drainage and wastewater treatment automation" },
+    { "value": "agriculture", "label": "Smart Agriculture", "sortOrder": 8, "description": "Precision agriculture, greenhouse and farming automation" },
+    { "value": "data-center", "label": "Data Center", "sortOrder": 9, "description": "Data center infrastructure monitoring and management" }
+  ]
+}

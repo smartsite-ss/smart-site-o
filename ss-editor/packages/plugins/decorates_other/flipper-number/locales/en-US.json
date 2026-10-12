@@ -1,0 +1,14 @@
+{
+  "flipper-number": {
+    "label": "Flipper Number",
+    "properties": {
+      "dataset": "Value",
+      "flipperLength": "Digits",
+      "color1": "Text Color",
+      "flipperWidth": "Width",
+      "flipperHeight": "Height",
+      "flipperGap": "Gap"
+    },
+    "description": "Flipper-number graphic element"
+  }
+}

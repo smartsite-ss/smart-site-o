@@ -1,0 +1,48 @@
+{
+  "system": {
+    "health": {
+      "ok": "System is running normally",
+      "degraded": "System performance degraded",
+      "error": "System error"
+    },
+    "backup": {
+      "success": "Backup successful",
+      "failed": "Backup failed",
+      "restoring": "Restoring backup"
+    },
+    "upgrade": {
+      "checking": "Checking for updates",
+      "downloading": "Downloading upgrade package",
+      "installing": "Installing upgrade",
+      "rollback": "Rolling back",
+      "success": "Upgrade successful",
+      "failed": "Upgrade failed"
+    },
+    "error": {
+      "not_found": "Resource not found",
+      "unauthorized": "Unauthorized access",
+      "forbidden": "Insufficient permissions",
+      "internal": "Internal server error",
+      "validation": "Input validation failed",
+      "config_not_found": "Configuration not found",
+      "user_not_found": "User not found",
+      "last_admin": "Cannot delete the last administrator",
+      "invalid_role": "Invalid role",
+      "username_exists": "Username already exists",
+      "setup_not_complete": "Setup not completed"
+    },
+    "notification": {
+      "password_reset": "Your password has been reset by administrator",
+      "user_disabled": "Your account has been disabled",
+      "force_logout": "You have been forcibly logged out by administrator",
+      "role_changed": "Your role has been changed to {{role}}",
+      "backup_completed": "Data backup completed",
+      "upgrade_available": "New version {{version}} is available"
+    },
+    "terminal": {
+      "command_blocked": "Command blocked: {{command}}",
+      "timeout": "Command execution timeout",
+      "permission_denied": "Only administrators can access terminal"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "tagVariable": {
+    "label": "标签变量",
+    "description": "显示设备变量实时值",
+    "config": {
+      "bindVariable": "绑定变量",
+      "selectVariable": "选择变量",
+      "clear": "清除",
+      "unbound": "未绑定"
+    },
+    "selector": {
+      "title": "选择设备变量",
+      "searchPlaceholder": "搜索设备或变量",
+      "deviceLabel": "设备",
+      "tagCount": "{count} 个变量",
+      "loading": "加载中...",
+      "empty": "暂无设备变量",
+      "selectHint": "点击变量进行绑定"
+    }
+  }
+}

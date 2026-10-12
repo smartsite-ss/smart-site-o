@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "1.0",
+  "templateType": "device_tag_template",
+  "id": "tpl-b4fc5766-ef1",
+  "name": "能源计量虚拟模板",
+  "description": "能源表具虚拟模板（电压/电流/功率/用电量）",
+  "deviceType": "virtual",
+  "deviceModel": "virtual",
+  "version": "1.0.0",
+  "status": "draft",
+  "isDefault": false,
+  "authorId": "737532a5-77c3-44ac-8f70-1719e207fba7",
+  "tags": [],
+  "industry": "智慧工厂",
+  "category": "能源",
+  "protocol": {
+    "type": "virtual",
+    "config": {}
+  },
+  "variables": [
+    {
+      "name": "电压",
+      "address": "V_VOLT",
+      "dataType": "float32",
+      "unit": "V",
+      "minValue": 215,
+      "maxValue": 245,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "420d4c23-6141-4864-bd19-bf99646dcdce"
+    },
+    {
+      "name": "电流",
+      "address": "V_CURRENT",
+      "dataType": "float32",
+      "unit": "A",
+      "minValue": 5,
+      "maxValue": 40,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "53abdcaa-9d0b-477d-9fb8-400034525e19"
+    },
+    {
+      "name": "功率",
+      "address": "V_EPOWER",
+      "dataType": "float32",
+      "unit": "kW",
+      "minValue": 60,
+      "maxValue": 130,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "f070a3fc-5b0e-4a27-a03a-2ff91b0f4b32"
+    },
+    {
+      "name": "用电量",
+      "address": "V_ENERGY",
+      "dataType": "float32",
+      "unit": "kWh",
+      "minValue": 0,
+      "maxValue": 100000,
+      "simulationMode": 1,
+      "enabled": true,
+      "guid": "dec4d908-24ad-468a-8fd7-6e1560e79213"
+    }
+  ],
+  "metadata": {
+    "createdAt": "2026-09-03T13:42:48.380Z",
+    "updatedAt": "2026-09-03T13:42:48.380Z",
+    "linkedDevices": 0,
+    "usageCount": 0,
+    "rating": 0
+  }
+}

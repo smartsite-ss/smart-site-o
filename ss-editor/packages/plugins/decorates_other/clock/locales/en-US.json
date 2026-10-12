@@ -1,0 +1,12 @@
+{
+  "clock": {
+    "label": "Clock",
+    "properties": {
+      "color1": "Pointer Color",
+      "color2": "Dial Background",
+      "color3": "Border Color",
+      "borderWidth": "Border Width"
+    },
+    "description": "Clock graphic element"
+  }
+}

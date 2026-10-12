@@ -1,0 +1,11 @@
+{
+  "autotransformer": {
+    "label": "Autotransformer",
+    "properties": {
+      "color": "Line Color",
+      "backgroundColor": "Background Color",
+      "lineWidth": "Line Width"
+    },
+    "description": "Autotransformer graphic element"
+  }
+}
