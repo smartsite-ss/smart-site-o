@@ -73,9 +73,9 @@ ss-run/ss/data/db/
 # 企业专有目录（仅在 enterprise 分支存在）
 # 开源版 main 分支整体排除以下目录
 # ============================================
-# 仅忽略 docs 下其他企业专有文档；docs/图片（界面截图）需随仓库发布
+# 仅忽略 docs 下其他企业专有文档；docs/screenshots（界面截图）需随仓库发布
 docs/*
-!docs/图片/
+!docs/screenshots/
 docs-optimization-report/
 
 # temp / build artifacts (cleanup)
