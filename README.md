@@ -177,7 +177,6 @@ Smart Site 是一套面向工业场景的**组态编辑器 + 数据中台 + 后�
 | Vite | 5.x | 构建 / 开发服务器 |
 | Pinia | — | 状态管理 |
 | Konva（vue-konva） | — | 画布渲染 |
-| Naive UI | — | UI 组件库 |
 | vue-i18n | — | 国际化 |
 | Vue Router | 4.x | 路由 |
 | Vitest | 1.6 | 单元测试 |
