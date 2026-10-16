@@ -1,6 +1,6 @@
 # Smart Site O · 开发指引
 
-本仓库是 Smart SCADA 的**开源精简版**（smart-site-o），采用 pnpm 多工作区（monorepo）结构，包含两大独立工作区：
+本仓库是 Smart SCADA （smart-site-o），采用 pnpm 多工作区（monorepo）结构，包含两大独立工作区：
 
 | 工作区 | 路径 | 定位 | 技术栈 |
 | --- | --- | --- | --- |
